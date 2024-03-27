@@ -29,7 +29,7 @@ watchThrottled(userInput, () => {
         </svg>
     </label>
 
-    <div v-if="!userInput" class="opacity-40 text-center p-9 tracking-widest">我书我所想，下笔如有神</div>
+    <div v-if="!userInput" class="opacity-40 text-center p-9 tracking-widest">少・顺・散・连・交・大</div>
     <div class="flex justify-center flex-wrap my-8" v-else>
         <Card v-for="zigen in searchZigens" :key="zigen" :chaifen="chaifenMap.get(zigen)" :zigenMap />
     </div>
