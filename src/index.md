@@ -4,25 +4,25 @@ layout: home
 
 hero:
   name: "宇浩输入法"
-  text: "CJK全汉字输入"
-  tagline: 繁简通打　动静低重　字根聚类　兼顾手感
+  text: "情系汉字 沟通古今"
+  tagline: 全汉字字形输入・繁简通打・极低选重
   image:
     dark: /logo_purple.png
     light: /logo_blue.png
     alt: yuhao-logo
   actions:
     - theme: brand
-      text: 介绍
+      text: 方案简介
       link: /docs/
     - theme: alt
-      text: 教程
+      text: 详细教程
       link: /learn/
     - theme: alt
-      text: 练习
+      text: 在线练习
       link: /practice/root
     - theme: alt
-      text: 拆分
-      link: /chaifen/
+      text: 下载安装
+      link: /install
 
 <!-- features:
   - title: 繁简通打
@@ -38,7 +38,7 @@ hero:
 <script setup>
 import Search from '@/search/FetchSearch.vue'
 </script>
-<Search zigenUrl="/zigen-star.csv" />
+<Search zigenUrl="/zigen-star.csv" supplement=true />
 
 ::: tip 致有缘人
 
@@ -64,22 +64,38 @@ import Search from '@/search/FetchSearch.vue'
 
 ::: info 鸣谢
 
-特此感谢以下字形输入法的发明人、改编人、维护人、各平台方案制作者、插件作者、网页作者等：
+感谢以下字形输入法的发明人、改编人、维护人、各平台方案制作者、插件作者、网页作者等：
 
-五笔字形、郑码、仓颉、山人全息、[尔雅徐码](http://xumax.cn/)〔[五二顶](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真码、[C42](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、092、[三码郑码](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形](https://flypy.com/)、蓝宝石、[虎码](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码](https://yb6b.github.io/yima/graceful-code/)、[易码](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
+[王码五笔字形](http://www.wangma.net.cn/)、[郑码](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[仓颉](http://www.cbflabs.com/)、[山人全息](https://siuze.github.io/ShanRenMaLTS/)、[尔雅徐码](http://xumax.cn/)〔[五二顶](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真码、[C42](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、092、[三码郑码](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形](https://flypy.com/)、蓝宝石、[虎码](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码](https://yb6b.github.io/yima/graceful-code/)、[易码](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
 ](https://lost-melody.github.io/hamster-tools/)〕、[云码](https://github.com/orbitoo/kumo)、天码、[声笔系列](https://sbxlm.github.io/)、[星空键道](https://xkinput.gitee.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
 
-特此感谢以下输入平台：
+---
+
+感谢在输入法的制作过程中，参与初期讨论和构思、帮助测试和宣传、提供技术支持、参与生态建设的朋友：
+
+钱多多、阿吉、王牌饼干、宋天、yb。
+
+还有不少朋友为输入法的优化提出了众多宝贵的意见和建议，此处不一一致谢。
+
+---
+
+感谢以下输入平台：
 
 [Rime中州韵](https://rime.im/)、[仓输入法](https://ihsiao.com/apps/hamster/)、[小小输入法](https://yong.dgod.net/)、大大输入法、百度输入法、搜狗输入法
 
-特此感谢以下文化平台：
+---
+
+感谢以下文化平台：
 
 [汉典网](https://www.zdic.net/)、[叶典网](http://yedict.com/zslf.htm)、[字统网](https://zi.tools/)、[天珩字库](http://cheonhyeong.com/Simplified/download.html)、[思源宋体](https://source.typekit.com/source-han-serif/cn/)
 
-特此感谢以下网页框架和信息技术软件：
+---
 
-[Vitepress](https://vitepress.dev/zh/)、[Just the docs](https://just-the-docs.com/)、[Python](https://www.python.org/)〔[Pandas](https://pandas.pydata.org/)、[Visual Studio Code](https://code.visualstudio.com/)、[FontForge](https://fontforge.org/en-US/)
+感谢以下网页框架和信息技术软件：
+
+[Vitepress](https://vitepress.dev/zh/)、[Just the docs](https://just-the-docs.com/)、[Python](https://www.python.org/)〔[Pandas](https://pandas.pydata.org/)〕、[Visual Studio Code](https://code.visualstudio.com/)、[FontForge](https://fontforge.org/en-US/)
+
+---
 
 感谢所有致力于中华文化传承发扬的前辈。
 

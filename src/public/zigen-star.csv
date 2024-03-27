@@ -19,8 +19,9 @@ font,ma
 又,Bo
 マ,Bo
 癶,Bo
-コ,Bo
+ユ,Bo
 ス,Bo
+コ,Bo
 皮,Bp
 ,Bs
 尸,Bs
@@ -166,7 +167,7 @@ font,ma
 ,Kj
 立,Kl
 卯,Km
-{齊右},Km
+,Km
 ,Km
 ,Km
 ,Km
@@ -185,7 +186,7 @@ font,ma
 舌,Ls
 口,Lv
 〇,Lv
-{黽上},Lv
+,Lv
 兀,Lw
 麻,Ma
 疒,Mb
@@ -235,6 +236,7 @@ font,ma
 龰,Pi
 牛,Pn
 ⺧,Pn
+牜,Pn
 生,Ps
 西,Px
 覀,Px
@@ -270,8 +272,9 @@ font,ma
 艹,So
 ,So
 龷,So
-卄,So
+廾,So
 卝,So
+卄,So
 ,So
 而,Sr
 卅,Ss
@@ -284,6 +287,7 @@ font,ma
 金,Tj
 门,Tm
 豕,Ts
+,Ts
 夊,Tu
 亡,Tw
 ,Tw
@@ -311,6 +315,7 @@ font,ma
 山,Us
 罒,Uw
 爪,Uz
+爫,Uz
 厂,Vh
 丆,Vh
 甲,Vj

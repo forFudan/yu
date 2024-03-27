@@ -39,10 +39,11 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo_blue.png',
     nav: [
-      { text: '介绍', link: '/docs/' },
+      { text: '简介', link: '/docs/' },
       { text: '教程', link: '/learn/' },
       { text: '拆分', link: '/chaifen/' },
-      { text: '下载', link: '/install' }
+      { text: '练习', link: '/practice/root' },
+      { text: '安装', link: '/install' }
     ],
     sidebar: {
       '/docs': [
@@ -93,13 +94,37 @@ export default defineConfig({
       ],
       '/learn': [
         {
-          text: '详细教程',
+          text: '前言',
           link: '/learn/'
         },
         {
-          text: '星陈字根图表',
-          link: '/learn/star'
+          text: '单字拆分',
+          link: '/learn/division'
         },
+        {
+          text: '字根编码',
+          link: '/learn/roots'
+        },
+        {
+          text: '单字编码',
+          link: '/learn/chars'
+        },
+        {
+          text: '简码设置',
+          link: '/learn/quick'
+        },
+        {
+          text: '词语编码',
+          link: '/learn/words'
+        },
+        {
+          text: '进阶讨论',
+          link: '/learn/advanced'
+        },
+        // {
+        //   text: '星陈字根图表',
+        //   link: '/learn/star'
+        // },
         {
           text: '光华字根图表',
           link: '/learn/light'

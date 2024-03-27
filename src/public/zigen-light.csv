@@ -62,13 +62,15 @@ font,ma
 艹,Sj
 ,Sj
 龷,Sj
-卄,Sj
+廾,Sj
 卝,Sj
+卄,Sj
 ,Sj
 西,Dx
 覀,Dx
 襾,Dx
 豕,Ds
+,Ds
 走,Dk
 車,Gc
 叀,Gc
@@ -149,7 +151,7 @@ font,ma
 匕,Ri
 千,Wk
 卯,Tm
-{齊右},Tm
+,Tm
 ,Tm
 ,Tm
 ,Tm
@@ -183,9 +185,11 @@ font,ma
 烏,Yw
 ,Yw
 爪,Ek
+爫,Ek
 片,Tp
 牛,Wn
 ⺧,Wn
+牜,Wn
 犭,Rq
 瓜,Qu
 生,Wg
@@ -239,7 +243,7 @@ font,ma
 ,Mo
 ,Mo
 口,Lv
-{黽上},Lv
+,Lv
 咼,Na
 冎,Na
 囗,Nw
@@ -316,8 +320,9 @@ font,ma
 又,Bu
 マ,Bu
 癶,Bu
-コ,Bu
+ユ,Bu
 ス,Bu
+コ,Bu
 女,Cn
 子,Vk
 尸,Bh
