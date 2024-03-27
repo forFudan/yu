@@ -5,7 +5,7 @@ aside: false
 <script setup>
 import Train from "@/train/CharTrain.vue"
 </script>
-<Train name="star" zigenUrl="/zigen-star.csv" :range="[0,200]" />
+<Train name="star" zigenUrl="/zigen-star.csv" :range="[0,200]" :supplement="true" />
 
 ::: details 字根表
 | 大码 | 聚类字根                                     | 零散字根   |

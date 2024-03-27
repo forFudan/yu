@@ -10,7 +10,7 @@ import Search from '@/search/FetchSearch.vue'
 <Search zigenUrl="/zigen-joy.csv" />
 
 ::: tip 提示
-鼠标悬停，可显示字符集和外部搜索（字统、字海、百度、汉典）
+鼠标悬停，可显示字符集和外部搜索（字统、字海、汉典、中国哲学书电子化计划）
 :::
 
 ::: info 说明
