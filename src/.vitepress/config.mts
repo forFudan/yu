@@ -73,7 +73,7 @@ export default defineConfig({
             {
               text: '常见输入法重码数据',
               link: '/docs/statistics',
-            }, 
+            },
             {
               text: '常见形码输入方案编码规则',
               link: '/docs/coding',
@@ -132,20 +132,43 @@ export default defineConfig({
       ],
       '/practice': [
         {
-          text: '星陈字根',
-          link: '/practice/root'
+          text: '烂然星陈',
+          items: [
+            {
+              text: '星陈字根',
+              link: '/practice/root'
+            },
+            {
+              text: '星陈单字',
+              link: '/practice/char'
+            },
+          ]
         },
         {
-          text: '星陈单字',
-          link: '/practice/char'
+          text: '日月光华',
+          items: [
+            {
+              text: '光华字根',
+              link: '/practice/root_light'
+            },
+            {
+              text: '光华单字',
+              link: '/practice/char_light'
+            },
+          ]
         },
         {
-          text: '光华字根',
-          link: '/practice/root_light'
-        },
-        {
-          text: '光华单字',
-          link: '/practice/char_light'
+          text: '卿云烂兮',
+          items: [
+            {
+              text: '卿云字根',
+              link: '/practice/root_joy'
+            },
+            {
+              text: '卿云单字',
+              link: '/practice/char_joy'
+            },
+          ]
         },
       ],
       '/chaifen': [
@@ -156,6 +179,10 @@ export default defineConfig({
         {
           text: '光华',
           link: '/chaifen/light'
+        },
+        {
+          text: '卿云',
+          link: '/chaifen/joy'
         },
       ],
 

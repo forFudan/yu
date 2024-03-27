@@ -7,10 +7,10 @@ import Search from '@/search/FetchSearch.vue'
 
 # 宇浩拆分查询
 
-<Search zigenUrl="/zigen-light.csv" />
+<Search zigenUrl="/zigen-star.csv" :supplement="true" />
 
 ::: tip 提示
-鼠标悬停，可显示字符集和外部搜索（字统、字海、百度、汉典）
+鼠标悬停，可显示字符集和外部搜索（字统、字海、汉典、中国哲学书电子化计划）
 :::
 
 ::: info 说明

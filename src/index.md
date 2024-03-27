@@ -12,16 +12,16 @@ hero:
     alt: yuhao-logo
   actions:
     - theme: brand
-      text: 方案简介
+      text: 介绍信
       link: /docs/
     - theme: alt
-      text: 详细教程
+      text: 说明书
       link: /learn/
     - theme: alt
-      text: 在线练习
+      text: 练习簿
       link: /practice/root
     - theme: alt
-      text: 下载安装
+      text: 安装包
       link: /install
 
 <!-- features:
@@ -38,7 +38,7 @@ hero:
 <script setup>
 import Search from '@/search/FetchSearch.vue'
 </script>
-<Search zigenUrl="/zigen-star.csv" supplement=true />
+<Search zigenUrl="/zigen-star.csv" supplement />
 
 ::: tip 致有缘人
 

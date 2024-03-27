@@ -5,7 +5,7 @@ aside: false
 <script setup>
 import Train from "@/train/CharTrain.vue"
 </script>
-<Train name="light" zigenUrl="/zigen-light.csv" :range="[0,200]" />
+<Train name="light" zigenUrl="/zigen-light.csv" :range="[0,200]" :supplement="true" />
 
 :::details 键位图
 ![宇浩·光華字根图](/yulight.webp)

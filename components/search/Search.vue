@@ -6,11 +6,12 @@ import { ChaifenMap, ZigenMap } from "./share";
 const p = defineProps<{
     chaifenMap: ChaifenMap,
     zigenMap: ZigenMap,
+    supplement: boolean,
 }>()
 
 const urlSearchParams = useUrlSearchParams()
 const userInput = shallowRef(urlSearchParams?.q || '')
-const searchZigens =  shallowRef<string[]>()
+const searchZigens = shallowRef<string[]>()
 watchThrottled(userInput, () => {
     const user = userInput.value as string
     urlSearchParams.q = user
@@ -31,7 +32,7 @@ watchThrottled(userInput, () => {
 
     <div v-if="!userInput" class="opacity-40 text-center p-9 tracking-widest">少・顺・散・连・交・大</div>
     <div class="flex justify-center flex-wrap my-8" v-else>
-        <Card v-for="zigen in searchZigens" :key="zigen" :chaifen="chaifenMap.get(zigen)" :zigenMap />
+        <Card v-for="zigen in searchZigens" :key="zigen" :chaifen="chaifenMap.get(zigen)" :zigenMap :supplement="p.supplement" />
     </div>
 
 </template>

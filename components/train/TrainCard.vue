@@ -12,6 +12,7 @@ const p = defineProps<{
     chaifenMap: ChaifenMap,
     /** 训练模式：字根、单字练习 */
     mode: 'g' | 'z'
+    supplement: boolean
 }>()
 
 let thisSchedule: Schedule<Card>;

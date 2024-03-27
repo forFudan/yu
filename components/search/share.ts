@@ -20,7 +20,7 @@ export type ZigenMap = Map<string, Zigen>
 export type ChaifenMap = Map<string, Chaifen>
 
 /** 根据拆分表生成编码 */
-export function makeCodesFromDivision(division: string, zigenMap: ZigenMap) {
+export function makeCodesFromDivision(division: string, zigenMap: ZigenMap, supplement: boolean) {
 
     // 依次取一、二、三、末根大码
     const divisionArray = [...division]
@@ -33,7 +33,7 @@ export function makeCodesFromDivision(division: string, zigenMap: ZigenMap) {
     }
 
     // 仍然不足四码时，补上首根小码。
-    if (result.length < 4) {
+    if ((result.length < 4) && supplement) {
         const firstZigen = divisionArray[0]
         result.push(zigenMap.get(firstZigen)?.ma?.[1] || '?')
     }
