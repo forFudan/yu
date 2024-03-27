@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "yuhao-font";
+    src: url("/yuhaosongti.woff2") format("woff2");
+}
+
+.zigen-font {
+    font-family: "yuhao-font", 'TH-Tshyn-P2', 'TH-Tshyn-P0', 'TH-Tshyn-P1', 'TH-Tshyn-P16', Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+}
+
+:root {
+
+    --vp-c-brand-1: var(--vp-c-indigo-1);
+    --vp-c-brand-2: var(--vp-c-indigo-2);
+    --vp-c-brand-3: var(--vp-c-indigo-3);
+    --vp-c-brand-soft: var(--vp-c-indigo-soft);
+
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+            var(--vp-c-brand-1),
+            var(--vp-c-brand-3));
+    ;
+
+    --vp-home-hero-image-background-image: none;
+    --vp-home-hero-image-filter: none;
+}
+
+.medium-zoom-overlay {
+    background-color: var(--vp-c-bg) !important;
+    z-index: 100;
+}
+
+.medium-zoom-overlay~img {
+    z-index: 101;
+}
+
+.medium-zoom--opened .medium-zoom-overlay {
+    opacity: 0.9 !important;
+}
