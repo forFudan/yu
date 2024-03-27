@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/forFudan/yuhao"
+    "url": "https://github.com/forFudan/yu"
   },
   "type": "module",
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
-    "build2": "vitepress build src --base /yuhao/",
+    "build2": "vitepress build src --base /yu/",
     "preview": "vitepress preview src "
   },
   "dependencies": {

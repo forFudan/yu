@@ -18,7 +18,7 @@
         "target": "ESNext",
         "moduleResolution": "node",
         "module": "ESNext",
-        "baseUrl": "forFudan",
+        "baseUrl": ".",
         "paths": {
             "@/*": [
                 "./components/*"
