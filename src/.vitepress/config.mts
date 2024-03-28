@@ -11,6 +11,18 @@ export default defineConfig({
       label: '简化汉字',
       lang: 'zh-Hans-CN'
     },
+    // en: {
+    //   label: "English",
+    //   lang: "en",
+    //   title: "Yuhao Input Method",
+    //   description: "Comunicate past and present",
+    // },
+    jp: {
+      label: "日本語",
+      lang: "jp",
+      title: "宇浩漢字入力方法",
+      description: "情繫漢字 溝通古今",
+    },
     tw: {
       label: "傳統漢字",
       lang: "zh-Hant-TW",
