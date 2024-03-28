@@ -14,7 +14,7 @@ import Search from '@/search/FetchSearch.vue'
 :::
 
 ::: info 说明
-本表包含 CJK 至 ext-I 区、部首区、兼容区的 99000 余个汉字拆分及卿云编码
+本表包含 CJK 至 ext-I 区、部首区、兼容区的 99000 余个汉字拆分及编码
 
 「拆分」栏字形标准取自 [The Unicode Standard](https://www.unicode.org/versions/Unicode15.1.0/)
 

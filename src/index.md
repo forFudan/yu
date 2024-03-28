@@ -40,6 +40,8 @@ import Search from '@/search/FetchSearch.vue'
 </script>
 <Search zigenUrl="/zigen-star.csv" supplement />
 
+---
+
 ::: tip 致有缘人
 
 当你点开这个页面的时候，你就是一名有缘人。

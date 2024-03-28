@@ -6,9 +6,32 @@ import autoprefixer from "autoprefixer"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  locales: {
+    root: {
+      label: '简化汉字',
+      lang: 'zh-Hans-CN'
+    },
+    tw: {
+      label: "傳統漢字",
+      lang: "zh-Hant-TW",
+      title: "宇浩輸入法",
+      description: "情繫漢字 溝通古今",
+      themeConfig: {
+        logo: '/logo_purple.png',
+        nav: [
+          { text: '簡介', link: '/docs/' },
+          { text: '教程', link: '/learn/' },
+          { text: '拆分', link: '/chaifen/' },
+          { text: '練習', link: '/practice/root' },
+          { text: '安裝', link: '/install' }
+        ],
+      }
+    },
+  },
+
   title: "宇浩输入法",
-  description: "繁简通打　动静低重　字根聚类　兼顾手感",
-  lang: "zh-hans-CN",
+  description: "情系汉字 沟通古今",
+  lang: "zh-Hans-CN",
   outDir: "../dist",
   markdown: {
     math: true,

@@ -44,8 +44,6 @@ const codes_tw = computed(() => p.chaifen.division_tw == '' ? '' : makeCodesFrom
             </div>
         </div>
 
-
-
         <div class="invisible group-hover:visible">
             <div class="flex justify-center dark:opacity-55 opacity-100">
                 <a :href="'https://zi.tools/zi/' + uriText" class="" target="_blank" rel="noreferrer" title="字统网查询">
