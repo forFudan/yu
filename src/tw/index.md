@@ -13,10 +13,10 @@ hero:
   actions:
     - theme: brand
       text: 介紹信
-      link: /docs/
+      link: /tw/docs/
     - theme: alt
       text: 說明書
-      link: /learn/
+      link: /tw/learn/
     - theme: alt
       text: 練習簿
       link: /practice/root

@@ -19,12 +19,163 @@ export default defineConfig({
       themeConfig: {
         logo: '/logo_purple.png',
         nav: [
-          { text: '簡介', link: '/docs/' },
-          { text: '教程', link: '/learn/' },
+          { text: '簡介', link: '/tw/docs/' },
+          { text: '教程', link: '/tw/learn/' },
           { text: '拆分', link: '/chaifen/' },
           { text: '練習', link: '/practice/root' },
           { text: '安裝', link: '/install' }
         ],
+        sidebar: {
+          '/tw/docs': [
+            {
+              text: '介紹',
+              link: '/tw/docs/'
+            },
+            {
+              text: '更新日誌',
+              link: '/tw/docs/updates'
+            },
+            // {
+            //   text: '技术文档',
+            //   link: '/docs/technical'
+            // },
+            // {
+            //   text: '設計哲學',
+            //   link: '/docs/discussion',
+            // },
+            // {
+            //   text: '背景故事',
+            //   link: '/docs/background',
+            // },
+            {
+              text: '雜談',
+              items: [
+                {
+                  text: '常見輸入法重碼數據',
+                  link: 'tw/docs/statistics',
+                },
+                // {
+                //   text: '常见形码输入方案编码规则',
+                //   link: '/docs/coding',
+                // },
+                // {
+                //   text: '挑选适合的方案',
+                //   link: '/docs/prosandcons',
+                // },
+                // {
+                //   text: '關於《古籍印刷通規》',
+                //   link: '/docs/guji',
+                // },
+                // {
+                //   text: '论易码简码的设置',
+                //   link: '/docs/yima',
+                // },
+              ]
+            },
+          ],
+          '/tw/learn': [
+            {
+              text: '前言',
+              link: '/tw/learn/'
+            },
+            {
+              text: '單字拆分',
+              link: '/tw/learn/division'
+            },
+            {
+              text: '字根編碼',
+              link: '/tw/learn/roots'
+            },
+            {
+              text: '字根速記',
+              link: '/tw/learn/star'
+            },
+            {
+              text: '單字編碼',
+              link: '/tw/learn/chars'
+            },
+            {
+              text: '簡碼設置',
+              link: '/tw/learn/quick'
+            },
+            {
+              text: '詞語編碼',
+              link: '/tw/learn/words'
+            },
+            {
+              text: '進階討論',
+              link: '/tw/learn/advanced'
+            },
+            {
+              text: '附錄',
+              items: [
+                // {
+                //   text: '星陈字根图表',
+                //   link: '/learn/star'
+                // },
+                {
+                  text: '光華方案字根圖表',
+                  link: '/tw/learn/light'
+                },
+              ]
+            }
+          ],
+          // '/tw/practice': [
+          //   {
+          //     text: '烂然星陈',
+          //     items: [
+          //       {
+          //         text: '星陈字根',
+          //         link: '/practice/root'
+          //       },
+          //       {
+          //         text: '星陈单字',
+          //         link: '/practice/char'
+          //       },
+          //     ]
+          //   },
+          //   {
+          //     text: '日月光华',
+          //     items: [
+          //       {
+          //         text: '光华字根',
+          //         link: '/practice/root_light'
+          //       },
+          //       {
+          //         text: '光华单字',
+          //         link: '/practice/char_light'
+          //       },
+          //     ]
+          //   },
+          //   {
+          //     text: '卿云烂兮',
+          //     items: [
+          //       {
+          //         text: '卿云字根',
+          //         link: '/practice/root_joy'
+          //       },
+          //       {
+          //         text: '卿云单字',
+          //         link: '/practice/char_joy'
+          //       },
+          //     ]
+          //   },
+          // ],
+          // '/tw/chaifen': [
+          //   {
+          //     text: '星陈',
+          //     link: '/chaifen/'
+          //   },
+          //   {
+          //     text: '光华',
+          //     link: '/chaifen/light'
+          //   },
+          //   {
+          //     text: '卿云',
+          //     link: '/chaifen/joy'
+          //   },
+          // ],
+        },
       }
     },
   },
@@ -129,6 +280,10 @@ export default defineConfig({
           link: '/learn/roots'
         },
         {
+          text: '字根速記',
+          link: '/learn/star'
+        },
+        {
           text: '单字编码',
           link: '/learn/chars'
         },
@@ -144,14 +299,19 @@ export default defineConfig({
           text: '进阶讨论',
           link: '/learn/advanced'
         },
-        // {
-        //   text: '星陈字根图表',
-        //   link: '/learn/star'
-        // },
         {
-          text: '光华字根图表',
-          link: '/learn/light'
-        },
+          text: '附录',
+          items: [
+            // {
+            //   text: '星陈字根图表',
+            //   link: '/learn/star'
+            // },
+            {
+              text: '光华方案字根图表',
+              link: '/learn/light'
+            },
+          ]
+        }
       ],
       '/practice': [
         {
