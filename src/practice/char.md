@@ -38,7 +38,7 @@ import Train from "@/train/CharTrain.vue"
 :::
 
 ::: details 键位图
-![宇浩·星陈字根图](/yustar.webp)
+![宇浩·星陈字根图](/yustar.png)
 :::
 
 ::: details 单字规则

@@ -49,4 +49,4 @@
 `鳥僉風魚馬來車長黽門鬥齒韋飛咼見貝鹵`
 :::
 
-![yustar](/yustar.webp)
+![yustar](/yustar.png)

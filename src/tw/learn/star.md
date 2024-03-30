@@ -1,6 +1,6 @@
 # 字根速記
 
-![yustar](/yustar.webp)
+![yustar](/yustar.png)
 
 ## 大碼規律
 

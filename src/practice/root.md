@@ -38,5 +38,5 @@ import Train from "@/train/ZigenTrain.vue"
 :::
 
 ::: details 键位图
-![宇浩·星陈字根图](/yustar.webp)
+![宇浩·星陈字根图](/yustar.png)
 :::

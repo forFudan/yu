@@ -96,7 +96,7 @@
 - `目且貝見`和`日曰早`都在 J 上。
 - `亦文（夂）亥（豕）亡方`都在 T 上。
 
-![yustar](/yustar.webp)
+![yustar](/yustar.png)
 
 ### 宇浩·光華
 

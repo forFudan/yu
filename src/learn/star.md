@@ -1,6 +1,6 @@
 # 字根速记
 
-![yustar](/yustar.webp)
+![yustar](/yustar.png)
 
 ## 大码规律
 
