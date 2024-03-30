@@ -17,12 +17,12 @@ export default defineConfig({
     //   title: "Yuhao Input Method",
     //   description: "Comunicate past and present",
     // },
-    jp: {
-      label: "日本語",
-      lang: "jp",
-      title: "宇浩漢字入力方法",
-      description: "情繫漢字 溝通古今",
-    },
+    // jp: {
+    //   label: "日本語",
+    //   lang: "jp",
+    //   title: "宇浩漢字入力方法",
+    //   description: "情繫漢字 溝通古今",
+    // },
     tw: {
       label: "傳統漢字",
       lang: "zh-Hant-TW",
