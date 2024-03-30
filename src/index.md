@@ -64,6 +64,8 @@ import Search from '@/search/FetchSearch.vue'
 
 ![yustar](/yustar.png)
 
+![assess](/assess.png)
+
 ::: info 鸣谢
 
 感谢以下字形输入法的发明人、改编人、维护人、各平台方案制作者、插件作者、网页作者等：

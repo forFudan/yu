@@ -5,20 +5,26 @@
 
 [永硕网盘](http://zhuyuhao.ysepan.com/)  
 [Github](https://github.com/forFudan/yuhao/releases/)  
-[Gitee](https://gitee.com/forFudan/yuhao/releases/)  
+[Gitee 码云](https://gitee.com/forFudan/yuhao/releases/)  
 :::
 
 ## 码表直接挂载
 
 本方案的码表可以在任何手机或电脑的输入法 App 上挂载并使用，比如百度、搜狗、落格、小小等。由于本方案只使用 25 键，故而可以完美挂载在任何五笔字型输入法的平台上，并使用`Z`键的功能。
 
-[点击此处下载最新版本的各平台码表](https://github.com/forFudan/yuhao/releases)。[备用下载地址](https://gitee.com/forFudan/yuhao/releases/)。
+码表在 /mabiao 文件夹下。
 
 码表因其格式，可以通用于多种平台。以下为几种主要格式的介绍：
 
-- 宇码  空格  字符，UTF-8。此为**百度格式**，适用于百度输入法、搜狗输入法、清歌输入法。加上表头后，也适用于小小输入法、微软输入法、Fcitx 输入法。
-- 字符  Tab  宇码，UTF-8。此为**多多格式**，适用于落格输入法、小胖输入法。加上表头后，也适用于 RIME 输入法。还能用作 [木易跟打器](https://typer.owenyang.top) 的词提上传。
-<!-- - 宇码  Tab  字符，UTF-8。此为**大竹格式**，用于大竹词提生成。 -->
+- 编码  空格  字符，UTF-8。此为**百度格式**，适用于百度输入法、搜狗输入法、清歌输入法。加上表头后，也适用于小小输入法、微软输入法、Fcitx 输入法。
+- 字符  Tab  编码，UTF-8。此为**多多格式**，适用于落格输入法、小胖输入法。加上表头后，也适用于 RIME 输入法。还能用作 [木易跟打器](https://typer.owenyang.top) 的词提上传。
+- 编码  Tab  字符，UTF-8。此为**大竹格式**，用于大竹词提生成。
+
+码表一共有以下三种：
+
+1. 宇浩星陈·陆标简码.txt，为简化汉字设置简码，码长约为 3.25。
+1. 宇浩星陳·繁簡通打.txt，为繁简通打设置简码，码长约为 3.30。
+1. 宇浩星陳·單字全碼.txt，单字全码码表。
 
 ### 百度/搜狗手机输入法
 
@@ -52,12 +58,6 @@
 
 小小输入法码表是将 /baidu 下的「小小配置。txt」中的内容复制到码表文件顶部。
 
-### 纯单字全码码表
-
-纯单字全码码表是**宇浩单字全码。txt**。
-
-纯单字全码和简码码表是**宇浩单字全码和简体简码。txt**。
-
 ## RIME 平台安装（小狼毫、鼠须管、同文、iRime、仓输入法）
 
 下面介绍的是挂载于 [RIME 平台（小狼毫、鼠须管、同文、iRime）](https://rime.im/) 的方案。我对它进行了深度定制，具有以下特点：
@@ -67,56 +67,39 @@
 - 提供四码只出单字功能，适合单字派。
 - 提供生僻字后置、生僻字屏蔽功能。
 
-在安装了 Rime（小狼毫、鼠须管、同文、iRime）后，[在这个页面下载最新版本的 Rime 方案](https://github.com/forFudan/yuhao/releases)。 文件夹下的**所有文件**复制到**用户文件夹**下（可以右击 Rime 图标后点击「用户文件夹」来打开）。点击「部署」之后即可使用。
+在安装了 Rime（小狼毫、鼠须管、同文、iRime）后，将安装包中的 /schema 文件夹下的**所有文件**复制到**用户文件夹**下（可以右击 Rime 图标后点击「用户文件夹」来打开）。点击「部署」之后即可使用。
 
 宇浩输入法 windows 安装视频教程。
 
-<iframe src="//player.bilibili.com/player.html?aid=326571384&bvid=BV1xw411E7ak&cid=1414823103&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=326571384&bvid=BV1xw411E7ak&cid=1414823103&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:100%;aspect-ratio:1.778"> </iframe>
 
+/schema 下文件介绍：
 
-方案文件介绍：
+1. yustar.schema.yaml 为繁简通打设置简码，码长约为 3.30。
+1. yustar_sc.schema.yaml 为简化汉字设置简码，码长约为 3.25。
+1. yustar_tw.schema.yaml 为传统汉字台湾字形设置简码。  
+`〔注：以上三个文件，全码排序完全一致，只是简码设置不同，主要为了增加输入效率。〕`
+1. yustar.dict.yaml 主码表，用来调用其他码表。
+1. yustar.full.dict.yaml 单字全码码表。
+1. yustar.quick.dict.yaml 简码码表。
+1. yustar.adjusted.dict.yaml 字形调整码表。
+1. yustar.words 宇浩核心词库。约 80000 个词语，频率较高。
+1. yustar.words_literature 宇浩成语诗词词库。约 15000 个成语和诗词，除非有特殊需求，否则不建议开启。
+1. yustar.symbols.dict.yaml 特殊符号码表。
+1. yuhao_pinyin.schema.yaml 拼音配置文件，用于反查。
+1. yuhao_pinyin.dict.yaml 拼音字典文件。
+1. lua/yuhao/... 各种脚本。
 
-- yuhao.schema.yaml 为简化汉字设置简码的方案，名为「开来学」。
-- yuhao_tradition.schema.yaml 为传统汉字大陆字形设置简码的方案，名为「繼往聖」。
-- yuhao_tradition_tw.schema.yaml 为传统汉字台湾字形设置简码的方案，名为「書同文」。
-- yuhao.dict.yaml 主码表，用来调用其他码表。
-- yuhao_tradition.dict.yaml 主码表，用来调用其他码表。
-- yuhao.full.dict.yaml 单字全码码表。
-- yuhao.quick.dict.yaml 简化字简码码表。
-- yuhao_tradition.quick.dict.yaml 传统汉字简码码表。
-- yuhao_tradition_tw.quick.dict.yaml 传统汉字台湾字形简码码表。
-- yuhao.words 宇浩核心简体词库。约 50000 个词语，频率较高。
-- yuhao.words_extended 宇浩增广简体词库。约 30000 个词语，频率较低，除非有特殊需求，否则不建议开启。
-- yuhao.words_literature 宇浩成语诗词简体词库。约 15000 个成语和诗词，除非有特殊需求，否则不建议开启。
-- yuhao_tradition.words 宇浩核心繁体词库，包括台湾、香港、大陆古籍繁体三种字形。约 50000 个词语，频率较高。
-- yuhao_tradition.words_extended 宇浩增广繁体词库。约 30000 个词语，频率较低，除非有特殊需求，否则不建议开启。
-- yuhao_tradition.words_literature 宇浩成语诗词繁体词库。约 15000 个成语和诗词，除非有特殊需求，否则不建议开启。
-- yuhao.symbols.dict.yaml 特殊符号码表。
-- yuhao_pinyin.schema.yaml 拼音配置文件，用于反查。
-- yuhao_pinyin.dict.yaml 拼音字典文件。
-- rime.lua 脚本设定。
-- lua/yuhao/... 各种脚本。
-- opencc/... 拆分表。
-
-### 提示快捷键
-
-输入`help`或`zzzz`或`bang`可显示快捷键提示。
-
-### 快速功能开关
-
-输入`zhelp` 可进入快速功能开关设置。
-
-### 单字拆分三重注解
+### 单字拆分四重注解
 
 提供至 CJK-I 区、兼容区、部首区超过 99000 个汉字的拆分、编码提示、字集提示。拆分提示中包括三重注解：
 
 1. 该汉字的拆分。
 2. 该汉字的全码。使用大小写字母区分字根的姓名。
 3. 该汉字所在的字符集（CJK，CJK-A 到 CJK-I 区，兼容字等）。
+4. 该汉字的 Unicode 编码。
 
-用户还可通过 `Shift+Ctrl+C` 切换拆分状态。
-
-（注：内测版 v2.0.0-alpha 提供四重注解，额外提示拼音。）
+用户还可通过 `Shift+Ctrl+C` 或 `斜杠 /` 切换拆分状态。
 
 ### 自定义常用字符集
 
@@ -130,10 +113,11 @@
 
 ### 一键切换字符集
 
-在输入过程中，用户可选择两种切换字集的方式：
+在输入过程中，用户可通过 `Shift+Ctrl+O` 循环选择三种字集过滤的方式。
 
-- 通过 `Shift+Ctrl+O` 在常用字符集和 CJK 大字符集之间进行切换（过滤）。
-- 通过 `Shift+Ctrl+I` 将常用字符集优先显示（优先）。
+- 全字集显示。
+- 只显示常用字符集（过滤）。
+- 常用字符集中的汉字和词语优先显示（优先）。
 
 用户还可通过 `Shift+Ctrl+F` 进行简入繁出输入。
 
@@ -146,10 +130,6 @@
 反查字典中，繁简体同权重，繁体字形包括大陆古籍、台湾繁体、香港繁体、OpenCC 繁体四套字形标准。
 
 ![反查](/fancha.webp)
-
-#### 使用 Z 键作为通配符/学习符
-
-除第一码外，可以使用 z 键代替其他编码，方便一下子忘记字根姓名的你继续输入。
 
 #### 使用 Z 键上屏历史输入
 
@@ -166,6 +146,7 @@
 - `dy`引导德语字母。例如：ß，`dyss`
 - `yj`引导易经六十四卦符号。例如：䷾（既济），`yjkl`。
 - `kk`引导其他符号。
+- `/`引导所有符号。
 
 ![符号输入](/fuhaoshuru.webp)
 
@@ -176,3 +157,7 @@
 ### 全码屏蔽词语
 
 一键屏蔽四码词语，同时保留简码词。热键为 `Shift+Ctrl+D`。适合保留简码词的单字简词派。
+
+### 全码后置
+
+将已经设置了简码的汉字的全码后置。热键为 `Shift+Ctrl+H`。
