@@ -1,0 +1,52 @@
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.0/dist/hanzi-writer.min.js"></script>
+<script>
+    let font_size = 75
+    function renderFanningStrokesNew(target, strokes, parts, colors) {
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.style.width = font_size + 'px';
+        svg.style.height = font_size + 'px';
+        <!-- svg.style.border = '5px solid #EEE' -->
+        svg.style.marginRight = '5px'
+        target.appendChild(svg);
+        var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+        // set the transform property on the g element so the character renders at 75x75
+        var transformData = HanziWriter.getScalingTransform(font_size, font_size);
+        group.setAttributeNS(null, 'transform', transformData.transform);
+        svg.appendChild(group);
+
+        var total = 0
+
+        for (var i = 0; i < parts.length; i++) {
+            strokes.slice(total, total + parts[i]).forEach(function (strokePath) {
+                var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                path.setAttributeNS(null, 'd', strokePath);
+                // style the character paths
+                path.style.fill = colors[i];
+                group.appendChild(path);
+            });
+            total += parts[i]
+        }
+    }
+
+    function getDivision(id, char, parts, colors) {
+        HanziWriter.loadCharacterData(char).then(function (charData) {
+            renderFanningStrokesNew(document.getElementById(id), charData.strokes, parts, colors);
+        });
+    }
+    
+    let color1 = '#AE0101'
+    let color2 = '#FFBD05'
+    let color3 = '#2C96FF'
+    let color4 = '#7DDA58'
+    let color5 = '#D863F9'
+    let color6 = '#FE9900'
+
+    getDivision(id = 'char-target', char = '緣', parts = [6, 3, 6], colors = [color1, color2, color3, color4, color5, color6]);
+    getDivision(id = 'char-target', char = '形', parts = [1, 3, 3], colors = [color1, color2, color3, color4]);
+    getDivision(id = 'char-target', char = '缺', parts = [6, 2, 2, 2], colors = [color1, color2, color3, color4]);
+    
+
+</script>
+
+<div id="char-target"></div>
