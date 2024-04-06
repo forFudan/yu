@@ -1,12 +1,13 @@
 # %%
 import opencc
+
 s2tw = opencc.OpenCC("s2tw")
 
 # %%
 # %%
 
 paths_of_docs = [
-    "/index.md",
+    # "/index.md",
     "/install.md",
     "/docs/index.md",
     "/docs/updates.md",
