@@ -16,46 +16,219 @@
         svg.appendChild(group);
 
         var total = 0
+        let color = ['#CECECE', '#AE0101', '#FE9900', '#2C96FF', '#7DDA58', '#D863F9', '#F1FF6D', '#5DE2E7']
 
         for (var i = 0; i < parts.length; i++) {
             strokes.slice(total, total + parts[i]).forEach(function (strokePath) {
                 var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
                 path.setAttributeNS(null, 'd', strokePath);
                 // style the character paths
-                path.style.fill = colors[i];
+                path.style.fill = color[colors[i]];
                 group.appendChild(path);
             });
             total += parts[i]
         }
     }
 
-    function getDivision(id, char, parts, colors) {
+    function getDivision(id, char, parts, colors = [1, 2, 3, 4, 5, 6, 7]) {
         HanziWriter.loadCharacterData(char).then(function (charData) {
             renderFanningStrokesNew(document.getElementById(id), charData.strokes, parts, colors);
         });
     }
-    
-    let color1 = '#AE0101'
-    let color2 = '#FE9900'
-    let color3 = '#2C96FF'
-    let color4 = '#7DDA58'
-    let color5 = '#D863F9'
-    let color6 = '#FFBD05'
 
-    getDivision(id = 'char-target', char = '敝', parts = [2, 3, 2, 4], colors = [color1, color2, color3, color4, color5, color6]);
-    getDivision(id = 'char-target', char = '曹', parts = [1, 3, 2, 1, 4], colors = [color1, color2, color1, color2, color3]);
-    getDivision(id = 'char-target', char = '为', parts = [1, 2, 2, 2], colors = [color1, color2, color3, color4]);
-    getDivision(id = 'char-target', char = '鄙', parts = [3, 2, 2, 3, 1, 4], colors = [color1, color2, color3, color4, color3, color5]);
-    getDivision(id = 'char-target', char = '會', parts = [2, 1, 3, 2, 1, 4], colors = [color1, color2, color3, color4, color3, color5]);
-    getDivision(id = 'char-target', char = '卿', parts = [3, 3, 2, 2], colors = [color1, color2, color3, color1, color3, color5]);
-    getDivision(id = 'char-target', char = '僵', parts = [2, 1, 5, 1, 5, 1], colors = [color1, color2, color3, color4, color5, color6]);
-    getDivision(id = 'char-target', char = '再', parts = [1, 2, 3, 2], colors = [color1, color2, color3, color1, color3, color5]);
-    getDivision(id = 'char-target', char = '垂', parts = [3, 4, 1, 2], colors = [color1, color2, color3, color1, color3, color5]);
-    getDivision(id = 'char-target', char = '禹', parts = [1, 3, 2, 3], colors = [color1, color2, color3, color4, color3, color5]);
-    getDivision(id = 'char-target', char = '亘', parts = [1, 4, 1], colors = [color1, color2, color3, color4, color3, color5]);
-    
-    
+    /*
+    getDivision(id = 'char-target', char = '敝', parts = [2, 3, 2, 4], colors = [1, 2, 3, 4, 5, 6]);
+    getDivision(id = 'char-target', char = '曹', parts = [1, 3, 2, 1, 4], colors = [1, 2, 1, 2, 3]);
+    getDivision(id = 'char-target', char = '为', parts = [1, 2, 2, 2], colors = [1, 2, 3, 4]);
+    getDivision(id = 'char-target', char = '鄙', parts = [3, 2, 2, 3, 1, 4], colors = [1, 2, 3, 4, 3, 5]);
+    getDivision(id = 'char-target', char = '會', parts = [2, 1, 3, 2, 1, 4], colors = [1, 2, 3, 4, 3, 5]);
+    getDivision(id = 'char-target', char = '卿', parts = [3, 3, 2, 2], colors = [1, 2, 3, 1, 3, 5]);
+    getDivision(id = 'char-target', char = '僵', parts = [2, 1, 5, 1, 5, 1], colors = [1, 2, 3, 4, 5, 6]);
+    getDivision(id = 'char-target', char = '再', parts = [1, 2, 3, 2], colors = [1, 2, 3, 1, 3, 5]);
+    getDivision(id = 'char-target', char = '垂', parts = [3, 4, 1, 2], colors = [1, 2, 3, 1, 3, 5]);
+    getDivision(id = 'char-target', char = '禹', parts = [1, 3, 2, 3], colors = [1, 2, 3, 4, 3, 5]);
+    getDivision(id = 'char-target', char = '亘', parts = [1, 4, 1], colors = [1, 2, 3, 4, 3, 5]);
+    getDivision(id = 'char-target', char = '國', parts = [2, 1, 3, 1, 3, 1], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '襄', parts = [8, 5, 4], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '滚', parts = [3, 2, 2, 2, 4], colors = [1, 2, 3, 4, 5, 1]);
+*/
+
+/*
+    // 特殊字根和複雜汉字
+    getDivision(id = 'char-target', char = '華', parts = [4, 5, 2], colors = [1, 2, 3]);
+    getDivision(id = 'char-target', char = '民', parts = [3, 2], colors = [1, 2]);
+    getDivision(id = 'char-target', char = '发', parts = [2, 2, 1]);
+    getDivision(id = 'char-target', char = '假', parts = [2, 3, 2, 2, 2], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '即', parts = [3, 2, 5, 2], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '帶', parts = [4, 1, 1, 2, 3], colors = [1, 2, 1, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '曳', parts = [5, 1], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '吏', parts = [1, 3, 2], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '舞', parts = [2, 5, 1, 3, 3], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '命', parts = [6, 2]);
+    getDivision(id = 'char-target', char = '龠', parts = [12, 5], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '亮', parts = [7, 2], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '京', parts = [5, 3], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '襄', parts = [8, 5, 4], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '与', parts = [2, 1], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '與', parts = [4, 2, 1, 3, 1, 2], colors = [1, 2, 3, 1, 3, 4]);
+    getDivision(id = 'char-target', char = '互', parts = [1, 3], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '惠', parts = [8, 5], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '赤', parts = [3, 2, 2], colors = [1, 2, 3]);
+    getDivision(id = 'char-target', char = '臧', parts = [1, 4, 6, 3], colors = [1, 2, 3, 1]);
+    getDivision(id = 'char-target', char = '鼎', parts = [5, 3, 4], colors = [1, 2, 3]);
+    getDivision(id = 'char-target', char = '齋', parts = [2, 3, 2, 3, 2, 5], colors = [1, 2, 3, 4, 5, 6, 5]);
+    getDivision(id = 'char-target', char = '冒', parts = [2, 2, 5], colors = [1, 2, 3, 4, 5, 6]);
+    getDivision(id = 'char-target', char = '段', parts = [2, 3, 4], colors = [1, 2, 3, 4, 5]);
+    getDivision(id = 'char-target', char = '卑', parts = [6, 2]);
+    getDivision(id = 'char-target', char = '徽', parts = [6, 1, 6, 4], colors = [1, 2, 3, 1]);
+    getDivision(id = 'char-target', char = '彀', parts = [5, 1, 3, 4], colors = [1, 2, 3, 1]);
+    getDivision(id = 'char-target', char = '囊', parts = [1, 3, 1, 2, 3, 3, 5, 4], colors = [1, 2, 1, 3, 4, 5, 6, 7]);
+    getDivision(id = 'char-target', char = '鄙', parts = [3, 2, 2, 3, 1, 4], colors = [1, 2, 3, 4, 3, 5]);
+    getDivision(id = 'char-target', char = '會', parts = [2, 1, 3, 2, 1, 4], colors = [1, 2, 3, 4, 3, 5]);
+    getDivision(id = 'char-target', char = '贯', parts = [2, 2, 4]);
+    getDivision(id = 'char-target', char = '尧', parts = [2, 1, 3]);
+    getDivision(id = 'char-target', char = '丝', parts = [2, 2, 1]);
+    getDivision(id = 'char-target', char = '麗', parts = [1, 3, 1, 3, 11]);
+    getDivision(id = 'char-target', char = '處', parts = [6, 3, 2]);
+    getDivision(id = 'char-target', char = '嘉', parts = [9, 2, 3]);
+    getDivision(id = 'char-target', char = '倉', parts = [2, 1, 3, 1, 3]);
+    getDivision(id = 'char-target', char = '幾', parts = [3, 3, 1, 2, 3], colors = [1, 2, 3, 4, 3]);
+    getDivision(id = 'char-target', char = '纖', parts = [6, 2, 2, 1, 8, 1, 3], colors = [1, 2, 3, 4, 5, 6, 4]);
+    getDivision(id = 'char-target', char = '龍', parts = [5, 4, 6]);
+    getDivision(id = 'char-target', char = '蕤', parts = [3, 7, 6]);
+
+
+    // 独体字
+    getDivision(id = 'char-target', char = '及', parts = [2, 1]);
+    getDivision(id = 'char-target', char = '书', parts = [1, 1, 1, 1]);
+    getDivision(id = 'char-target', char = '冉', parts = [2, 3]);
+    getDivision(id = 'char-target', char = '串', parts = [3, 3, 1]);
+    getDivision(id = 'char-target', char = '凹', parts = [4, 1]);
+    getDivision(id = 'char-target', char = '凸', parts = [1, 1, 1, 1, 1]);
+    getDivision(id = 'char-target', char = '亞', parts = [1, 10]);
+    getDivision(id = 'char-target', char = '亚', parts = [1, 10]);
+    getDivision(id = 'char-target', char = '毋', parts = [2, 2]);
+    getDivision(id = 'char-target', char = '乎', parts = [1, 2, 2]);
+    getDivision(id = 'char-target', char = '弟', parts = [2, 3, 1, 1]);
+    getDivision(id = 'char-target', char = '甚', parts = [8, 1]);
+    getDivision(id = 'char-target', char = '韦', parts = [2, 1, 1], colors = [1, 2, 1]);
+    getDivision(id = 'char-target', char = '龙', parts = [3, 1, 1], colors = [1, 2, 1]);
+    getDivision(id = 'char-target', char = '廿', parts = [3, 1]);
+    getDivision(id = 'char-target', char = '甘', parts = [3, 2]);
+    getDivision(id = 'char-target', char = '氏', parts = [2, 2]);
+    getDivision(id = 'char-target', char = '专', parts = [2, 1, 1]);
+    getDivision(id = 'char-target', char = '丏', parts = [2, 1, 1]);
+    getDivision(id = 'char-target', char = '象', parts = [2, 3, 6]);
+    getDivision(id = 'char-target', char = '斥', parts = [4, 1]);
+    getDivision(id = 'char-target', char = '农', parts = [2, 4]);
+    getDivision(id = 'char-target', char = '尺', parts = [3, 1]);
+    getDivision(id = 'char-target', char = '册', parts = [2, 2, 1]);
+    getDivision(id = 'char-target', char = '矛', parts = [4, 1]);
+    getDivision(id = 'char-target', char = '戋', parts = [1, 4]);
+    getDivision(id = 'char-target', char = '乐', parts = [2, 3]);
+    getDivision(id = 'char-target', char = '东', parts = [2, 3]);
+    getDivision(id = 'char-target', char = '拣', parts = [3, 2, 1, 2]);
+    getDivision(id = 'char-target', char = '柬', parts = [1, 2, 2, 1, 3], colors = [1, 2, 3, 2, 1]);
+    getDivision(id = 'char-target', char = '彧', parts = [1, 3, 1, 2, 2, 1], colors = [1, 2, 3, 1, 4, 1]);
+    getDivision(id = 'char-target', char = '焉', parts = [1, 4, 2, 4]);
+
+    // 散件不分割
+    getDivision(id = 'char-target', char = '为', parts = [1, 2, 2, 2], colors = [1, 2, 3, 4]);
+    getDivision(id = 'char-target', char = '卵', parts = [2, 1, 1, 2, 1], colors = [1, 2, 1, 1, 3]);
+
+    // 横间不穿心
+    getDivision(id = 'char-target', char = '再', parts = [1, 2, 3, 2], colors = [1, 2, 3, 1, 3, 5]);
+    getDivision(id = 'char-target', char = '垂', parts = [3, 4, 1, 2], colors = [1, 2, 3, 1, 3, 5]);
+    getDivision(id = 'char-target', char = '禹', parts = [1, 3, 2, 3], colors = [1, 2, 3, 4, 3, 5]);
+
+    // 竖向不包夹
+    getDivision(id = 'char-target', char = '亘', parts = [1, 4, 1], colors = [1, 2, 3, 4, 3, 5]);
+    getDivision(id = 'char-target', char = '僵', parts = [2, 1, 5, 1, 5, 1], colors = [1, 2, 3, 4, 5, 6]);
+    getDivision(id = 'char-target', char = '晉', parts = [1, 2, 2, 1, 5, 1], colors = [1, 2, 3, 4, 5, 6]);
+    getDivision(id = 'char-target', char = '裏', parts = [2, 7, 4], colors = [1, 2, 3, 4, 5, 6]);
+
+    // 横向可包夹
+    getDivision(id = 'char-target', char = '卿', parts = [3, 3, 2, 2], colors = [1, 2, 3, 1, 3, 5]);
+    getDivision(id = 'char-target', char = '胤', parts = [1, 3, 4, 1], colors = [1, 2, 3, 1]);
+    getDivision(id = 'char-target', char = '渊', parts = [3, 1, 6, 1], colors = [1, 2, 1, 2, 3]);
+    getDivision(id = 'char-target', char = '办', parts = [2, 2]);
+
+    // 根少优先
+    getDivision(id = 'char-target', char = '事', parts = [1, 3, 3, 1], colors = [1, 2, 3, 1]);
+    getDivision(id = 'char-target', char = '平', parts = [1, 2, 2, 3], colors = [1, 2, 1, 3, 5, 1]);
+    getDivision(id = 'char-target', char = '并', parts = [3, 3], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '堇', parts = [8, 1, 1, 1], colors = [1, 2, 1, 2, 5, 1]);
+    getDivision(id = 'char-target', char = '衡', parts = [3, 8, 2, 3], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '屯', parts = [1, 2, 1], colors = [1, 2, 1]);
+    getDivision(id = 'char-target', char = '承', parts = [1, 1, 3, 3], colors = [1, 2, 3, 2]);
+    getDivision(id = 'char-target', char = '庸', parts = [3, 3, 4, 1], colors = [1, 2, 3, 2]);
+    getDivision(id = 'char-target', char = '淵', parts = [3, 1, 1, 2, 1, 1, 1, 2], colors = [1, 2, 3, 2, 3, 4, 2, 3]);
+    getDivision(id = 'char-target', char = '秉', parts = [2, 3, 3], colors = [1, 2, 1]);
+    getDivision(id = 'char-target', char = '東', parts = [1, 4, 3], colors = [1, 2, 1]);
+    getDivision(id = 'char-target', char = '束', parts = [1, 3, 3], colors = [1, 2, 1]);
+    getDivision(id = 'char-target', char = '威', parts = [2, 1, 3, 3], colors = [1, 2, 3, 1]);
+    getDivision(id = 'char-target', char = '衷', parts = [5, 1, 4]);
+    getDivision(id = 'char-target', char = '黃', parts = [3, 2, 5, 2]);
+    getDivision(id = 'char-target', char = '噩', parts = [2, 3, 3, 1, 3, 3, 2], colors = [1, 2, 3, 1, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '牽', parts = [5, 2, 4]);
+
+    // 笔顺优先
+    getDivision(id = 'char-target', char = '来', parts = [1, 6], colors = [1, 2, 3, 5, 1]);
+    getDivision(id = 'char-target', char = '御', parts = [3, 2, 1, 4, 2], colors = [1, 2, 3, 4, 5, 1]);
+    getDivision(id = 'char-target', char = '啬', parts = [2, 3, 2, 3, 1], colors = [1, 2, 3, 4, 3]);
+    getDivision(id = 'char-target', char = '聿', parts = [3, 3]);
+    getDivision(id = 'char-target', char = '匹', parts = [3, 1], colors = [1, 2, 3, 4, 5]);
+    getDivision(id = 'char-target', char = '曲', parts = [2, 4]);
+
+    // 结构完整
+    getDivision(id = 'char-target', char = '曹', parts = [1, 3, 2, 1, 4], colors = [1, 2, 1, 2, 3]);
+    getDivision(id = 'char-target', char = '免', parts = [2, 3, 3], colors = [1, 2, 1, 2, 3]);
+    getDivision(id = 'char-target', char = '单', parts = [2, 4, 2, 1, 4], colors = [1, 2, 1, 2, 3]);
+    getDivision(id = 'char-target', char = '万', parts = [1, 2], colors = [1, 2, 3, 4, 5]);
+    getDivision(id = 'char-target', char = '陽', parts = [2, 4, 1, 2, 2], colors = [1, 2, 3, 4, 5]);
+
+    // 能散不連
+    getDivision(id = 'char-target', char = '主', parts = [1, 5], colors = [1, 2, 1, 3]);
+
+    // 能連不交
+    getDivision(id = 'char-target', char = '开', parts = [1, 4], colors = [1, 2, 1, 3]);
+    getDivision(id = 'char-target', char = '无', parts = [1, 4], colors = [1, 2, 1, 3]);
+    getDivision(id = 'char-target', char = '天', parts = [1, 3]);
+    getDivision(id = 'char-target', char = '出', parts = [3, 2]);
+    getDivision(id = 'char-target', char = '于', parts = [1, 2]);
+    getDivision(id = 'char-target', char = '击', parts = [3, 2]);
+    getDivision(id = 'char-target', char = '那', parts = [1, 3, 2], colors = [1, 2, 3, 4]);
+
+    // 能交不断
+    getDivision(id = 'char-target', char = '果', parts = [4, 4], colors = [1, 2, 1, 3]);
+
+    // 因根少而断笔
+    getDivision(id = 'char-target', char = '我', parts = [1, 1, 2, 3], colors = [1, 0, 2, 3, 5, 1]);
+    getDivision(id = 'char-target', char = '重', parts = [2, 4, 1, 2], colors = [1, 2, 0, 2]);
+    getDivision(id = 'char-target', char = '熏', parts = [2, 5, 1, 6], colors = [1, 2, 0, 2, 3, 5, 1]);
+    getDivision(id = 'char-target', char = '識', parts = [7, 4, 1, 4, 3], colors = [1, 2, 0, 3, 4]);
+    getDivision(id = 'char-target', char = '蕺', parts = [3, 3, 1, 5, 3], colors = [1, 2, 0, 3, 4]);
+
+    // 非歪斜根取大
+    getDivision(id = 'char-target', char = '失', parts = [1, 4], colors = [1, 2, 1, 3]);
+    getDivision(id = 'char-target', char = '朱', parts = [1, 5], colors = [1, 2, 1, 3]);
+    getDivision(id = 'char-target', char = '井', parts = [2, 2], colors = [1, 2, 1, 3]);
+
+    // 完全合笔顺部分取大
+    getDivision(id = 'char-target', char = '妻', parts = [1, 3, 1, 3], colors = [1, 2, 1, 3]);
+*/
+    // 向前取大
+    getDivision(id = 'char-target', char = '离', parts = [4, 2, 2, 2]);
+    getDivision(id = 'char-target', char = '彦', parts = [5, 1, 3], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '產', parts = [4, 2, 5], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '彖', parts = [3, 6, 4], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '录', parts = [3, 5, 4], colors = [1, 2, 3, 4, 2, 1]);
+    getDivision(id = 'char-target', char = '丈', parts = [2, 1], colors = [1, 2, 3, 4, 5, 6]);
+    getDivision(id = 'char-target', char = '兴', parts = [4, 2]);
+    getDivision(id = 'char-target', char = '严', parts = [1, 5, 1]);
+    getDivision(id = 'char-target', char = '夬', parts = [2, 2]);
 
 </script>
 
+</p>
 <div id="char-target"></div>

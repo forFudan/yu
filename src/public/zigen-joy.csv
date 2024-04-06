@@ -132,6 +132,7 @@ font,ma
 卯,Jm
 千,Jq
 日,Jr
+,Jr
 山,Js
 曰,Jv
 ,Jv
@@ -162,7 +163,6 @@ font,ma
 䒑,Lc
 辰,Lc
 耳,Le
-缶,Lf
 酉,Li
 斤,Lj
 了,Ll
@@ -177,6 +177,7 @@ font,ma
 覀,Lx
 襾,Lx
 子,Lz
+八,Mb
 灬,Mb
 髟,Mb
 長,Mc
@@ -190,14 +191,11 @@ font,ma
 ,Mg
 火,Mh
 羊,Mi
-壬,Mr
 矢,Ms
-,Mv
-向,Mx
-,Mx
 不,Nb
 齒,Nc
 工,Ng
+壬,Nr
 水,Ns
 氵,Ns
 瓦,Nw
@@ -226,10 +224,12 @@ font,ma
 巳,Os
 纟,Os
 ,Os
+,Ov
 魚,Ov
 兀,Ow
+向,Ox
+,Ox
 舟,Oz
-八,Pb
 冊,Pc
 阝,Pf
 革,Pg
@@ -326,6 +326,7 @@ font,ma
 爫,Vz
 彳,Wc
 𠂤,Wd
+缶,Wf
 戶,Wh
 已,Wi
 己,Wj
@@ -335,7 +336,6 @@ font,ma
 丿,Wp
 彡,Ws
 ,Ws
-,Ws
 ,Wv
 未,Ww
 車,Xc

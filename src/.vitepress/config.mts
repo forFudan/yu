@@ -95,6 +95,10 @@ export default defineConfig({
               link: '/tw/learn/division'
             },
             {
+              text: '進階討論',
+              link: '/tw/learn/advanced'
+            },
+            {
               text: '字根編碼',
               link: '/tw/learn/roots'
             },
@@ -115,8 +119,8 @@ export default defineConfig({
               link: '/tw/learn/words'
             },
             {
-              text: '進階討論',
-              link: '/tw/learn/advanced'
+              text: '機器實現',
+              link: '/tw/learn/machine'
             },
             {
               text: '附錄',
@@ -288,6 +292,10 @@ export default defineConfig({
           link: '/learn/division'
         },
         {
+          text: '进阶讨论',
+          link: '/learn/advanced'
+        },
+        {
           text: '字根编码',
           link: '/learn/roots'
         },
@@ -308,8 +316,8 @@ export default defineConfig({
           link: '/learn/words'
         },
         {
-          text: '进阶讨论',
-          link: '/learn/advanced'
+          text: '机器实现',
+          link: '/learn/machine'
         },
         {
           text: '附录',
@@ -318,6 +326,10 @@ export default defineConfig({
             //   text: '星陈字根图表',
             //   link: '/learn/star'
             // },
+            {
+              text: '字海拾珍——必拆字举隅',
+              link: '/learn/examples'
+            },
             {
               text: '光华方案字根图表',
               link: '/learn/light'
