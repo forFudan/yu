@@ -130,6 +130,10 @@ export default defineConfig({
                 //   link: '/learn/star'
                 // },
                 {
+                  text: '字海拾珍——必拆字舉隅',
+                  link: '/tw/learn/examples'
+                },
+                {
                   text: '光華方案字根圖表',
                   link: '/tw/learn/light'
                 },

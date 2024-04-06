@@ -18,8 +18,10 @@ paths_of_docs = [
     "/learn/quick.md",
     "/learn/words.md",
     "/learn/advanced.md",
+    "/learn/machine.md",
     "/learn/star.md",
     "/learn/light.md",
+    "/learn/examples.md",
 ]
 
 for path_of_doc in paths_of_docs:
@@ -44,3 +46,5 @@ for path_of_doc in paths_of_docs:
     with open("../src/tw" + path_of_doc, mode="w", encoding="utf8") as temp:
         temp.write("`".join(translated_doc))
 
+
+# %%
