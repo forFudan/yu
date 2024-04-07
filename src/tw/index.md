@@ -12,16 +12,16 @@ hero:
     alt: yuhao-logo
   actions:
     - theme: brand
-      text: 介紹信
+      text: 介紹
       link: /tw/docs/
     - theme: alt
-      text: 說明書
+      text: 教程
       link: /tw/learn/
     - theme: alt
-      text: 練習簿
+      text: 練習
       link: /practice/root
     - theme: alt
-      text: 安裝包
+      text: 安裝
       link: /tw/install
 
 <!-- features:
@@ -37,10 +37,18 @@ hero:
 
 <script setup>
 import Search from '@/search/FetchSearch.vue'
+import Chaifen from '@/chaifen/Chaifen.vue'
 </script>
 <Search zigenUrl="/zigen-star.csv" supplement />
 
 ---
+
+<div class="flex justify-center flex-wrap">
+<Chaifen char="光" id="宇" :parts='[3,3]' />
+<Chaifen char='華' id='華' :parts='[4,5,2]' :colors='[1,2,3]' />
+<Chaifen char="星" id="星" :parts='[4,5]' />
+<Chaifen char="陳" id="陳" :parts='[2,1,4,3]' :colors='[1,2,3,2]' />
+</div>
 
 ::: tip 致有緣人
 

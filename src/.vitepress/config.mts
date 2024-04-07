@@ -335,6 +335,15 @@ export default defineConfig({
               link: '/learn/examples'
             },
             {
+              text: '高频字拆分图解',
+              link: '/learn/frequent'
+            }
+          ]
+        },
+        {
+          text: '光华',
+          items: [
+            {
               text: '光华方案字根图表',
               link: '/learn/light'
             },
