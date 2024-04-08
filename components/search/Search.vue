@@ -18,6 +18,22 @@ watchThrottled(userInput, () => {
     searchZigens.value = [...user].filter(zi => p.chaifenMap.has(zi))
 }, { throttle: 300, immediate: true })
 
+let poets: string[] =
+    ["小樓一夜聽春雨　深巷明朝賣杏花",
+        "休對故人思故國　且將新火試新茶　詩酒趁年華",
+        "三十功名塵與土　八千里路雲和月",
+        "落花人獨立　微雨燕雙飛",
+        "玲瓏骰子安紅豆　入骨相思知不知",
+        "兩情若是久長時　又豈在朝朝暮暮",
+        "身無彩鳳雙飛翼　心有靈犀一點通",
+        "自在飛花輕似夢　無邊絲雨細如愁",
+        "醉後不知天在水　滿船清夢壓星河",
+        "東風夜放花千樹　更吹落　星如雨",
+    ];
+const ind: number =
+    Math.floor(Math.random() * poets.length);
+const poet: string = poets[ind];
+
 </script>
 
 <template>
@@ -30,9 +46,10 @@ watchThrottled(userInput, () => {
         </svg>
     </label>
 
-    <div v-if="!userInput" class="opacity-40 text-center p-9 tracking-widest">少・顺・散・连・交・大</div>
+    <div v-if="!userInput" class="opacity-40 text-center p-9 tracking-widest">{{ poet }}</div>
     <div class="flex justify-center flex-wrap my-8" v-else>
-        <Card v-for="zigen in searchZigens" :key="zigen" :chaifen="chaifenMap.get(zigen)" :zigenMap :supplement="p.supplement" />
+        <Card v-for="zigen in searchZigens" :key="zigen" :chaifen="chaifenMap.get(zigen)" :zigenMap
+            :supplement="p.supplement" />
     </div>
 
 </template>

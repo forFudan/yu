@@ -4,27 +4,19 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 # 单字拆分
 
+## 汉字拼图
+
 先前说过，拆字，就是把汉字按照一定的规则，拆成唯一的字根组合。这个过程如同拼图一般，大多数时候，是非常直观而自然的。
 
 ::: tip 例
 
-`部` = `立` `口` `阝`
-
-`先` = `⺧` `儿`  
-
-`鴿` = `合` `鳥`
-
-`琴` = `王` `王` `人` `丶` `乛`  
-
-`李` = `木` `子`  
-
 <div class="flex justify-left flex-wrap">
-<Chaifen char='錘' id='錘' :parts='[8,3,4,1]' />
-<Chaifen char='錢' id='錢' :parts='[8,4,4]' />
-<Chaifen char='瓶' id='瓶' :parts='[3,3,4]' />
-<Chaifen char='鴿' id='鴿' :parts='[6, 11]' />
-<Chaifen char='琴' id='琴' :parts='[4, 4, 2, 1, 1]' />
-<Chaifen char='李' id='李' :parts='[4,3]' />
+<Chaifen char='糧' :parts='[6,4,1,7]' />
+<Chaifen char='錘' :parts='[8,3,4,1]' />
+<Chaifen char='錢' :parts='[8,4,4]' />
+<Chaifen char='瓶' :parts='[3,3,4]' />
+<Chaifen char='琴' :parts='[4, 4, 2, 1, 1]' />
+<Chaifen char='鴿' :parts='[6, 11]' />
 </div>
 :::
 
@@ -34,13 +26,14 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 `戋`这个字，我们可以继续将它拆成`一`和`戈`。查字根图可知，`一`和`戈`正好是两个字根，拆字成功。  
 
-<Chaifen char='戋' id='戋' :parts='[1,4]' />
-
 `丸`这个字，我们可以继续将它拆成`九`和`丶`。查字根图可知，`九`和`丶`正好是两个字根，拆字成功。  
-<Chaifen char='丸' id='丸' :parts='[2,1]' />
 
 `朱`这个字，我们可以继续将它拆成`牛`和`八`。查字根图可知，`牛`和`八`正好是两个字根，拆字成功。  
-<Chaifen char='朱' id='朱' :parts='[4,2]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='戋' :parts='[1,4]' />
+<Chaifen char='丸' :parts='[2,1]' />
+<Chaifen char='朱' :parts='[4,2]' />
+</div>
 :::
 
 有时候，独体字的拆分不是很直观。比如`再`可以拆成`一冂土`，也可以拆成`王冂`。遇到此类字时的拆分，往往需要一些经验和练习。所以当你遇到不会拆的字时，应该主动查询它的编码，及时学习。
@@ -50,19 +43,39 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `井`，可以拆`二{介下}`，也可以拆`一廾`。  
+<div class="flex justify-left flex-wrap">
+<Chaifen char='井' :parts='[1,3]' />
+❓
+<Chaifen char='井' :parts='[2,2]' />
+❓
+<Chaifen char='井' :parts='[3,1]' />
+❓
+</div>
 
-`单`可以拆成`丷日十`也可以拆成`丷冂丰`。  
+`单`可以拆成`丷日十`也可以拆成`丷冂丰`。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='单' :parts='[2,4,2]' />
+❓
+<Chaifen char='单' :parts='[2,2,1,1,2]' :colors='[1,2,3,2,3]' />
+❓
+<Chaifen char='单' :parts='[2,2,4]' />
+❓
+</div>
 
-`兰`可以拆成`䒑二`也可以拆成`丷三`。  
+`主`可以拆成`丶王`也可以拆成`亠土`。  
+<div class="flex justify-left flex-wrap">
+<Chaifen char='主' :parts='[1,4]' />
+❓
+<Chaifen char='主' :parts='[2,3]' />
+❓
+<Chaifen char='主' :parts='[1,3,1]' :colors='[1,2,1]' />
+❓
+</div>
 :::
 
-这种一字多拆的情况，任何形码中，都是希望避免的。因为一字多拆，会造成极大的不确定性，并造成编码的混乱。
+这种一字多拆的情况，任何形码中，都是希望避免的。因为一字多拆，会造成极大的不确定性，并造成编码的混乱[^predecessor]。
 
-前辈输入法的拆字规则，一般都有诸如「直观」、「符合笔顺」、「取大」等设置。但是优先级往往不够明确，很多拆分方法并不符合规则，存在不少特例。在常用字范围内，还可以通过大量练习来完成记忆，但到了大字集，规则不明确、规则相矛盾，都是造成检字困难的因素。
-
-宇浩输入法总结了拆字规则，并且不断自我审视每一个拆分是否符合规则。通过大量的努力，明确了一套优先级系统。使每一个汉字，都有唯一的拆分方案，消除了不确定性。
-
-当然，汉字不是完全可以量化的，不同字形下，也会出现不同的拆分可能。除了良好的定义外，有时候比例原则也很重要。尤其在大字集上，追求单一拆分方法会扭曲汉字直观性，不能兼顾不同字形，让使用者需要大量尝试才能找到想要的字，这违背了大字集检字的初衷。因此，对于大字集，也会设置兼容拆分和容错码。
+宇浩输入法总结了拆字规则，并且不断自我审视每一个拆分是否符合规则。通过大量的努力，明确了一套优先级系统。使每一个汉字，都有唯一的拆分方案，消除了不确定性[^uncertanty]。
 
 ::: info 拆字优先级
 
@@ -77,18 +90,9 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 以上优先级，还可以高度归纳为：**少顺整散连交断大**。
 :::
 
-取根时，如果有多种不同的拆分方式，则按**优先级从高到低**依次检查以上规则，选取符合条件的，排除不满足的，最终得到唯一的拆分方案。因此，某种意义上来说，宇浩输入法的拆分规则，其实是一种「比较和淘汰」的排除法，[后文中会展示这些步骤的机器实现](#机器实现)。
+取根时，如果有多种不同的拆分方式，则按**优先级从高到低**依次检查以上规则，选取符合条件的，排除不满足的，最终得到唯一的拆分方案。因此，某种意义上来说，宇浩输入法的拆分规则，其实是一种「比较和淘汰」的排除法，后文中会展示这些步骤的机器实现。
 
-::: warning 注意
-
-在进行拆分前，首先需要「确认」某个字根到底存不存在，是否合规，也就是检查字根的「内在属性」。比如`土` `士`，两横的长度直接决定了字根的异同。  
-
-其次需要检查一些「拆分禁手」，比如`王`中间如果被笔画「穿心」，这是不被允许的。禁手有：散件不分割、竖向不包夹、横间不穿心。  
-
-对这两点的讨论作为进阶内容，于此处跳过。若有兴趣，可以在后续章节 《进阶讨论》中阅读。
-:::
-
-以下为拆分规则详细介绍：
+以下为拆分规则详细介绍[^intrinstic]：
 
 ## 字根最少
 
@@ -103,12 +107,20 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `国`如果完全符合笔顺，应该拆成`冂王丶一`，是四个字根。但拆成`囗王丶`，只用三个字根就够了。因为「少」优先级高于「顺」，所以应该拆成`囗王丶`。
-
-<Chaifen char='国' id='国' :parts='[2,4,1,1]' :colors='[1,2,3,1]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='国' :parts='[2,4,1,1]' :colors='[1,2,3,1]' />
+✅
+<Chaifen char='国' :parts='[2,4,1,1]' />
+❌
+</div>
 
 `國`如果完全符合笔顺，应该拆成`冂一口一丿丶一`，是七个字根。但拆成`囗戈口一`，只用四个字根就够了。因为「少」优先级高于「顺」，所以应该拆成`囗戈口一`。
-
-<Chaifen char='國' id='國' :parts='[2,1,3,1, 3, 1]' :colors='[1,2,3,4,2,1]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='國' :parts='[2,1,3,1, 3, 1]' :colors='[1,2,3,4,2,1]' />
+✅
+<Chaifen char='國' :parts='[2,1,3,1,1,1,1,1]' />
+❌
+</div>
 
 :::
 
@@ -121,17 +133,28 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `昜`拆`日一勹彡`不拆`日丆𠃌彡`。
-<Chaifen char='昜' id='昜' :parts='[4,1,2,2]' />
-
-`万`拆成`一勹`而非`{一丿}乛`。
-<Chaifen char='万' id='万' :parts='[1,2]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='昜' :parts='[4,1,2,2]' />
+✅
+<Chaifen char='昜' :parts='[4,2,1,2]' />
+❌
+</div>
 
 `单`可以拆成`丷日十`也可以拆成`丷冂丰`。两者都是三根，都完全「符合笔顺」。因为包围结构不拆散，故而`单`拆成`丷日十`。
-<Chaifen char='单' id='单' :parts='[2,4,2]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='单' :parts='[2,4,2]' />
+✅
+<Chaifen char='单' :parts='[2,2,4]' />
+❌
+</div>
 
 `免`可以拆成`⺈口儿`也可以拆成`⺈冂尢`。两者都是三根，都完全「符合笔顺」。因为包围结构不拆散，故而`免`拆成`⺈口儿`。
-<Chaifen char='免' id='免' :parts='[2,3,2]' />
-
+<div class="flex justify-left flex-wrap">
+<Chaifen char='免' :parts='[2,3,2]' />
+✅
+<Chaifen char='免' :parts='[2,2,3]' />
+❌
+</div>
 :::
 
 注意，拆分的优先级需要得到贯彻。
@@ -139,7 +162,20 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `匹`拆`兀乚`而不拆`匚儿`。因为前者完全符合笔顺，而「符合笔顺」的优先级更高。
-<Chaifen char='匹' id='匹' :parts='[3,1]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='匹' :parts='[3,1]' />
+✅
+<Chaifen char='匹' :parts='[1,2,1]' :colors='[1,2,1]' />
+❌
+</div>
+
+`万`拆成`一勹`而非`{一丿}乛`。因为前者不仅完全符合笔顺，同时也保持了结构完整。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='万' :parts='[1,2]' />
+✅
+<Chaifen char='万' :parts='[1,1,1]' :colors='[1,2,1]' />
+❌
+</div>
 :::
 
 ## 散连交断
@@ -157,37 +193,67 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ::: tip 例
 `主`可以拆成`丶王`也可以拆成`亠土`。观察到，`丶王`是散开的，而`亠土`是相连的，后者符合「能散不连」。  
-<Chaifen char='主' id='主' :parts='[1,4]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='主' :parts='[1,4]' />
+✅
+<Chaifen char='主' :parts='[2,3]' />
+❌
+</div>
 :::
 
 ### 能连不交
 
 ::: tip 例
 `开`可以拆成`一廾`也可以拆成`二{介下}`。观察到，第一种拆法字根相连，第二种拆法字根相交。故而拆成`一廾`符合「能连不交」。 
-<Chaifen char='开' id='开' :parts='[1,3]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='开' :parts='[1,3]' />
+✅
+<Chaifen char='开' :parts='[2,2]' />
+❌
+</div>
 :::
 
 ### 能交不断
 
 ::: tip 例
-`果`拆作`日木`，不拆成`田木`，这是因为后者将中间的竖断开了。因为「字根相交」的优先级高于「笔画断开」，`果`应当拆成`日木`。  
-<Chaifen char='果' id='果' :parts='[4,4]' />
+`果`拆作`日木`，不拆成`田木`或`甲木`，这是因为后者将中间的竖断开了。因为「字根相交」的优先级高于「笔画断开」，`果`应当拆成`日木`。  
+<div class="flex justify-left flex-wrap">
+<Chaifen char='果' :parts='[4,4]' />
+✅
+<Chaifen char='果' :parts='[4,1,1,2]' :colors='[1,2,0,2]' />
+❌
+</div>
 :::
 
 ### 根少而断
 
 ::: tip 例
 `我`拆作`丿扌戈`，不拆成`丿扌乚丿丶`。虽然前者将中间的横断开了，但因为「字根最少」的优先级大于「笔画断开」，我们选择只有三根的`丿扌戈`。
-<Chaifen char='我' id='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
+✅
+<Chaifen char='我' :parts='[1,3,1,1,1]' />
+❌
+</div>
 
 `熏`拆作`千黑`，不拆成`千囗丷二灬`。虽然前者将中间的竖断开了，但因为「字根最少」的优先级大于「笔画断开」，我们选择只有两根的`千黑`。  
-<Chaifen char='熏' id='熏' :parts='[2,5,1,6]' :colors='[1,2,0,2,3,5,1]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='熏' :parts='[2,5,1,6]' :colors='[1,2,0,2,3,5,1]' />
+✅
+<Chaifen char='熏' :parts='[2,2,2,1,1,2,4]' :colors='[1,2,3,2,1,4,5]' />
+❌
+</div>
 :::
 
 ::: danger 注意
 
 可以断开的笔画必须是横或竖。撇、捺、折不可断开。故而`专`不拆`キマ`。
-<Chaifen char='专' id='专' :parts='[2,1,1]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='专' :parts='[2,1,1]' />
+✅
+<Chaifen char='专' :parts='[2,1,1]' :colors='[1,0,2]' />
+❌
+</div>
 :::
 
 ## 字根取大
@@ -207,28 +273,62 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 - 我们最后检查「字根取大」规则。我们发现，前两个字根是穿插书写的。`キコ女`的拆法中，前两根交替三次写成。`十彐女` `龶乛女`，前两根只交替两次写成，故而`キコ女`淘汰。
 - `十彐女`中，完全合笔顺的字根`彐`写了三笔。而`龶乛女`中，完全合笔顺的字根`乛`只有一笔。
 - `十彐女`胜出。
-
-<Chaifen char='妻' id='妻' :parts='[1,3,1,3]' :colors='[1,2,1,3]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='妻' :parts='[1,3,1,3]' :colors='[1,2,1,3]' />
+✅
+<Chaifen char='妻' :parts='[1,1,1,1,1,3]' :colors='[1,2,1,2,1,3]' />
+❌
+<Chaifen char='妻' :parts='[1,1,3,3]' :colors='[1,2,1,3]' />
+❌
+</div>
 :::
 
 第二条只有一种场合会出现，那就是部分字根在做偏旁的时候，由于书法的考虑，会有「竖变撇」的变化。如：`千`字根的`丨`变成`丿`，`干`字根的`丨`变成`丿`，称为「歪斜根」。我们应当对非歪斜根取大。
 
 ::: tip 例
 `失`拆`丿夫`而不拆`牛乀`，因为`牛`的一竖是撇。故而对`夫`取大。
-<Chaifen char='失' id='失' :parts='[1,4]' :colors='[1,2,1,3]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='失' :parts='[1,4]' />
+✅
+<Chaifen char='失' :parts='[4,1]' :colors='[1,2]' />
+❌
+</div>
 
 `井`拆`二{介下}`而不拆`キ丨`，因为因为`キ`的一竖是撇。故而对`{介下}`取大。
-<Chaifen char='井' id='井' :parts='[2,2]' :colors='[1,2,1,3]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='井' :parts='[2,2]' />
+✅
+<Chaifen char='井' :parts='[3,1]' />
+❌
+</div>
 
 `缓`拆`纟爪干又`而不拆`纟爪二夂`。虽然前者`干`的竖是撇，但后者出现了「字根相交」。根据规则优先级，「字根相交」低于「字根相连」，故而拆为`纟爪干又`。
-<Chaifen char='缓' id='缓' :parts='[3, 4, 3, 2]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='缓' :parts='[3, 4, 3, 2]' />
+✅
+<Chaifen char='缓' :parts='[3, 4, 2, 3]' />
+❌
+</div>
 :::
 
 第三条最为常见，「让首笔靠前的字根尽可能地大」是一个兜底原则，可以保证最终只有一个候选方案能够胜出。因此，它的优先级必然是所有拆字规则中最低的。
 
 ::: tip 例
-`美`拆为`䒑土大`，而不拆成`丷王大`，因为「字根取大」原则。让首笔靠前的字根的笔划数尽量地多，这里，`䒑`的笔画数大于`丷`。
-<Chaifen char='美' id='美' :parts='[6,3]' />
+`夬`拆为`ユ人`，而不拆成`乛大`，因为「字根取大」原则。让首笔靠前的字根的笔划数尽量地多，这里，`ユ`的笔画数大于`乛`。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='夬' :parts='[2,2]' />
+✅
+<Chaifen char='夬' :parts='[1,3]' />
+❌
+</div>
+
+`丈`拆为`𠂇丶`，而不拆成`一乂`，因为「字根取大」原则。让首笔靠前的字根的笔划数尽量地多，这里，`𠂇`的笔画数大于`一`。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='丈' :parts='[2,1]' />
+✅
+<Chaifen char='丈' :parts='[1,2]' />
+❌
+</div>
 :::
 
 ## 拆字举例
@@ -259,14 +359,27 @@ import Chaifen from '@/chaifen/Chaifen.vue'
    - 上半部分都出现字根相交情况。
    - 都不适用「结构合理」。
    - 进入兜底规则「字根取大」。根据规则，只要其中某个字根多写一笔仍然符合笔顺，就多写一笔。观察到，`{聿上}一灬皿`的第一根一共写了四笔，故而胜出。
-   <Chaifen char='盡' id='盡' :parts='[4,1,4,5]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='盡' :parts='[4,1,4,5]' />
+✅
+<Chaifen char='盡' :parts='[3,2,4,5]' />
+❌
+</div>
 4. 又一例：曱 yuē甴 yóu。
    - `曱`按笔顺取大，故而是`日丨`。
    - `甴`，候选拆分为`日丨` `囗丄`。两者都是两根，都未破坏包围结构，都出现了「交」。最后查看取大原则。因为先写竖，再写中间的一横，为了让完全符合笔顺的部件尽可能地大，我们取`丄`。最后`囗丄`胜出。
    <div class="flex justify-left flex-wrap">
-   <Chaifen char='曱' id='曱' :parts='[4,1]' />
-   <Chaifen char='甴' id='甴' :parts='[2,2,1]' :colors='[1,2,1]' />
+   <Chaifen char='曱' :parts='[4,1]' />
+   ✅
+   <Chaifen char='甴' :parts='[2,2,1]' :colors='[1,2,1]' />
+   ✅
    </div>
 :::
 
 上面的例子逻辑虽比较复杂，但是最终的结果还是非常直观的。在宇浩输入法中，大多数的时候，直观的拆分方法往往也是符合规则的。
+
+[^predecessor]: 前辈输入法的拆字规则，一般都有诸如「直观」、「符合笔顺」、「取大」等设置。但是优先级往往不够明确，很多拆分方法并不符合规则，存在不少特例。在常用字范围内，还可以通过大量练习来完成记忆，但到了大字集，规则不明确、规则相矛盾，都是造成检字困难的因素。
+
+[^uncertanty]: 当然，汉字不是完全可以量化的，不同字形下，也会出现不同的拆分可能。除了良好的定义外，有时候比例原则也很重要。尤其在大字集上，追求单一拆分方法会扭曲汉字直观性，不能兼顾不同字形，让使用者需要大量尝试才能找到想要的字，这违背了大字集检字的初衷。因此，对于大字集，也会设置兼容拆分和容错码。
+
+[^intrinstic]: 在进行拆分前，首先需要「确认」某个字根到底存不存在，是否合规，也就是检查字根的「内在属性」。比如`土` `士`，两横的长度直接决定了字根的异同。其次需要检查一些「拆分禁手」，比如`王`中间如果被笔画「穿心」，这是不被允许的。禁手有：散件不分割、竖向不包夹、横间不穿心。对这两点的讨论作为进阶内容，于此处跳过。若有兴趣，可以在后续章节 《进阶讨论》中阅读。

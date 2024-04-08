@@ -5,7 +5,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 # 简码设置
 
 学完了宇码的单字编码，我们发现，「宇浩」的单字码长一般是 2 到 4 位之间。不少常用的字，码长是 4 位，比如字频第一的「的」字，编码为`DWKd`。
-<Chaifen char='的' id='的' :parts='[5,2,1]' />
+<Chaifen char='的' :parts='[5,2,1]' />
 
 一种科学的输入策略，应该使得常用字的码长更低，从而加快输入的速度。试想，如果输入「的」字，每次都要按`DWKd`四下按键，真是太浪费时间了。
 
@@ -29,7 +29,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ::: tip 例
 `我`全码为 `丿扌戈・ GFKg`，一级简码为`G`。输入`G_`即可实现上屏。  
-<Chaifen char='我' id='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
+<Chaifen char='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
 `的`全码为 `白⼓丶・ DWKd`，一级简码为`D`。输入`D_`即可实现上屏。
 :::
 
@@ -47,10 +47,10 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ::: tip 例
 `都`全码为 `耂日阝・ HJYf`，二级简码为 `HJ`。输入 `HJ_` 即可实现上屏。  
-<Chaifen char='都' id='都' :parts='[4,4,2]' />
+<Chaifen char='都' :parts='[4,4,2]' />
 
 `林`全码为 `木木・ AAm`，二级简码为 `AA`。输入 `AA_` 即可实现上屏。
-<Chaifen char='林' id='林' :parts='[4,4]' />
+<Chaifen char='林' :parts='[4,4]' />
 :::
 
 ::: info 简体二级简码字矩阵
@@ -58,7 +58,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 简体二级简码字矩阵如下图。先取行，再看列。如：
 
 D行，F列对应`后`字，则`后`的简码为`DF`，其全码为`DFLv`。
-<Chaifen char='后' id='后' :parts='[2,1,3]' />
+<Chaifen char='后' :parts='[2,1,3]' />
 
 :::
 

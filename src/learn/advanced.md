@@ -23,14 +23,19 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ::: tip 例
 `吉`拆成`士口`而不是`土口`，这是因为`土`的下面一笔更长，而`士`的下面一笔更短。这是区别两个字根的本质原因和内在属性。
-<Chaifen char='吉' id='吉' :parts='[3,3]' />
+<Chaifen char='吉' :parts='[3,3]' />
 :::
 
 「内在属性」可以解释为什么有些字这样拆而不是那样拆，有些字为什么看上去违反了「字根最少」的原则。
 
 ::: tip 例
 `敝`拆为`丷巾八攵`而非`氺巾攵`，这看似违反了「字根最少」原则，但其实没有。注意到，`敝`字左下的笔画是撇不是提；在`氺`中，左下角的笔画是提不是撇。故而，`敝`字里并不存在`氺`字根。正因为如此，我们取四根`丷巾八攵`而非三根`氺巾攵`。
-<Chaifen char='敝' id='敝' :parts='[2,3,2,4]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='敝' :parts='[2,3,2,4]' />
+✅
+<Chaifen char='敝' :parts='[2,2,3,4]' :colors='[1,2,1,3]' />
+❌
+</div>
 :::
 
 在这个章节，我们就详细讨论字根的内在属性，讨论某些字根在宇浩拆分中被分离或者被合并的原因，从而让某些字的拆分原因更加明确。
@@ -39,9 +44,8 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 不少输入法对与`日` `曰`两字的区分，比较复杂。大概有两种情况：
 
-- 有些是基于形状的，凡是长大于高的都为`曰`，凡是长短于高的都为`日`。但这个方法会跟随着字体的不同而不同，有时候不合字源，也不统一。例如：`書`字源于`聿者`，徐码中`書`下为`曰`，但`者`下为`日`，取码不统一。`曹`古字为`东东口`。在徐码中，`曹`下为`日`，不符合字源。
+- 有些是基于形状的，凡是长大于高的都为`曰`，凡是长短于高的都为`日`。但这个方法会跟随着字体的不同而不同，有时候不合字源，也不统一。例如：`書`字源于`聿者`，`曹`古字为`东东口`。
 - 另外一种区分方法是基于字源。也就是说：凡是在古文中作`口`形，之后隶变为`曰`形或`甘`形的字，都作`曰`。但这个方法对方一般的使用者难度太大，且分析字源会有疏漏之处，不应用于输入法。
-<Chaifen char='曹' id='曹' :parts='[1,3,2,1,4]' :colors='[1,2,1,2,3]' />
 
 我们必须注意到，在汉字中，存在`日曰`对立的字形，只有三组，分别为：`日曰`、`汨汩`、`曶㫚`。在其他的情况下，不存在对立，也就不存在混淆问题。
 
@@ -49,11 +53,11 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 这样一来，可以显著降低使用者的记忆和学习负担。
 
-### 勹𠂊之辨
+### 勹之辨
 
-`旬`的外框`勹`，同`敖`左下的`𠂊`都是撇加横折钩。宇浩输入法不做区分。
+`旬`的外框`勹`，同`敖`左下的`勹`都是撇加横折钩。宇浩输入法不做区分。
 
-### 点
+### 点之辨
 
 这里对`点`的拆分作出解释：
 
@@ -67,6 +71,12 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 - 所有四点都在一个大码。
 
 `为` `卵`等字的两点和`冬`下的两点不同，相隔太远，且被半包围或全包围分割，故而不认定为「两点」。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='为' :parts='[1,2,1]' />
+✅
+<Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,3]' />
+✅
+</div>
 
 ### 人八入之辨
 
@@ -92,9 +102,19 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 - `古`下的`口`中如果包含完整的笔画，应该拆如`十囗`。例如：`鄙`左下方的`口`中有`口`，故而应该拆成`口十囗口阝`。
-<Chaifen char='鄙' id='鄙' :parts='[3,2,2,3,1,2]' :colors='[1,2,3,4,3,5]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='鄙' :parts='[3,2,2,3,1,2]' :colors='[1,2,3,4,3,5]' />
+✅
+<Chaifen char='鄙' :parts='[3,4,3,1,2]' :colors='[1,2,3,2,4]' />
+❌
+</div>
 - `合`下的`口`中如果包含完整的笔画，应该拆如`人一囗`。例如：`會`中間的`口`中有`小`，故而应该拆成`人一𫩏丷日`。
-<Chaifen char='會' id='會' :parts='[2,1,3,2,1,4]' :colors='[1,2,3,4,3,5]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='會' :parts='[2,1,3,2,1,4]' :colors='[1,2,3,4,3,5]' />
+✅
+<Chaifen char='會' :parts='[5,3,1,4]' :colors='[1,2,1,3]' />
+❌
+</div>
 :::
 
 ## 汉字的拆分禁手
@@ -112,10 +132,20 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `为`字的两点不可以被视为字根`两点`，因为它们被半包围结构分割。  
-<Chaifen char='为' id='为' :parts='[1,2,1]' :colors='[1,2,1]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='为' :parts='[1,2,1]' />
+✅
+<Chaifen char='为' :parts='[1,2,1]' :colors='[1,2,1]' />
+❌
+</div>
 
 `卵`字不拆`卯⺀`而拆成`卯丶丶`，因为`卯`字的点被全包围结构分割。
-<Chaifen char='卵' id='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,3]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,3]' />
+✅
+<Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,2]' />
+❌
+</div>
 :::
 
 ### 竖向不包夹
@@ -138,24 +168,26 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `卿` = `卯彐厶`
-<Chaifen char='卿' id='卿' :parts='[3,3,2,2]' :colors='[1,2,3,1,3,5]' />
 
 `胤` = `儿幺月`
-<Chaifen char='胤' id='胤' :parts='[1,3,4,1]' :colors='[1,2,3,1]' />
 
 `亘` = `一日一`
-<Chaifen char='亘' id='亘' :parts='[1,4,1]' :colors='[1,2,3,4,3,5]' />
 
 `僵` = `亻一田一田一`
-<Chaifen char='僵' id='僵' :parts='[2,1,5,1,5,1]' :colors='[1,2,3,4,5,6]' />
 
+<div class="flex justify-left flex-wrap">
+<Chaifen char='卿' :parts='[3,3,2,2]' :colors='[1,2,3,1,3,5]' />
+<Chaifen char='胤' :parts='[1,3,4,1]' :colors='[1,2,3,1]' />
+<Chaifen char='亘' :parts='[1,4,1]' :colors='[1,2,3,4,3,5]' />
+<Chaifen char='僵' :parts='[2,1,5,1,5,1]' :colors='[1,2,3,4,5,6]' />
+</div>
 :::
 
 这是因为，汉字的左右对称多于上下对称。左右包夹是可预测的，但上下包夹往往不可预测，必须要观察到最下方。比如，某些输入法设置了`衣下`字根，但`亠`和`𧘇`的出现并不总是成对的，必须看到最下方才能正确判断。
 
 ::: tip 例
 
-<Chaifen char='裏' id='裏' :parts='[2,7,4]' :colors='[1,2,3,4,5,6]' />
+<Chaifen char='裏' :parts='[2,7,4]' :colors='[1,2,3,4,5,6]' />
 
 :::
 
@@ -170,14 +202,27 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `再`不拆`王冂`，而拆`一冂土`
-<Chaifen char='再' id='再' :parts='[1,2,3,2]' :colors='[1,2,3,1,3,5]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='再' :parts='[1,2,3]' />
+✅
+<Chaifen char='再' :parts='[1,2,3]' :colors='[1,2,1]' />
+❌
+</div>
 
 `垂`不拆`壬龷`，而拆`千龷一`
-<Chaifen char='垂' id='垂' :parts='[3,4,1,2]' :colors='[1,2,3,1,3,5]' />
+<div class="flex justify-left flex-wrap">
+<Chaifen char='垂' :parts='[3,4,1]' :colors='[1,2,3]' />
+✅
+<Chaifen char='垂' :parts='[3,4,1]' :colors='[1,2,1]' />
+❌
+</div>
 
 `禹`不拆`丿虫冂`，而拆`丿口冂<丄丶>`
-<Chaifen char='禹' id='禹' :parts='[1,3,2,3]' :colors='[1,2,3,4,3,5]' />
-
-`夀`不拆`龶乛口口寸`，而拆`二乛口丄口寸`
+<div class="flex justify-left flex-wrap">
+<Chaifen char='禹' :parts='[1,3,2,3]' :colors='[1,2,3,4]' />
+✅
+<Chaifen char='禹' :parts='[1,3,2,3]' :colors='[1,2,3,2]' />
+❌
+</div>
 
 :::

@@ -19,12 +19,12 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 `李` = `木` `子`  
 
 <div class="flex justify-left flex-wrap">
-<Chaifen char='錘' id='錘' :parts='[8,3,4,1]' />
-<Chaifen char='錢' id='錢' :parts='[8,4,4]' />
-<Chaifen char='瓶' id='瓶' :parts='[3,3,4]' />
-<Chaifen char='鴿' id='鴿' :parts='[6, 11]' />
-<Chaifen char='琴' id='琴' :parts='[4, 4, 2, 1, 1]' />
-<Chaifen char='李' id='李' :parts='[4,3]' />
+<Chaifen char='錘' :parts='[8,3,4,1]' />
+<Chaifen char='錢' :parts='[8,4,4]' />
+<Chaifen char='瓶' :parts='[3,3,4]' />
+<Chaifen char='鴿' :parts='[6, 11]' />
+<Chaifen char='琴' :parts='[4, 4, 2, 1, 1]' />
+<Chaifen char='李' :parts='[4,3]' />
 </div>
 :::
 
@@ -34,13 +34,13 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 `戋`這個字，我們可以繼續將它拆成`一`和`戈`。查字根圖可知，`一`和`戈`正好是兩個字根，拆字成功。  
 
-<Chaifen char='戋' id='戋' :parts='[1,4]' />
+<Chaifen char='戋' :parts='[1,4]' />
 
 `丸`這個字，我們可以繼續將它拆成`九`和`丶`。查字根圖可知，`九`和`丶`正好是兩個字根，拆字成功。  
-<Chaifen char='丸' id='丸' :parts='[2,1]' />
+<Chaifen char='丸' :parts='[2,1]' />
 
 `朱`這個字，我們可以繼續將它拆成`牛`和`八`。查字根圖可知，`牛`和`八`正好是兩個字根，拆字成功。  
-<Chaifen char='朱' id='朱' :parts='[4,2]' />
+<Chaifen char='朱' :parts='[4,2]' />
 :::
 
 有時候，獨體字的拆分不是很直觀。比如`再`可以拆成`一冂土`，也可以拆成`王冂`。遇到此類字時的拆分，往往需要一些經驗和練習。所以當你遇到不會拆的字時，應該主動查詢它的編碼，及時學習。
@@ -104,11 +104,11 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 `国`如果完全符合筆順，應該拆成`冂王丶一`，是四個字根。但拆成`囗王丶`，只用三個字根就夠了。因為「少」優先級高於「順」，所以應該拆成`囗王丶`。
 
-<Chaifen char='国' id='国' :parts='[2,4,1,1]' :colors='[1,2,3,1]' />
+<Chaifen char='国' :parts='[2,4,1,1]' :colors='[1,2,3,1]' />
 
 `國`如果完全符合筆順，應該拆成`冂一口一丿丶一`，是七個字根。但拆成`囗戈口一`，只用四個字根就夠了。因為「少」優先級高於「順」，所以應該拆成`囗戈口一`。
 
-<Chaifen char='國' id='國' :parts='[2,1,3,1, 3, 1]' :colors='[1,2,3,4,2,1]' />
+<Chaifen char='國' :parts='[2,1,3,1, 3, 1]' :colors='[1,2,3,4,2,1]' />
 
 :::
 
@@ -121,16 +121,16 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `昜`拆`日一勹彡`不拆`日丆𠃌彡`。
-<Chaifen char='昜' id='昜' :parts='[4,1,2,2]' />
+<Chaifen char='昜' :parts='[4,1,2,2]' />
 
 `万`拆成`一勹`而非`{一丿}乛`。
-<Chaifen char='万' id='万' :parts='[1,2]' />
+<Chaifen char='万' :parts='[1,2]' />
 
 `单`可以拆成`丷日十`也可以拆成`丷冂丰`。兩者都是三根，都完全「符合筆順」。因為包圍結構不拆散，故而`单`拆成`丷日十`。
-<Chaifen char='单' id='单' :parts='[2,4,2]' />
+<Chaifen char='单' :parts='[2,4,2]' />
 
 `免`可以拆成`⺈口儿`也可以拆成`⺈冂尢`。兩者都是三根，都完全「符合筆順」。因為包圍結構不拆散，故而`免`拆成`⺈口儿`。
-<Chaifen char='免' id='免' :parts='[2,3,2]' />
+<Chaifen char='免' :parts='[2,3,2]' />
 
 :::
 
@@ -139,7 +139,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `匹`拆`兀乚`而不拆`匚儿`。因為前者完全符合筆順，而「符合筆順」的優先級更高。
-<Chaifen char='匹' id='匹' :parts='[3,1]' />
+<Chaifen char='匹' :parts='[3,1]' />
 :::
 
 ## 散連交斷
@@ -157,37 +157,37 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ::: tip 例
 `主`可以拆成`丶王`也可以拆成`亠土`。觀察到，`丶王`是散開的，而`亠土`是相連的，後者符合「能散不連」。  
-<Chaifen char='主' id='主' :parts='[1,4]' />
+<Chaifen char='主' :parts='[1,4]' />
 :::
 
 ### 能連不交
 
 ::: tip 例
 `开`可以拆成`一廾`也可以拆成`二{介下}`。觀察到，第一種拆法字根相連，第二種拆法字根相交。故而拆成`一廾`符合「能連不交」。 
-<Chaifen char='开' id='开' :parts='[1,3]' />
+<Chaifen char='开' :parts='[1,3]' />
 :::
 
 ### 能交不斷
 
 ::: tip 例
 `果`拆作`日木`，不拆成`田木`，這是因為後者將中間的豎斷開了。因為「字根相交」的優先級高於「筆畫斷開」，`果`應當拆成`日木`。  
-<Chaifen char='果' id='果' :parts='[4,4]' />
+<Chaifen char='果' :parts='[4,4]' />
 :::
 
 ### 根少而斷
 
 ::: tip 例
 `我`拆作`丿扌戈`，不拆成`丿扌乚丿丶`。雖然前者將中間的橫斷開了，但因為「字根最少」的優先級大於「筆畫斷開」，我們選擇只有三根的`丿扌戈`。
-<Chaifen char='我' id='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
+<Chaifen char='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
 
 `熏`拆作`千黑`，不拆成`千囗丷二灬`。雖然前者將中間的豎斷開了，但因為「字根最少」的優先級大於「筆畫斷開」，我們選擇只有兩根的`千黑`。  
-<Chaifen char='熏' id='熏' :parts='[2,5,1,6]' :colors='[1,2,0,2,3,5,1]' />
+<Chaifen char='熏' :parts='[2,5,1,6]' :colors='[1,2,0,2,3,5,1]' />
 :::
 
 ::: danger 注意
 
 可以斷開的筆畫必須是橫或豎。撇、捺、折不可斷開。故而`专`不拆`キマ`。
-<Chaifen char='专' id='专' :parts='[2,1,1]' />
+<Chaifen char='专' :parts='[2,1,1]' />
 :::
 
 ## 字根取大
@@ -208,27 +208,27 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 - `十彐女`中，完全合筆順的字根`彐`寫了三筆。而`龶乛女`中，完全合筆順的字根`乛`只有一筆。
 - `十彐女`勝出。
 
-<Chaifen char='妻' id='妻' :parts='[1,3,1,3]' :colors='[1,2,1,3]' />
+<Chaifen char='妻' :parts='[1,3,1,3]' :colors='[1,2,1,3]' />
 :::
 
 第二條只有一種場合會出現，那就是部分字根在做偏旁的時候，由於書法的考慮，會有「豎變撇」的變化。如：`千`字根的`丨`變成`丿`，`干`字根的`丨`變成`丿`，稱為「歪斜根」。我們應當對非歪斜根取大。
 
 ::: tip 例
 `失`拆`丿夫`而不拆`牛乀`，因為`牛`的一豎是撇。故而對`夫`取大。
-<Chaifen char='失' id='失' :parts='[1,4]' :colors='[1,2,1,3]' />
+<Chaifen char='失' :parts='[1,4]' :colors='[1,2,1,3]' />
 
 `井`拆`二{介下}`而不拆`キ丨`，因為因為`キ`的一豎是撇。故而對`{介下}`取大。
-<Chaifen char='井' id='井' :parts='[2,2]' :colors='[1,2,1,3]' />
+<Chaifen char='井' :parts='[2,2]' :colors='[1,2,1,3]' />
 
 `缓`拆`纟爪干又`而不拆`纟爪二夂`。雖然前者`干`的豎是撇，但後者出現了「字根相交」。根據規則優先級，「字根相交」低於「字根相連」，故而拆為`纟爪干又`。
-<Chaifen char='缓' id='缓' :parts='[3, 4, 3, 2]' />
+<Chaifen char='缓' :parts='[3, 4, 3, 2]' />
 :::
 
 第三條最為常見，「讓首筆靠前的字根儘可能地大」是一個兜底原則，可以保證最終只有一個候選方案能夠勝出。因此，它的優先級必然是所有拆字規則中最低的。
 
 ::: tip 例
 `美`拆為`䒑土大`，而不拆成`丷王大`，因為「字根取大」原則。讓首筆靠前的字根的筆劃數儘量地多，這裡，`䒑`的筆畫數大於`丷`。
-<Chaifen char='美' id='美' :parts='[6,3]' />
+<Chaifen char='美' :parts='[6,3]' />
 :::
 
 ## 拆字舉例
@@ -259,13 +259,13 @@ import Chaifen from '@/chaifen/Chaifen.vue'
    - 上半部分都出現字根相交情況。
    - 都不適用「結構合理」。
    - 進入兜底規則「字根取大」。根據規則，只要其中某個字根多寫一筆仍然符合筆順，就多寫一筆。觀察到，`{聿上}一灬皿`的第一根一共寫了四筆，故而勝出。
-   <Chaifen char='盡' id='盡' :parts='[4,1,4,5]' />
+   <Chaifen char='盡' :parts='[4,1,4,5]' />
 4. 又一例：曱 yuē甴 yóu。
    - `曱`按筆順取大，故而是`日丨`。
    - `甴`，候選拆分為`日丨` `囗丄`。兩者都是兩根，都未破壞包圍結構，都出現了「交」。最後查看取大原則。因為先寫豎，再寫中間的一橫，為了讓完全符合筆順的部件儘可能地大，我們取`丄`。最後`囗丄`勝出。
    <div class="flex justify-left flex-wrap">
-   <Chaifen char='曱' id='曱' :parts='[4,1]' />
-   <Chaifen char='甴' id='甴' :parts='[2,2,1]' :colors='[1,2,1]' />
+   <Chaifen char='曱' :parts='[4,1]' />
+   <Chaifen char='甴' :parts='[2,2,1]' :colors='[1,2,1]' />
    </div>
 :::
 

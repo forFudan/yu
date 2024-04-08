@@ -7,10 +7,10 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ## 汉字输入法
 
 <div class="flex justify-left flex-wrap">
-<Chaifen char='漢' id='漢' :parts='[3,3,1,3,4]' />
-<Chaifen char='字' id='字' :parts='[3,3]' />
-<Chaifen char='輸' id='輸' :parts='[7,2,1,4,2]' />
-<Chaifen char='入' id='入' :parts='[2]' />
+<Chaifen char='漢' :parts='[3,3,1,3,4]' />
+<Chaifen char='字' :parts='[3,3]' />
+<Chaifen char='輸' :parts='[7,2,1,4,2]' />
+<Chaifen char='入' :parts='[2]' />
 </div>
 
 汉字输入法，顾名思义，就是汉字（部首、笔画）录入进电脑中的方法。大多数时候，输入的过程，有两个阶段：
@@ -31,20 +31,20 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 - 字形（形码）
 - 音形（形音）混合。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='音' id='音' :parts='[5,4]' />
-<Chaifen char='码' id='码' :parts='[5,3]' />
+<Chaifen char='音' :parts='[5,4]' />
+<Chaifen char='码' :parts='[5,3]' />
 </div>
 
 **音码输入法**，最常见的例子就是拼音。我们将汉字对应的拼音，直接输入到软件中，软件会显示对应的汉字供你选择。这其中包括了一个反馈的过程，即：输入字母——获得候选——输入数字——获得汉字。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='形' id='形' :parts='[4,3]' />
-<Chaifen char='碼' id='碼' :parts='[5,10]' />
+<Chaifen char='形' :parts='[4,3]' />
+<Chaifen char='碼' :parts='[5,10]' />
 </div>
 
 **形码输入法**，最常见的例子是五笔字型。我们将汉字拆成若干部件，输入每一个部件对应的代码，软件会显示出汉字。常见的形码，还包括五笔字型，郑码，仓颉等等。这其中有时包括了一个反馈的过程，但因为形码的确定性，大多数时候是不需要确认的，即：输入字母——获得汉字。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='拆' id='拆' :parts='[3,4,1]' />
-<Chaifen char='分' id='分' :parts='[2,2]' />
+<Chaifen char='拆' :parts='[3,4,1]' />
+<Chaifen char='分' :parts='[2,2]' />
 </div>
 
 ::: info 注意
@@ -62,11 +62,11 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 音码的缺点，那便是同音字很多，经常需要选字。虽然当代的不少输入软片在「智能化」上下足了工夫，但在输入一些书面语、古文、或者生僻字词时，还是需要选字。大量翻页会打输入的节奏。笔者正是因为写小说时候被翻页打断思路而使用了形码。
 
-<Chaifen char='優' id='優' :parts='[2,2,4,2,4,3]' />
+<Chaifen char='優' :parts='[2,2,4,2,4,3]' />
 
 形码的优点，便是像**写字**一样去打字。你不需要知道每个字的具体读音。同时，因为编码比较离散，你甚至不怎么需要去选字。这在写作时，保证你的思路不被打断。在看打、或者打古文的时候，形码的速度很快。
 
-<Chaifen char='缺' id='缺' :parts='[6,2,2]' />
+<Chaifen char='缺' :parts='[6,2,2]' />
 
 形码缺点是，如果你一下字忘了这个字的写法，那就会卡住，必须临时改用拼音输入法（反查）。
 
@@ -97,8 +97,8 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 `程`字，大家会自然地将他拆分为`禾口王`三个部分。  
 <div class="flex justify-left flex-wrap">
-<Chaifen char='部' id='部' :parts='[5,3,2]' />
-<Chaifen char='程' id='程' :parts='[5,3,4]' />
+<Chaifen char='部' :parts='[5,3,2]' />
+<Chaifen char='程' :parts='[5,3,4]' />
 </div>
 :::
 

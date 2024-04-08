@@ -25,20 +25,29 @@
 --
 -- 版本：
 -- 20240407: 初版.
+-- 20240408: 生成隨機 id.
 -->
 <script setup lang="ts">
 //@ts-nocheck
 
 const p = defineProps<{
     char: string,
-    id: string,
-    parts: Array,
-    colors: Array,
+    parts: Array<decimal>,
+    colors: Array<decimal>,
 }>()
 
-var attr = {
-    id: p.id,
+function genId(length: number): string {
+    let randId = '';
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const charsLen = chars.length;
+    let counter = 0;
+    while (counter < length) {
+        randId += chars.charAt(Math.floor(Math.random() * charsLen));
+        counter += 1;
+    }
+    return randId;
 }
+const randId = genId(12);
 
 let font_size = 75;
 function renderFanningStrokesNew(target, char, strokes, parts, colors) {
@@ -57,7 +66,16 @@ function renderFanningStrokesNew(target, char, strokes, parts, colors) {
     svg.appendChild(group);
 
     var total = 0
-    let color = ['#CECECE', '#AE0101', '#FE9900', '#2C96FF', '#7DDA58', '#D863F9', '#F1FF6D', '#5DE2E7']
+    let color = ['#CECECE', // smoke
+        '#F44336', // red
+        '#FFA000', // amber
+        '#2C96FF', // blue
+        '#689F38', // green
+        '#BA68C8', // purple
+        '#05025A', // navy
+        '#BF360C', // brown
+        '#00796B', // forest
+    ]
 
     for (var i = 0; i < parts.length; i++) {
         strokes.slice(total, total + parts[i]).forEach(function (strokePath) {
@@ -71,18 +89,18 @@ function renderFanningStrokesNew(target, char, strokes, parts, colors) {
     }
 }
 
-function getDivision(target, char, parts, colors = [1, 2, 3, 4, 5, 6, 7]) {
+function getDivision(target, char, parts, colors = [1, 2, 3, 4, 5, 6, 7, 8, 0]) {
     HanziWriter.loadCharacterData(char).then(function (charData) {
         renderFanningStrokesNew(document.getElementById(target), char, charData.strokes, parts, colors);
     });
 }
 
-getDivision(attr.id, p.char, p.parts, p.colors);
+getDivision(randId, p.char, p.parts, p.colors);
 
 </script>
 
 <template>
-    <div v-bind="attr"></div>
+    <div v-bind='{ id: randId }'></div>
 </template>
 
 <script lang="ts">

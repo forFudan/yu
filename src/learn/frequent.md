@@ -9,508 +9,509 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ## 1 - 100
 
 <div class="flex justify-left flex-wrap my-8">
-
-<Chaifen char='的' id='的' :parts='[5,2,1]' :colors />
-<Chaifen char='一' id='一' :parts='[1]' :colors />
-<Chaifen char='是' id='是' :parts='[4,1,4]' :colors />
-<Chaifen char='了' id='了' :parts='[2]' :colors />
-<Chaifen char='不' id='不' :parts='[4]' :colors />
-<Chaifen char='在' id='在' :parts='[2,1,3]' :colors />
-<Chaifen char='有' id='有' :parts='[2,4]' :colors />
-<Chaifen char='个' id='个' :parts='[2,1]' :colors />
-<Chaifen char='人' id='人' :parts='[2]' :colors />
-<Chaifen char='这' id='这' :parts='[4,3]' :colors />
-<Chaifen char='上' id='上' :parts='[3]' :colors />
-<Chaifen char='中' id='中' :parts='[3,1]' :colors />
-<Chaifen char='大' id='大' :parts='[3]' :colors />
-<Chaifen char='为' id='为' :parts='[1,2,1]' :colors />
-<Chaifen char='来' id='来' :parts='[1,6]' :colors />
-<Chaifen char='我' id='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
-<Chaifen char='到' id='到' :parts='[6,2]' :colors />
-<Chaifen char='出' id='出' :parts='[3,2]' :colors />
-<Chaifen char='要' id='要' :parts='[6,3]' :colors />
-<Chaifen char='以' id='以' :parts='[1,1,2]' :colors />
-<Chaifen char='时' id='时' :parts='[4,3]' :colors />
-<Chaifen char='和' id='和' :parts='[5,3]' :colors />
-<Chaifen char='地' id='地' :parts='[3,3]' :colors />
-<Chaifen char='们' id='们' :parts='[2,3]' :colors />
-<Chaifen char='得' id='得' :parts='[3,4,1,3]' :colors />
-<Chaifen char='可' id='可' :parts='[1,3,1]' :colors='[1,2,1]' />
-<Chaifen char='下' id='下' :parts='[3]' :colors />
-<Chaifen char='对' id='对' :parts='[2,3]' :colors />
-<Chaifen char='生' id='生' :parts='[5]' :colors />
-<Chaifen char='也' id='也' :parts='[3]' :colors />
-<Chaifen char='子' id='子' :parts='[2]' :colors />
-<Chaifen char='就' id='就' :parts='[5,3,3]' :colors />
-<Chaifen char='过' id='过' :parts='[3,3]' :colors />
-<Chaifen char='能' id='能' :parts='[2,4,2,2]' :colors />
-<Chaifen char='他' id='他' :parts='[2,3]' :colors />
-<Chaifen char='会' id='会' :parts='[2,2,2]' :colors />
-<Chaifen char='多' id='多' :parts='[3,3,]' :colors />
-<Chaifen char='发' id='发' :parts='[2,2,1]' :colors />
-<Chaifen char='说' id='说' :parts='[2,2,3,2]' :colors />
-<Chaifen char='而' id='而' :parts='[6]' :colors />
-<Chaifen char='于' id='于' :parts='[1,2]' :colors />
-<Chaifen char='自' id='自' :parts='[6]' :colors />
-<Chaifen char='之' id='之' :parts='[3]' :colors />
-<Chaifen char='用' id='用' :parts='[5]' :colors />
-<Chaifen char='年' id='年' :parts='[2,4]' :colors />
-<Chaifen char='行' id='行' :parts='[3,3]' :colors />
-<Chaifen char='家' id='家' :parts='[3,7]' :colors />
-<Chaifen char='方' id='方' :parts='[4]' :colors />
-<Chaifen char='后' id='后' :parts='[2,1,3]' :colors />
-<Chaifen char='作' id='作' :parts='[2,2,3]' :colors />
-<Chaifen char='成' id='成' :parts='[2,1,3]' :colors='[1,2,1]' />
-<Chaifen char='开' id='开' :parts='[1,3]' :colors />
-<Chaifen char='面' id='面' :parts='[8]' :colors />
-<Chaifen char='事' id='事' :parts='[1,3,3,1]' :colors='[1,2,3,1]' />
-<Chaifen char='好' id='好' :parts='[3,3]' :colors />
-<Chaifen char='小' id='小' :parts='[3]' :colors />
-<Chaifen char='心' id='心' :parts='[4]' :colors />
-<Chaifen char='前' id='前' :parts='[3,4,2]' :colors />
-<Chaifen char='所' id='所' :parts='[4,4]' :colors />
-<Chaifen char='道' id='道' :parts='[3,6,3]' :colors />
-<Chaifen char='法' id='法' :parts='[3,3,2]' :colors />
-<Chaifen char='如' id='如' :parts='[3,3,]' :colors />
-<Chaifen char='进' id='进' :parts='[2,2,3]' :colors />
-<Chaifen char='着' id='着' :parts='[6,5]' :colors />
-<Chaifen char='同' id='同' :parts='[2,1,3]' :colors />
-<Chaifen char='经' id='经' :parts='[3,2,3]' :colors />
-<Chaifen char='分' id='分' :parts='[2,2,]' :colors />
-<Chaifen char='定' id='定' :parts='[3,1,4]' :colors />
-<Chaifen char='都' id='都' :parts='[4,4,2]' :colors />
-<Chaifen char='然' id='然' :parts='[4,4,4]' :colors />
-<Chaifen char='与' id='与' :parts='[2,1]' :colors />
-<Chaifen char='本' id='本' :parts='[4,1]' :colors />
-<Chaifen char='还' id='还' :parts='[4,3]' :colors />
-<Chaifen char='其' id='其' :parts='[8]' :colors />
-<Chaifen char='当' id='当' :parts='[3,3]' :colors />
-<Chaifen char='起' id='起' :parts='[7,3]' :colors />
-<Chaifen char='动' id='动' :parts='[2,2,2]' :colors />
-<Chaifen char='已' id='已' :parts='[3]' :colors />
-<Chaifen char='两' id='两' :parts='[1,2,2,2]' :colors />
-<Chaifen char='点' id='点' :parts='[2,3,4]' :colors />
-<Chaifen char='从' id='从' :parts='[2,2]' :colors />
-<Chaifen char='问' id='问' :parts='[3,3]' :colors />
-<Chaifen char='里' id='里' :parts='[7]' :colors />
-<Chaifen char='主' id='主' :parts='[1,4]' :colors />
-<Chaifen char='实' id='实' :parts='[3,2,3]' :colors />
-<Chaifen char='天' id='天' :parts='[1,3]' :colors />
-<Chaifen char='高' id='高' :parts='[10]' :colors />
-<Chaifen char='去' id='去' :parts='[3,2]' :colors />
-<Chaifen char='现' id='现' :parts='[4,4]' :colors />
-<Chaifen char='长' id='长' :parts='[4]' :colors />
-<Chaifen char='此' id='此' :parts='[4,2]' :colors />
-<Chaifen char='三' id='三' :parts='[3]' :colors />
-<Chaifen char='将' id='将' :parts='[3,3,3]' :colors />
-<Chaifen char='无' id='无' :parts='[1,3]' :colors />
-<Chaifen char='国' id='国' :parts='[2,4,1,1]' :colors='[1,2,3,1]' />
-<Chaifen char='全' id='全' :parts='[2,4]' :colors />
-<Chaifen char='文' id='文' :parts='[4]' :colors />
-<Chaifen char='理' id='理' :parts='[4,7]' :colors />
-<Chaifen char='明' id='明' :parts='[4,4]' :colors />
-<Chaifen char='日' id='日' :parts='[4]' :colors />
+<Chaifen char='的' :parts='[5,2,1]' :colors />
+<Chaifen char='一' :parts='[1]' :colors />
+<Chaifen char='是' :parts='[4,1,4]' :colors />
+<Chaifen char='了' :parts='[2]' :colors />
+<Chaifen char='不' :parts='[4]' :colors />
+<Chaifen char='在' :parts='[2,1,3]' :colors />
+<Chaifen char='有' :parts='[2,4]' :colors />
+<Chaifen char='个' :parts='[2,1]' :colors />
+<Chaifen char='人' :parts='[2]' :colors />
+<Chaifen char='这' :parts='[4,3]' :colors />
+<Chaifen char='上' :parts='[3]' :colors />
+<Chaifen char='中' :parts='[3,1]' :colors />
+<Chaifen char='大' :parts='[3]' :colors />
+<Chaifen char='为' :parts='[1,2,1]' :colors />
+<Chaifen char='来' :parts='[1,6]' :colors />
+<Chaifen char='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
+<Chaifen char='到' :parts='[6,2]' :colors />
+<Chaifen char='出' :parts='[3,2]' :colors />
+<Chaifen char='要' :parts='[6,3]' :colors />
+<Chaifen char='以' :parts='[1,1,2]' :colors />
+<Chaifen char='时' :parts='[4,3]' :colors />
+<Chaifen char='和' :parts='[5,3]' :colors />
+<Chaifen char='地' :parts='[3,3]' :colors />
+<Chaifen char='们' :parts='[2,3]' :colors />
+<Chaifen char='得' :parts='[3,4,1,3]' :colors />
+<Chaifen char='可' :parts='[1,3,1]' :colors='[1,2,1]' />
+<Chaifen char='下' :parts='[3]' :colors />
+<Chaifen char='对' :parts='[2,3]' :colors />
+<Chaifen char='生' :parts='[5]' :colors />
+<Chaifen char='也' :parts='[3]' :colors />
+<Chaifen char='子' :parts='[2]' :colors />
+<Chaifen char='就' :parts='[5,3,4]' :colors />
+<Chaifen char='过' :parts='[3,3]' :colors />
+<Chaifen char='能' :parts='[2,4,2,2]' :colors />
+<Chaifen char='他' :parts='[2,3]' :colors />
+<Chaifen char='会' :parts='[2,2,2]' :colors />
+<Chaifen char='多' :parts='[3,3,]' :colors />
+<Chaifen char='发' :parts='[2,2,1]' :colors />
+<Chaifen char='说' :parts='[2,2,3,2]' :colors />
+<Chaifen char='而' :parts='[6]' :colors />
+<Chaifen char='于' :parts='[1,2]' :colors />
+<Chaifen char='自' :parts='[6]' :colors />
+<Chaifen char='之' :parts='[3]' :colors />
+<Chaifen char='用' :parts='[5]' :colors />
+<Chaifen char='年' :parts='[2,4]' :colors />
+<Chaifen char='行' :parts='[3,3]' :colors />
+<Chaifen char='家' :parts='[3,7]' :colors />
+<Chaifen char='方' :parts='[4]' :colors />
+<Chaifen char='后' :parts='[2,1,3]' :colors />
+<Chaifen char='作' :parts='[2,2,3]' :colors />
+<Chaifen char='成' :parts='[2,1,3]' :colors='[1,2,1]' />
+<Chaifen char='开' :parts='[1,3]' :colors />
+<Chaifen char='面' :parts='[9]' :colors />
+<Chaifen char='事' :parts='[1,3,3,1]' :colors='[1,2,3,1]' />
+<Chaifen char='好' :parts='[3,3]' :colors />
+<Chaifen char='小' :parts='[3]' :colors />
+<Chaifen char='心' :parts='[4]' :colors />
+<Chaifen char='前' :parts='[3,4,2]' :colors />
+<Chaifen char='所' :parts='[4,4]' :colors />
+<Chaifen char='道' :parts='[3,6,3]' :colors />
+<Chaifen char='法' :parts='[3,3,2]' :colors />
+<Chaifen char='如' :parts='[3,3,]' :colors />
+<Chaifen char='进' :parts='[2,2,3]' :colors />
+<Chaifen char='着' :parts='[6,5]' :colors />
+<Chaifen char='同' :parts='[2,1,3]' :colors />
+<Chaifen char='经' :parts='[3,2,3]' :colors />
+<Chaifen char='分' :parts='[2,2,]' :colors />
+<Chaifen char='定' :parts='[3,1,4]' :colors />
+<Chaifen char='都' :parts='[4,4,2]' :colors />
+<Chaifen char='然' :parts='[4,4,4]' :colors />
+<Chaifen char='与' :parts='[2,1]' :colors />
+<Chaifen char='本' :parts='[4,1]' :colors />
+<Chaifen char='还' :parts='[4,3]' :colors />
+<Chaifen char='其' :parts='[8]' :colors />
+<Chaifen char='当' :parts='[3,3]' :colors />
+<Chaifen char='起' :parts='[7,3]' :colors />
+<Chaifen char='动' :parts='[2,2,2]' :colors />
+<Chaifen char='已' :parts='[3]' :colors />
+<Chaifen char='两' :parts='[1,2,2,2]' :colors />
+<Chaifen char='点' :parts='[2,3,4]' :colors />
+<Chaifen char='从' :parts='[2,2]' :colors />
+<Chaifen char='问' :parts='[3,3]' :colors />
+<Chaifen char='里' :parts='[7]' :colors />
+<Chaifen char='主' :parts='[1,4]' :colors />
+<Chaifen char='实' :parts='[3,2,3]' :colors />
+<Chaifen char='天' :parts='[1,3]' :colors />
+<Chaifen char='高' :parts='[10]' :colors />
+<Chaifen char='去' :parts='[3,2]' :colors />
+<Chaifen char='现' :parts='[4,4]' :colors />
+<Chaifen char='长' :parts='[4]' :colors />
+<Chaifen char='此' :parts='[4,2]' :colors />
+<Chaifen char='三' :parts='[3]' :colors />
+<Chaifen char='将' :parts='[3,3,3]' :colors />
+<Chaifen char='无' :parts='[1,3]' :colors />
+<Chaifen char='国' :parts='[2,4,1,1]' :colors='[1,2,3,1]' />
+<Chaifen char='全' :parts='[2,4]' :colors />
+<Chaifen char='文' :parts='[4]' :colors />
+<Chaifen char='理' :parts='[4,7]' :colors />
+<Chaifen char='明' :parts='[4,4]' :colors />
+<Chaifen char='日' :parts='[4]' :colors />
+</div>
 
 ## 101 - 201
-<Chaifen char='些' id='些' :parts='[]' :colors />
-<Chaifen char='看' id='看' :parts='[]' :colors />
-<Chaifen char='只' id='只' :parts='[]' :colors />
-<Chaifen char='公' id='公' :parts='[]' :colors />
-<Chaifen char='等' id='等' :parts='[]' :colors />
-<Chaifen char='十' id='十' :parts='[]' :colors />
-<Chaifen char='意' id='意' :parts='[]' :colors />
-<Chaifen char='正' id='正' :parts='[]' :colors />
-<Chaifen char='外' id='外' :parts='[]' :colors />
-<Chaifen char='想' id='想' :parts='[]' :colors />
-<Chaifen char='间' id='间' :parts='[]' :colors />
-<Chaifen char='把' id='把' :parts='[]' :colors />
-<Chaifen char='情' id='情' :parts='[]' :colors />
-<Chaifen char='者' id='者' :parts='[]' :colors />
-<Chaifen char='没' id='没' :parts='[]' :colors />
-<Chaifen char='重' id='重' :parts='[]' :colors />
-<Chaifen char='相' id='相' :parts='[]' :colors />
-<Chaifen char='那' id='那' :parts='[]' :colors />
-<Chaifen char='向' id='向' :parts='[]' :colors />
-<Chaifen char='知' id='知' :parts='[]' :colors />
-<Chaifen char='因' id='因' :parts='[]' :colors />
-<Chaifen char='样' id='样' :parts='[]' :colors />
-<Chaifen char='学' id='学' :parts='[]' :colors />
-<Chaifen char='应' id='应' :parts='[]' :colors />
-<Chaifen char='又' id='又' :parts='[]' :colors />
-<Chaifen char='手' id='手' :parts='[]' :colors />
-<Chaifen char='但' id='但' :parts='[]' :colors />
-<Chaifen char='信' id='信' :parts='[]' :colors />
-<Chaifen char='关' id='关' :parts='[]' :colors />
-<Chaifen char='使' id='使' :parts='[]' :colors />
-<Chaifen char='种' id='种' :parts='[]' :colors />
-<Chaifen char='见' id='见' :parts='[]' :colors />
-<Chaifen char='力' id='力' :parts='[]' :colors />
-<Chaifen char='名' id='名' :parts='[]' :colors />
-<Chaifen char='二' id='二' :parts='[]' :colors />
-<Chaifen char='处' id='处' :parts='[]' :colors />
-<Chaifen char='门' id='门' :parts='[]' :colors />
-<Chaifen char='并' id='并' :parts='[]' :colors />
-<Chaifen char='口' id='口' :parts='[]' :colors />
-<Chaifen char='么' id='么' :parts='[]' :colors />
-<Chaifen char='先' id='先' :parts='[]' :colors />
-<Chaifen char='位' id='位' :parts='[]' :colors />
-<Chaifen char='头' id='头' :parts='[]' :colors />
-<Chaifen char='回' id='回' :parts='[]' :colors />
-<Chaifen char='话' id='话' :parts='[]' :colors />
-<Chaifen char='很' id='很' :parts='[]' :colors />
-<Chaifen char='再' id='再' :parts='[]' :colors />
-<Chaifen char='由' id='由' :parts='[]' :colors />
-<Chaifen char='身' id='身' :parts='[]' :colors />
-<Chaifen char='入' id='入' :parts='[]' :colors />
-<Chaifen char='内' id='内' :parts='[]' :colors />
-<Chaifen char='第' id='第' :parts='[]' :colors />
-<Chaifen char='平' id='平' :parts='[]' :colors />
-<Chaifen char='被' id='被' :parts='[]' :colors />
-<Chaifen char='给' id='给' :parts='[]' :colors />
-<Chaifen char='次' id='次' :parts='[]' :colors />
-<Chaifen char='别' id='别' :parts='[]' :colors />
-<Chaifen char='几' id='几' :parts='[]' :colors />
-<Chaifen char='月' id='月' :parts='[]' :colors />
-<Chaifen char='真' id='真' :parts='[]' :colors />
-<Chaifen char='立' id='立' :parts='[]' :colors />
-<Chaifen char='新' id='新' :parts='[]' :colors />
-<Chaifen char='通' id='通' :parts='[]' :colors />
-<Chaifen char='少' id='少' :parts='[]' :colors />
-<Chaifen char='机' id='机' :parts='[]' :colors />
-<Chaifen char='打' id='打' :parts='[]' :colors />
-<Chaifen char='水' id='水' :parts='[]' :colors />
-<Chaifen char='果' id='果' :parts='[]' :colors />
-<Chaifen char='最' id='最' :parts='[]' :colors />
-<Chaifen char='部' id='部' :parts='[]' :colors />
-<Chaifen char='何' id='何' :parts='[]' :colors />
-<Chaifen char='安' id='安' :parts='[]' :colors />
-<Chaifen char='接' id='接' :parts='[]' :colors />
-<Chaifen char='报' id='报' :parts='[]' :colors />
-<Chaifen char='声' id='声' :parts='[]' :colors />
-<Chaifen char='才' id='才' :parts='[]' :colors />
-<Chaifen char='体' id='体' :parts='[]' :colors />
-<Chaifen char='今' id='今' :parts='[]' :colors />
-<Chaifen char='合' id='合' :parts='[]' :colors />
-<Chaifen char='性' id='性' :parts='[]' :colors />
-<Chaifen char='西' id='西' :parts='[]' :colors />
-<Chaifen char='你' id='你' :parts='[]' :colors />
-<Chaifen char='放' id='放' :parts='[]' :colors />
-<Chaifen char='表' id='表' :parts='[]' :colors />
-<Chaifen char='目' id='目' :parts='[]' :colors />
-<Chaifen char='加' id='加' :parts='[]' :colors />
-<Chaifen char='常' id='常' :parts='[]' :colors />
-<Chaifen char='做' id='做' :parts='[]' :colors />
-<Chaifen char='己' id='己' :parts='[]' :colors />
-<Chaifen char='老' id='老' :parts='[]' :colors />
-<Chaifen char='四' id='四' :parts='[]' :colors />
-<Chaifen char='件' id='件' :parts='[]' :colors />
-<Chaifen char='解' id='解' :parts='[]' :colors />
-<Chaifen char='路' id='路' :parts='[]' :colors />
-<Chaifen char='更' id='更' :parts='[]' :colors />
-<Chaifen char='走' id='走' :parts='[]' :colors />
-<Chaifen char='比' id='比' :parts='[]' :colors />
-<Chaifen char='总' id='总' :parts='[]' :colors />
-<Chaifen char='金' id='金' :parts='[]' :colors />
-<Chaifen char='管' id='管' :parts='[]' :colors />
-<Chaifen char='光' id='光' :parts='[]' :colors />
-<Chaifen char='工' id='工' :parts='[]' :colors />
-<Chaifen char='结' id='结' :parts='[]' :colors />
-<Chaifen char='提' id='提' :parts='[]' :colors />
-<Chaifen char='任' id='任' :parts='[]' :colors />
-<Chaifen char='东' id='东' :parts='[]' :colors />
-<Chaifen char='原' id='原' :parts='[]' :colors />
-<Chaifen char='便' id='便' :parts='[]' :colors />
-<Chaifen char='美' id='美' :parts='[]' :colors />
-<Chaifen char='及' id='及' :parts='[]' :colors />
-<Chaifen char='教' id='教' :parts='[]' :colors />
-<Chaifen char='难' id='难' :parts='[]' :colors />
-<Chaifen char='世' id='世' :parts='[]' :colors />
-<Chaifen char='至' id='至' :parts='[]' :colors />
-<Chaifen char='气' id='气' :parts='[]' :colors />
-<Chaifen char='神' id='神' :parts='[]' :colors />
-<Chaifen char='山' id='山' :parts='[]' :colors />
-<Chaifen char='数' id='数' :parts='[]' :colors />
-<Chaifen char='利' id='利' :parts='[]' :colors />
-<Chaifen char='书' id='书' :parts='[]' :colors />
-<Chaifen char='代' id='代' :parts='[]' :colors />
-<Chaifen char='直' id='直' :parts='[]' :colors />
-<Chaifen char='色' id='色' :parts='[]' :colors />
-<Chaifen char='场' id='场' :parts='[]' :colors />
-<Chaifen char='变' id='变' :parts='[]' :colors />
-<Chaifen char='记' id='记' :parts='[]' :colors />
-<Chaifen char='张' id='张' :parts='[]' :colors />
-<Chaifen char='必' id='必' :parts='[]' :colors />
-<Chaifen char='受' id='受' :parts='[]' :colors />
-<Chaifen char='交' id='交' :parts='[]' :colors />
-<Chaifen char='非' id='非' :parts='[]' :colors />
-<Chaifen char='服' id='服' :parts='[]' :colors />
-<Chaifen char='化' id='化' :parts='[]' :colors />
-<Chaifen char='求' id='求' :parts='[]' :colors />
-<Chaifen char='风' id='风' :parts='[]' :colors />
-<Chaifen char='度' id='度' :parts='[]' :colors />
-<Chaifen char='太' id='太' :parts='[]' :colors />
-<Chaifen char='万' id='万' :parts='[]' :colors />
-<Chaifen char='各' id='各' :parts='[]' :colors />
-<Chaifen char='算' id='算' :parts='[]' :colors />
-<Chaifen char='边' id='边' :parts='[]' :colors />
-<Chaifen char='王' id='王' :parts='[]' :colors />
-<Chaifen char='什' id='什' :parts='[]' :colors />
-<Chaifen char='快' id='快' :parts='[]' :colors />
-<Chaifen char='许' id='许' :parts='[]' :colors />
-<Chaifen char='连' id='连' :parts='[]' :colors />
-<Chaifen char='五' id='五' :parts='[]' :colors />
-<Chaifen char='活' id='活' :parts='[]' :colors />
-<Chaifen char='思' id='思' :parts='[]' :colors />
-<Chaifen char='该' id='该' :parts='[]' :colors />
-<Chaifen char='步' id='步' :parts='[]' :colors />
-<Chaifen char='海' id='海' :parts='[]' :colors />
-<Chaifen char='指' id='指' :parts='[]' :colors />
-<Chaifen char='物' id='物' :parts='[]' :colors />
-<Chaifen char='则' id='则' :parts='[]' :colors />
-<Chaifen char='女' id='女' :parts='[]' :colors />
-<Chaifen char='或' id='或' :parts='[]' :colors />
-<Chaifen char='完' id='完' :parts='[]' :colors />
-<Chaifen char='马' id='马' :parts='[]' :colors />
-<Chaifen char='强' id='强' :parts='[]' :colors />
-<Chaifen char='言' id='言' :parts='[]' :colors />
-<Chaifen char='条' id='条' :parts='[]' :colors />
-<Chaifen char='特' id='特' :parts='[]' :colors />
-<Chaifen char='命' id='命' :parts='[]' :colors />
-<Chaifen char='感' id='感' :parts='[]' :colors />
-<Chaifen char='清' id='清' :parts='[]' :colors />
-<Chaifen char='带' id='带' :parts='[]' :colors />
-<Chaifen char='认' id='认' :parts='[]' :colors />
-<Chaifen char='保' id='保' :parts='[]' :colors />
-<Chaifen char='望' id='望' :parts='[]' :colors />
-<Chaifen char='转' id='转' :parts='[]' :colors />
-<Chaifen char='传' id='传' :parts='[]' :colors />
-<Chaifen char='儿' id='儿' :parts='[]' :colors />
-<Chaifen char='制' id='制' :parts='[]' :colors />
-<Chaifen char='干' id='干' :parts='[]' :colors />
-<Chaifen char='计' id='计' :parts='[]' :colors />
-<Chaifen char='民' id='民' :parts='[]' :colors />
-<Chaifen char='白' id='白' :parts='[]' :colors />
-<Chaifen char='住' id='住' :parts='[]' :colors />
-<Chaifen char='字' id='字' :parts='[]' :colors />
-<Chaifen char='它' id='它' :parts='[]' :colors />
-<Chaifen char='义' id='义' :parts='[]' :colors />
-<Chaifen char='车' id='车' :parts='[]' :colors />
-<Chaifen char='像' id='像' :parts='[]' :colors />
-<Chaifen char='反' id='反' :parts='[]' :colors />
-<Chaifen char='象' id='象' :parts='[]' :colors />
-<Chaifen char='题' id='题' :parts='[]' :colors />
-<Chaifen char='却' id='却' :parts='[]' :colors />
-<Chaifen char='流' id='流' :parts='[]' :colors />
-<Chaifen char='且' id='且' :parts='[]' :colors />
-<Chaifen char='即' id='即' :parts='[]' :colors />
-<Chaifen char='深' id='深' :parts='[]' :colors />
-<Chaifen char='近' id='近' :parts='[]' :colors />
-<Chaifen char='形' id='形' :parts='[]' :colors />
-<Chaifen char='取' id='取' :parts='[]' :colors />
-<Chaifen char='往' id='往' :parts='[]' :colors />
-<Chaifen char='系' id='系' :parts='[]' :colors />
-<Chaifen char='量' id='量' :parts='[]' :colors />
-<Chaifen char='论' id='论' :parts='[]' :colors />
-<Chaifen char='告' id='告' :parts='[]' :colors />
-<Chaifen char='息' id='息' :parts='[]' :colors />
-<Chaifen char='让' id='让' :parts='[]' :colors />
-<Chaifen char='决' id='决' :parts='[]' :colors />
-<Chaifen char='未' id='未' :parts='[]' :colors />
-<Chaifen char='花' id='花' :parts='[]' :colors />
-<Chaifen char='收' id='收' :parts='[]' :colors />
-<Chaifen char='满' id='满' :parts='[]' :colors />
-<Chaifen char='每' id='每' :parts='[]' :colors />
-<Chaifen char='华' id='华' :parts='[]' :colors />
-<Chaifen char='业' id='业' :parts='[]' :colors />
-<Chaifen char='南' id='南' :parts='[]' :colors />
-<Chaifen char='觉' id='觉' :parts='[]' :colors />
-<Chaifen char='电' id='电' :parts='[]' :colors />
-<Chaifen char='空' id='空' :parts='[]' :colors />
-<Chaifen char='眼' id='眼' :parts='[]' :colors />
-<Chaifen char='听' id='听' :parts='[]' :colors />
-<Chaifen char='远' id='远' :parts='[]' :colors />
-<Chaifen char='师' id='师' :parts='[]' :colors />
-<Chaifen char='元' id='元' :parts='[]' :colors />
-<Chaifen char='请' id='请' :parts='[]' :colors />
-<Chaifen char='容' id='容' :parts='[]' :colors />
-<Chaifen char='她' id='她' :parts='[]' :colors />
-<Chaifen char='军' id='军' :parts='[]' :colors />
-<Chaifen char='士' id='士' :parts='[]' :colors />
-<Chaifen char='百' id='百' :parts='[]' :colors />
-<Chaifen char='办' id='办' :parts='[]' :colors />
-<Chaifen char='语' id='语' :parts='[]' :colors />
-<Chaifen char='期' id='期' :parts='[]' :colors />
-<Chaifen char='北' id='北' :parts='[]' :colors />
-<Chaifen char='林' id='林' :parts='[]' :colors />
-<Chaifen char='识' id='识' :parts='[]' :colors />
-<Chaifen char='半' id='半' :parts='[]' :colors />
-<Chaifen char='夫' id='夫' :parts='[]' :colors />
-<Chaifen char='客' id='客' :parts='[]' :colors />
-<Chaifen char='战' id='战' :parts='[]' :colors />
-<Chaifen char='院' id='院' :parts='[]' :colors />
-<Chaifen char='城' id='城' :parts='[]' :colors />
-<Chaifen char='候' id='候' :parts='[]' :colors />
-<Chaifen char='单' id='单' :parts='[]' :colors />
-<Chaifen char='音' id='音' :parts='[]' :colors />
-<Chaifen char='台' id='台' :parts='[]' :colors />
-<Chaifen char='死' id='死' :parts='[]' :colors />
-<Chaifen char='视' id='视' :parts='[]' :colors />
-<Chaifen char='领' id='领' :parts='[]' :colors />
-<Chaifen char='失' id='失' :parts='[]' :colors />
-<Chaifen char='司' id='司' :parts='[]' :colors />
-<Chaifen char='亲' id='亲' :parts='[]' :colors />
-<Chaifen char='始' id='始' :parts='[]' :colors />
-<Chaifen char='极' id='极' :parts='[]' :colors />
-<Chaifen char='双' id='双' :parts='[]' :colors />
-<Chaifen char='令' id='令' :parts='[]' :colors />
-<Chaifen char='改' id='改' :parts='[]' :colors />
-<Chaifen char='功' id='功' :parts='[]' :colors />
-<Chaifen char='程' id='程' :parts='[]' :colors />
-<Chaifen char='爱' id='爱' :parts='[]' :colors />
-<Chaifen char='德' id='德' :parts='[]' :colors />
-<Chaifen char='复' id='复' :parts='[]' :colors />
-<Chaifen char='切' id='切' :parts='[]' :colors />
-<Chaifen char='随' id='随' :parts='[]' :colors />
-<Chaifen char='李' id='李' :parts='[]' :colors />
-<Chaifen char='员' id='员' :parts='[]' :colors />
-<Chaifen char='离' id='离' :parts='[]' :colors />
-<Chaifen char='轻' id='轻' :parts='[]' :colors />
-<Chaifen char='观' id='观' :parts='[]' :colors />
-<Chaifen char='青' id='青' :parts='[]' :colors />
-<Chaifen char='足' id='足' :parts='[]' :colors />
-<Chaifen char='落' id='落' :parts='[]' :colors />
-<Chaifen char='叫' id='叫' :parts='[]' :colors />
-<Chaifen char='根' id='根' :parts='[]' :colors />
-<Chaifen char='怎' id='怎' :parts='[]' :colors />
-<Chaifen char='持' id='持' :parts='[]' :colors />
-<Chaifen char='精' id='精' :parts='[]' :colors />
-<Chaifen char='送' id='送' :parts='[]' :colors />
-<Chaifen char='众' id='众' :parts='[]' :colors />
-<Chaifen char='影' id='影' :parts='[]' :colors />
-<Chaifen char='八' id='八' :parts='[]' :colors />
-<Chaifen char='首' id='首' :parts='[]' :colors />
-<Chaifen char='包' id='包' :parts='[]' :colors />
-<Chaifen char='准' id='准' :parts='[]' :colors />
-<Chaifen char='兴' id='兴' :parts='[]' :colors />
-<Chaifen char='红' id='红' :parts='[]' :colors />
-<Chaifen char='达' id='达' :parts='[]' :colors />
-<Chaifen char='早' id='早' :parts='[]' :colors />
-<Chaifen char='尽' id='尽' :parts='[]' :colors />
-<Chaifen char='故' id='故' :parts='[]' :colors />
-<Chaifen char='房' id='房' :parts='[]' :colors />
-<Chaifen char='引' id='引' :parts='[]' :colors />
-<Chaifen char='火' id='火' :parts='[]' :colors />
-<Chaifen char='站' id='站' :parts='[]' :colors />
-<Chaifen char='似' id='似' :parts='[]' :colors />
-<Chaifen char='找' id='找' :parts='[]' :colors />
-<Chaifen char='备' id='备' :parts='[]' :colors />
-<Chaifen char='调' id='调' :parts='[]' :colors />
-<Chaifen char='断' id='断' :parts='[]' :colors />
-<Chaifen char='设' id='设' :parts='[]' :colors />
-<Chaifen char='格' id='格' :parts='[]' :colors />
-<Chaifen char='消' id='消' :parts='[]' :colors />
-<Chaifen char='拉' id='拉' :parts='[]' :colors />
-<Chaifen char='照' id='照' :parts='[]' :colors />
-<Chaifen char='布' id='布' :parts='[]' :colors />
-<Chaifen char='友' id='友' :parts='[]' :colors />
-<Chaifen char='整' id='整' :parts='[]' :colors />
-<Chaifen char='术' id='术' :parts='[]' :colors />
-<Chaifen char='石' id='石' :parts='[]' :colors />
-<Chaifen char='展' id='展' :parts='[]' :colors />
-<Chaifen char='紧' id='紧' :parts='[]' :colors />
-<Chaifen char='据' id='据' :parts='[]' :colors />
-<Chaifen char='终' id='终' :parts='[]' :colors />
-<Chaifen char='周' id='周' :parts='[]' :colors />
-<Chaifen char='式' id='式' :parts='[]' :colors />
-<Chaifen char='举' id='举' :parts='[]' :colors />
-<Chaifen char='飞' id='飞' :parts='[]' :colors />
-<Chaifen char='片' id='片' :parts='[]' :colors />
-<Chaifen char='虽' id='虽' :parts='[]' :colors />
-<Chaifen char='易' id='易' :parts='[]' :colors />
-<Chaifen char='运' id='运' :parts='[]' :colors />
-<Chaifen char='笑' id='笑' :parts='[]' :colors />
-<Chaifen char='云' id='云' :parts='[]' :colors />
-<Chaifen char='建' id='建' :parts='[]' :colors />
-<Chaifen char='谈' id='谈' :parts='[]' :colors />
-<Chaifen char='界' id='界' :parts='[]' :colors />
-<Chaifen char='务' id='务' :parts='[]' :colors />
-<Chaifen char='写' id='写' :parts='[]' :colors />
-<Chaifen char='钱' id='钱' :parts='[]' :colors />
-<Chaifen char='商' id='商' :parts='[]' :colors />
-<Chaifen char='乐' id='乐' :parts='[]' :colors />
-<Chaifen char='推' id='推' :parts='[]' :colors />
-<Chaifen char='注' id='注' :parts='[]' :colors />
-<Chaifen char='越' id='越' :parts='[]' :colors />
-<Chaifen char='千' id='千' :parts='[]' :colors />
-<Chaifen char='微' id='微' :parts='[]' :colors />
-<Chaifen char='若' id='若' :parts='[]' :colors />
-<Chaifen char='约' id='约' :parts='[]' :colors />
-<Chaifen char='英' id='英' :parts='[]' :colors />
-<Chaifen char='集' id='集' :parts='[]' :colors />
-<Chaifen char='示' id='示' :parts='[]' :colors />
-<Chaifen char='呢' id='呢' :parts='[]' :colors />
-<Chaifen char='待' id='待' :parts='[]' :colors />
-<Chaifen char='坐' id='坐' :parts='[]' :colors />
-<Chaifen char='议' id='议' :parts='[]' :colors />
-<Chaifen char='乎' id='乎' :parts='[]' :colors />
-<Chaifen char='留' id='留' :parts='[]' :colors />
-<Chaifen char='称' id='称' :parts='[]' :colors />
-<Chaifen char='品' id='品' :parts='[]' :colors />
-<Chaifen char='志' id='志' :parts='[]' :colors />
-<Chaifen char='黑' id='黑' :parts='[]' :colors />
-<Chaifen char='存' id='存' :parts='[]' :colors />
-<Chaifen char='六' id='六' :parts='[]' :colors />
-<Chaifen char='造' id='造' :parts='[]' :colors />
-<Chaifen char='低' id='低' :parts='[]' :colors />
-<Chaifen char='江' id='江' :parts='[]' :colors />
-<Chaifen char='念' id='念' :parts='[]' :colors />
-<Chaifen char='产' id='产' :parts='[]' :colors />
-<Chaifen char='刻' id='刻' :parts='[]' :colors />
-<Chaifen char='节' id='节' :parts='[]' :colors />
-<Chaifen char='尔' id='尔' :parts='[]' :colors />
-<Chaifen char='吃' id='吃' :parts='[]' :colors />
-<Chaifen char='势' id='势' :parts='[]' :colors />
-<Chaifen char='依' id='依' :parts='[]' :colors />
-<Chaifen char='图' id='图' :parts='[]' :colors />
-<Chaifen char='共' id='共' :parts='[]' :colors />
-<Chaifen char='曾' id='曾' :parts='[]' :colors />
-<Chaifen char='响' id='响' :parts='[]' :colors />
-<Chaifen char='底' id='底' :parts='[]' :colors />
-<Chaifen char='装' id='装' :parts='[]' :colors />
-<Chaifen char='具' id='具' :parts='[]' :colors />
-<Chaifen char='喜' id='喜' :parts='[]' :colors />
-<Chaifen char='严' id='严' :parts='[]' :colors />
-<Chaifen char='九' id='九' :parts='[]' :colors />
-<Chaifen char='况' id='况' :parts='[]' :colors />
-<Chaifen char='跟' id='跟' :parts='[]' :colors />
-<Chaifen char='罗' id='罗' :parts='[]' :colors />
-<Chaifen char='须' id='须' :parts='[]' :colors />
-<Chaifen char='显' id='显' :parts='[]' :colors />
-<Chaifen char='热' id='热' :parts='[]' :colors />
-<Chaifen char='病' id='病' :parts='[]' :colors />
-<Chaifen char='证' id='证' :parts='[]' :colors />
-<Chaifen char='刚' id='刚' :parts='[]' :colors />
-<Chaifen char='治' id='治' :parts='[]' :colors />
-<Chaifen char='绝' id='绝' :parts='[]' :colors />
-<Chaifen char='群' id='群' :parts='[]' :colors />
-<Chaifen char='市' id='市' :parts='[]' :colors />
-<Chaifen char='阳' id='阳' :parts='[]' :colors />
-<Chaifen char='确' id='确' :parts='[]' :colors />
-<Chaifen char='究' id='究' :parts='[]' :colors />
-<Chaifen char='久' id='久' :parts='[]' :colors />
-<Chaifen char='除' id='除' :parts='[]' :colors />
-<Chaifen char='闻' id='闻' :parts='[]' :colors />
-<Chaifen char='答' id='答' :parts='[]' :colors />
-<Chaifen char='段' id='段' :parts='[]' :colors />
-<Chaifen char='官' id='官' :parts='[]' :colors />
-<Chaifen char='政' id='政' :parts='[]' :colors />
-<Chaifen char='类' id='类' :parts='[]' :colors />
-<Chaifen char='黄' id='黄' :parts='[]' :colors />
-<Chaifen char='武' id='武' :parts='[]' :colors />
-<Chaifen char='七' id='七' :parts='[]' :colors />
-<Chaifen char='支' id='支' :parts='[]' :colors />
-<Chaifen char='费' id='费' :parts='[]' :colors />
-<Chaifen char='父' id='父' :parts='[]' :colors />
-<Chaifen char='统' id='统' :parts='[]' :colors />
+<div class="flex justify-left flex-wrap my-8">
+<Chaifen char='些' :parts='[4,2,2]' :colors />
+<Chaifen char='看' :parts='[4,5]' :colors />
+<Chaifen char='只' :parts='[3,2]' :colors />
+<Chaifen char='公' :parts='[2,2]' :colors />
+<Chaifen char='等' :parts='[6,3,3]' :colors />
+<Chaifen char='十' :parts='[2]' :colors />
+<Chaifen char='意' :parts='[5,4,4]' :colors />
+<Chaifen char='正' :parts='[1,4]' :colors />
+<Chaifen char='外' :parts='[3,2]' :colors />
+<Chaifen char='想' :parts='[4,5,4]' :colors />
+<Chaifen char='间' :parts='[3,5]' :colors />
+<Chaifen char='把' :parts='[3,4]' :colors />
+<Chaifen char='情' :parts='[3,4,4]' :colors />
+<Chaifen char='者' :parts='[4,4]' :colors />
+<Chaifen char='没' :parts='[3,2,2]' :colors />
+<Chaifen char='重' :parts='[2,4,1,2]' :colors='[1,2,0,2]' />
+<Chaifen char='相' :parts='[4,5]' :colors />
+<Chaifen char='那' :parts='[1,3,2]' :colors />
+<Chaifen char='向' :parts='[3,3]' :colors />
+<Chaifen char='知' :parts='[5,3]' :colors />
+<Chaifen char='因' :parts='[2,3,1]' :colors='[1,2,1]' />
+<Chaifen char='样' :parts='[4,6]' :colors />
+<Chaifen char='学' :parts='[3,2,3]' :colors />
+<Chaifen char='应' :parts='[3,4]' :colors />
+<Chaifen char='又' :parts='[2]' :colors />
+<Chaifen char='手' :parts='[4]' :colors />
+<Chaifen char='但' :parts='[2,4,1]' :colors />
+<Chaifen char='信' :parts='[1,8]' :colors />
+<Chaifen char='关' :parts='[3,3]' :colors />
+<Chaifen char='使' :parts='[2,1,3,2]' :colors />
+<Chaifen char='种' :parts='[5,4]' :colors />
+<Chaifen char='见' :parts='[2,2]' :colors />
+<Chaifen char='力' :parts='[2]' :colors />
+<Chaifen char='名' :parts='[3,3]' :colors />
+<Chaifen char='二' :parts='[2]' :colors />
+<Chaifen char='处' :parts='[3,2]' :colors />
+<Chaifen char='门' :parts='[3]' :colors />
+<Chaifen char='并' :parts='[3,3]' :colors />
+<Chaifen char='口' :parts='[3]' :colors />
+<Chaifen char='么' :parts='[1,2]' :colors />
+<Chaifen char='先' :parts='[4,2]' :colors />
+<Chaifen char='位' :parts='[2,5]' :colors />
+<Chaifen char='头' :parts='[2,3]' :colors />
+<Chaifen char='回' :parts='[2,3,1]' :colors='[1,2,1]' />
+<Chaifen char='话' :parts='[2,6]' :colors />
+<Chaifen char='很' :parts='[3,6]' :colors />
+<Chaifen char='再' :parts='[1,2,3]' :colors />
+<Chaifen char='由' :parts='[5]' :colors />
+<Chaifen char='身' :parts='[7]' :colors />
+<Chaifen char='入' :parts='[2]' :colors />
+<Chaifen char='内' :parts='[2,2]' :colors />
+<Chaifen char='第' :parts='[6,3,1,1]' :colors />
+<Chaifen char='平' :parts='[1,2,2]' :colors='[1,2,1]' />
+<Chaifen char='被' :parts='[5,5]' :colors />
+<Chaifen char='给' :parts='[3,6]' :colors />
+<Chaifen char='次' :parts='[2,4]' :colors />
+<Chaifen char='别' :parts='[3,2,2]' :colors />
+<Chaifen char='几' :parts='[2]' :colors />
+<Chaifen char='月' :parts='[4]' :colors />
+<Chaifen char='真' :parts='[2,6,2]' :colors />
+<Chaifen char='立' :parts='[5]' :colors />
+<Chaifen char='新' :parts='[5,4,4]' :colors />
+<Chaifen char='通' :parts='[2,5,3]' :colors />
+<Chaifen char='少' :parts='[3,1]' :colors />
+<Chaifen char='机' :parts='[4,2]' :colors />
+<Chaifen char='打' :parts='[3,2]' :colors />
+<Chaifen char='水' :parts='[4]' :colors />
+<Chaifen char='果' :parts='[4,4]' :colors />
+<Chaifen char='最' :parts='[4,6,2]' :colors />
+<Chaifen char='部' :parts='[5,3,2]' :colors />
+<Chaifen char='何' :parts='[2,1,3,1]' :colors='[1,2,3,2]' />
+<Chaifen char='安' :parts='[3,3]' :colors />
+<Chaifen char='接' :parts='[3,5,3]' :colors />
+<Chaifen char='报' :parts='[3,2,2]' :colors />
+<Chaifen char='声' :parts='[3,4]' :colors />
+<Chaifen char='才' :parts='[2,1]' :colors />
+<Chaifen char='体' :parts='[2,4,1]' :colors />
+<Chaifen char='今' :parts='[2,1,1]' :colors />
+<Chaifen char='合' :parts='[6]' :colors />
+<Chaifen char='性' :parts='[3,5]' :colors />
+<Chaifen char='西' :parts='[6]' :colors />
+<Chaifen char='你' :parts='[2,2,3]' :colors />
+<Chaifen char='放' :parts='[4,4]' :colors />
+<Chaifen char='表' :parts='[4,4]' :colors />
+<Chaifen char='目' :parts='[5]' :colors />
+<Chaifen char='加' :parts='[2,3]' :colors />
+<Chaifen char='常' :parts='[8,3]' :colors />
+<Chaifen char='做' :parts='[2,5,4]' :colors />
+<Chaifen char='己' :parts='[3]' :colors />
+<Chaifen char='老' :parts='[4,2]' :colors />
+<Chaifen char='四' :parts='[5]' :colors />
+<Chaifen char='件' :parts='[2,4]' :colors />
+<Chaifen char='解' :parts='[2,5,2,4]' :colors />
+<Chaifen char='路' :parts='[7,3,3]' :colors />
+<Chaifen char='更' :parts='[1,4,2]' :colors />
+<Chaifen char='走' :parts='[7]' :colors />
+<Chaifen char='比' :parts='[2,2]' :colors />
+<Chaifen char='总' :parts='[2,3,4]' :colors />
+<Chaifen char='金' :parts='[8]' :colors />
+<Chaifen char='管' :parts='[6,3,3,2]' :colors />
 
+<Chaifen char='光' :parts='[]' :colors />
+<Chaifen char='工' :parts='[]' :colors />
+<Chaifen char='结' :parts='[]' :colors />
+<Chaifen char='提' :parts='[]' :colors />
+<Chaifen char='任' :parts='[]' :colors />
+<Chaifen char='东' :parts='[]' :colors />
+<Chaifen char='原' :parts='[]' :colors />
+<Chaifen char='便' :parts='[]' :colors />
+<Chaifen char='美' :parts='[]' :colors />
+<Chaifen char='及' :parts='[]' :colors />
+<Chaifen char='教' :parts='[]' :colors />
+<Chaifen char='难' :parts='[]' :colors />
+<Chaifen char='世' :parts='[]' :colors />
+<Chaifen char='至' :parts='[]' :colors />
+<Chaifen char='气' :parts='[]' :colors />
+<Chaifen char='神' :parts='[]' :colors />
+<Chaifen char='山' :parts='[]' :colors />
+<Chaifen char='数' :parts='[]' :colors />
+<Chaifen char='利' :parts='[]' :colors />
+<Chaifen char='书' :parts='[]' :colors />
+<Chaifen char='代' :parts='[]' :colors />
+<Chaifen char='直' :parts='[]' :colors />
+<Chaifen char='色' :parts='[]' :colors />
+<Chaifen char='场' :parts='[]' :colors />
+<Chaifen char='变' :parts='[]' :colors />
+<Chaifen char='记' :parts='[]' :colors />
+<Chaifen char='张' :parts='[]' :colors />
+<Chaifen char='必' :parts='[]' :colors />
+<Chaifen char='受' :parts='[]' :colors />
+<Chaifen char='交' :parts='[]' :colors />
+<Chaifen char='非' :parts='[]' :colors />
+<Chaifen char='服' :parts='[]' :colors />
+<Chaifen char='化' :parts='[]' :colors />
+<Chaifen char='求' :parts='[]' :colors />
+<Chaifen char='风' :parts='[]' :colors />
+<Chaifen char='度' :parts='[]' :colors />
+<Chaifen char='太' :parts='[]' :colors />
+<Chaifen char='万' :parts='[]' :colors />
+<Chaifen char='各' :parts='[]' :colors />
+<Chaifen char='算' :parts='[]' :colors />
+<Chaifen char='边' :parts='[]' :colors />
+<Chaifen char='王' :parts='[]' :colors />
+<Chaifen char='什' :parts='[]' :colors />
+<Chaifen char='快' :parts='[]' :colors />
+<Chaifen char='许' :parts='[]' :colors />
+<Chaifen char='连' :parts='[]' :colors />
+<Chaifen char='五' :parts='[]' :colors />
+<Chaifen char='活' :parts='[]' :colors />
+<Chaifen char='思' :parts='[]' :colors />
+<Chaifen char='该' :parts='[]' :colors />
+<Chaifen char='步' :parts='[]' :colors />
+<Chaifen char='海' :parts='[]' :colors />
+<Chaifen char='指' :parts='[]' :colors />
+<Chaifen char='物' :parts='[]' :colors />
+<Chaifen char='则' :parts='[]' :colors />
+<Chaifen char='女' :parts='[]' :colors />
+<Chaifen char='或' :parts='[]' :colors />
+<Chaifen char='完' :parts='[]' :colors />
+<Chaifen char='马' :parts='[]' :colors />
+<Chaifen char='强' :parts='[]' :colors />
+<Chaifen char='言' :parts='[]' :colors />
+<Chaifen char='条' :parts='[]' :colors />
+<Chaifen char='特' :parts='[]' :colors />
+<Chaifen char='命' :parts='[]' :colors />
+<Chaifen char='感' :parts='[]' :colors />
+<Chaifen char='清' :parts='[]' :colors />
+<Chaifen char='带' :parts='[]' :colors />
+<Chaifen char='认' :parts='[]' :colors />
+<Chaifen char='保' :parts='[]' :colors />
+<Chaifen char='望' :parts='[]' :colors />
+<Chaifen char='转' :parts='[]' :colors />
+<Chaifen char='传' :parts='[]' :colors />
+<Chaifen char='儿' :parts='[]' :colors />
+<Chaifen char='制' :parts='[]' :colors />
+<Chaifen char='干' :parts='[]' :colors />
+<Chaifen char='计' :parts='[]' :colors />
+<Chaifen char='民' :parts='[]' :colors />
+<Chaifen char='白' :parts='[]' :colors />
+<Chaifen char='住' :parts='[]' :colors />
+<Chaifen char='字' :parts='[]' :colors />
+<Chaifen char='它' :parts='[]' :colors />
+<Chaifen char='义' :parts='[]' :colors />
+<Chaifen char='车' :parts='[]' :colors />
+<Chaifen char='像' :parts='[]' :colors />
+<Chaifen char='反' :parts='[]' :colors />
+<Chaifen char='象' :parts='[]' :colors />
+<Chaifen char='题' :parts='[]' :colors />
+<Chaifen char='却' :parts='[]' :colors />
+<Chaifen char='流' :parts='[]' :colors />
+<Chaifen char='且' :parts='[]' :colors />
+<Chaifen char='即' :parts='[]' :colors />
+<Chaifen char='深' :parts='[]' :colors />
+<Chaifen char='近' :parts='[]' :colors />
+<Chaifen char='形' :parts='[]' :colors />
+<Chaifen char='取' :parts='[]' :colors />
+<Chaifen char='往' :parts='[]' :colors />
+<Chaifen char='系' :parts='[]' :colors />
+<Chaifen char='量' :parts='[]' :colors />
+<Chaifen char='论' :parts='[]' :colors />
+<Chaifen char='告' :parts='[]' :colors />
+<Chaifen char='息' :parts='[]' :colors />
+<Chaifen char='让' :parts='[]' :colors />
+<Chaifen char='决' :parts='[]' :colors />
+<Chaifen char='未' :parts='[]' :colors />
+<Chaifen char='花' :parts='[]' :colors />
+<Chaifen char='收' :parts='[]' :colors />
+<Chaifen char='满' :parts='[]' :colors />
+<Chaifen char='每' :parts='[]' :colors />
+<Chaifen char='华' :parts='[]' :colors />
+<Chaifen char='业' :parts='[]' :colors />
+<Chaifen char='南' :parts='[]' :colors />
+<Chaifen char='觉' :parts='[]' :colors />
+<Chaifen char='电' :parts='[]' :colors />
+<Chaifen char='空' :parts='[]' :colors />
+<Chaifen char='眼' :parts='[]' :colors />
+<Chaifen char='听' :parts='[]' :colors />
+<Chaifen char='远' :parts='[]' :colors />
+<Chaifen char='师' :parts='[]' :colors />
+<Chaifen char='元' :parts='[]' :colors />
+<Chaifen char='请' :parts='[]' :colors />
+<Chaifen char='容' :parts='[]' :colors />
+<Chaifen char='她' :parts='[]' :colors />
+<Chaifen char='军' :parts='[]' :colors />
+<Chaifen char='士' :parts='[]' :colors />
+<Chaifen char='百' :parts='[]' :colors />
+<Chaifen char='办' :parts='[]' :colors />
+<Chaifen char='语' :parts='[]' :colors />
+<Chaifen char='期' :parts='[]' :colors />
+<Chaifen char='北' :parts='[]' :colors />
+<Chaifen char='林' :parts='[]' :colors />
+<Chaifen char='识' :parts='[]' :colors />
+<Chaifen char='半' :parts='[]' :colors />
+<Chaifen char='夫' :parts='[]' :colors />
+<Chaifen char='客' :parts='[]' :colors />
+<Chaifen char='战' :parts='[]' :colors />
+<Chaifen char='院' :parts='[]' :colors />
+<Chaifen char='城' :parts='[]' :colors />
+<Chaifen char='候' :parts='[]' :colors />
+<Chaifen char='单' :parts='[]' :colors />
+<Chaifen char='音' :parts='[]' :colors />
+<Chaifen char='台' :parts='[]' :colors />
+<Chaifen char='死' :parts='[]' :colors />
+<Chaifen char='视' :parts='[]' :colors />
+<Chaifen char='领' :parts='[]' :colors />
+<Chaifen char='失' :parts='[]' :colors />
+<Chaifen char='司' :parts='[]' :colors />
+<Chaifen char='亲' :parts='[]' :colors />
+<Chaifen char='始' :parts='[]' :colors />
+<Chaifen char='极' :parts='[]' :colors />
+<Chaifen char='双' :parts='[]' :colors />
+<Chaifen char='令' :parts='[]' :colors />
+<Chaifen char='改' :parts='[]' :colors />
+<Chaifen char='功' :parts='[]' :colors />
+<Chaifen char='程' :parts='[]' :colors />
+<Chaifen char='爱' :parts='[]' :colors />
+<Chaifen char='德' :parts='[]' :colors />
+<Chaifen char='复' :parts='[]' :colors />
+<Chaifen char='切' :parts='[]' :colors />
+<Chaifen char='随' :parts='[]' :colors />
+<Chaifen char='李' :parts='[]' :colors />
+<Chaifen char='员' :parts='[]' :colors />
+<Chaifen char='离' :parts='[]' :colors />
+<Chaifen char='轻' :parts='[]' :colors />
+<Chaifen char='观' :parts='[]' :colors />
+<Chaifen char='青' :parts='[]' :colors />
+<Chaifen char='足' :parts='[]' :colors />
+<Chaifen char='落' :parts='[]' :colors />
+<Chaifen char='叫' :parts='[]' :colors />
+<Chaifen char='根' :parts='[]' :colors />
+<Chaifen char='怎' :parts='[]' :colors />
+<Chaifen char='持' :parts='[]' :colors />
+<Chaifen char='精' :parts='[]' :colors />
+<Chaifen char='送' :parts='[]' :colors />
+<Chaifen char='众' :parts='[]' :colors />
+<Chaifen char='影' :parts='[]' :colors />
+<Chaifen char='八' :parts='[]' :colors />
+<Chaifen char='首' :parts='[]' :colors />
+<Chaifen char='包' :parts='[]' :colors />
+<Chaifen char='准' :parts='[]' :colors />
+<Chaifen char='兴' :parts='[]' :colors />
+<Chaifen char='红' :parts='[]' :colors />
+<Chaifen char='达' :parts='[]' :colors />
+<Chaifen char='早' :parts='[]' :colors />
+<Chaifen char='尽' :parts='[]' :colors />
+<Chaifen char='故' :parts='[]' :colors />
+<Chaifen char='房' :parts='[]' :colors />
+<Chaifen char='引' :parts='[]' :colors />
+<Chaifen char='火' :parts='[]' :colors />
+<Chaifen char='站' :parts='[]' :colors />
+<Chaifen char='似' :parts='[]' :colors />
+<Chaifen char='找' :parts='[]' :colors />
+<Chaifen char='备' :parts='[]' :colors />
+<Chaifen char='调' :parts='[]' :colors />
+<Chaifen char='断' :parts='[]' :colors />
+<Chaifen char='设' :parts='[]' :colors />
+<Chaifen char='格' :parts='[]' :colors />
+<Chaifen char='消' :parts='[]' :colors />
+<Chaifen char='拉' :parts='[]' :colors />
+<Chaifen char='照' :parts='[]' :colors />
+<Chaifen char='布' :parts='[]' :colors />
+<Chaifen char='友' :parts='[]' :colors />
+<Chaifen char='整' :parts='[]' :colors />
+<Chaifen char='术' :parts='[]' :colors />
+<Chaifen char='石' :parts='[]' :colors />
+<Chaifen char='展' :parts='[]' :colors />
+<Chaifen char='紧' :parts='[]' :colors />
+<Chaifen char='据' :parts='[]' :colors />
+<Chaifen char='终' :parts='[]' :colors />
+<Chaifen char='周' :parts='[]' :colors />
+<Chaifen char='式' :parts='[]' :colors />
+<Chaifen char='举' :parts='[]' :colors />
+<Chaifen char='飞' :parts='[]' :colors />
+<Chaifen char='片' :parts='[]' :colors />
+<Chaifen char='虽' :parts='[]' :colors />
+<Chaifen char='易' :parts='[]' :colors />
+<Chaifen char='运' :parts='[]' :colors />
+<Chaifen char='笑' :parts='[]' :colors />
+<Chaifen char='云' :parts='[]' :colors />
+<Chaifen char='建' :parts='[]' :colors />
+<Chaifen char='谈' :parts='[]' :colors />
+<Chaifen char='界' :parts='[]' :colors />
+<Chaifen char='务' :parts='[]' :colors />
+<Chaifen char='写' :parts='[]' :colors />
+<Chaifen char='钱' :parts='[]' :colors />
+<Chaifen char='商' :parts='[]' :colors />
+<Chaifen char='乐' :parts='[]' :colors />
+<Chaifen char='推' :parts='[]' :colors />
+<Chaifen char='注' :parts='[]' :colors />
+<Chaifen char='越' :parts='[]' :colors />
+<Chaifen char='千' :parts='[]' :colors />
+<Chaifen char='微' :parts='[]' :colors />
+<Chaifen char='若' :parts='[]' :colors />
+<Chaifen char='约' :parts='[]' :colors />
+<Chaifen char='英' :parts='[]' :colors />
+<Chaifen char='集' :parts='[]' :colors />
+<Chaifen char='示' :parts='[]' :colors />
+<Chaifen char='呢' :parts='[]' :colors />
+<Chaifen char='待' :parts='[]' :colors />
+<Chaifen char='坐' :parts='[]' :colors />
+<Chaifen char='议' :parts='[]' :colors />
+<Chaifen char='乎' :parts='[]' :colors />
+<Chaifen char='留' :parts='[]' :colors />
+<Chaifen char='称' :parts='[]' :colors />
+<Chaifen char='品' :parts='[]' :colors />
+<Chaifen char='志' :parts='[]' :colors />
+<Chaifen char='黑' :parts='[]' :colors />
+<Chaifen char='存' :parts='[]' :colors />
+<Chaifen char='六' :parts='[]' :colors />
+<Chaifen char='造' :parts='[]' :colors />
+<Chaifen char='低' :parts='[]' :colors />
+<Chaifen char='江' :parts='[]' :colors />
+<Chaifen char='念' :parts='[]' :colors />
+<Chaifen char='产' :parts='[]' :colors />
+<Chaifen char='刻' :parts='[]' :colors />
+<Chaifen char='节' :parts='[]' :colors />
+<Chaifen char='尔' :parts='[]' :colors />
+<Chaifen char='吃' :parts='[]' :colors />
+<Chaifen char='势' :parts='[]' :colors />
+<Chaifen char='依' :parts='[]' :colors />
+<Chaifen char='图' :parts='[]' :colors />
+<Chaifen char='共' :parts='[]' :colors />
+<Chaifen char='曾' :parts='[]' :colors />
+<Chaifen char='响' :parts='[]' :colors />
+<Chaifen char='底' :parts='[]' :colors />
+<Chaifen char='装' :parts='[]' :colors />
+<Chaifen char='具' :parts='[]' :colors />
+<Chaifen char='喜' :parts='[]' :colors />
+<Chaifen char='严' :parts='[]' :colors />
+<Chaifen char='九' :parts='[]' :colors />
+<Chaifen char='况' :parts='[]' :colors />
+<Chaifen char='跟' :parts='[]' :colors />
+<Chaifen char='罗' :parts='[]' :colors />
+<Chaifen char='须' :parts='[]' :colors />
+<Chaifen char='显' :parts='[]' :colors />
+<Chaifen char='热' :parts='[]' :colors />
+<Chaifen char='病' :parts='[]' :colors />
+<Chaifen char='证' :parts='[]' :colors />
+<Chaifen char='刚' :parts='[]' :colors />
+<Chaifen char='治' :parts='[]' :colors />
+<Chaifen char='绝' :parts='[]' :colors />
+<Chaifen char='群' :parts='[]' :colors />
+<Chaifen char='市' :parts='[]' :colors />
+<Chaifen char='阳' :parts='[]' :colors />
+<Chaifen char='确' :parts='[]' :colors />
+<Chaifen char='究' :parts='[]' :colors />
+<Chaifen char='久' :parts='[]' :colors />
+<Chaifen char='除' :parts='[]' :colors />
+<Chaifen char='闻' :parts='[]' :colors />
+<Chaifen char='答' :parts='[]' :colors />
+<Chaifen char='段' :parts='[]' :colors />
+<Chaifen char='官' :parts='[]' :colors />
+<Chaifen char='政' :parts='[]' :colors />
+<Chaifen char='类' :parts='[]' :colors />
+<Chaifen char='黄' :parts='[]' :colors />
+<Chaifen char='武' :parts='[]' :colors />
+<Chaifen char='七' :parts='[]' :colors />
+<Chaifen char='支' :parts='[]' :colors />
+<Chaifen char='费' :parts='[]' :colors />
+<Chaifen char='父' :parts='[]' :colors />
+<Chaifen char='统' :parts='[]' :colors />
 </div>

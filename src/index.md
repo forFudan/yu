@@ -11,10 +11,10 @@ hero:
     light: /logo_blue.png
     alt: yuhao-logo
   actions:
-    - theme: brand
+    - theme: alt
       text: 介绍
       link: /docs/
-    - theme: alt
+    - theme: brand
       text: 教程
       link: /learn/
     - theme: alt
@@ -44,10 +44,10 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ---
 
 <div class="flex justify-center flex-wrap my-8">
-<Chaifen char="光" id="宇" :parts='[3,3]' />
-<Chaifen char='華' id='華' :parts='[4,5,2]' :colors='[1,2,3]' />
-<Chaifen char="星" id="星" :parts='[4,5]' />
-<Chaifen char="陳" id="陳" :parts='[2,1,4,3]' :colors='[1,2,3,2]' />
+<Chaifen char="光" :parts='[3,3]' />
+<Chaifen char='華' :parts='[4,5,2]' :colors='[1,2,3]' />
+<Chaifen char="星" :parts='[4,5]' />
+<Chaifen char="陳" :parts='[2,1,4,3]' :colors='[1,2,3,2]' />
 </div>
 
 ::: info 致有缘人
@@ -70,9 +70,9 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 :::
 
-![yustar](/yustar.png)
+<!-- ![yustar](/yustar.png)
 
-![assess](/assess.png)
+![assess](/assess.png) -->
 
 ::: info 鸣谢
 
