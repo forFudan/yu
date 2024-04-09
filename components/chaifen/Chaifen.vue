@@ -67,12 +67,12 @@ function renderFanningStrokesNew(target, char, strokes, parts, colors) {
 
     var total = 0
     let color = ['#CECECE', // smoke
-        '#F44336', // red
+        '#E53935', // red
         '#FFA000', // amber
         '#2C96FF', // blue
         '#689F38', // green
-        '#BA68C8', // purple
-        '#05025A', // navy
+        '#F48FB1', // pink
+        '#7E57C2', // purple
         '#BF360C', // brown
         '#00796B', // forest
     ]

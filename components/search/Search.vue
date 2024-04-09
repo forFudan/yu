@@ -20,7 +20,7 @@ watchThrottled(userInput, () => {
 
 let poets: string[] =
     ["小樓一夜聽春雨　深巷明朝賣杏花",
-        "休對故人思故國　且將新火試新茶　詩酒趁年華",
+        "休對故人思故國　且將新火試新茶",
         "三十功名塵與土　八千里路雲和月",
         "落花人獨立　微雨燕雙飛",
         "玲瓏骰子安紅豆　入骨相思知不知",
@@ -29,6 +29,11 @@ let poets: string[] =
         "自在飛花輕似夢　無邊絲雨細如愁",
         "醉後不知天在水　滿船清夢壓星河",
         "東風夜放花千樹　更吹落　星如雨",
+        "鳳蕭聲動　玉壸光轉　一夜魚龍舞",
+        "爲君持酒勸斜陽　且向花間留晚照",
+        "綠楊煙外曉寒輕　紅杏枝頭春意鬧",
+        '城中桃李愁風雨　春在溪頭薺菜花',
+        '未是秋光奇绝　看十五十六',
     ];
 const ind: number =
     Math.floor(Math.random() * poets.length);
@@ -37,7 +42,7 @@ const poet: string = poets[ind];
 </script>
 
 <template>
-    <label class="input input-bordered bg-gray-100 dark:bg-slate-800 flex items-center gap-2 mt-8">
+    <label class="input input-bordered bg-gray-100 dark:bg-slate-800 flex items-center gap-2 mt-2">
         <input type="text" class="grow" placeholder="输入文本查询宇浩拆分" v-model="userInput" />
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
             <path fill-rule="evenodd"

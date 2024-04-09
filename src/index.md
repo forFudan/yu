@@ -103,9 +103,9 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ---
 
-感谢以下网页框架和信息技术软件：
+感谢以下网页框架、信息技术软件、技术项目：
 
-[Vitepress](https://vitepress.dev/zh/)、[Just the docs](https://just-the-docs.com/)、[Python](https://www.python.org/)〔[Pandas](https://pandas.pydata.org/)〕、[Visual Studio Code](https://code.visualstudio.com/)、[FontForge](https://fontforge.org/en-US/)
+[Vitepress](https://vitepress.dev/zh/)、[Just the docs](https://just-the-docs.com/)、[Python](https://www.python.org/)〔[Pandas](https://pandas.pydata.org/)〕、[Visual Studio Code](https://code.visualstudio.com/)、[FontForge](https://fontforge.org/en-US/)、[Hanzi Writer](https://hanziwriter.org/cn/)
 
 ---
 
