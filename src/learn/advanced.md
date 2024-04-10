@@ -4,7 +4,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 # 进阶讨论
 
-## 字形选取的标准
+## 字形差异
 
 汉字具有多态性。同一个汉字，在不同的标准、不同的字体下，存在一定的差别。有些字形上的差别，通过 Unicode 的离散来实现。比如`户` `戶` `戸`三字，在 Unicode 里被安排在了不同的码位上，故而实现了分离。但是很多汉字的不同字形，却共用 Unicode 码位（这其实是 CJK 的初衷），那么这个字到底应该依照哪个标准来拆分，便成了问题。
 
@@ -13,7 +13,57 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 - 每个字都有一种**标准拆法**，字形标准取自：The Unicode Standard, Version 15.0。各地区优先级降序为：GTHJKV，即陆、台、港、日、韩、越。也就是说，如果存在大陆提交的标准，就依照大陆标准。如果大陆没有提交标准，就按照台湾标准。依此类推。
 - 每个字都可能有若干**兼容拆法**，目的是兼容台湾、香港、大陆古籍的字形标准。比如`起` = `走己`（大陆标准）和 `起` = `走巳`（台湾标准）兼收。
 
-宇浩输入法的笔顺选取，依照大陆标准《GF 3003-1999 GB13000.1 字符集汉字字序（笔画序）规范》。同时，也兼容台湾标准的笔顺。比如`攀=木乂乂木手`（大陆标准）和`攀=乂乂木木手`（台湾标准）兼收。
+宇浩输入法的笔顺选取，依照大陆标准《GF 3003-1999 GB13000.1 字符集汉字字序（笔画序）规范》。同时，也兼容台湾标准的笔顺。
+
+::: tip 例
+比如`攀 = 木乂乂木手`（大陆标准）和`攀 = 乂乂木木手`（台湾标准）兼收。
+
+<div class="flex justify-left flex-wrap">
+<Chaifen char='攀' :parts='[4,2,2,4,3,4]' :colors='[1,2,3,0,0,4]' />
+陆
+<Chaifen char='攀' :parts='[4,2,2,4,3,4]' :colors='[3,1,2,0,0,4]' />
+台
+</div>
+
+比如`與 = ⺽丂丄八`（大陆标准）和`與 = 丂丿⺽一八`（台湾标准）兼收。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='與' :parts='[4,2,1,3,1,2]' :colors='[1,2,3,1,3,4]' />
+陆
+<Chaifen char='與' :parts='[4,2,1,3,1,2]' :colors='[3,1,2,3,0,4]' />
+台
+</div>
+:::
+
+## 书体差异
+
+某些字根，即使在相同的规范下，也会楷体和宋体的不同而产生微小差异。这些差异往往会影响对于「散」「连」的判断。我们主要以宋体为准（也是 CJK 的书体）进行拆分，同时有以下考量。
+
+::: info 散连认定
+
+1. `⼇`作头时的`丶一`，无论书体，一概视为「散」。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='主' :parts='[1,4]' />
+✅
+<Chaifen char='主' :parts='[2,3]' />
+❌
+</div>
+
+2. `䒑`作头时的`丷一`是`艹`的草化，无论书体，一概视为「连」。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='兰' :parts='[3,2]' />
+✅
+<Chaifen char='兰' :parts='[2,3]' />
+❌
+</div>
+
+3. `龷`在字中时的`艹一`，无论书体，一概视为「连」。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='垂' :parts='[3,4,1]' />
+✅
+<Chaifen char='垂' :parts='[3,3,2]' />
+❌
+</div>
+:::
 
 ## 字根的内在属性
 
@@ -22,8 +72,12 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 何为字根的内在属性？其实就是指某一个字根区别于另一个字根的内在特点。
 
 ::: tip 例
-`吉`拆成`士口`而不是`土口`，这是因为`土`的下面一笔更长，而`士`的下面一笔更短。这是区别两个字根的本质原因和内在属性。
+`吉`拆成`士口`而不是`土口`，`周`拆成`⺆土口`而不是`⺆士口`，这是因为`土`的下面一笔更长，而`士`的下面一笔更短。这是区别两个字根的本质原因和内在属性。
+
+<div class="flex justify-left flex-wrap">
 <Chaifen char='吉' :parts='[3,3]' />
+<Chaifen char='周' :parts='[2,3,3]' />
+</div>
 :::
 
 「内在属性」可以解释为什么有些字这样拆而不是那样拆，有些字为什么看上去违反了「字根最少」的原则。
@@ -59,32 +113,66 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ### 点之辨
 
-这里对`点`的拆分作出解释：
+这里对含点字根的识别和归并作出解释。
 
-- 单点和捺视为一个字根。
-- 相重叠的两点，即`头` `冬`中的部分，同`二`。
-- 左对点`冫`和右对点`飞右`，同`二`。故而`兆`拆为`儿二二`。
+::: info 含点字根
+
+- 单点`丶`和捺`乀`视为同一个字根。
+- 相重叠的两点，即`头` `冬`中的部分，和`二`同码位。
+- 左对点`冫`和右对点`飞右`，和`二`同码位。
 - 下对点`八`为一个字根。
-- 上对点`丷` `䒑` `リ`在一个大码。
+- 上对点`丷` `䒑` `リ`同大码。
 - 左`⺦`为一个字根。
-- 所有三点都在一个大码。
-- 所有四点都在一个大码。
+- 左三点`氵`都在一个大码。
+- 上三点`ッ𠁼`都在一个大码。
+- 所有四点`灬`都在一个大码。
+:::
 
-`为` `卵`等字的两点和`冬`下的两点不同，相隔太远，且被半包围或全包围分割，故而不认定为「两点」。
+`为` `卵`等字的两点和`冬`下的两点不同，相隔太远，且被半包围或全包围分割，故而不认定为「两点」。详[「散件不分隔」禁手](#散件不分割)。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='为' :parts='[1,2,1]' />
+<Chaifen char='冬' :parts='[3,2]' :colors='[0,1]' />
 ✅
-<Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,3]' />
-✅
+<Chaifen char='为' :parts='[1,2,1]' :colors='[1,0,1]' />
+❌
+<Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[0,1,0,0,1]' />
+❌
 </div>
 
 ### 人八入之辨
 
-`人` `八` `入`三字易混，这里做出区分：
+`人` `八` `入`三字易混，这里做出区分。
 
-- 凡左撇不低于右捺，作`人`。
-- 凡左撇低于右捺，作`入`。
-- 凡左撇右捺分离，或者中间被其他笔画隔开，作`八`。
+::: info 左撇右捺
+
+1. 凡左撇不低于右捺，视作`人`根。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='令' :parts='[2,1,3]' :colors='[1,0,0]' />
+<Chaifen char='内' :parts='[2,2]' :colors='[0,1]' />
+<Chaifen char='两' :parts='[1,2,2,2]' :colors='[0,0,1,2]' />
+</div>
+
+2. 凡左撇低于右捺，视作`入`根。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='籴' :parts='[2,6]' :colors='[1,0]' />
+<Chaifen char='陝' :parts='[2,1,2,2,2]' :colors='[0,0,0,1,2]' />
+<Chaifen char='兩' :parts='[1,3,2,2]' :colors='[0,0,1,2]' />
+</div>
+
+3. 凡左撇右捺分离，视作`八`根。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='分' :parts='[2,2]' :colors='[1,0]' />
+<Chaifen char='兴' :parts='[4,2]' :colors='[0,1]' />
+<Chaifen char='典' :parts='[6,2]' :colors='[0,1]' />
+</div>
+
+4. 凡左撇右捺的中间被其他笔画隔开，视作`<丿乀>`根。宇码中，它和`八`同大小码。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='办' :parts='[2,2]' :colors='[0,1]' />
+<Chaifen char='朱' :parts='[4,2]' :colors='[0,1]' />
+<Chaifen char='兼' :parts='[8,2]' :colors='[0,1]' />
+</div>
+
+:::
 
 ### 口中无整画
 
@@ -168,26 +256,50 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 
 `卿` = `卯彐厶`
+<div class="flex justify-left flex-wrap">
+<Chaifen char='卿' :parts='[3,3,2,2]' :colors='[1,0,0,1]' />
+✅
+<Chaifen char='卿' :parts='[3,3,2,2]' :colors='[1,0,0,4]' />
+❌
+</div>
 
 `胤` = `儿幺月`
+<div class="flex justify-left flex-wrap">
+<Chaifen char='胤' :parts='[1,3,4,1]' :colors='[1,0,0,1]' />
+✅
+<Chaifen char='胤' :parts='[1,3,4,1]' :colors='[1,0,0,4]' />
+❌
+</div>
 
 `亘` = `一日一`
+<div class="flex justify-left flex-wrap">
+<Chaifen char='亘' :parts='[1,4,1]' :colors='[1,0,3]' />
+✅
+<Chaifen char='亘' :parts='[1,4,1]' :colors='[1,0,1]' />
+❌
+</div>
 
 `僵` = `亻一田一田一`
 
 <div class="flex justify-left flex-wrap">
-<Chaifen char='卿' :parts='[3,3,2,2]' :colors='[1,2,3,1,3,5]' />
-<Chaifen char='胤' :parts='[1,3,4,1]' :colors='[1,2,3,1]' />
-<Chaifen char='亘' :parts='[1,4,1]' :colors='[1,2,3,4,3,5]' />
-<Chaifen char='僵' :parts='[2,1,5,1,5,1]' :colors='[1,2,3,4,5,6]' />
+<Chaifen char='僵' :parts='[2,1,5,1,5,1]' :colors='[0,2,0,4,0,6]' />
+✅
+<Chaifen char='僵' :parts='[2,1,5,1,5,1]' :colors='[0,2,0,2,0,2]' />
+❌
 </div>
 :::
 
-这是因为，汉字的左右对称多于上下对称。左右包夹是可预测的，但上下包夹往往不可预测，必须要观察到最下方。比如，某些输入法设置了`衣下`字根，但`亠`和`𧘇`的出现并不总是成对的，必须看到最下方才能正确判断。
+这是因为，汉字的左右对称多于上下对称。左右包夹是可预测的，但上下包夹往往不可预测，必须要观察到最下方。
 
-::: tip 例
+::: tip 如果设置了衣字根
 
-<Chaifen char='裏' :parts='[2,7,4]' :colors='[1,2,3,4,5,6]' />
+某些输入法设置了`衣下`字根，但`亠`和`𧘇`的出现并不总是成对的，必须看到最下方才能正确判断。
+
+<div class="flex justify-left flex-wrap">
+<Chaifen char='襄' :parts='[2,11,4]' :colors='[1,0,1]' />
+<Chaifen char='衮' :parts='[2,4,4]' :colors='[1,0,1]' />
+<Chaifen char='兖' :parts='[2,4,2]' :colors='[1,0,2]' />
+</div>
 
 :::
 
@@ -205,7 +317,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <div class="flex justify-left flex-wrap">
 <Chaifen char='再' :parts='[1,2,3]' />
 ✅
-<Chaifen char='再' :parts='[1,2,3]' :colors='[1,2,1]' />
+<Chaifen char='再' :parts='[1,2,3]' :colors='[1,0,1]' />
 ❌
 </div>
 
@@ -213,7 +325,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <div class="flex justify-left flex-wrap">
 <Chaifen char='垂' :parts='[3,4,1]' :colors='[1,2,3]' />
 ✅
-<Chaifen char='垂' :parts='[3,4,1]' :colors='[1,2,1]' />
+<Chaifen char='垂' :parts='[3,4,1]' :colors='[1,0,1]' />
 ❌
 </div>
 
@@ -221,7 +333,17 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <div class="flex justify-left flex-wrap">
 <Chaifen char='禹' :parts='[1,3,2,3]' :colors='[1,2,3,4]' />
 ✅
-<Chaifen char='禹' :parts='[1,3,2,3]' :colors='[1,2,3,2]' />
+<Chaifen char='禹' :parts='[1,3,2,3]' :colors='[1,2,0,2]' />
+❌
+</div>
+
+`妻`不拆 `キコ女`或`龶乛女`，而拆`十彐女`。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='妻' :parts='[1,3,1,3]' :colors='[1,2,1,3]' />
+✅
+<Chaifen char='妻' :parts='[1,1,1,1,1,3]' :colors='[1,0,1,0,1,3]' />
+❌
+<Chaifen char='妻' :parts='[1,1,3,3]' :colors='[1,0,1,3]' />
 ❌
 </div>
 

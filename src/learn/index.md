@@ -4,6 +4,16 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 # 前言
 
+::: warning 终南捷径
+
+如果你已经知道形码是什么，可以直接[从单字拆分开始学习](./division)。
+
+如果你已经掌握了一种形码，可以直接[从宇码字根开始学习](./division)。
+
+如果你想直观感受宇码拆分，可以直接[查看宇码的拆分图例](./examples)。
+
+:::
+
 ## 汉字输入法
 
 <div class="flex justify-left flex-wrap">

@@ -18,8 +18,8 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 `事情`：`事`的编码为 `KLBj`，`情`的编码为 `RHWy`。因此，「事情」的编码为 `KLWy`。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='事' :parts='[1,3,3,1]' :colors='[1,2,3,1]' />
-<Chaifen char='情' :parts='[3,4,4]' />
+<Chaifen char='事' :parts='[1,3,3,1]' :colors='[1,2,0,1]' />
+<Chaifen char='情' :parts='[3,4,4]' :colors='[3,4,0]' />
 </div>
 :::
 
@@ -30,16 +30,16 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 `泡泡糖`：`泡`的编码为`〔氵月巳・ NWOs〕`，`糖`的编码为`〔米广又古・ QMBL〕`。因此，`泡泡糖`的编码为`〔氵氵米广・ NNQM〕`。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='泡' :parts='[3,2,3]' />
-<Chaifen char='泡' :parts='[3,2,3]' />
-<Chaifen char='糖' :parts='[6,3,4,3]'/>  
+<Chaifen char='泡' :parts='[3,2,3]' :colors='[1,0,0,0]' />
+<Chaifen char='泡' :parts='[3,2,3]' :colors='[1,0,0,0]' />
+<Chaifen char='糖' :parts='[6,3,4,3]' :colors='[3,4,0,0]' />  
 </div>
 
 `星期三`：`星`的编码为`〔日生・ JPsr〕`，`期`的编码为`〔其月・ UWyq〕`，`三`的编码为`〔三・ Laa〕`。因此，`星期三`的编码为`〔日其三・ JULa〕`。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='星' :parts='[4,5]' />
-<Chaifen char='期' :parts='[8,4]' />
-<Chaifen char='三' :parts='[3]' />
+<Chaifen char='星' :parts='[4,5]' :colors='[1,0,0,0]' />
+<Chaifen char='期' :parts='[8,4]' :colors='[2,0,0,0]' />
+<Chaifen char='三' :parts='[3]' :colors='[3,0,0,0]' />
 </div>
 :::
 
@@ -50,21 +50,21 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ::: tip 例
 `狐假虎威`：`狐`的编码为`〔犭瓜・ HUgq〕`，「假」的编码为`〔亻尸二又・ EBIB〕`，「虎」的编码为`〔虎・ Uhh〕`，「威」的编码为`〔戊一女・ KFCn〕`。因此，「狐假虎威」的编码为`〔犭亻虎戊・ HEUK〕`。  
 <div class="flex justify-left flex-wrap">
-<Chaifen char='狐' :parts='[3,5]' />
-<Chaifen char='假' :parts='[2,3,2,2,2]' />
-<Chaifen char='虎' :parts='[8]' />
-<Chaifen char='威' :parts='[2,1,3,3]' :colors='[1,2,3,1]' />
+<Chaifen char='狐' :parts='[3,5]' :colors='[1,0]' />
+<Chaifen char='假' :parts='[2,3,2,2,2]' :colors='[2,0,0,0,0]' />
+<Chaifen char='虎' :parts='[8]' :colors='[3]' />
+<Chaifen char='威' :parts='[2,1,3,3]' :colors='[4,0,0,4]' />
 </div>
 
 `中华人民共和国`：这是一个七字词，所以我们只看前三字和最后一字`中`、`华`、`人`、`国`。`中`的编码为`〔口丨・ LUsv〕`，`华`的编码为`〔亻匕十・ ENGi〕`，`人`的编码为`〔人・ Ree〕`，`国`的编码为`〔囗王丶・ WJKd〕`。因此，`中华人民共和国`的编码为`〔口亻禾囗・ LERW〕`。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='中' :parts='[3,1]' />
-<Chaifen char='华' :parts='[2,2,2]' />
-<Chaifen char='人' :parts='[2,2,2]' />
-<Chaifen char='民' :parts='[3,2]' />
-<Chaifen char='共' :parts='[4,2]' />
-<Chaifen char='和' :parts='[5,3]' />
-<Chaifen char='国' :parts='[2,4,1,1]' :colors='[1,2,3,1]' />
+<Chaifen char='中' :parts='[3,1]' :colors='[1,0]' />
+<Chaifen char='华' :parts='[2,2,2]' :colors='[1,0,0]' />
+<Chaifen char='人' :parts='[2]' :colors='[1]' />
+<Chaifen char='民' :parts='[3,2]' :colors='[0,0]' />
+<Chaifen char='共' :parts='[4,2]' :colors='[0,0]' />
+<Chaifen char='和' :parts='[5,3]' :colors='[0,0]' />
+<Chaifen char='国' :parts='[2,4,1,1]' :colors='[1,0,0,1]' />
 </div>
 :::
 
