@@ -38,6 +38,7 @@ hero:
 <script setup>
 import Search from '@/search/FetchSearch.vue'
 import Chaifen from '@/chaifen/Chaifen.vue'
+import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 </script>
 <Search zigenUrl="/zigen-star.csv" supplement />
 
@@ -45,10 +46,12 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 <div class="flex justify-center flex-wrap my-8">
 <Chaifen char="光" :parts='[3,3]' />
-<Chaifen char='華' :parts='[4,5,2]' :colors='[1,2,3]' />
+<Chaifen char='華' :parts='[4,5,2]' />
 <Chaifen char="星" :parts='[4,5]' />
-<Chaifen char="陳" :parts='[2,1,4,3]' :colors='[1,2,3,2]' />
+<Chaifen char="陳" :parts='[2,1,4,3]' />
 </div>
+
+<MultiChaifen chars="的" />
 
 ::: info 致有缘人
 

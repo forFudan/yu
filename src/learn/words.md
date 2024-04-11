@@ -58,13 +58,13 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 `中华人民共和国`：这是一个七字词，所以我们只看前三字和最后一字`中`、`华`、`人`、`国`。`中`的编码为`〔口丨・ LUsv〕`，`华`的编码为`〔亻匕十・ ENGi〕`，`人`的编码为`〔人・ Ree〕`，`国`的编码为`〔囗王丶・ WJKd〕`。因此，`中华人民共和国`的编码为`〔口亻禾囗・ LERW〕`。
 <div class="flex justify-left flex-wrap">
-<Chaifen char='中' :parts='[3,1]' :colors='[1,0]' />
-<Chaifen char='华' :parts='[2,2,2]' :colors='[1,0,0]' />
-<Chaifen char='人' :parts='[2]' :colors='[1]' />
-<Chaifen char='民' :parts='[3,2]' :colors='[0,0]' />
-<Chaifen char='共' :parts='[4,2]' :colors='[0,0]' />
-<Chaifen char='和' :parts='[5,3]' :colors='[0,0]' />
-<Chaifen char='国' :parts='[2,4,1,1]' :colors='[1,0,0,1]' />
+<Chaifen char='中' :parts='[3,1]' :colors='[1,0]' :size=50 />
+<Chaifen char='华' :parts='[2,2,2]' :colors='[1,0,0]' :size=50 />
+<Chaifen char='人' :parts='[2]' :colors='[1]' :size=50 />
+<Chaifen char='民' :parts='[3,2]' :colors='[0,0]' :size=50 />
+<Chaifen char='共' :parts='[4,2]' :colors='[0,0]' :size=50 />
+<Chaifen char='和' :parts='[5,3]' :colors='[0,0]' :size=50 />
+<Chaifen char='国' :parts='[2,4,1,1]' :colors='[1,0,0,1]' :size=50 />
 </div>
 :::
 
@@ -77,14 +77,14 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 试想`我们今天一起吃饭`这个句子。
 
 <div class="flex justify-left flex-wrap">
-<Chaifen char='今' :parts='[2,1,2]' />
-<Chaifen char='天' :parts='[1,3]' />
-<Chaifen char='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' />
-<Chaifen char='们' :parts='[2,3]' />
-<Chaifen char='一' :parts='[1]' />
-<Chaifen char='起' :parts='[7,3]' />
-<Chaifen char='吃' :parts='[3,2,1]' />
-<Chaifen char='饭' :parts='[3,2,2]' />
+<Chaifen char='今' :parts='[2,1,2]' :size=50 />
+<Chaifen char='天' :parts='[1,3]' :size=50 />
+<Chaifen char='我' :parts='[1,1,2,3]' :colors='[1,0,2,3,5,1]' :size=50 />
+<Chaifen char='们' :parts='[2,3]' :size=50 />
+<Chaifen char='一' :parts='[1]' :size=50 />
+<Chaifen char='起' :parts='[7,3]' :size=50 />
+<Chaifen char='吃' :parts='[3,2,1]' :size=50 />
+<Chaifen char='饭' :parts='[3,2,2]' :size=50 />
 </div>
 
 - 如果打单字全码的话，需要按`GFKgETmrRKYiFOdiFii_HOjzLGYiXDBo`。
