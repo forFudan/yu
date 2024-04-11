@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { shallowRef } from "vue";
 import { onMounted } from "vue";
-import { watchThrottled, useUrlSearchParams } from "@vueuse/core";
 import Chaifen from "./Chaifen.vue";
 import { fetchCsvAsMap } from "../search/share";
 
 const p = defineProps<{
     chars: string,
+    size: number,
 }>()
 
 interface ChaifenPlot {
@@ -32,22 +32,14 @@ onMounted(async () => {
 </script>
 
 <template>
-    <Chaifen v-for="item in  [...'的']" char='的' parts='5 2 1' />
-    <Chaifen v-for="item in  [...'的']" char='的' :parts='[5, 2, 1]' />
-    <Chaifen v-for=" item  in   [...'的']" :char='item' :parts='chaifenPlotMap?.get(item).parts.split(" ")' />
-    <p v-for="  item   in   [...p.chars]  " :key='item'> {{ item === "的" }} </p>
-    <p v-for="  item   in   [...p.chars]  " :key='item'> {{ chaifenPlotMap?.get(item).parts === "5 2 1" }} </p>
-    <p v-for="  item   in   [...p.chars]  " :key='item'> {{ chaifenPlotMap?.get(item).parts }} </p>
-    <p v-for="  item   in   [...p.chars]  " :key='item'> {{ chaifenPlotMap?.get(item).colors }} </p>
-    <!-- <div>
-        <Chaifen v-for='item in [...p.chars]' :key='item' :char='item' :parts="chaifenPlotMap?.get(item).parts"
-            :colors="chaifenPlotMap?.get(item).colors">
-        </Chaifen>
+    <div class="flex justify-center flex-wrap my-8">
+        <Chaifen v-if="chaifenPlotMap" v-for="item in [...p.chars].filter(zi => chaifenPlotMap.has(zi))" :char='item'
+            :parts='chaifenPlotMap?.get(item).parts' :colors='chaifenPlotMap?.get(item).colors' :size="size" />
     </div>
-    <div> {{ typeof chaifenPlotMap }}</div>
-    <div> {{ [...p.chars] }} </div>
-    <div> {{ chaifenPlotMap?.get("的").parts }} </div>
-    <div> {{ searchChaifenPlots }} </div> -->
+    <template v-if="(chaifenPlotMap)" v-for="item in [...p.chars]">
+        <template v-if="chaifenPlotMap?.get(item).parts === ''"> {{ item }} </template>
+    </template>
+    <!-- <p v-else> "" </p> -->
 </template>
 
 <script lang="ts">
