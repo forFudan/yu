@@ -93,7 +93,7 @@ A：首先是為了讓字根編碼規則和單字編碼規則一致。其次，�
 以下情況，不需要使用空格鍵：
 
 一個字的編碼等於 4 位，且有後續字符等待輸入。我們不需要按空格鍵。只要直接輸入下一個字的首碼，這個字就會自動上屏。我們稱之為「五碼頂屏」。例如：我們打「霽雨」二字，「霽」字的編碼是`〔雨文{介下}・ CTKa〕`。輸入`a`後，我們直接輸入「雨」字的編碼`〔雨・ Cvv〕`，則「霽」字會自動上屏。
-<div class="flex justify-left flex-wrap my-8">
+<div class="flex justify-left flex-wrap">
 <Chaifen char='霁' :parts='[8,4,2]' />
 <Chaifen char='雨' :parts='[8]' />
 </div>

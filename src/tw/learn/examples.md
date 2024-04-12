@@ -6,6 +6,10 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 本頁列出部分宇碼必拆單字的拆分圖解。部分是獨體字，部分是組合字。它們具有很強的代表性，可以展示生僻字根的使用場景、提示規則的小細節、排除拆分歧義等等。
 
+::: tip 高頻字拆分圖解
+如果你想了解使用頻率最為靠前的幾百個漢字在宇碼中的拆分，可以點擊進入[高頻字拆分圖解（簡化字）](./frequent.md)或[高頻字拆分圖解（傳統字）](./frequent_tc.md)頁面。
+:::
+
 ## 特殊字根和複雜漢字
 <div class="flex justify-left flex-wrap my-8">
 <Chaifen char='華' :parts='[4,5,2]' :colors='[1,2,3]' />
@@ -207,7 +211,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <Chaifen char='產' :parts='[4,2,5]' :colors='[1,2,3,4,2,1]' />
 <Chaifen char='彖' :parts='[3,6,4]' :colors='[1,2,3,4,2,1]' />
 <Chaifen char='录' :parts='[3,5,4]' :colors='[1,2,3,4,2,1]' />
-<Chaifen char='丈' :parts='[2,1]' :colors='[1,2,3,4,5,6]' />
+<Chaifen char='丈' :parts='[2,1]' />
 <Chaifen char='兴' :parts='[4,2]' />
 <Chaifen char='严' :parts='[1,5,1]' />
 <Chaifen char='夬' :parts='[2,2]' />

@@ -3,9 +3,9 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 </script>
 
-# 高频字拆分图解——简化字
+# 高頻字拆分圖解——簡化字
 
-本页列出常用高频汉字的宇码拆分图解。汉字依照字频排序。
+本頁列出常用高頻漢字的宇碼拆分圖解。漢字依照字頻排序。
 
 ## 1 - 100
 
