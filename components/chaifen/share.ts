@@ -33,15 +33,15 @@ DESCRIPTION 介紹:
 import { fetchCsvAsMap } from "../search/share";
 
 export function genIdentifier(length: number): string {
-    let randId = '';
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let randYu = '';
+    const chars = 'ABCDEFGHIJKLMNOPQRSTVWXYUZbcdefghaoijklmnpqrstuvwxyz0123456789';
     const charsLen = chars.length;
     let counter = 0;
     while (counter < length) {
-        randId += chars.charAt(Math.floor(Math.random() * charsLen));
+        randYu += chars.charAt(Math.floor(Math.random() * charsLen));
         counter += 1;
     }
-    return randId;
+    return randYu;
 }
 
 function renderFanningStrokesNew(target: HTMLElement, char: string, strokes: any, parts: Array<number>, colors: Array<number>, size: number) {
@@ -75,7 +75,7 @@ function renderFanningStrokesNew(target: HTMLElement, char: string, strokes: any
         strokes.slice(total, total + parts[i]).forEach(function (strokePath) {
             var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
             path.setAttributeNS(null, 'd', strokePath);
-            // style the character paths
+            // Fill colors to Yuhao strokes
             path.style.fill = color[colors[i]];
             group.appendChild(path);
         });
@@ -83,7 +83,7 @@ function renderFanningStrokesNew(target: HTMLElement, char: string, strokes: any
     }
 }
 
-export function getDivision(target: string, char: string, parts: Array<number> = [99], colors: Array<number> = [1, 2, 3, 4, 5, 6, 7, 8, 0], size: number = 75) {
+export function getDivision(target: string, char: string, parts: Array<number> = [99], colors: Array<number> = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], size: number = 75) {
     HanziWriter.loadCharacterData(char).then(function (charData) {
         renderFanningStrokesNew(document.getElementById(target), char, charData.strokes, parts, colors, size);
     });

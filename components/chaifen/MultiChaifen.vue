@@ -17,7 +17,7 @@ interface ChaifenPlot {
 
 type ChaifenPlotMap = Map<string, ChaifenPlot>
 const chaifenPlotMap = shallowRef<ChaifenPlotMap>()
-const searchChaifenPlots = shallowRef<string[]>()
+const searchYuChaifenPlots = shallowRef<string[]>()
 
 async function fetchChaifenPlot(url: string) {
     return await fetchCsvAsMap(url) as unknown as ChaifenPlotMap
@@ -26,7 +26,7 @@ async function fetchChaifenPlot(url: string) {
 onMounted(async () => {
     if (chaifenPlotMap.value) return;
     chaifenPlotMap.value = await fetchChaifenPlot("/chaifen_plot.csv")
-    // searchChaifenPlots.value = [...p.chars].filter(zi => chaifenPlotMap.has(zi))
+    // searchYuChaifenPlots.value = [...p.chars].filter(zi => chaifenPlotMap.has(zi))
 })
 
 </script>
@@ -39,7 +39,7 @@ onMounted(async () => {
     <template v-if="(chaifenPlotMap)" v-for="item in [...p.chars]">
         <template v-if="chaifenPlotMap?.get(item).parts === ''"> {{ item }} </template>
     </template>
-    <!-- <p v-else> "" </p> -->
+    <!-- <p v-else> "宇浩拆分" </p> -->
 </template>
 
 <script lang="ts">

@@ -18,7 +18,7 @@ const p = defineProps({
     },
 })
 
-const randId = genIdentifier(12);
+const randYu = genIdentifier(12);
 var parts: Array<number>
 var colors: Array<number>
 
@@ -41,12 +41,12 @@ if (typeof p.colors === "string") {
     colors = p.colors
 };
 
-getDivision(randId, p.char, parts, colors, p.size);
+getDivision(randYu, p.char, parts, colors, p.size);
 
 </script>
 
 <template>
-    <div v-bind='{ id: randId }'></div>
+    <div v-bind='{ id: randYu }'></div>
 </template>
 
 <script lang="ts">
