@@ -86,10 +86,20 @@ export default defineConfig({
               text: '關於《古籍印刷通規》',
               link: '/docs/guji',
             },
+          ]
+        },
+        {
+          text: '大观',
+          items: [
+            {
+              text: '卿云输入法',
+              link: '/docs/joy',
+            },
             {
               text: '论易码简码的设置',
               link: '/docs/yima',
-            },]
+            },
+          ]
         },
       ],
       '/learn': [
@@ -336,7 +346,7 @@ export default defineConfig({
               items: [
                 {
                   text: '常見輸入法重碼數據',
-                  link: 'tw/docs/statistics',
+                  link: '/tw/docs/statistics',
                 },
                 // {
                 //   text: '常见形码输入方案编码规则',
@@ -354,6 +364,15 @@ export default defineConfig({
                 //   text: '论易码简码的设置',
                 //   link: '/docs/yima',
                 // },
+              ]
+            },
+            {
+              text: '大观',
+              items: [
+                {
+                  text: '卿云输入法',
+                  link: '/tw/docs/joy',
+                },
               ]
             },
           ],
