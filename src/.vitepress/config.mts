@@ -79,10 +79,6 @@ export default defineConfig({
               link: '/docs/coding',
             },
             {
-              text: '挑选适合的方案',
-              link: '/docs/prosandcons',
-            },
-            {
               text: '關於《古籍印刷通規》',
               link: '/docs/guji',
             },
