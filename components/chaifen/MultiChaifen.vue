@@ -7,6 +7,7 @@ import { fetchCsvAsMap } from "../search/share";
 const p = defineProps<{
     chars: string,
     size: number,
+    loc: string,
 }>()
 
 interface ChaifenPlot {
@@ -17,7 +18,7 @@ interface ChaifenPlot {
 
 type ChaifenPlotMap = Map<string, ChaifenPlot>
 const chaifenPlotMap = shallowRef<ChaifenPlotMap>()
-const searchYuChaifenPlots = shallowRef<string[]>()
+// const searchYuChaifenPlots = shallowRef<string[]>()
 
 async function fetchChaifenPlot(url: string) {
     return await fetchCsvAsMap(url) as unknown as ChaifenPlotMap
@@ -29,10 +30,18 @@ onMounted(async () => {
     // searchYuChaifenPlots.value = [...p.chars].filter(zi => chaifenPlotMap.has(zi))
 })
 
+var desc_class: string;
+
+if (p.loc === 'left') {
+    var desc_class = "flex justify-left flex-wrap my-2";
+} else {
+    var desc_class = "flex justify-center flex-wrap my-2";
+}
+
 </script>
 
 <template>
-    <div class="flex justify-center flex-wrap my-8">
+    <div v-bind='{ class: desc_class }'>
         <Chaifen v-if="chaifenPlotMap" v-for="item in [...p.chars].filter(zi => chaifenPlotMap.has(zi))" :char='item'
             :parts='chaifenPlotMap?.get(item).parts' :colors='chaifenPlotMap?.get(item).colors' :size="size" />
     </div>

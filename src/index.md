@@ -44,7 +44,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 ---
 
-<MultiChaifen chars="日月光華爛然星陳" :size="40"/>
+<MultiChaifen chars="日月光華爛然星陳" :size="40" />
 
 ::: info 致有缘人
 

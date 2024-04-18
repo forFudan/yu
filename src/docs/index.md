@@ -5,9 +5,9 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 # 宇浩输入法
 
-<MultiChaifen chars="宇浩輸入法" :size="50"/>
-
 ## 基本特点
+
+<MultiChaifen chars="宇浩輸入法" :size="50" loc='left' />
 
 宇浩输入法是纯字形输入法，通过输入汉字的部首和笔画来输入汉字，而不依赖汉字的具体读音。也就是「会写就会打」「看到即输入」。这是如何做到的呢？答案是三个步骤：
 

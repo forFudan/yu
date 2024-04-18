@@ -142,6 +142,14 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 ❌
 </div>
 
+`匹`拆`兀乚`而不拆`匚儿`，因为前者完全符合笔顺。
+<div class="flex justify-left flex-wrap">
+<Chaifen char='匹' :parts='[3,1]' />
+✅
+<Chaifen char='匹' :parts='[1,2,1]' :colors='[1,2,1]' />
+❌
+</div>
+
 :::
 
 ## 结构完整
@@ -173,19 +181,6 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <Chaifen char='免' :parts='[2,3,2]' />
 ✅
 <Chaifen char='免' :parts='[2,2,3]' />
-❌
-</div>
-:::
-
-注意，拆分的优先级需要得到贯彻。
-
-::: tip 例
-
-`匹`拆`兀乚`而不拆`匚儿`。因为前者完全符合笔顺，而「符合笔顺」的优先级更高。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='匹' :parts='[3,1]' />
-✅
-<Chaifen char='匹' :parts='[1,2,1]' :colors='[1,2,1]' />
 ❌
 </div>
 
