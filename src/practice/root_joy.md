@@ -1,14 +1,14 @@
 ---
 aside: false
 ---
-# 字根练习
+# 卿云·字根练习
 
 你可以随时暂停练习。你的练习进度会在同一设备上储存。
 
 <script setup>
 import Train from "@/train/ZigenTrain.vue"
 </script>
-<Train name="joy" zigenUrl="/zigen-joy.csv" :range="[0,]" mode='both' />
+<Train name="joy" zigenUrl="/zigen-joy.csv" :range="[0,]" mode='A' />
 
 ::: details 字根表
 

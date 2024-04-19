@@ -1,11 +1,14 @@
 ---
 aside: false
 ---
-# 单字练习
+# 星陈·单字练习
+
+你可以随时暂停练习。你的练习进度会在同一设备上储存。
+
 <script setup>
 import Train from "@/train/CharTrain.vue"
 </script>
-<Train name="star" zigenUrl="/zigen-star.csv" :range="[0,200]" :supplement="true" />
+<Train name="star" zigenUrl="/zigen-star.csv" :range="[0,1000]" :supplement="true" />
 
 ::: details 字根表
 | 大码 | 聚类字根                                     | 零散字根   |
