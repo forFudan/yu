@@ -8,7 +8,7 @@ aside: false
 <script setup>
 import Train from "@/train/ZigenTrain.vue"
 </script>
-<Train name="joy" zigenUrl="/zigen-joy.csv" :range="[0,]" mode='A' />
+<Train name="joy" zigenUrl="/zigen-joy.csv" :range="[0,]" mode='both' />
 
 ::: details 字根表
 
