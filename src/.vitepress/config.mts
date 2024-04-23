@@ -43,7 +43,8 @@ export default defineConfig({
       { text: '教程', link: '/learn/' },
       { text: '拆分', link: '/chaifen/' },
       { text: '练习', link: '/practice/root' },
-      { text: '安装', link: '/install' }
+      { text: '安装', link: '/install' },
+      { text: '跟打', link: 'https://yupad.pages.dev/' }
     ],
     sidebar: {
       '/docs': [
@@ -202,6 +203,15 @@ export default defineConfig({
             },
           ]
         },
+        {
+          text: '跟打器',
+          items: [
+            {
+              text: '跟打器',
+              link: 'https://yupad.pages.dev/'
+            }
+          ]
+        }
       ],
       '/chaifen': [
         {
