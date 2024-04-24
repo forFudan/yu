@@ -93,6 +93,10 @@ export default defineConfig({
               link: '/docs/joy',
             },
             {
+              text: '天码介绍、拆分、练习',
+              link: '/docs/tianma',
+            },
+            {
               text: '论易码简码的设置',
               link: '/docs/yima',
             },
@@ -373,10 +377,10 @@ export default defineConfig({
               ]
             },
             {
-              text: '大观',
+              text: '大觀',
               items: [
                 {
-                  text: '卿云输入法',
+                  text: '卿雲輸入法',
                   link: '/tw/docs/joy',
                 },
               ]

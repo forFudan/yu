@@ -5,9 +5,9 @@ aside: false
 import Search from '@/search/FetchSearch.vue'
 </script>
 
-# 宇浩拆分查询
+# 卿云拆分查询
 
-<Search zigenUrl="/zigen-joy.csv" />
+<Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-joy.csv" />
 
 ::: tip 提示
 鼠标悬停，可显示字符集和外部搜索（字统、字海、汉典、中国哲学书电子化计划）

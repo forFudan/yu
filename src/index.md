@@ -40,7 +40,7 @@ import Search from '@/search/FetchSearch.vue'
 import Chaifen from '@/chaifen/Chaifen.vue'
 import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 </script>
-<Search zigenUrl="/zigen-star.csv" supplement />
+<Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-star.csv" supplement />
 
 ---
 

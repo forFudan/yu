@@ -4,6 +4,7 @@ import Search from "./Search.vue";
 import { ZigenMap, ChaifenMap, fetchChaifen, fetchZigen } from "./share";
 
 const p = defineProps<{
+    chaifenUrl: string,
     zigenUrl: string,
     supplement: boolean,
 }>()
@@ -12,7 +13,7 @@ const chaifenMap = shallowRef<ChaifenMap>()
 const zigenMap = shallowRef<ZigenMap>()
 
 onMounted(() => {
-    Promise.all([fetchChaifen('/chaifen.csv'), fetchZigen(p.zigenUrl)])
+    Promise.all([fetchChaifen(p.chaifenUrl), fetchZigen(p.zigenUrl)])
         .then((v) => {
             chaifenMap.value = v[0]
             zigenMap.value = v[1]
