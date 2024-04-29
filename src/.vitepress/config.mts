@@ -93,11 +93,11 @@ export default defineConfig({
               link: '/docs/joy',
             },
             {
-              text: '天码介绍、拆分、练习',
+              text: '天码',
               link: '/docs/tianma',
             },
             {
-              text: '论易码简码的设置',
+              text: '易码',
               link: '/docs/yima',
             },
           ]
