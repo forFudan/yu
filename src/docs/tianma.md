@@ -4,7 +4,6 @@
 - [简介](#简介)
 - [规则](#规则)
 - [字根练习](#字根练习)
-- [单字练习](#单字练习)
 
 ## 简介
 
@@ -52,10 +51,10 @@ import ZigenTrain from "@/train/ZigenTrain.vue"
 
 <ZigenTrain name="tianma" zigenUrl="/zigen-tianma.csv" :range="[0,]" mode='both' />
 
-## 单字练习
+<!-- ## 单字练习
 
 为了降低学习难度，练习中，不补首根小码。
 
-<CharTrain name="tianma" zigenUrl="/zigen-tianma.csv" :range="[0,1000]" :supplement="false" />
+<CharTrain name="tianma" zigenUrl="/zigen-tianma.csv" :range="[0,1000]" :supplement="false" /> -->
 
 [^fanjian]: 一般认为单一码表繁简联合选重率小于万分之五十即具有繁简通打特性。
