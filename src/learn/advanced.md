@@ -333,7 +333,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <div class="flex justify-left flex-wrap">
 <Chaifen char='禹' :parts='[1,3,2,3]' :colors='[1,2,3,4]' />
 ✅
-<Chaifen char='禹' :parts='[1,3,2,3]' :colors='[1,2,0,2]' />
+<Chaifen char='禹' :parts='[1,3,2,3]' :colors='[0,1,0,1]' />
 ❌
 </div>
 
