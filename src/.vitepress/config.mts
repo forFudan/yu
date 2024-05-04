@@ -208,6 +208,15 @@ export default defineConfig({
           ]
         },
         {
+          text: '吉旦饼',
+          items: [
+            {
+              text: '吉旦饼字根',
+              link: '/practice/root_wafel'
+            }
+          ]
+        },
+        {
           text: '跟打器',
           items: [
             {
