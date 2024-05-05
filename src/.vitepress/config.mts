@@ -392,6 +392,14 @@ export default defineConfig({
                   text: '卿雲輸入法',
                   link: '/tw/docs/joy',
                 },
+                {
+                  text: '天碼',
+                  link: '/tw/docs/tianma',
+                },
+                {
+                  text: '易碼',
+                  link: '/tw/docs/yima',
+                },
               ]
             },
           ],

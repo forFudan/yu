@@ -38,17 +38,15 @@ hero:
 <script setup>
 import Search from '@/search/FetchSearch.vue'
 import Chaifen from '@/chaifen/Chaifen.vue'
+import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 </script>
 <Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-star.csv" supplement />
 
 ---
 
-<div class="flex justify-center flex-wrap">
-<Chaifen char="光" id="宇" :parts='[3,3]' />
-<Chaifen char='華' :parts='[4,5,2]' :colors='[1,2,3]' />
-<Chaifen char="星" id="星" :parts='[4,5]' />
-<Chaifen char="陳" id="陳" :parts='[2,1,4,3]' :colors='[1,2,3,2]' />
-</div>
+<!-- <MultiChaifen chars="日月光華爛然星陳" :size="40" /> -->
+
+<MultiChaifen chars="易曰上古結繩以治後世聖人易之以書契百官以治萬民以察蓋取諸夬夬揚於王庭言其宣揚於王者朝廷其用最大也古者八歲入小學故周官保氏掌養國子教之六書謂象形象事象意象聲轉注假借造字之本也漢興蕭何草律亦著其法曰太史試學童能諷書九千字以上乃得為史又以六體試之課最者以為尚書御史史書令史吏民上書字或不正輒舉劾六體者古文奇字篆書隸書繆篆蟲書皆所以通知古今文字摹印章書幡信也古制書必同文不知則闕問諸故老至於衰世是非無正人用其私故孔子曰吾猶及史之闕文也今亡矣夫蓋傷其浸不正史籀篇者周時史官教學童書也與孔氏壁中古文異體蒼頡七章者秦丞相李斯所作也爰歷六章者車府令趙高所作也博學七章者太史令胡母敬所作也文字多取史籀篇而篆體復頗異所謂秦篆者也是時始造隸書矣起於官獄多事苟趨省易施之於徒隸也漢書閭里書師合蒼頡爰歷博學三篇斷六十字以為一章凡五十五章并為蒼頡篇武帝時司馬相如作凡將篇無復字元帝時黃門令史游作急就篇成帝時將作大匠李長作元尚篇皆蒼頡中正字也凡將則頗有出矣至元始中徵天下通小學者以百數各令記字於庭中揚雄取其有用者以作訓纂篇順續蒼頡又易蒼頡中重復之字凡八十九章臣復續揚雄作十二章凡一百二章無復字六藝群書所載略備矣蒼頡多古字俗師失其讀宣帝時徵齊人能正讀者張敞從受之傳至外孫之子杜林為作訓故并列焉" :size="25" />
 
 ::: tip 致有緣人
 

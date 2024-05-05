@@ -44,7 +44,9 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 ---
 
-<MultiChaifen chars="日月光華爛然星陳" :size="40" />
+<!-- <MultiChaifen chars="日月光華爛然星陳" :size="40" /> -->
+
+<MultiChaifen chars="易曰上古結繩以治後世聖人易之以書契百官以治萬民以察蓋取諸夬夬揚於王庭言其宣揚於王者朝廷其用最大也古者八歲入小學故周官保氏掌養國子教之六書謂象形象事象意象聲轉注假借造字之本也漢興蕭何草律亦著其法曰太史試學童能諷書九千字以上乃得為史又以六體試之課最者以為尚書御史史書令史吏民上書字或不正輒舉劾六體者古文奇字篆書隸書繆篆蟲書皆所以通知古今文字摹印章書幡信也古制書必同文不知則闕問諸故老至於衰世是非無正人用其私故孔子曰吾猶及史之闕文也今亡矣夫蓋傷其浸不正史籀篇者周時史官教學童書也與孔氏壁中古文異體蒼頡七章者秦丞相李斯所作也爰歷六章者車府令趙高所作也博學七章者太史令胡母敬所作也文字多取史籀篇而篆體復頗異所謂秦篆者也是時始造隸書矣起於官獄多事苟趨省易施之於徒隸也漢書閭里書師合蒼頡爰歷博學三篇斷六十字以為一章凡五十五章并為蒼頡篇武帝時司馬相如作凡將篇無復字元帝時黃門令史游作急就篇成帝時將作大匠李長作元尚篇皆蒼頡中正字也凡將則頗有出矣至元始中徵天下通小學者以百數各令記字於庭中揚雄取其有用者以作訓纂篇順續蒼頡又易蒼頡中重復之字凡八十九章臣復續揚雄作十二章凡一百二章無復字六藝群書所載略備矣蒼頡多古字俗師失其讀宣帝時徵齊人能正讀者張敞從受之傳至外孫之子杜林為作訓故并列焉" :size="25" />
 
 ::: info 致有缘人
 
@@ -74,14 +76,14 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 感谢以下字形输入法的发明人、改编人、维护人、各平台方案制作者、插件作者、网页作者等：
 
-[王码五笔字形](http://www.wangma.net.cn/)、[郑码](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[仓颉](http://www.cbflabs.com/)、[山人全息](https://siuze.github.io/ShanRenMaLTS/)、[尔雅徐码](http://xumax.cn/)〔[五二顶](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真码、[C42](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、092、[三码郑码](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形](https://flypy.com/)、蓝宝石、[虎码](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码](https://yb6b.github.io/yima/graceful-code/)、[易码](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
-](https://lost-melody.github.io/hamster-tools/)〕、[云码](https://github.com/orbitoo/kumo)、天码、[声笔系列](https://sbxlm.github.io/)、[星空键道](https://xkinput.gitee.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
+[王码五笔字形@王永民](http://www.wangma.net.cn/)、[郑码@郑易理 郑珑](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[仓颉@朱邦復](http://www.cbflabs.com/)、[山人全息@谢振斌](https://siuze.github.io/ShanRenMaLTS/)、[尔雅徐码@徐国银](http://xumax.cn/)〔[五二顶@局外人](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真码@命、[C42@谭淞宸](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、092、[三码郑码@史岳](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形@何海峰](https://flypy.com/)、蓝宝石@秋风、[虎码@PeaceB](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码@小泥巴](https://yb6b.github.io/yima/graceful-code/)、[易码@小泥巴](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
+](https://lost-melody.github.io/hamster-tools/)〕、[云码@为云](https://github.com/orbitoo/kumo)、天码@宋天、[声笔系列@戴石麟](https://sbxlm.github.io/)、[星空键道@吅吅大山](https://xkinput.gitee.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
 
 ---
 
 感谢在输入法的制作过程中，参与初期讨论和构思、帮助测试和宣传、提供技术支持、参与生态建设的朋友：
 
-钱多多、阿吉、王牌饼干、宋天、yb。
+钱多多、阿吉、[王牌饼干](https://github.com/lost-melody)、宋天、[yb](https://github.com/yb6b)。
 
 还有不少朋友为输入法的优化提出了众多宝贵的意见和建议，此处不一一致谢。
 
@@ -93,7 +95,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 ---
 
-感谢以下文化平台：
+感谢以下文化平台和项目：
 
 [汉典网](https://www.zdic.net/)、[叶典网](http://yedict.com/zslf.htm)、[字统网](https://zi.tools/)、[天珩字库](http://cheonhyeong.com/Simplified/download.html)、[思源宋体](https://source.typekit.com/source-han-serif/cn/)
 
