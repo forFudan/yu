@@ -72,7 +72,7 @@ export default defineConfig({
           text: '杂谈',
           items: [
             {
-              text: '常见输入法重码数据',
+              text: '常见输入法测评数据',
               link: '/docs/statistics',
             },
             {
@@ -364,7 +364,7 @@ export default defineConfig({
               text: '雜談',
               items: [
                 {
-                  text: '常見輸入法重碼數據',
+                  text: '常見輸入法測評數據',
                   link: '/tw/docs/statistics',
                 },
                 // {
