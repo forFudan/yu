@@ -4,7 +4,7 @@ import DefaultTheme from 'vitepress/theme-without-fonts'
 import { useMediumZoomProvider } from '../hooks'
 import './style.css'
 import './fonts.css'
-
+import './custom.css'
 
 export default {
   extends: DefaultTheme,
