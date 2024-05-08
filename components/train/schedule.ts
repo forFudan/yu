@@ -58,7 +58,8 @@ export class Schedule<T> {
     }
 
     let step = 0;
-    const moveSteps = [2, 4, 8, 12, 20, 30, 60, 100];
+    // const moveSteps = [2, 4, 8, 12, 20, 30, 60, 100];
+    const moveSteps = [4, 16, 64, 256];
     if (firstCount > moveSteps.length - 1) {
       firstRecord[0] = 8;
       step = maxIndex;
