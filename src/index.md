@@ -51,9 +51,9 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 <MultiChaifen chars="明明上天爛然星陳" :size="40" />
 <MultiChaifen chars="日月光華弘於一人" :size="40" />
 <MultiChaifen chars="日月有常星辰有行" :size="40" />
-<MultiChaifen chars="四時從經萬姓允誠" :size="40" />
+<!-- <MultiChaifen chars="四時從經萬姓允誠" :size="40" />
 <MultiChaifen chars="於予論樂配天之靈" :size="40" />
-<MultiChaifen chars="遷於賢聖莫不咸聽" :size="40" />
+<MultiChaifen chars="遷於賢聖莫不咸聽" :size="40" /> -->
 
 ::: info 致有缘人
 
