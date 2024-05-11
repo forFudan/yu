@@ -314,7 +314,7 @@ export default defineConfig({
     },
     tw: {
       label: "傳統漢字",
-      lang: "zh-Hant-TW",
+      lang: "zh-Hans-CN",
       title: "宇浩輸入法",
       description: "情繫漢字 溝通古今",
       themeConfig: {

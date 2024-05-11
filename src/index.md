@@ -39,7 +39,6 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 <MultiChaifen chars="日月光華旦復旦兮" :size="40" />
 <MultiChaifen chars="明明上天爛然星陳" :size="40" />
 <MultiChaifen chars="日月光華弘於一人" :size="40" />
-<MultiChaifen chars="日月有常星辰有行" :size="40" />
 
 ::: tip 致有缘人
 
@@ -74,7 +73,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 钱多多、阿吉、[王牌饼干](https://github.com/lost-melody)、宋天、[yb](https://github.com/yb6b)。
 
-还有不少朋友为输入法的优化提出了宝贵的意见和建议，为输入法的推广助力，此处不一一致谢谢。
+还有不少朋友为输入法的优化提出了宝贵的意见和建议，为输入法的推广助力，此处不一一致谢。
 
 ---
 

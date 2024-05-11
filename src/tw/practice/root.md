@@ -11,6 +11,7 @@ import Train from "@/train/ZigenTrain.vue"
 <Train name="star" zigenUrl="/zigen-star.csv" :range="[0,]" mode='both' />
 
 ::: details 字根表
+<!-- do not translate -->
 | 大码 | 聚类字根                                     | 零散字根   |
 | :--- | :------------------------------------------- | ---------- |
 | A    | 木來　㔾卩　亠高                             | キ         |
@@ -38,6 +39,7 @@ import Train from "@/train/ZigenTrain.vue"
 | W    | 月勹　囗凵丩屮(上框)                         | 馬　儿     |
 | X    | 冖𠂊夕饣欠鱼　车七                            | 衤         |
 | Y    | 乙飛                                         | 阝         |
+<!-- do not translate -->
 :::
 
 ::: details 键位图

@@ -15,7 +15,7 @@ import Train from "@/train/ZigenTrain.vue"
 注：[J]假名讀音 [N]無讀音(默認作v) [R]極少見於末根(不用記讀音) [S]特例(1個)
 
 <div class="zigen-font">
-
+<!-- do not translate -->
 | 字根        | 按鍵 | 讀音             | 字例       |
 | ----------- | ---- | ---------------- | ---------- |
 | 木朩𣎳       | A    | mù               | 相茶朮     |
@@ -288,7 +288,7 @@ import Train from "@/train/ZigenTrain.vue"
 | 三          |      | sān              |            |
 | 王⺩         |      | wáng             |            |
 |             |      |                  |            |
-
+<!-- do not translate -->
 </div>
 
 :::
