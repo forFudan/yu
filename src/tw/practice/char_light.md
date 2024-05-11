@@ -1,7 +1,7 @@
 ---
 aside: false
 ---
-# 光华·单字练习
+# 光華·单字练习
 
 你可以随时暂停练习。你的练习进度会在同一设备上储存。
 
@@ -11,7 +11,7 @@ import Train from "@/train/CharTrain.vue"
 <Train name="light" zigenUrl="/zigen-light.csv" :range="[0,1000]" :supplement="true" />
 
 :::details 键位图
-![宇浩·光华字根图](/yulight.webp)
+![宇浩·光華字根图](/yulight.webp)
 :::
 
 ::: details 单字规则

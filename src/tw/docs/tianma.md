@@ -51,10 +51,10 @@ import ZigenTrain from "@/train/ZigenTrain.vue"
 
 <ZigenTrain name="tianma" zigenUrl="/zigen-tianma.csv" :range="[0,]" mode='both' />
 
-!-- ## 單字練習
+<!-- ## 單字練習
 
 為了降低學習難度，練習中，不補首根小碼。
 
-<CharTrain name="tianma" zigenUrl="/zigen-tianma.csv" :range="[0,1000]" :supplement="false" /> --
+<CharTrain name="tianma" zigenUrl="/zigen-tianma.csv" :range="[0,1000]" :supplement="false" /> -->
 
 [^fanjian]: 一般認為單一碼錶繁簡聯合選重率小於萬分之五十即具有繁簡通打特性。

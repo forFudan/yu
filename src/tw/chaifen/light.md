@@ -5,9 +5,9 @@ aside: false
 import Search from '@/search/FetchSearch.vue'
 </script>
 
-# 星陈拆分查询
+# 光华拆分查询
 
-<Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-star.csv" :supplement="true" />
+<Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-light.csv" :supplement="true" />
 
 ::: tip 提示
 鼠标悬停，可显示字符集和外部搜索（字统、字海、汉典、中国哲学书电子化计划）
@@ -18,7 +18,7 @@ import Search from '@/search/FetchSearch.vue'
 
 「拆分」栏字形标准取自 [The Unicode Standard](https://www.unicode.org/versions/Unicode15.1.0/)
 
-字形优先级: 陆台港日韩越 GTHJKV
+字形优先级: 陸臺港日韓越 GTHJKV
 
-若存在台湾标准字形，则额外显示台湾字形拆分和编码
+若存在臺灣標準字形，則額外顯示臺灣字形拆分和編碼
 :::

@@ -26,25 +26,25 @@
 以下为「宇浩算法」伪代码，谨供参考。
 
 ```python
-# 「宇浩算法」伪代码
-k_max: int  # 外层淬火轮数
-l_max: int  # 内层贪婪轮数
-t_k: float  # 混乱度
-x_1: Sequence[str]  # 字根编码
-y_1: float  # = f(x_1) 当前各指标加权分值
-x_1_best, y_1_best = x_1, y_1  # 最优解
-# 外层淬火 开始
+# 「宇浩算法」僞代碼
+k_max: int  # 外層淬火輪數
+l_max: int  # 内層貪婪輪數
+t_k: float  # 混亂度
+x_1: Sequence[str]  # 字根編碼
+y_1: float  # = f(x_1) 當前各指標加權分值
+x_1_best, y_1_best = x_1, y_1  # 最優解
+# 外層淬火 開始
 for k in range(1, k_max):
-    x_2 = rand(x_1)  # 随机扰动
+    x_2 = rand(x_1)  # 隨機擾動
     y_2 = f(x_2)
     x_2_best, y_2_best = x_2, y_2
-    # 内层贪婪 开始
+    # 内層貪婪 開始
     for l in range(1, l_max):
-        # 同大码字根组遍历 开始
+        # 同大碼字根組遍歷 開始
         for roots in groups_of_roots:
-            # 该组字根大码遍历候选键位或分区 开始
+            # 該組字根大碼遍歷候選鍵位或分區 開始
             for dama in dama_candidates:
-                # 该组字根小码遍历候选键位的组合 开始
+                # 該組字根小碼遍歷候選鍵位的組合 開始
                 for xiaoma in product(*xiaoma_candidates):
                     x_trial: Sequence[str]  # = f(x_2, dama, xiaoma)
                     y_trial: float  # = f(x_trial)
@@ -53,17 +53,17 @@ for k in range(1, k_max):
                         x_2, y_2 = x_trial, y_trial
                     if y_trial < y_2_best:
                         x_2_best, y_2_best = x_trial, y_trial
-                # 该组字根小码遍历候选键位的组合 结束
-            # 该组大码遍历候选键位或分区 结束
-        # 同大码字根组遍历 结束
-    # 内层贪婪 结束
+                # 該組字根小碼遍歷候選鍵位的組合 結束
+            # 該組大碼遍歷候選鍵位或分區 結束
+        # 同大碼字根組遍歷 結束
+    # 内層貪婪 結束
     y_delta = y_2_best - y_1
     if (y_delta <= 0) or (random.uniform(0, 1) < np.exp(-y_delta / t_k)):
         x_1, y_1 = x_2_best, y_2_best
     if y_2_best < y_1_best:
         x_1_best, y_1_best = x_2_best, y_2_best
-    t_k = 0.75 * t_k  # 使用指数降温
-# 外层淬火结束
+    t_k = 0.75 * t_k  # 使用指數降溫
+# 外層淬火結束
 print(x_1_best)
 ```
 

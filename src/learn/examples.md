@@ -162,12 +162,12 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <Chaifen char='陽' :parts='[2,4,1,2,2]' :colors='[1,2,3,4,5]' />
 </div>
 
-## 能散不連
+## 能散不连
 <div class="flex justify-left flex-wrap my-8">
 <Chaifen char='主' :parts='[1,5]' :colors='[1,2,1,3]' />
 </div>
 
-## 能連不交
+## 能连不交
 <div class="flex justify-left flex-wrap my-8">
 <Chaifen char='开' :parts='[1,4]' :colors='[1,2,1,3]' />
 <Chaifen char='无' :parts='[1,4]' :colors='[1,2,1,3]' />

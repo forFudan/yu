@@ -61,7 +61,7 @@ export default defineConfig({
           link: '/docs/technical'
         },
         {
-          text: '設計哲學',
+          text: '设计哲学',
           link: '/docs/discussion',
         },
         {
@@ -80,7 +80,7 @@ export default defineConfig({
               link: '/docs/coding',
             },
             {
-              text: '關於《古籍印刷通規》',
+              text: '古籍通规繁体标准',
               link: '/docs/guji',
             },
           ]
@@ -312,18 +312,6 @@ export default defineConfig({
       label: '简化汉字',
       lang: 'zh-Hans-CN'
     },
-    // en: {
-    //   label: "English",
-    //   lang: "en",
-    //   title: "Yuhao Input Method",
-    //   description: "Comunicate past and present",
-    // },
-    // jp: {
-    //   label: "日本語",
-    //   lang: "jp",
-    //   title: "宇浩漢字入力方法",
-    //   description: "情繫漢字 溝通古今",
-    // },
     tw: {
       label: "傳統漢字",
       lang: "zh-Hant-TW",
@@ -334,9 +322,9 @@ export default defineConfig({
         nav: [
           { text: '簡介', link: '/tw/docs/' },
           { text: '教程', link: '/tw/learn/' },
-          { text: '拆分', link: '/chaifen/' },
-          { text: '練習', link: '/practice/root' },
-          { text: '安裝', link: '/install' }
+          { text: '拆分', link: '/tw/chaifen/' },
+          { text: '練習', link: '/tw/practice/root' },
+          { text: '安裝', link: '/tw/install' }
         ],
         sidebar: {
           '/tw/docs': [
@@ -348,18 +336,18 @@ export default defineConfig({
               text: '更新日誌',
               link: '/tw/docs/updates'
             },
-            // {
-            //   text: '技术文档',
-            //   link: '/docs/technical'
-            // },
-            // {
-            //   text: '設計哲學',
-            //   link: '/docs/discussion',
-            // },
-            // {
-            //   text: '背景故事',
-            //   link: '/docs/background',
-            // },
+            {
+              text: '技术文档',
+              link: '/tw/docs/technical'
+            },
+            {
+              text: '设计哲学',
+              link: '/tw/docs/discussion',
+            },
+            {
+              text: '背景故事',
+              link: '/tw/docs/background',
+            },
             {
               text: '雜談',
               items: [
@@ -367,22 +355,14 @@ export default defineConfig({
                   text: '常見輸入法測評數據',
                   link: '/tw/docs/statistics',
                 },
-                // {
-                //   text: '常见形码输入方案编码规则',
-                //   link: '/docs/coding',
-                // },
-                // {
-                //   text: '挑选适合的方案',
-                //   link: '/docs/prosandcons',
-                // },
-                // {
-                //   text: '關於《古籍印刷通規》',
-                //   link: '/docs/guji',
-                // },
-                // {
-                //   text: '论易码简码的设置',
-                //   link: '/docs/yima',
-                // },
+                {
+                  text: '常見形碼輸入方案編碼規則',
+                  link: '/tw/docs/coding',
+                },
+                {
+                  text: '古籍通規繁體標準',
+                  link: '/tw/docs/guji',
+                },
               ]
             },
             {
@@ -467,61 +447,79 @@ export default defineConfig({
               ]
             }
           ],
-          // '/tw/practice': [
-          //   {
-          //     text: '烂然星陈',
-          //     items: [
-          //       {
-          //         text: '星陈字根',
-          //         link: '/practice/root'
-          //       },
-          //       {
-          //         text: '星陈单字',
-          //         link: '/practice/char'
-          //       },
-          //     ]
-          //   },
-          //   {
-          //     text: '日月光华',
-          //     items: [
-          //       {
-          //         text: '光华字根',
-          //         link: '/practice/root_light'
-          //       },
-          //       {
-          //         text: '光华单字',
-          //         link: '/practice/char_light'
-          //       },
-          //     ]
-          //   },
-          //   {
-          //     text: '卿云烂兮',
-          //     items: [
-          //       {
-          //         text: '卿云字根',
-          //         link: '/practice/root_joy'
-          //       },
-          //       {
-          //         text: '卿云单字',
-          //         link: '/practice/char_joy'
-          //       },
-          //     ]
-          //   },
-          // ],
-          // '/tw/chaifen': [
-          //   {
-          //     text: '星陈',
-          //     link: '/chaifen/'
-          //   },
-          //   {
-          //     text: '光华',
-          //     link: '/chaifen/light'
-          //   },
-          //   {
-          //     text: '卿云',
-          //     link: '/chaifen/joy'
-          //   },
-          // ],
+          '/tw/practice': [
+            {
+              text: '爛然星陳',
+              items: [
+                {
+                  text: '星陳字根',
+                  link: '/tw/practice/root'
+                },
+                {
+                  text: '星陳單字',
+                  link: '/practice/char'
+                },
+              ]
+            },
+            {
+              text: '日月光華',
+              items: [
+                {
+                  text: '光華字根',
+                  link: '/practice/root_light'
+                },
+                {
+                  text: '光華單字',
+                  link: '/practice/char_light'
+                },
+              ]
+            },
+            {
+              text: '卿雲爛兮',
+              items: [
+                {
+                  text: '卿雲字根',
+                  link: '/practice/root_joy'
+                },
+                {
+                  text: '卿雲單字',
+                  link: '/practice/char_joy'
+                },
+              ]
+            },
+            {
+              text: '吉旦餅',
+              items: [
+                {
+                  text: '吉旦餅字根',
+                  link: '/practice/root_wafel'
+                }
+              ]
+            },
+            {
+              text: '跟打器',
+              items: [
+                {
+                  text: '跟打器',
+                  link: 'https://yupad.pages.dev/'
+                }
+              ]
+            }
+          ],
+          '/tw/chaifen': [
+            {
+              text: '星陳',
+              link: '/tw/chaifen/'
+            },
+            {
+              text: '光華',
+              link: '/tw/chaifen/light'
+            },
+            {
+              text: '卿雲',
+              link: '/tw/chaifen/joy'
+            },
+          ],
         },
       }
     },

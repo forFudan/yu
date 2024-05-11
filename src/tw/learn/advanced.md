@@ -42,28 +42,28 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 ::: info 散連認定
 
 1. `⼇`作頭時的`丶一`，無論書體，一概視為「散」。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='主' :parts='[1,4]' />
-✅
-<Chaifen char='主' :parts='[2,3]' />
-❌
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='主' :parts='[1,4]' />
+    ✅
+    <Chaifen char='主' :parts='[2,3]' />
+    ❌
+    </div>
 
 2. `䒑`作頭時的`丷一`是`艹`的草化，無論書體，一概視為「連」。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='兰' :parts='[3,2]' />
-✅
-<Chaifen char='兰' :parts='[2,3]' />
-❌
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='兰' :parts='[3,2]' />
+    ✅
+    <Chaifen char='兰' :parts='[2,3]' />
+    ❌
+    </div>
 
 3. `龷`在字中時的`艹一`，無論書體，一概視為「連」。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='垂' :parts='[3,4,1]' />
-✅
-<Chaifen char='垂' :parts='[3,3,2]' />
-❌
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='垂' :parts='[3,4,1]' />
+    ✅
+    <Chaifen char='垂' :parts='[3,3,2]' />
+    ❌
+    </div>
 :::
 
 ## 字根的內在屬性
@@ -99,7 +99,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 不少輸入法對與`日` `曰`兩字的區分，比較複雜。大概有兩種情況：
 
-- 有些是基於形狀的，凡是長大於高的都為`曰`，凡是長短於高的都為`日`。但這個方法會跟隨著字體的不同而不同，有時候不合字源，也不統一。例如：`書`字源於`聿者`，`曹`古字為`东东口`。
+- 有些是基於形狀的，凡是長大於高的都為`曰`，凡是長短於高的都為`日`。但這個方法會跟隨着字體的不同而不同，有時候不合字源，也不統一。例如：`書`字源於`聿者`，`曹`古字為`东东口`。
 - 另外一種區分方法是基於字源。也就是說：凡是在古文中作`口`形，之後隸變為`曰`形或`甘`形的字，都作`曰`。但這個方法對方一般的使用者難度太大，且分析字源會有疏漏之處，不應用於輸入法。
 
 我們必須注意到，在漢字中，存在`日曰`對立的字形，只有三組，分別為：`日曰`、`汨汩`、`曶㫚`。在其他的情況下，不存在對立，也就不存在混淆問題。
@@ -146,32 +146,32 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 ::: info 左撇右捺
 
 1. 凡左撇不低於右捺，視作`人`根。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='令' :parts='[2,1,3]' :colors='[1,0,0]' />
-<Chaifen char='内' :parts='[2,2]' :colors='[0,1]' />
-<Chaifen char='两' :parts='[1,2,2,2]' :colors='[0,0,1,2]' />
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='令' :parts='[2,1,3]' :colors='[1,0,0]' />
+    <Chaifen char='内' :parts='[2,2]' :colors='[0,1]' />
+    <Chaifen char='两' :parts='[1,2,2,2]' :colors='[0,0,1,2]' />
+    </div>
 
 2. 凡左撇低於右捺，視作`入`根。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='籴' :parts='[2,6]' :colors='[1,0]' />
-<Chaifen char='陝' :parts='[2,1,2,2,2]' :colors='[0,0,0,1,2]' />
-<Chaifen char='兩' :parts='[1,3,2,2]' :colors='[0,0,1,2]' />
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='籴' :parts='[2,6]' :colors='[1,0]' />
+    <Chaifen char='陝' :parts='[2,1,2,2,2]' :colors='[0,0,0,1,2]' />
+    <Chaifen char='兩' :parts='[1,3,2,2]' :colors='[0,0,1,2]' />
+    </div>
 
 3. 凡左撇右捺分離，視作`八`根。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='分' :parts='[2,2]' :colors='[1,0]' />
-<Chaifen char='兴' :parts='[4,2]' :colors='[0,1]' />
-<Chaifen char='典' :parts='[6,2]' :colors='[0,1]' />
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='分' :parts='[2,2]' :colors='[1,0]' />
+    <Chaifen char='兴' :parts='[4,2]' :colors='[0,1]' />
+    <Chaifen char='典' :parts='[6,2]' :colors='[0,1]' />
+    </div>
 
 4. 凡左撇右捺的中間被其他筆畫隔開，視作`<丿乀>`根。宇碼中，它和`八`同大小碼。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='办' :parts='[2,2]' :colors='[0,1]' />
-<Chaifen char='朱' :parts='[4,2]' :colors='[0,1]' />
-<Chaifen char='兼' :parts='[8,2]' :colors='[0,1]' />
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='办' :parts='[2,2]' :colors='[0,1]' />
+    <Chaifen char='朱' :parts='[4,2]' :colors='[0,1]' />
+    <Chaifen char='兼' :parts='[8,2]' :colors='[0,1]' />
+    </div>
 
 :::
 
@@ -191,19 +191,19 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 ::: tip 例
 
 - `古`下的`口`中如果包含完整的筆畫，應該拆如`十囗`。例如：`鄙`左下方的`口`中有`口`，故而應該拆成`口十囗口阝`。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='鄙' :parts='[3,2,2,3,1,2]' :colors='[1,2,3,4,3,5]' />
-✅
-<Chaifen char='鄙' :parts='[3,4,3,1,2]' :colors='[1,2,3,2,4]' />
-❌
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='鄙' :parts='[3,2,2,3,1,2]' :colors='[1,2,3,4,3,5]' />
+    ✅
+    <Chaifen char='鄙' :parts='[3,4,3,1,2]' :colors='[1,2,3,2,4]' />
+    ❌
+    </div>
 - `合`下的`口`中如果包含完整的筆畫，應該拆如`人一囗`。例如：`會`中間的`口`中有`小`，故而應該拆成`人一𫩏丷日`。
-<div class="flex justify-left flex-wrap">
-<Chaifen char='會' :parts='[2,1,3,2,1,4]' :colors='[1,2,3,4,3,5]' />
-✅
-<Chaifen char='會' :parts='[5,3,1,4]' :colors='[1,2,1,3]' />
-❌
-</div>
+    <div class="flex justify-left flex-wrap">
+    <Chaifen char='會' :parts='[2,1,3,2,1,4]' :colors='[1,2,3,4,3,5]' />
+    ✅
+    <Chaifen char='會' :parts='[5,3,1,4]' :colors='[1,2,1,3]' />
+    ❌
+    </div>
 :::
 
 ## 漢字的拆分禁手
@@ -245,7 +245,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 `二`和`三`中的橫畫是分離的。
 
-`合`分為了`一` `一` `口`三個部分。
+`合`分為了`人` `一` `口`三個部分。
 
 `儿`分為了`丿` `乚`兩個部分。
 :::

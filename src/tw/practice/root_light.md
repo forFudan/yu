@@ -1,7 +1,7 @@
 ---
 aside: false
 ---
-# 光华·字根练习
+# 光華·字根练习
 
 你可以随时暂停练习。你的练习进度会在同一设备上储存。
 
@@ -11,5 +11,5 @@ import Train from "@/train/ZigenTrain.vue"
 <Train name="light" zigenUrl="/zigen-light.csv" :range="[0,]" mode='both' />
 
 ::: details 键位图
-![宇浩·光华字根图](/yulight.webp)
+![宇浩·光華字根图](/yulight.webp)
 :::

@@ -24,15 +24,6 @@ hero:
       text: 安装
       link: /install
 
-<!-- features:
-  - title: 繁简通打
-    details: 繁简汉字编码分离，故而繁简混合文本也能极少选重。
-  - title: 动静低重
-    details: 在输入常用繁简汉字时，绝对重码数和选重频率都极低。
-  - title: 字根聚类
-    details: 对相似字形进行聚类，学习更加便捷，维护成本更低。
-  - title: 兼顾手感
-    details: 减少别手的按键组合频率，且双手互击表现突出。 -->
 ---
 
 <script setup>
@@ -44,18 +35,13 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 ---
 
-<!-- <MultiChaifen chars="日月光華爛然星陳" :size="40" /> -->
-
 <MultiChaifen chars="卿雲爛兮糾縵縵兮" :size="40" />
 <MultiChaifen chars="日月光華旦復旦兮" :size="40" />
 <MultiChaifen chars="明明上天爛然星陳" :size="40" />
 <MultiChaifen chars="日月光華弘於一人" :size="40" />
 <MultiChaifen chars="日月有常星辰有行" :size="40" />
-<!-- <MultiChaifen chars="四時從經萬姓允誠" :size="40" />
-<MultiChaifen chars="於予論樂配天之靈" :size="40" />
-<MultiChaifen chars="遷於賢聖莫不咸聽" :size="40" /> -->
 
-::: info 致有缘人
+::: tip 致有缘人
 
 当你点开这个页面的时候，你就是一名有缘人。
 
@@ -75,16 +61,12 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 :::
 
-<!-- ![yustar](/yustar.png)
-
-![assess](/assess.png) -->
-
 ::: info 鸣谢
 
 感谢以下字形输入法的发明人、改编人、维护人、各平台方案制作者、插件作者、网页作者等：
 
-[王码五笔字形@王永民](http://www.wangma.net.cn/)、[郑码@郑易理 郑珑](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[仓颉@朱邦復](http://www.cbflabs.com/)、[山人全息@谢振斌](https://siuze.github.io/ShanRenMaLTS/)、[尔雅徐码@徐国银](http://xumax.cn/)〔[五二顶@局外人](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真码@命、[C42@谭淞宸](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、092、[三码郑码@史岳](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形@何海峰](https://flypy.com/)、蓝宝石@秋风、[虎码@PeaceB](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码@小泥巴](https://yb6b.github.io/yima/graceful-code/)、[易码@小泥巴](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
-](https://lost-melody.github.io/hamster-tools/)〕、[云码@为云](https://github.com/orbitoo/kumo)、天码@宋天、[声笔系列@戴石麟](https://sbxlm.github.io/)、[星空键道@吅吅大山](https://xkinput.gitee.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
+[王码五笔字形@王永民](http://www.wangma.net.cn/)、[郑码@郑易理 郑珑](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[仓颉@朱邦复](http://www.cbflabs.com/)、[山人全息@谢振斌](https://siuze.github.io/ShanRenMaLTS/)、[尔雅徐码@徐国银](http://xumax.cn/)〔[五二顶@局外人](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真码@命、[C42@谭淞宸](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、092、[三码郑码@史岳](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形@何海峰](https://flypy.com/)、蓝宝石@秋风、[虎码@PeaceB](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码@小泥巴](https://yb6b.github.io/yima/graceful-code/)、[易码@小泥巴](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
+](https://lost-melody.github.io/hamster-tools/)〕、[云码@为云](https://github.com/orbitoo/kumo)、天码@宋天、[声笔系列@戴石麟](https://sbxlm.github.io/)、[星空銉道@吅吅大山](https://xkinput.gitee.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
 
 ---
 
@@ -92,7 +74,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 钱多多、阿吉、[王牌饼干](https://github.com/lost-melody)、宋天、[yb](https://github.com/yb6b)。
 
-还有不少朋友为输入法的优化提出了众多宝贵的意见和建议，此处不一一致谢。
+还有不少朋友为输入法的优化提出了宝贵的意见和建议，为输入法的推广助力，此处不一一致谢谢。
 
 ---
 
