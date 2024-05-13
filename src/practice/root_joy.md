@@ -16,6 +16,7 @@ import Train from "@/train/ZigenTrain.vue"
 
 <div class="zigen-font">
 <!-- do not translate -->
+
 | 字根        | 按鍵 | 讀音             | 字例       |
 | ----------- | ---- | ---------------- | ---------- |
 | 木朩𣎳       | A    | mù               | 相茶朮     |
@@ -288,6 +289,7 @@ import Train from "@/train/ZigenTrain.vue"
 | 三          |      | sān              |            |
 | 王⺩         |      | wáng             |            |
 |             |      |                  |            |
+
 <!-- do not translate -->
 </div>
 
