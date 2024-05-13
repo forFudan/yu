@@ -39,7 +39,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo_blue.png',
     nav: [
-      { text: '简介', link: '/docs/' },
+      { text: '介绍', link: '/docs/' },
       { text: '教程', link: '/learn/' },
       { text: '拆分', link: '/chaifen/' },
       { text: '练习', link: '/practice/root' },
@@ -320,11 +320,12 @@ export default defineConfig({
       themeConfig: {
         logo: '/logo_purple.png',
         nav: [
-          { text: '簡介', link: '/tw/docs/' },
+          { text: '介紹', link: '/tw/docs/' },
           { text: '教程', link: '/tw/learn/' },
           { text: '拆分', link: '/tw/chaifen/' },
           { text: '練習', link: '/tw/practice/root' },
-          { text: '安裝', link: '/tw/install' }
+          { text: '安裝', link: '/tw/install' },
+          { text: '跟打', link: 'https://yupad.pages.dev/' }
         ],
         sidebar: {
           '/tw/docs': [

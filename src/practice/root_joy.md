@@ -288,11 +288,9 @@ import Train from "@/train/ZigenTrain.vue"
 | 亦         |      | y(i)ì            | 变         |
 | 三          |      | sān              |            |
 | 王⺩         |      | wáng             |            |
-|             |      |                  |            |
 
 <!-- do not translate -->
 </div>
-
 :::
 
 ::: details 键位图

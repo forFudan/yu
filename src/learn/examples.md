@@ -194,9 +194,9 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 ## 非歪斜根取大
 <div class="flex justify-left flex-wrap my-8">
-<Chaifen char='失' :parts='[1,4]' :colors='[1,2,1,3]' />
-<Chaifen char='朱' :parts='[1,5]' :colors='[1,2,1,3]' />
-<Chaifen char='井' :parts='[2,2]' :colors='[1,2,1,3]' />
+<Chaifen char='失' :parts='[1,4]' :colors='[1,2]' />
+<Chaifen char='朱' :parts='[4,2]' :colors='[1,2]' />
+<Chaifen char='井' :parts='[2,2]' :colors='[1,2]' />
 </div>
 
 ## 完全合笔顺部分取大
