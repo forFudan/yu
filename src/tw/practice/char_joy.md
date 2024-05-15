@@ -8,7 +8,7 @@ aside: false
 <script setup>
 import Train from "@/train/CharTrain.vue"
 </script>
-<Train name="joy" zigenUrl="/zigen-joy.csv" :range="[0,1000]" :supplement="false" />
+<Train name="joy"  chaifenUrl="/chaifen.csv" zigenUrl="/zigen-joy.csv" :range="[0,1000]" :supplement="false" />
 
 ::: details 字根表
 
@@ -16,6 +16,7 @@ import Train from "@/train/CharTrain.vue"
 
 <!-- do not translate -->
 <div class="zigen-font">
+
 | 字根        | 按鍵 | 讀音             | 字例       |
 | ----------- | ---- | ---------------- | ---------- |
 | 木朩𣎳       | A    | mù               | 相茶朮     |
@@ -288,6 +289,7 @@ import Train from "@/train/CharTrain.vue"
 | 三          |      | sān              |            |
 | 王⺩         |      | wáng             |            |
 |             |      |                  |            |
+
 </div>
 <!-- do not translate -->
 :::

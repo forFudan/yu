@@ -7,6 +7,8 @@ import Train from "./TrainCard.vue";
 const p = defineProps<{
   /** 方案的名字 */
   name: string,
+  /** 拆分的csv文件URL */
+  chaifenUrl: string
   /** 字根映射的csv文件URL */
   zigenUrl: string
   /** 练习的范围，从第几条到第几条，不填则是全部 */
@@ -26,7 +28,8 @@ const chaifenMap = shallowRef()
 onMounted(async () => {
   if (cards.value && chaifenMap.value) return;
 
-  chaifenMap.value = await fetchChaifen('/chaifen.csv')
+  // chaifenMap.value = await fetchChaifen('/chaifen.csv')
+  chaifenMap.value = await fetchZigen(p.chaifenUrl)
   const zigenMap = await fetchZigen(p.zigenUrl)
 
   let chaifenValues = [...chaifenMap.value.values()]

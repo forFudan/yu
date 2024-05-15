@@ -205,6 +205,10 @@ export default defineConfig({
               text: '卿云单字',
               link: '/practice/char_joy'
             },
+            {
+              text: '卿云·作品高频字',
+              link: '/practice/char_joy_zhu'
+            },
           ]
         },
         {
@@ -458,7 +462,7 @@ export default defineConfig({
                 },
                 {
                   text: '星陳單字',
-                  link: '/practice/char'
+                  link: '/tw/practice/char'
                 },
               ]
             },
@@ -467,11 +471,11 @@ export default defineConfig({
               items: [
                 {
                   text: '光華字根',
-                  link: '/practice/root_light'
+                  link: '/tw/practice/root_light'
                 },
                 {
                   text: '光華單字',
-                  link: '/practice/char_light'
+                  link: '/tw/practice/char_light'
                 },
               ]
             },
@@ -480,11 +484,15 @@ export default defineConfig({
               items: [
                 {
                   text: '卿雲字根',
-                  link: '/practice/root_joy'
+                  link: '/tw/practice/root_joy'
                 },
                 {
                   text: '卿雲單字',
-                  link: '/practice/char_joy'
+                  link: '/tw/practice/char_joy'
+                },
+                {
+                  text: '卿雲·作品高頻字',
+                  link: '/tw/practice/char_joy_zhu'
                 },
               ]
             },
@@ -493,7 +501,7 @@ export default defineConfig({
               items: [
                 {
                   text: '吉旦餅字根',
-                  link: '/practice/root_wafel'
+                  link: '/tw/practice/root_wafel'
                 }
               ]
             },

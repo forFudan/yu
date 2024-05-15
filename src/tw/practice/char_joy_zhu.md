@@ -1,22 +1,21 @@
 ---
 aside: false
 ---
-# 卿云·单字练习
+# 卿雲·夢澤閑客作品高頻字
 
 你可以随时暂停练习。你的练习进度会在同一设备上储存。
 
 <script setup>
 import Train from "@/train/CharTrain.vue"
 </script>
-<Train name="joy"  chaifenUrl="/chaifen.csv" zigenUrl="/zigen-joy.csv" :range="[0,1000]" :supplement="false" />
+<Train name="joy" chaifenUrl="/chaifen_zhu.csv" zigenUrl="/zigen-joy.csv" :range="[0,1000]" :supplement="false" />
 
 ::: details 字根表
 
-注：[J]假名读音 [N]无读音(默认作v) [R]极少见于末根(不用记读音) [S]特例(1个)
+注：[J]假名讀音 [N]無讀音(默認作v) [R]極少見於末根(不用記讀音) [S]特例(1個)
 
 <!-- do not translate -->
 <div class="zigen-font">
-
 | 字根        | 按鍵 | 讀音             | 字例       |
 | ----------- | ---- | ---------------- | ---------- |
 | 木朩𣎳       | A    | mù               | 相茶朮     |
@@ -289,7 +288,6 @@ import Train from "@/train/CharTrain.vue"
 | 三          |      | sān              |            |
 | 王⺩         |      | wáng             |            |
 |             |      |                  |            |
-
 </div>
 <!-- do not translate -->
 :::

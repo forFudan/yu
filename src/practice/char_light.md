@@ -8,7 +8,7 @@ aside: false
 <script setup>
 import Train from "@/train/CharTrain.vue"
 </script>
-<Train name="light" zigenUrl="/zigen-light.csv" :range="[0,1000]" :supplement="true" />
+<Train name="light" chaifenUrl="/chaifen_zhu.csv" zigenUrl="/zigen-light.csv" :range="[0,1000]" :supplement="true" />
 
 :::details 键位图
 ![宇浩·光华字根图](/yulight.webp)
