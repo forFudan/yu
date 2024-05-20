@@ -11,5 +11,5 @@ import Train from "@/train/ZigenTrain.vue"
 <Train name="light" zigenUrl="/zigen-light.csv" :range="[0,]" mode='both' />
 
 ::: details 键位图
-![宇浩·光華字根图](/yulight.webp)
+![宇浩·光華字根图](/yulight.png)
 :::

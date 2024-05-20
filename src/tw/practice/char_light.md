@@ -11,7 +11,7 @@ import Train from "@/train/CharTrain.vue"
 <Train name="light" chaifenUrl="/chaifen_zhu.csv" zigenUrl="/zigen-light.csv" :range="[0,1000]" :supplement="true" />
 
 :::details 键位图
-![宇浩·光華字根图](/yulight.webp)
+![宇浩·光華字根图](/yulight.png)
 :::
 
 ::: details 单字规则

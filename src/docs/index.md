@@ -133,7 +133,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 由于字根按照首笔笔画进行分区，适合有五笔经验的用户。
 
-![宇浩输入法宋体字根图](/yulight.webp)
+![宇浩输入法宋体字根图](/yulight.png)
 
 两个方案的区别，可参见以下表格。
 
