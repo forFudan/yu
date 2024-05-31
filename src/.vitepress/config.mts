@@ -21,8 +21,7 @@ export default defineConfig({
     }
   },
   head: [
-    ['link', { rel: 'icon', href: '/logo_blue.png', type: 'image/png' }],
-    ['link', { rel: 'preload', href: '/chaifen.csv', as: 'fetch' }]
+    ['link', { rel: 'icon', href: '/logo_blue.png', type: 'image/png' }]
   ],
   vite: {
     css: {
