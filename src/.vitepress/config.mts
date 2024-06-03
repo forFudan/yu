@@ -68,6 +68,10 @@ export default defineConfig({
           link: '/docs/background',
         },
         {
+          text: '字浩输入法字根字体PUA',
+          link: '/docs/yuniversus',
+        },
+        {
           text: '杂谈',
           items: [
             {
@@ -351,6 +355,10 @@ export default defineConfig({
             {
               text: '背景故事',
               link: '/tw/docs/background',
+            },
+            {
+              text: '字浩輸入法字根字體PUA',
+              link: '/tw/docs/yuniversus',
             },
             {
               text: '雜談',
