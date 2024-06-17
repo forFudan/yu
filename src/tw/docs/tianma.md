@@ -17,7 +17,9 @@ import CharTrain from "@/train/CharTrain.vue"
 import ZigenTrain from "@/train/ZigenTrain.vue"
 </script>
 
+<div class="tianma">
 <Search chaifenUrl="/chaifen-tianma.csv" zigenUrl="/zigen-tianma.csv" :supplement="false" />
+</div>
 
 ## 規則
 
@@ -49,7 +51,9 @@ import ZigenTrain from "@/train/ZigenTrain.vue"
 
 ## 字根練習
 
+<div class="tianma">
 <ZigenTrain name="tianma" zigenUrl="/zigen-tianma.csv" :range="[0,]" mode='both' />
+</div>
 
 <!-- ## 單字練習
 
