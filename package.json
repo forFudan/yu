@@ -23,6 +23,7 @@
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
+    "build2": "vitepress build src --base /yu/",
     "preview": "vitepress preview src "
   },
   "dependencies": {

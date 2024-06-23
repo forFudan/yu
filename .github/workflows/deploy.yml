@@ -36,7 +36,7 @@ jobs:
           node-version: 20
           cache: pnpm
 
-      - run: pnpm i && pnpm build2
+      - run: pnpm i && pnpm build
 
       - uses: actions/configure-pages@v2
       
