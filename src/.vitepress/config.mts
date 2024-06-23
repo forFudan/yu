@@ -251,7 +251,7 @@ export default defineConfig({
     },
     footer: {
       message: "宇浩输入法官网",
-      copyright: "yuhao.forfudan.com © 2024 Under CC BY-NC-ND 4.0 license.",
+      copyright: "shurufa.app | yuhao.forfudan.com © 2024 Under CC BY-NC-ND 4.0 license.",
     },
     darkModeSwitchLabel: "黑暗模式",
     langMenuLabel: "选择语言",
