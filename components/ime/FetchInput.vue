@@ -23,9 +23,10 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div class="text-gray-600 text-center" v-if="!mabiaoList">
+    <div class="text-gray-600 text-center mt-10" v-if="!mabiaoList">
         <div class="text-center">下载码表……</div>
-        <progress class="progress w-full max-w-screen-sm" :value="progress.current" :max="progress.max"></progress>
+        <progress class="progress progress-info w-full max-w-screen-sm" :value="progress.current"
+            :max="progress.max"></progress>
     </div>
     <InputMethod v-else :id="id || mabiaoUrl" :rule="utils.YuhaoRule" :data="mabiaoList">
         <slot></slot>
