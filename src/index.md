@@ -35,7 +35,7 @@ import IME from '@/ime/FetchInput.vue'
 
 <Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-star.csv" supplement />
 
-::: info 星陈在线输入法
+::: info 在线输入体验
 
 <IME mabiaoUrl="/mb-star.txt" />
 
