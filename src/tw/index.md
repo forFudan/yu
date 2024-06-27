@@ -30,15 +30,23 @@ hero:
 import Search from '@/search/FetchSearch.vue'
 import Chaifen from '@/chaifen/Chaifen.vue'
 import MultiChaifen from '@/chaifen/MultiChaifen.vue'
+import IME from '@/ime/FetchInput.vue'
 </script>
+
 <Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-star.csv" supplement />
+
+::: info 星陳在線輸入法
+
+<IME mabiaoUrl="/mb-star.txt" />
+
+:::
 
 ---
 
-<MultiChaifen chars="卿雲爛兮糾縵縵兮" :size="35" />
+<!-- <MultiChaifen chars="卿雲爛兮糾縵縵兮" :size="35" />
 <MultiChaifen chars="日月光華旦復旦兮" :size="35" />
 <MultiChaifen chars="明明上天爛然星陳" :size="35" />
-<MultiChaifen chars="日月光華弘於一人" :size="35" />
+<MultiChaifen chars="日月光華弘於一人" :size="35" /> -->
 
 ::: tip 致有緣人
 
