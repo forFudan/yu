@@ -2,9 +2,7 @@
 import opencc
 import re
 
-s2tw = opencc.OpenCC("s2tw")
 t2s = opencc.OpenCC("t2s")
-s2t = opencc.OpenCC("s2t")
 
 paths_of_docs = [
     "/index.md",
@@ -48,25 +46,25 @@ paths_of_docs = [
 ]
 
 for path_of_doc in paths_of_docs:
-    with open("../src/tw" + path_of_doc, mode="r", encoding="utf8") as temp:
+    with open("../src/zht" + path_of_doc, mode="r", encoding="utf8") as temp:
         doc = temp.read()
     if not doc.startswith("<!-- do not translate -->"):
         pat = re.compile(
             r"((?:<!-- do not translate -->[\S\s]+?<!-- do not translate -->)|(?:`.+?`)|(?:<.+?>)|(?:[^`<>]+)|(?:[\r\n]+)|(?:[<>]))+?"
         )
         res = re.findall(pat, doc)
-        res_tw = []
+        res_zht = []
         for i in res:
             if i.startswith("`") or i.startswith("<"):
-                res_tw.append(i)
+                res_zht.append(i)
             else:
-                res_tw.append(t2s.convert(i))
-        output = "".join(res_tw)
+                res_zht.append(t2s.convert(i))
+        output = "".join(res_zht)
         print(path_of_doc, "translated.")
     else:
         output = doc
         print(path_of_doc, "not translated.")
-    output = output.replace("/tw/", "/")
+    output = output.replace("/zht/", "/")
     with open("../src" + path_of_doc, mode="w", encoding="utf8") as temp:
         temp.write(output)
 

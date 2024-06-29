@@ -13,16 +13,16 @@ hero:
   actions:
     - theme: alt
       text: 介紹
-      link: /tw/docs/
+      link: /zht/docs/
     - theme: brand
       text: 教程
-      link: /tw/learn/
+      link: /zht/learn/
     - theme: alt
       text: 練習
-      link: /tw/practice/root
+      link: /zht/practice/root
     - theme: alt
       text: 安裝
-      link: /tw/install
+      link: /zht/install
 
 ---
 

@@ -319,7 +319,7 @@ export default defineConfig({
       label: '简化汉字',
       lang: 'zh-Hans-CN'
     },
-    tw: {
+    zht: {
       label: "傳統漢字",
       lang: "zh-Hans-CN",
       title: "宇浩輸入法",
@@ -327,53 +327,53 @@ export default defineConfig({
       themeConfig: {
         logo: '/logo_purple.png',
         nav: [
-          { text: '介紹', link: '/tw/docs/' },
-          { text: '教程', link: '/tw/learn/' },
-          { text: '拆分', link: '/tw/chaifen/' },
-          { text: '練習', link: '/tw/practice/root' },
-          { text: '安裝', link: '/tw/install' },
+          { text: '介紹', link: '/zht/docs/' },
+          { text: '教程', link: '/zht/learn/' },
+          { text: '拆分', link: '/zht/chaifen/' },
+          { text: '練習', link: '/zht/practice/root' },
+          { text: '安裝', link: '/zht/install' },
           { text: '跟打', link: 'https://yupad.pages.dev/' }
         ],
         sidebar: {
-          '/tw/docs': [
+          '/zht/docs': [
             {
               text: '介紹',
-              link: '/tw/docs/'
+              link: '/zht/docs/'
             },
             {
               text: '更新日誌',
-              link: '/tw/docs/updates'
+              link: '/zht/docs/updates'
             },
             {
               text: '技术文档',
-              link: '/tw/docs/technical'
+              link: '/zht/docs/technical'
             },
             {
               text: '设计哲学',
-              link: '/tw/docs/discussion',
+              link: '/zht/docs/discussion',
             },
             {
               text: '背景故事',
-              link: '/tw/docs/background',
+              link: '/zht/docs/background',
             },
             {
               text: '字浩輸入法字根字體PUA',
-              link: '/tw/docs/yuniversus',
+              link: '/zht/docs/yuniversus',
             },
             {
               text: '雜談',
               items: [
                 {
                   text: '常見輸入法測評數據',
-                  link: '/tw/docs/statistics',
+                  link: '/zht/docs/statistics',
                 },
                 {
                   text: '常見形碼輸入方案編碼規則',
-                  link: '/tw/docs/coding',
+                  link: '/zht/docs/coding',
                 },
                 {
                   text: '古籍通規繁體標準',
-                  link: '/tw/docs/guji',
+                  link: '/zht/docs/guji',
                 },
               ]
             },
@@ -382,70 +382,70 @@ export default defineConfig({
               items: [
                 {
                   text: '卿雲輸入法',
-                  link: '/tw/docs/joy',
+                  link: '/zht/docs/joy',
                 },
                 {
                   text: '天碼',
-                  link: '/tw/docs/tianma',
+                  link: '/zht/docs/tianma',
                 },
                 {
                   text: '易碼',
-                  link: '/tw/docs/yima',
+                  link: '/zht/docs/yima',
                 },
               ]
             },
           ],
-          '/tw/learn': [
+          '/zht/learn': [
             {
               text: '前言',
-              link: '/tw/learn/'
+              link: '/zht/learn/'
             },
             {
               text: '單字拆分',
-              link: '/tw/learn/division'
+              link: '/zht/learn/division'
             },
             {
               text: '進階討論',
-              link: '/tw/learn/advanced'
+              link: '/zht/learn/advanced'
             },
             {
               text: '字根編碼',
-              link: '/tw/learn/roots'
+              link: '/zht/learn/roots'
             },
             {
               text: '字根速記',
-              link: '/tw/learn/star'
+              link: '/zht/learn/star'
             },
             {
               text: '單字編碼',
-              link: '/tw/learn/chars'
+              link: '/zht/learn/chars'
             },
             {
               text: '簡碼設置',
-              link: '/tw/learn/quick'
+              link: '/zht/learn/quick'
             },
             {
               text: '詞語編碼',
-              link: '/tw/learn/words'
+              link: '/zht/learn/words'
             },
             {
               text: '機器實現',
-              link: '/tw/learn/machine'
+              link: '/zht/learn/machine'
             },
             {
               text: '附錄',
               items: [
                 {
                   text: '字海拾珍——必拆字舉隅',
-                  link: '/tw/learn/examples'
+                  link: '/zht/learn/examples'
                 },
                 {
                   text: '高频字拆分图解——简化字',
-                  link: '/tw/learn/frequent'
+                  link: '/zht/learn/frequent'
                 },
                 {
                   text: '高频字拆分图解——传统字',
-                  link: '/tw/learn/frequent_tc'
+                  link: '/zht/learn/frequent_tc'
                 },
               ]
             },
@@ -454,22 +454,22 @@ export default defineConfig({
               items: [
                 {
                   text: '光華方案字根圖表',
-                  link: '/tw/learn/light'
+                  link: '/zht/learn/light'
                 },
               ]
             }
           ],
-          '/tw/practice': [
+          '/zht/practice': [
             {
               text: '爛然星陳',
               items: [
                 {
                   text: '星陳字根',
-                  link: '/tw/practice/root'
+                  link: '/zht/practice/root'
                 },
                 {
                   text: '星陳單字',
-                  link: '/tw/practice/char'
+                  link: '/zht/practice/char'
                 },
               ]
             },
@@ -478,11 +478,11 @@ export default defineConfig({
               items: [
                 {
                   text: '光華字根',
-                  link: '/tw/practice/root_light'
+                  link: '/zht/practice/root_light'
                 },
                 {
                   text: '光華單字',
-                  link: '/tw/practice/char_light'
+                  link: '/zht/practice/char_light'
                 },
               ]
             },
@@ -491,15 +491,15 @@ export default defineConfig({
               items: [
                 {
                   text: '卿雲字根',
-                  link: '/tw/practice/root_joy'
+                  link: '/zht/practice/root_joy'
                 },
                 {
                   text: '卿雲單字',
-                  link: '/tw/practice/char_joy'
+                  link: '/zht/practice/char_joy'
                 },
                 {
                   text: '卿雲·作品高頻字',
-                  link: '/tw/practice/char_joy_zhu'
+                  link: '/zht/practice/char_joy_zhu'
                 },
               ]
             },
@@ -508,7 +508,7 @@ export default defineConfig({
               items: [
                 {
                   text: '吉旦餅字根',
-                  link: '/tw/practice/root_wafel'
+                  link: '/zht/practice/root_wafel'
                 }
               ]
             },
@@ -522,18 +522,18 @@ export default defineConfig({
               ]
             }
           ],
-          '/tw/chaifen': [
+          '/zht/chaifen': [
             {
               text: '星陳',
-              link: '/tw/chaifen/'
+              link: '/zht/chaifen/'
             },
             {
               text: '光華',
-              link: '/tw/chaifen/light'
+              link: '/zht/chaifen/light'
             },
             {
               text: '卿雲',
-              link: '/tw/chaifen/joy'
+              link: '/zht/chaifen/joy'
             },
           ],
         },
