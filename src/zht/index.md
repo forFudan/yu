@@ -73,7 +73,7 @@ import IME from '@/ime/FetchInput.vue'
 感謝以下字形輸入法的發明人、改編人、維護人、各平臺方案製作者、插件作者、網頁作者等：
 
 [王碼五筆字形@王永民](http://www.wangma.net.cn/)、[鄭碼@鄭易理 鄭瓏](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[倉頡@朱邦復](http://www.cbflabs.com/)、[山人全息@謝振斌](https://siuze.github.io/ShanRenMaLTS/)、[爾雅徐碼@徐國銀](http://xumax.cn/)〔[五二頂@局外人](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真碼@命、[C42@譚淞宸](https://github.com/tansongchen/c42)〔[漢字自動拆分系統](https://chaifen.app/)〕、092、[三碼鄭碼@史岳](http://zzzm.ysepan.com/?xzpd=1)、[小鶴音形@何海峰](https://flypy.com/)、藍寶石@秋風、[虎碼@PeaceB](https://www.tiger-code.com/)〔[虎碼測評網](http://assess.tiger-code.com/)〕、[逸碼@小泥巴](https://yb6b.github.io/yima/graceful-code/)、[易碼@小泥巴](https://yb6b.github.io/yima/)〔[測評工具](https://yb6b.github.io/#/)〕、[吉蛋餅](https://lost-melody.github.io/wafel/)〔[倉輸入法工具
-](https://lost-melody.github.io/hamster-tools/)〕、[雲碼@爲雲](https://github.com/orbitoo/kumo)、天碼@宋天、[聲筆系列@戴石麟](https://sbxlm.github.io/)、[星空銉道@吅吅大山](https://xkinput.gitee.io/)〔[星猫鍵道](https://github.com/hugh7007/xmjd6-rere)〕
+](https://lost-melody.github.io/hamster-tools/)〕、[雲碼@爲雲](https://github.com/orbitoo/kumo)、天碼@宋天、[聲筆系列@戴石麟](https://sbxlm.github.io/)、[星空鍵道@吅吅大山](https://xkinput.gitee.io/)〔[星猫鍵道](https://github.com/hugh7007/xmjd6-rere)〕
 
 ---
 
