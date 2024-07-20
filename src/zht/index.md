@@ -16,7 +16,7 @@ hero:
       link: /zht/docs/
     - theme: brand
       text: 教程
-      link: /zht/learn/
+      link: /zht/learn/division
     - theme: alt
       text: 練習
       link: /zht/practice/root

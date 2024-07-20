@@ -197,17 +197,6 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <Chaifen char='聿' :parts='[3,2,1]' :colors='[1,2,1]' />
 ❌
 </div>
-
-`曲`可拆`囗卄`或`日〢`或`由丨`。三者字根數量都爲2，都滿足結構完整，故檢查「符合筆順」規則。三者都不滿足**整體符合筆順**，三者都只有一根**局部符合筆順**。局部符合筆順的部分，`卄`有3畫，`〢`有2畫，`丨`有1畫，故而`囗卄`勝出。
-
-<div class="flex justify-left flex-wrap">
-<Chaifen char='曲' :parts='[2,3,1]' :colors='[1,2,1]' />
-✅
-<Chaifen char='曲' :parts='[3,2,1]' :colors='[1,2,1]' />
-❌
-<Chaifen char='曲' :parts='[4,1,1]' :colors='[1,2,1]' />
-❌
-</div>
 :::
 
 ## 散連交斷
