@@ -201,9 +201,9 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
     <Chaifen char='鄙' :parts='[3,4,3,1,2]' :colors='[1,2,3,2,4]' />
     ❌
     </div>
-- `合`下的`口`中如果包含完整的筆畫，應該拆如`人一囗`。例如：`會`中間的`口`中有`小`，故而應該拆成`人一𫩏丷日`。
+- `合`下的`口`中如果包含完整的筆畫，應該拆如`人一囗`。例如：`會`中間的`口`中有`小`，故而應該拆成<span class="yuniversus">人一日</span>。
     <div class="flex justify-left flex-wrap">
-    <Chaifen char='會' :parts='[2,1,3,2,1,4]' :colors='[1,2,3,4,3,5]' />
+    <Chaifen char='會' :parts='[2,1,6,4]' :colors='[1,2,3,4]' />
     ✅
     <Chaifen char='會' :parts='[5,3,1,4]' :colors='[1,2,1,3]' />
     ❌
