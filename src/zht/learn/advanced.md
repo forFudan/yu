@@ -133,7 +133,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 - 所有四點`灬`都在一個大碼。
 :::
 
-`为` `卵`等字的兩點和`冬`下的兩點不同，相隔太遠，且被半包圍或全包圍分割，故而不認定爲「兩點」。詳[「散件不分隔」禁手](#散件不分割)。
+`为` `卵`等字的兩點和`冬`下的兩點不同，非連續筆畫，且被半包圍或全包圍分割，故而不認定爲「兩點」。詳[「散件不分隔」禁手](#散件不分割)。
 <div class="flex justify-left flex-wrap">
 <Chaifen char='冬' :parts='[3,2]' :colors='[0,1]' />
 ✅
@@ -220,11 +220,11 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 字根的連續性定義如下：
 
-一個字根的離散部件，不可被全包圍結構或半包圍結構分割。被分割的兩個部件不得視爲一個字根。
+非連續寫成、且被全包圍結構或半包圍結構分割的部件，不視爲一個字根。
 
 ::: tip 例
 
-`为`字的兩點不可以被視爲字根`两点`，因爲它們被半包圍結構分割。  
+`为`字的兩點不可以被視爲字根`两点`，因爲它們非連續寫成、且被半包圍結構分割。  
 <div class="flex justify-left flex-wrap">
 <Chaifen char='为' :parts='[1,2,1]' />
 ✅
@@ -232,7 +232,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 ❌
 </div>
 
-`卵`字不拆`卯⺀`而拆成`卯丶丶`，因爲`卯`字的點被全包圍結構分割。
+`卵`字不拆`卯⺀`而拆成`卯丶丶`，因爲`卯`字的兩點非連續寫成、且被半包圍結構分割。
 <div class="flex justify-left flex-wrap">
 <Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,3]' />
 ✅
