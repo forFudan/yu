@@ -133,7 +133,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 - 所有四点`灬`都在一个大码。
 :::
 
-`为` `卵`等字的两点和`冬`下的两点不同，相隔太远，且被半包围或全包围分割，故而不认定为「两点」。详[「散件不分隔」禁手](#散件不分割)。
+`为` `卵`等字的两点和`冬`下的两点不同，非连续笔画，且被半包围或全包围分割，故而不认定为「两点」。详[「散件不分隔」禁手](#散件不分割)。
 <div class="flex justify-left flex-wrap">
 <Chaifen char='冬' :parts='[3,2]' :colors='[0,1]' />
 ✅
@@ -201,9 +201,9 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
     <Chaifen char='鄙' :parts='[3,4,3,1,2]' :colors='[1,2,3,2,4]' />
     ❌
     </div>
-- `合`下的`口`中如果包含完整的笔画，应该拆如`人一囗`。例如：`會`中间的`口`中有`小`，故而应该拆成`人一𫩏丷日`。
+- `合`下的`口`中如果包含完整的笔画，应该拆如`人一囗`。例如：`會`中间的`口`中有`小`，故而应该拆成<span class="yuniversus">人一日</span>。
     <div class="flex justify-left flex-wrap">
-    <Chaifen char='會' :parts='[2,1,3,2,1,4]' :colors='[1,2,3,4,3,5]' />
+    <Chaifen char='會' :parts='[2,1,6,4]' :colors='[1,2,3,4]' />
     ✅
     <Chaifen char='會' :parts='[5,3,1,4]' :colors='[1,2,1,3]' />
     ❌
@@ -220,11 +220,11 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 字根的连续性定义如下：
 
-一个字根的离散部件，不可被全包围结构或半包围结构分割。被分割的两个部件不得视为一个字根。
+非连续写成、且被全包围结构或半包围结构分割的部件，不视为一个字根。
 
 ::: tip 例
 
-`为`字的两点不可以被视为字根`两点`，因为它们被半包围结构分割。  
+`为`字的两点不可以被视为字根`两点`，因为它们非连续写成、且被半包围结构分割。  
 <div class="flex justify-left flex-wrap">
 <Chaifen char='为' :parts='[1,2,1]' />
 ✅
@@ -232,7 +232,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 ❌
 </div>
 
-`卵`字不拆`卯⺀`而拆成`卯丶丶`，因为`卯`字的点被全包围结构分割。
+`卵`字不拆`卯⺀`而拆成`卯丶丶`，因为`卯`字的两点非连续写成、且被半包围结构分割。
 <div class="flex justify-left flex-wrap">
 <Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,3]' />
 ✅
