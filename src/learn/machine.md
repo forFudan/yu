@@ -54,7 +54,7 @@ for div_i in divs:
         divs.remove(div_i)
     if len(divs) == 1:
         break  # 剩下唯一拆分候选，则停止判断
-
+        
 # 字根分散
 for div_i in divs:
     # 存在散的拆分时，移除不散的候选拆分

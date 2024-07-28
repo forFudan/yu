@@ -149,13 +149,11 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 <Chaifen char='御' :parts='[3,2,1,4,2]' :colors='[1,2,3,4,5,1]' />
 <Chaifen char='啬' :parts='[2,3,2,3,1]' :colors='[1,2,3,4,3]' />
 <Chaifen char='聿' :parts='[3,3]' />
-<Chaifen char='匹' :parts='[3,1]' :colors='[1,2,3,4,5]' />
-<Chaifen char='曲' :parts='[2,4]' />
 </div>
 
 ## 結構完整
 <div class="flex justify-left flex-wrap my-8">
-<Chaifen char='曹' :parts='[1,3,2,1,4]' :colors='[1,2,1,2,3]' />
+<Chaifen char='匹' :parts='[1,2,1]' :colors='[1,2,1]' />
 <Chaifen char='免' :parts='[2,3,3]' :colors='[1,2,1,2,3]' />
 <Chaifen char='单' :parts='[2,4,2,1,4]' :colors='[1,2,1,2,3]' />
 <Chaifen char='万' :parts='[1,2]' :colors='[1,2,3,4,5]' />
