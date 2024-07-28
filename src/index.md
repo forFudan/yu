@@ -72,14 +72,13 @@ import IME from '@/ime/FetchInput.vue'
 
 感谢以下字形输入法的发明人、改编人、维护人、各平台方案制作者、插件作者、网页作者等：
 
-[王码五笔字形@王永民](http://www.wangma.net.cn/)、[郑码@郑易理 郑珑](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[仓颉@朱邦复](http://www.cbflabs.com/)、[山人全息@谢振斌](https://siuze.github.io/ShanRenMaLTS/)、[尔雅徐码@徐国银](http://xumax.cn/)〔[五二顶@局外人](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、真码@命、[C42@谭淞宸](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、092、[三码郑码@史岳](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形@何海峰](https://flypy.com/)、蓝宝石@秋风、[虎码@PeaceB](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码@小泥巴](https://yb6b.github.io/yima/graceful-code/)、[易码@小泥巴](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
-](https://lost-melody.github.io/hamster-tools/)〕、[云码@为云](https://github.com/orbitoo/kumo)、天码@宋天、[声笔系列@戴石麟](https://sbxlm.github.io/)、[星空键道@吅吅大山](https://xkinput.gitee.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
+[王码五笔字形@王永民](http://www.wangma.net.cn/)、[郑码@郑易理 郑珑](https://www.china-e.com.cn/li/main/zhengma/jj.htm)、[仓颉@朱邦复](http://www.cbflabs.com/)、[山人全息@谢振斌](https://siuze.github.io/ShanRenMaLTS/)、[尔雅徐码@徐国银](http://xumax.cn/)〔[五二顶@局外人](https://github.com/Ace-Who/rime-xuma?tab=readme-ov-file)〕、[真码@命](http://sixchou.ysepan.com/)、[C42@谭淞宸](https://github.com/tansongchen/c42)〔[汉字自动拆分系统](https://chaifen.app/)〕、[092](https://092wb.github.io/)、[三码郑码@史岳](http://zzzm.ysepan.com/?xzpd=1)、[小鹤音形@何海峰](https://flypy.com/)、蓝宝石@秋风、[虎码@PeaceB](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕、[逸码@小泥巴](https://yb6b.github.io/yima/graceful-code/)、[易码@小泥巴](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕、[吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具](https://lost-melody.github.io/hamster-tools/)〕、[云码@为云](https://github.com/orbitoo/kumo)、[天码@宋天](http://soongsky.com/sky/)、[声笔系列@戴石麟](https://sbxlm.github.io/)、[星空键道@吅吅大山](https://xkinput.github.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
 
 ---
 
 感谢在输入法的制作过程中，参与初期讨论和构思、帮助测试和宣传、提供技术支持、参与生态建设的朋友：
 
-钱多多、阿吉、[王牌饼干](https://github.com/lost-melody)、宋天、[yb](https://github.com/yb6b)。
+钱多多、阿吉、[王牌饼干](https://github.com/lost-melody)、[宋天](http://soongsky.com/)、[yb](https://github.com/yb6b)。
 
 还有不少朋友为输入法的优化提出了宝贵的意见和建议，为输入法的推广助力，此处不一一致谢。
 
