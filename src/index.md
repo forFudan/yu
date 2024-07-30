@@ -86,12 +86,11 @@ import IME from '@/ime/FetchInput.vue'
 - [虎码@PeaceB](https://www.tiger-code.com/)〔[虎码测评网](http://assess.tiger-code.com/)〕
 - [逸码@小泥巴](https://yb6b.github.io/yima/graceful-code/)
 - [易码@小泥巴](https://yb6b.github.io/yima/)〔[测评工具](https://yb6b.github.io/#/)〕
-- [吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具
-](https://lost-melody.github.io/hamster-tools/)〕
-[云码@为云](https://github.com/orbitoo/kumo)
-[天码@宋天](http://soongsky.com/sky/)
-[声笔系列@戴石麟](https://sbxlm.github.io/)
-[星空键道@吅吅大山](https://xkinput.github.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
+- [吉蛋饼](https://lost-melody.github.io/wafel/)〔[仓输入法工具](https://lost-melody.github.io/hamster-tools/)〕
+- [云码@为云](https://github.com/orbitoo/kumo)
+- [天码@宋天](http://soongsky.com/sky/)
+- [声笔系列@戴石麟](https://sbxlm.github.io/)
+- [星空键道@吅吅大山](https://xkinput.github.io/)〔[星猫键道](https://github.com/hugh7007/xmjd6-rere)〕
 
 ---
 
