@@ -1,6 +1,8 @@
 # %%
+import distutils.dir_util
 import opencc
 import re
+import shutil
 
 t2s = opencc.OpenCC("t2s")
 
@@ -67,5 +69,3 @@ for path_of_doc in paths_of_docs:
     output = output.replace("/zht/", "/")
     with open("../src" + path_of_doc, mode="w", encoding="utf8") as temp:
         temp.write(output)
-
-# %%
