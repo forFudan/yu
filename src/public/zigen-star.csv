@@ -10,6 +10,7 @@ font,ma
 ヰ,Ak
 㔾,Aj
 卩,Aj
+,Aj
 言,By
 马,Bm
 尸,Bs
@@ -27,6 +28,7 @@ font,ma
 彐,Bj
 ,Bj
 肀,Bj
+⺕,Bj
 丑,Bc
 隶,Bd
 女,Cn
@@ -47,6 +49,7 @@ font,ma
 白,Db
 爿,Dq
 臼,Di
+,Di
 鬼,Dg
 ,Dg
 ,Dg
@@ -67,8 +70,6 @@ font,ma
 由,Do
 曲,Dq
 电,Dd
-黽,Dm
-,Dm
 車,Dc
 ,Dc
 叀,Dc
@@ -101,6 +102,7 @@ font,ma
 竹,Gz
 𠂉,Gz
 ,Gz
+⺮,Gz
 气,Gq
 𧘇,Gy
 ,Gy
@@ -138,6 +140,7 @@ font,ma
 龸,Is
 小,Iv
 ,Iv
+⺌,Iv
 火,Ih
 灬,Ib
 丁,Jd
@@ -154,6 +157,7 @@ font,ma
 曰,Jy
 早,Jz
 古,Jg
+,Jv
 目,Jm
 且,Jq
 ,Jq
@@ -181,7 +185,7 @@ font,ma
 入,Kr
 食,Ks
 ,Ka
-𠁁,Ka
+,Ka
 ,Ka
 弋,Ki
 戈,Kg
@@ -230,6 +234,7 @@ font,ma
 糸,Os
 糹,Os
 辶,Oc
+⻍,Oc
 之,Oz
 大,Od
 𡗗,Od
@@ -260,8 +265,8 @@ font,ma
 米,Qm
 丬,Qq
 羊,Qy
-⺷,Qy
 ,Qy
+⺷,Qy
 ⺶,Qy
 自,Qi
 身,Qs
@@ -269,6 +274,7 @@ font,ma
 忄,Rx
 人,Re
 合,Rh
+,Rh
 ,Rh
 僉,Rq
 骨,Rg
@@ -312,6 +318,7 @@ font,ma
 卜,Ub
 ,Ub
 ,Ub
+⺊,Ub
 虎,Uh
 ,Uh
 虍,Uh
@@ -322,6 +329,7 @@ font,ma
 瓜,Ug
 爪,Uz
 爫,Uz
+⺥,Uz
 皿,Um
 罒,Uw
 舟,Uo
@@ -351,6 +359,7 @@ font,ma
 月,Wy
 ,Wy
 ,Wy
+⺼,Wy
 馬,Wm
 ,Wm
 七,Xi
@@ -370,4 +379,5 @@ font,ma
 乛,Yi
 ㇆,Yi
 乁,Yi
+⺄,Yi
 阝,Yf
