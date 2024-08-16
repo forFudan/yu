@@ -49,6 +49,8 @@
 
 其七，由<span class="yuniversus"></span>字根替代<span class="yuniversus">黽𪚴</span>等字根，防止由`龜𪓝𪚳𪚭𪚰𪓑`類字産生大量隱藏歸併根。<span class="yuniversus"></span>字根編碼爲`Jv`。
 
+其八，移除<ruby>韋<rt>weí</rt></ruby>字根。其雖爲康熙部首，但出現頻率不高，且對應簡化字`韦`無字根。故`韋`字皆拆`𫝀口㐄`。卿雲方案中，<span class="yuniversus"><ruby>𫝀<rt>wǔ</rt></ruby></span>字根編碼由`A`改至`K`。
+
 ---
 
 規則變化：
