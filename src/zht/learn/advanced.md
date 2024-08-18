@@ -66,6 +66,10 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
     </div>
 :::
 
+## 局部筆順
+
+指的是不被打斷的字根儘量多。這是爲了防止以下情況，一個字 A 有 X Y 兩個**離散**部分構成，X 部分拆 X1 X2，根少但不符合筆順。Y 部分，可以拆 Y1 Y2，符合筆順，且字根相交；或拆 Y3 Y4，不符合筆順，但字根分散。如果必須滿足**整體符合筆順**，則 Y 拆 Y1 Y2 雖然符合筆順，但由於 X 不符合筆順，A 整體依舊不符合筆順。那麽 Y 應該拆成 Y3 Y4，因爲**能散不交**。這樣一來，Y 作爲獨體字和 Y 作爲 A 的一部分時，拆分不一致，我們需要避免這種情況。這就是檢查**局部筆順**的原因。
+
 ## 字根的內在屬性
 
 上面我們提到了宇浩輸入法拆字規則的優先級。其實，在「字根最少」之上，還有一個隱藏的原則，也就是：**字根的內在屬性**。
@@ -129,7 +133,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 - 所有四點`灬`都在一個大碼。
 :::
 
-`为` `卵`等字的兩點和`冬`下的兩點不同，相隔太遠，且被半包圍或全包圍分割，故而不認定爲「兩點」。詳[「散件不分隔」禁手](#散件不分割)。
+`为` `卵`等字的兩點和`冬`下的兩點不同，非連續筆畫，且被半包圍或全包圍分割，故而不認定爲「兩點」。詳[「散件不分隔」禁手](#散件不分割)。
 <div class="flex justify-left flex-wrap">
 <Chaifen char='冬' :parts='[3,2]' :colors='[0,1]' />
 ✅
@@ -197,9 +201,9 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
     <Chaifen char='鄙' :parts='[3,4,3,1,2]' :colors='[1,2,3,2,4]' />
     ❌
     </div>
-- `合`下的`口`中如果包含完整的筆畫，應該拆如`人一囗`。例如：`會`中間的`口`中有`小`，故而應該拆成`人一𫩏丷日`。
+- `合`下的`口`中如果包含完整的筆畫，應該拆如`人一囗`。例如：`會`中間的`口`中有`小`，故而應該拆成<span class="yuniversus">人一日</span>。
     <div class="flex justify-left flex-wrap">
-    <Chaifen char='會' :parts='[2,1,3,2,1,4]' :colors='[1,2,3,4,3,5]' />
+    <Chaifen char='會' :parts='[2,1,6,4]' :colors='[1,2,3,4]' />
     ✅
     <Chaifen char='會' :parts='[5,3,1,4]' :colors='[1,2,1,3]' />
     ❌
@@ -216,11 +220,11 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 
 字根的連續性定義如下：
 
-一個字根的離散部件，不可被全包圍結構或半包圍結構分割。被分割的兩個部件不得視爲一個字根。
+非連續寫成、且被全包圍結構或半包圍結構分割的部件，不視爲一個字根。
 
 ::: tip 例
 
-`为`字的兩點不可以被視爲字根`两点`，因爲它們被半包圍結構分割。  
+`为`字的兩點不可以被視爲字根`两点`，因爲它們非連續寫成、且被半包圍結構分割。  
 <div class="flex justify-left flex-wrap">
 <Chaifen char='为' :parts='[1,2,1]' />
 ✅
@@ -228,7 +232,7 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 ❌
 </div>
 
-`卵`字不拆`卯⺀`而拆成`卯丶丶`，因爲`卯`字的點被全包圍結構分割。
+`卵`字不拆`卯⺀`而拆成`卯丶丶`，因爲`卯`字的兩點非連續寫成、且被半包圍結構分割。
 <div class="flex justify-left flex-wrap">
 <Chaifen char='卵' :parts='[2,1,1,2,1]' :colors='[1,2,1,1,3]' />
 ✅

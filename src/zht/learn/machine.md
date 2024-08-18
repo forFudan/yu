@@ -24,14 +24,6 @@ for div_i in divs:
     if len(divs) == 1:
         break  # 剩下唯一拆分候选，则停止判断
 
-# 符合笔顺
-for div_i in divs:
-    # 存在完全符合笔顺的拆分时，移除不完全符合笔顺的候选拆分
-    if div_i.bishun != max([i.bishun for i in divs]):
-        divs.remove(div_i)
-    if len(divs) == 1:
-        break  # 剩下唯一拆分候选，则停止判断
-
 # 结构完整
 root_completeness_score = {
     囗：2,
@@ -55,6 +47,14 @@ for div_i, div_j in permutation(divs, 2):  # 俩俩取候选拆分比较
     if len(divs) == 1:
         break  # 剩下唯一拆分候选，则停止判断
 
+# 符合笔顺
+for div_i in divs:
+    # 存在完全符合笔顺的拆分时，移除不完全符合笔顺的候选拆分
+    if div_i.bishun != max([i.bishun for i in divs]):
+        divs.remove(div_i)
+    if len(divs) == 1:
+        break  # 剩下唯一拆分候选，则停止判断
+        
 # 字根分散
 for div_i in divs:
     # 存在散的拆分时，移除不散的候选拆分

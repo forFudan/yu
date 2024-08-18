@@ -59,6 +59,8 @@ font,ma
 而,Le
 耳,Te
 臣,Yc
+,Yc
+,Yc
 至,Ez
 艹,Sc
 龷,Sc
@@ -82,6 +84,8 @@ font,ma
 雨,Xy
 面,Sm
 革,Gg
+頁,Gi
+页,Ei
 馬,Lm
 ,Lm
 髟,Bb
@@ -118,6 +122,7 @@ font,ma
 立,Xl
 米,Ak
 羊,Hy
+,Hy
 ⺷,Hy
 ⺶,Hy
 衤,Vy
@@ -125,6 +130,7 @@ font,ma
 讠,My
 辛,Sx
 辶,He
+⻍,He
 门,Qi
 高,Lg
 ,Lg
@@ -159,6 +165,7 @@ font,ma
 ,Am
 ,Am
 合,Gp
+,Gp
 ,Gp
 向,Vx
 ,Vx
@@ -181,6 +188,7 @@ font,ma
 月,Wi
 ,Wi
 ,Wi
+⺼,Wi
 欠,Gq
 殳,Dp
 毛,Wm
@@ -189,6 +197,7 @@ font,ma
 ,Iw
 爪,Bz
 爫,Bz
+⺥,Bz
 片,Cp
 牛,Mn
 ⺧,Mn
@@ -202,9 +211,11 @@ font,ma
 竹,Dz
 𠂉,Dz
 ,Dz
+⺮,Dz
 缶,Ff
 自,Hd
 臼,Hj
+,Hj
 舌,Xs
 舟,Qz
 豸,Kz
@@ -226,6 +237,7 @@ font,ma
 ,In
 鸟,Fn
 ,Fn
+,Pv
 ,Jw
 𠂤,Hd
 𧘇,Xy
@@ -247,20 +259,25 @@ font,ma
 卜,Nb
 ,Nb
 ,Nb
+⺊,Nb
 口,Oz
 〇,Oz
 咼,Tg
 冎,Tg
 囗,Xw
 小,Vi
+,Vi
+⺌,Vi
 尚,Is
 龸,Is
 山,Ts
 巾,Vl
 日,Jz
 ,Jz
+,Jz
 早,Iz
 曰,Jy
+曲,Hq
 止,Nz
 龰,Nz
 水,Fs
@@ -289,11 +306,10 @@ font,ma
 鬥,Xd
 鹵,Gl
 黑,Qh
-黽,Em
-,Em
 齒,Oc
+,Rv
 ,Qy
-𠁁,Qy
+,Qy
 ,Qy
 丑,Uc
 丩,Dj
@@ -306,7 +322,7 @@ font,ma
 乛,Vv
 ㇆,Vv
 乁,Vv
-㔾,Vv
+⺄,Vv
 乚,Eh
 𡿨,Eh
 ㇉,Eh
@@ -319,6 +335,8 @@ font,ma
 刀,Ed
 力,Wk
 卩,Kj
+,Kj
+㔾,Kj
 厶,Ks
 又,Bn
 マ,Bn
@@ -343,6 +361,7 @@ font,ma
 彐,Tx
 ,Tx
 肀,Tx
+⺕,Tx
 母,Mm
 ,Mm
 ,Mm
@@ -356,7 +375,6 @@ font,ma
 艮,Id
 阝,Bf
 隶,Rl
-韋,Qw
 ,Qw
 飛,Of
 马,Gm
