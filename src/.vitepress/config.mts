@@ -140,6 +140,10 @@ export default defineConfig({
           link: '/learn/words'
         },
         {
+          text: '极简词库',
+          link: '/learn/lexicon'
+        },
+        {
           text: '机器实现',
           link: '/learn/machine'
         },
@@ -427,6 +431,10 @@ export default defineConfig({
             {
               text: '詞語編碼',
               link: '/zht/learn/words'
+            },
+            {
+              text: '極簡詞庫',
+              link: '/zht/learn/lexicon'
             },
             {
               text: '機器實現',
