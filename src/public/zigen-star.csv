@@ -38,6 +38,7 @@ font,ma
 贝,Cb
 页,Cy
 冊,Ce
+,Ce
 雨,Cv
 彳,Cc
 ,Cc
@@ -56,7 +57,7 @@ font,ma
 向,Dx
 ,Dx
 ,Dx
-𠂤,Dd
+,Dd
 戶,Dh
 鳥,Dn
 ,Dn
@@ -99,11 +100,11 @@ font,ma
 末,Fm
 丿,Gp
 竹,Gz
-𠂉,Gz
+,Gz
 ,Gz
 ⺮,Gz
 气,Gq
-𧘇,Gy
+,Gy
 ,Gy
 乃,Gn
 廴,Gy
@@ -202,6 +203,7 @@ font,ma
 舌,Ls
 口,Lv
 〇,Lv
+正,Lz
 鸟,Mn
 ,Mn
 乌,Mw
@@ -236,7 +238,7 @@ font,ma
 ⻍,Oc
 之,Oz
 大,Od
-𡗗,Od
+,Od
 夫,Of
 巴,Ob
 已,Oi
