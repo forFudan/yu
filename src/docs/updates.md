@@ -46,7 +46,7 @@
 
 其一，設<span class="yuniversus"></span>爲字根，歸併至<span class="yuniversus"></span>根，使 `曾增`等字拆分更加統一。
 
-其二，設<ruby>曲<rt>qǔ qū</rt></ruby>爲字根，小碼取聲母爲`q`。
+其二，設<ruby>曲<rt>qǔ</rt></ruby>爲字根，小碼取聲母爲`q`。
 
 - 光華方案，豎區，同`甲申由禺电`，都在`K`上。
 - 星陳方案，田上出頭，同`申电由`，都在`D`上。
@@ -72,21 +72,19 @@
 - 星陳方案。`页`，下框，大碼同`见`，編碼`Cy`。`頁`，含`目`，大横同`目`，編碼`Je`。分離`顰頗囂顸顷嚣弼頊顶頂颦顼`等字。
 - 卿雲方案，`页`編碼`M`，`頁`編碼`H`，都取`xiè`音。分離`钡页頷幗顰囂贪嚣颔颦貪颤`等字。
 
-其六，卿雲方案中，<span class="yuniversus"></ruby></span>小碼改爲`i`，因其不讀`chén`，而是<ruby>頤<rt>yí</rt></ruby>字的異體，讀`yí`。
+其六，卿雲方案中，<span class="yuniversus"></span>小碼改爲`i`，因其不讀`chén`，而是<ruby>頤<rt>yí</rt></ruby>字的異體，讀`yí`。
 
 其七，由<span class="yuniversus"></span>字根替代<span class="yuniversus">黽𪚴</span>等字根，防止由`龜𪓝𪚳𪚭𪚰𪓑`類字産生大量隱藏歸併根。<span class="yuniversus"></span>字根編碼爲`Jv`。
 
 其八，移除<ruby>韋<rt>weí</rt></ruby>字根。其雖爲康熙部首，但出現頻率不高，且對應簡化字`韦`無字根。故`韋`字皆拆`𫝀口㐄`。卿雲方案中，<span class="yuniversus"><ruby>𫝀<rt>wǔ</rt></ruby></span>字根編碼由`A`改至`K`。
 
-其九，移除<ruby>韋<rt>weí</rt></ruby>字根。其雖爲康熙部首，但出現頻率不高，且對應簡化字`韦`無字根。故`韋`字皆拆`𫝀口㐄`。卿雲方案中，<span class="yuniversus"><ruby>𫝀<rt>wǔ</rt></ruby></span>字根編碼由`A`改至`K`。
-
-其十，設<ruby>正<rt>zhèng</rt></ruby>字根。
+其九，設<ruby>正<rt>zhèng</rt></ruby>字根。
 
 - 光華方案，横區，編碼`Fk`。
 - 星陳方案，編碼`Lz`。
 - 卿雲方案，編碼`M`，補碼取聲母`z`。
 
-其十一，卿雲方案，<ruby>尢<rt>wāng</rt></ruby>字根由<ruby>尤<rt>yóu</rt></ruby>字根獨立出來。編碼`M`，同<ruby>大<rt>dà</rt></ruby>字，補碼取聲母`w`。至此，<ruby>犬<rt>quǎn</rt>尤<rt>yóu</rt></ruby>都在`Q`上，<ruby>大<rt>dà</rt>尢<rt>wāng</rt></ruby>都在`M`上，亦可視爲一種便於記憶的聚類。
+其十，卿雲方案中，<ruby>尢<rt>wāng</rt></ruby>字根由<ruby>尤<rt>yóu</rt></ruby>字根獨立出來。編碼`M`，同<ruby>大<rt>dà</rt></ruby>字，補碼取聲母`w`。至此，<ruby>犬<rt>quǎn</rt>尤<rt>yóu</rt></ruby>都在`Q`上，<ruby>大<rt>dà</rt>尢<rt>wāng</rt></ruby>都在`M`上，亦可視爲一種便於記憶的聚類。
 
 ---
 
@@ -114,7 +112,9 @@ GB0: 五伍倾凿匹南吾唔喃嘈嚣圄圉姬孑巅幸悟悻捂撷晤曲曹曾
 
 - 20240720: v3.6.0-rc
 - 20240808: v3.6.0-rc.1
-- 202408010: v3.6.0-rc.2
+- 20240810: v3.6.0-rc.2
+- 20240818: v3.6.0-rc.3
+- 20240820: v3.6.0-rc.4
 
 ### 2024 年 6 月 20 日 甲辰年五月十五日
 

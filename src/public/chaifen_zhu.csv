@@ -20,7 +20,7 @@ char,division,division_tw,region
 天,一大,,CJK
 岳,斤一山,,CJK
 人,人,,CJK
-復,彳𠂉日夊,,CJK
+復,彳日夊,,CJK
 説,言丷口儿,,CJK
 去,土厶,,CJK
 們,亻門,,CJK
@@ -50,7 +50,7 @@ char,division,division_tw,region
 要,覀女,,CJK
 頭,一口䒑頁,,CJK
 以,乚丶人,,CJK
-師,𠂤一巾,,CJK
+師,一巾,,CJK
 時,日土寸,日士寸,CJK
 手,手,,CJK
 家,宀豕,,CJK
@@ -59,10 +59,10 @@ char,division,division_tw,region
 靈,雨口口人,,CJK
 那,㇆阝,,CJK
 然,犬灬,,CJK
-年,𠂉ヰ,,CJK
+年,ヰ,,CJK
 多,夕夕,,CJK
 回,囗口,,CJK
-裏,亠里𧘇,,CJK
+裏,亠里,,CJK
 没,氵殳,,CJK
 對,业⺷寸,,CJK
 日,日,,CJK
@@ -125,11 +125,11 @@ char,division,division_tw,region
 現,王見,,CJK
 知,矢口,,CJK
 所,戶斤,,CJK
-午,𠂉十,,CJK
+午,十,,CJK
 明,日月,,CJK
 間,門日,,CJK
 方,方,,CJK
-讓,言𧘇,,CJK
+讓,言,,CJK
 嘉,壴力口,,CJK
 而,而,,CJK
 正,正,,CJK
@@ -142,7 +142,7 @@ char,division,division_tw,region
 分,八刀,,CJK
 做,亻古夊,,CJK
 口,口,,CJK
-海,氵𠂉母,,CJK
+海,氵母,,CJK
 四,囗儿,,CJK
 當,尚田,,CJK
 聽,耳王十心,耳壬十心,CJK
@@ -156,7 +156,7 @@ char,division,division_tw,region
 最,日耳又,冂二耳又,CJK
 長,長,,CJK
 她,女也,,CJK
-作,亻𠂉,,CJK
+作,亻,,CJK
 司,㇆一口,,CJK
 被,衤皮,,CJK
 第,⺮弓丨丿,,CJK
@@ -181,7 +181,7 @@ char,division,division_tw,region
 早,早,,CJK
 位,亻立,,CJK
 西,西,,CJK
-無,𠂉卌一灬,,CJK
+無,卌一灬,,CJK
 平,干丷,,CJK
 文,文,,CJK
 剛,冂䒑山刂,,CJK
@@ -206,7 +206,7 @@ char,division,division_tw,region
 本,木一,,CJK
 直,十,,CJK
 少,小丿,,CJK
-乾,十早𠂉乙,,CJK
+乾,十早乙,,CJK
 坐,人人土,,CJK
 候,亻丨ユ矢,,CJK
 接,扌立女,,CJK
@@ -254,7 +254,7 @@ char,division,division_tw,region
 電,雨电,,CJK
 樓,木口十女,,CJK
 處,虍夊几,,CJK
-怎,𠂉心,,CJK
+怎,心,,CJK
 買,罒貝,,CJK
 臉,月僉,⺼僉,CJK
 輕,車一巛工,,CJK
@@ -299,10 +299,10 @@ char,division,division_tw,region
 請,言龶月,,CJK
 信,亻言,,CJK
 火,火,,CJK
-許,言𠂉十,,CJK
+許,言十,,CJK
 傳,亻寸,,CJK
 它,宀匕,,CJK
-表,龶𧘇,,CJK
+表,龶,,CJK
 寫,宀臼勹灬,,CJK
 纔,糹⺈口丶,,CJK
 找,扌戈,,CJK
@@ -317,7 +317,7 @@ char,division,division_tw,region
 幫,土土寸巾,,CJK
 陽,阝日一,,CJK
 該,言亥,,CJK
-遠,土口𧘇辶,,CJK
+遠,土口辶,,CJK
 題,日一龰頁,,CJK
 非,非,,CJK
 洞,氵冂一口,,CJK
@@ -329,7 +329,7 @@ char,division,division_tw,region
 送,䒑大辶,,CJK
 玉,王丶,,CJK
 習,习习白,,CJK
-每,𠂉母,,CJK
+每,母,,CJK
 叫,口丩,,CJK
 呢,口尸匕,,CJK
 教,耂子夊,,CJK
@@ -343,7 +343,7 @@ char,division,division_tw,region
 低,亻七丶,亻七一,CJK
 風,風,,CJK
 百,丆日,,CJK
-論,言人一冊,,CJK
+論,言人一,,CJK
 物,牛勹,,CJK
 件,亻牛,,CJK
 南,十冂,,CJK
@@ -462,7 +462,7 @@ char,division,division_tw,region
 媽,女馬,,CJK
 品,口口口,,CJK
 至,至,,CJK
-泰,𡗗水,,CJK
+泰,水,,CJK
 杯,木不,,CJK
 誰,言隹,,CJK
 者,耂日,,CJK
@@ -473,7 +473,7 @@ char,division,division_tw,region
 爺,八乂耳阝,,CJK
 紅,糹工,,CJK
 需,雨而,,CJK
-傷,亻𠂉日,,CJK
+傷,亻日,,CJK
 度,广卄一又,,CJK
 考,耂丂,,CJK
 排,扌非,,CJK
@@ -496,6 +496,6 @@ char,division,division_tw,region
 嘆,口卄一夫,,CJK
 慶,乛心夊,,CJK
 反,⺁又,厂又,CJK
-衣,亠𧘇,,CJK
+衣,亠,,CJK
 總,糹夊心,糹心,CJK
 較,車亠八乂,,CJK

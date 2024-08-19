@@ -33,7 +33,7 @@ font,ma
 壴,Dd
 大,Gd
 夫,Gu
-𡗗,Gu
+,Gu
 寸,Ac
 尤,Do
 尢,Do
@@ -209,7 +209,7 @@ font,ma
 矢,Qi
 禾,Rh
 竹,Qk
-𠂉,Qk
+,Qk
 ,Qk
 ⺮,Qk
 缶,Wo
@@ -240,8 +240,8 @@ font,ma
 ,Ri
 ,Yv
 ,Ww
-𠂤,Yd
-𧘇,Ry
+,Yd
+,Ry
 ,Ry
 上,Ks
 ,Ks
@@ -253,6 +253,7 @@ font,ma
 ,Kf
 ,Kf
 冊,Nc
+,Nc
 刂,Md
 卜,Mo
 ,Mo
