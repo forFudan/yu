@@ -74,19 +74,24 @@
 - 星陳方案。`页`，下框，大碼同`见`，編碼`Cy`。`頁`，含`目`，大横同`目`，編碼`Je`。
 - 卿雲方案，`页`編碼`M`，`頁`編碼`H`，都取`xiè`音。
 
-其六，卿雲方案中，<span class="yuniversus"></span>小碼改爲`i`，因其不讀`chén`，而是<ruby>頤<rt>yí</rt></ruby>字的異體，讀`yí`。
+其六，由<span class="yuniversus"></span>字根替代<span class="yuniversus">黽𪚴</span>等字根，防止由`龜𪓝𪚳𪚭𪚰𪓑`類字産生大量隱藏歸併根。<span class="yuniversus"></span>字根編碼爲`Jv`。
 
-其七，由<span class="yuniversus"></span>字根替代<span class="yuniversus">黽𪚴</span>等字根，防止由`龜𪓝𪚳𪚭𪚰𪓑`類字産生大量隱藏歸併根。<span class="yuniversus"></span>字根編碼爲`Jv`。
+其七，移除<ruby>韋<rt>weí</rt></ruby>字根。其雖爲康熙部首，但出現頻率不高，且對應簡化字`韦`無字根。故`韋`字皆拆`𫝀口㐄`。卿雲方案中，<span class="yuniversus"><ruby><rt>wǔ</rt></ruby></span>字根編碼由`A`改至`K`。
 
-其八，移除<ruby>韋<rt>weí</rt></ruby>字根。其雖爲康熙部首，但出現頻率不高，且對應簡化字`韦`無字根。故`韋`字皆拆`𫝀口㐄`。卿雲方案中，<span class="yuniversus"><ruby><rt>wǔ</rt></ruby></span>字根編碼由`A`改至`K`。
-
-其九，設<ruby>正<rt>zhèng</rt></ruby>字根。
+其八，設<ruby>正<rt>zhèng</rt></ruby>字根。
 
 - 光華方案，横區，編碼`Fk`。
 - 星陳方案，編碼`Lz`。
 - 卿雲方案，編碼`M`，補碼取聲母`z`。
 
-其十，卿雲方案中，<ruby>尢<rt>wāng</rt></ruby>字根由<ruby>尤<rt>yóu</rt></ruby>字根獨立出來。編碼`M`，同<ruby>大<rt>dà</rt></ruby>字，補碼取聲母`w`（<ruby>尢<rt>wāng</rt></ruby>就是注音符號<ruby>ㄤ<rt>ang</rt></ruby>的來源）。至此，<ruby>犬<rt>quǎn</rt>尤<rt>yóu</rt></ruby>都在`Q`上，<ruby>大<rt>dà</rt>尢<rt>wāng</rt></ruby>都在`M`上，亦可視爲一種便於記憶的聚類。
+其九，卿雲方案中，<ruby>尢<rt>wāng</rt></ruby>字根由<ruby>尤<rt>yóu</rt></ruby>字根獨立出來。編碼`M`，同<ruby>大<rt>dà</rt></ruby>字，補碼取聲母`w`（<ruby>尢<rt>wāng</rt></ruby>就是注音符號<ruby>ㄤ<rt>ang</rt></ruby>的來源）。至此，<ruby>犬<rt>quǎn</rt>尤<rt>yóu</rt></ruby>都在`Q`上，<ruby>大<rt>dà</rt>尢<rt>wāng</rt></ruby>都在`M`上，亦可視爲一種便於記憶的聚類。
+
+其十，更改卿雲方案中部分字根所取的讀音：
+
+- 字根<span class="yuniversus"></span>小碼改爲`i`，因其不讀`chén`，而是<ruby>頤<rt>yí</rt></ruby>字的異體，讀`yí`。
+- 字根<span class="yuniversus"></span>小碼改爲`v`，因其無讀音。此二字根不再同`卜⺊`歸併。
+
+<!-- 其十一，移除<span class="yuniversus"></span>字根，直接拆作`一㇉一乚三`。它只在五個漢字中出現，移除後可些微減少記憶量。<ruby><rt>wāng</rt></ruby> -->
 
 ---
 
