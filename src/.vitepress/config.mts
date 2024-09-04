@@ -92,6 +92,10 @@ export default defineConfig({
           text: '大观',
           items: [
             {
+              text: '宇浩·光华',
+              link: '/docs/light',
+            },
+            {
               text: '卿云输入法',
               link: '/docs/joy',
             },
@@ -384,6 +388,10 @@ export default defineConfig({
             {
               text: '大觀',
               items: [
+                {
+                  text: '宇浩·光華',
+                  link: '/zht/docs/light',
+                },
                 {
                   text: '卿雲輸入法',
                   link: '/zht/docs/joy',

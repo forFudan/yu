@@ -18,6 +18,7 @@ paths_of_docs = [
     "/docs/coding.md",
     "/docs/guji.md",
     "/docs/yuniversus.md",
+    "/docs/light.md",
     "/docs/joy.md",
     "/docs/tianma.md",
     "/docs/yima.md",
