@@ -22,6 +22,7 @@ paths_of_docs = [
     "/docs/joy.md",
     "/docs/tianma.md",
     "/docs/yima.md",
+    "/docs/characteristics.md",
     "/learn/index.md",
     "/learn/division.md",
     "/learn/roots.md",

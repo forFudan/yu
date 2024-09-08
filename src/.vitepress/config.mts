@@ -79,6 +79,10 @@ export default defineConfig({
               link: '/docs/statistics',
             },
             {
+              text: '汉字字形输入法特性表和关系表',
+              link: '/docs/characteristics',
+            },
+            {
               text: '常见形码输入方案编码规则',
               link: '/docs/coding',
             },
@@ -374,6 +378,10 @@ export default defineConfig({
                 {
                   text: '常見輸入法測評數據',
                   link: '/zht/docs/statistics',
+                },
+                {
+                  text: '漢字字形輸入法特性表和關係表',
+                  link: '/zht/docs/characteristics',
                 },
                 {
                   text: '常見形碼輸入方案編碼規則',
