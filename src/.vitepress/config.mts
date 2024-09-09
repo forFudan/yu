@@ -79,7 +79,7 @@ export default defineConfig({
               link: '/docs/statistics',
             },
             {
-              text: '汉字字形输入法特性表和关系表',
+              text: '字形输入法特性表和关系表',
               link: '/docs/characteristics',
             },
             {
@@ -380,7 +380,7 @@ export default defineConfig({
                   link: '/zht/docs/statistics',
                 },
                 {
-                  text: '漢字字形輸入法特性表和關係表',
+                  text: '字形輸入法特性表和關係表',
                   link: '/zht/docs/characteristics',
                 },
                 {
