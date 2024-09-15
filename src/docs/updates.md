@@ -13,7 +13,7 @@
 
 本次更新較大，部分更改存在回退可能，請僅以測試目的使用之。
 
-**本次方案發佈後，宇浩拆分將進入長期穩定形態，不再增加字根。**
+**本次更新發佈後，宇浩拆分將進入長期穩定形態。通規漢字的拆分不再變動。**
 
 :::
 
@@ -84,9 +84,15 @@
 - 星陳方案，編碼`Lz`。
 - 卿雲方案，編碼`M`，補碼取聲母`z`。
 
-其九，卿雲方案中，<ruby>尢<rt>wāng</rt></ruby>字根由<ruby>尤<rt>yóu</rt></ruby>字根獨立出來。編碼`M`，同<ruby>大<rt>dà</rt></ruby>字，補碼取聲母`w`（<ruby>尢<rt>wāng</rt></ruby>就是注音符號<ruby>ㄤ<rt>ang</rt></ruby>的來源）。至此，<ruby>犬<rt>quǎn</rt>尤<rt>yóu</rt></ruby>都在`Q`上，<ruby>大<rt>dà</rt>尢<rt>wāng</rt></ruby>都在`M`上，亦可視爲一種便於記憶的聚類。
+其九，設<span class="yuniversus"></span>字根，和<span class="yuniversus"></span>同編碼。字例：`亜壷`。
 
-其十，更改卿雲方案中部分字根所取的讀音：
+其十，設<ruby>孑<rt>jíe</rt></ruby>爲<ruby>子<rt>zǐ</rt></ruby>的附屬字根。因爲`子`作偏旁時，實際字形爲`孑`。
+
+其十一，<ruby>〇<rt>líng</rt></ruby>字根的大碼和<ruby>口<rt>kǒu</rt></ruby>字根的大碼改爲一致，小碼都爲`l`。
+
+其十二，卿雲方案中，<ruby>尢<rt>wāng</rt></ruby>字根由<ruby>尤<rt>yóu</rt></ruby>字根獨立出來。編碼`M`，同<ruby>大<rt>dà</rt></ruby>字，補碼取聲母`w`（<ruby>尢<rt>wāng</rt></ruby>就是注音符號<ruby>ㄤ<rt>ang</rt></ruby>的來源）。至此，<ruby>犬<rt>quǎn</rt>尤<rt>yóu</rt></ruby>都在`Q`上，<ruby>大<rt>dà</rt>尢<rt>wāng</rt></ruby>都在`M`上，亦可視爲一種便於記憶的聚類。
+
+其十三，更改卿雲方案中部分字根所取的讀音：
 
 - 字根<span class="yuniversus"></span>小碼改爲`i`，因其不讀`chén`，而是<ruby>頤<rt>yí</rt></ruby>字的異體，讀`yí`。
 - 字根<span class="yuniversus"></span>小碼改爲`v`，因其無讀音。此二字根不再同`卜⺊`歸併。
@@ -105,7 +111,7 @@
 
 根據以下用户反饋，更正若干拆分：
 
-- [譚淞宸](https://github.com/tansongchen)：CJK 基本區和擴展 A 區`夨髙䕎夓宺`等相關字
+- [譚淞宸](https://github.com/tansongchen)：CJK 基本區和擴展 A 區`夨髙䕎夓宺`等相關字。增設<span class="yuniversus"></span>字根。
 - 油甘子：`𩒞`
 - 橢暶：`𰁙`
 
