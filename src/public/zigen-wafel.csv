@@ -1,6 +1,6 @@
 font,ma
 ,Mr
-ヰ,Mr
+㐄,Mr
 一,Fi
 丁,Fd
 丂,Ek
@@ -47,8 +47,10 @@ font,ma
 戊,Aw
 扌,Cs
 木,Ai
+朩,Ai
 未,Jw
 末,Jm
+正,Lz
 牙,Qy
 犬,Nq
 王,Jr
@@ -92,7 +94,7 @@ font,ma
 龶,Hq
 ,Hw
 ,Sz
-𡗗,Up
+,Up
 丬,Dq
 丶,Le
 乀,Le
@@ -209,7 +211,7 @@ font,ma
 矢,Is
 禾,Vh
 竹,Dz
-𠂉,Dz
+,Dz
 ,Dz
 ⺮,Dz
 缶,Ff
@@ -237,10 +239,11 @@ font,ma
 ,In
 鸟,Fn
 ,Fn
+,Jv
 ,Pv
 ,Jw
-𠂤,Hd
-𧘇,Xy
+,Hd
+,Xy
 ,Xy
 上,Xj
 ,Xj
@@ -255,6 +258,7 @@ font,ma
 ,Pk
 ,Pk
 冊,Yc
+,Yc
 刂,Pe
 卜,Nb
 ,Nb
@@ -310,6 +314,7 @@ font,ma
 ,Rv
 ,Qy
 ,Qy
+,Qy
 ,Qy
 丑,Uc
 丩,Dj

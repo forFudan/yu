@@ -8,8 +8,9 @@ font,ma
 用,Ai
 甲,Aj
 ,Ak
-ヰ,Ak
+㐄,Ak
 木,Am
+朩,Am
 匕,Bb
 马,Bm
 舌,Bs
@@ -57,6 +58,7 @@ font,ma
 ,Ee
 也,Ei
 ,Ei
+,Ei
 ,Ei
 㔾,Ej
 ,Ej
@@ -96,8 +98,8 @@ font,ma
 寸,Hc
 电,Hd
 骨,Hg
-⺁,Hi
 夭,Hi
+⺁,Hi
 耂,Hl
 鹿,Hl
 ,Hl
@@ -317,8 +319,6 @@ font,ma
 ,Ts
 鱼,Tv
 卜,Ub
-,Ub
-,Ub
 ⺊,Ub
 辶,Uc
 ⻍,Uc
@@ -329,6 +329,8 @@ font,ma
 糹,Us
 身,Us
 饣,Us
+,Uv
+,Uv
 亡,Uw
 至,Uz
 厂,Vc
