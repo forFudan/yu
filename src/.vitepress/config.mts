@@ -128,6 +128,10 @@ export default defineConfig({
           link: '/learn/advanced'
         },
         {
+          text: '必拆部件',
+          link: '/learn/radicals'
+        },
+        {
           text: '字根编码',
           link: '/learn/roots'
         },
@@ -427,6 +431,10 @@ export default defineConfig({
             {
               text: '進階討論',
               link: '/zht/learn/advanced'
+            },
+            {
+              text: '必拆部件',
+              link: '/zht/learn/radicals'
             },
             {
               text: '字根編碼',
