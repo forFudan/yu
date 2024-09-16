@@ -7816,7 +7816,7 @@ char,division,division_tw,region
 佫,亻夊口,,CJK
 佭,亻夊㐄,,CJK
 佮,亻合,,CJK
-佱,人二止,,CJK
+佱,人一正,,CJK
 佲,亻夕口,,CJK
 併,亻䒑廾,,CJK
 佷,亻艮,,CJK
@@ -23118,7 +23118,7 @@ char,division,division_tw,region
 㱌,耳耳耳欠,,CJK-A
 㱍,言糹糹欠,,CJK-A
 㱎,罒水魚欠,,CJK-A
-㱏,二止,,CJK-A
+㱏,一正,,CJK-A
 㱐,二止丶,,CJK-A
 㱑,止夕,,CJK-A
 㱒,止丁口,,CJK-A
@@ -76019,7 +76019,7 @@ char,division,division_tw,region
 𫵖,尸示,,CJK-E
 𫵗,尸乀彐丿,,CJK-E
 𫵘,尸心丿,,CJK-E
-𫵙,尸二止,,CJK-E
+𫵙,尸一正,,CJK-E
 𫵚,尸千千,,CJK-E
 𫵛,尸乀⺀寸,,CJK-E
 𫵜,尸丩亠又,,CJK-E
@@ -80502,7 +80502,7 @@ char,division,division_tw,region
 𬻧,十口冖且,,CJK-F
 𬻨,犭虫下,,CJK-F
 𬻩,木艮下,,CJK-F
-𬻪,二止丿戈,,CJK-F
+𬻪,一正丿戈,,CJK-F
 𬻫,十口冖,,CJK-F
 𬻬,尚口丄,,CJK-F
 𬻭,壬厶亠廾,,CJK-F
@@ -91590,7 +91590,7 @@ char,division,division_tw,region
 𰹖,車禾彐,,CJK-G
 𰹗,車爫一寸,,CJK-G
 𰹘,車爫冖又,,CJK-G
-𰹙,車勹二止,,CJK-G
+𰹙,車勹一正,,CJK-G
 𰹚,車又又欠,,CJK-G
 𰹛,車禾龷,,CJK-G
 𰹜,車乂凵又,,CJK-G
@@ -92025,7 +92025,7 @@ char,division,division_tw,region
 𱀉,戶ココ口,,CJK-G
 𱀊,阝宀九,,CJK-G
 𱀋,阝土土,,CJK-G
-𱀌,阝二止,,CJK-G
+𱀌,阝一正,,CJK-G
 𱀍,阝大一,,CJK-G
 𱀎,阝厂文,,CJK-G
 𱀏,阝人止,,CJK-G
@@ -92304,7 +92304,7 @@ char,division,division_tw,region
 𱄠,馬丿糸,,CJK-G
 𱄡,馬亻亻寸,,CJK-G
 𱄢,馬厶小又,,CJK-G
-𱄣,馬勹二止,,CJK-G
+𱄣,馬勹一正,,CJK-G
 𱄤,馬臼人,,CJK-G
 𱄥,馬禾龷,,CJK-G
 𱄦,馬乂凵又,,CJK-G
@@ -99186,6 +99186,7 @@ char,division,division_tw,region
 ,丿七,,宇浩字根
 ,,,宇浩字根
 ,斤,,宇浩字根
+,,,宇浩字根
 ,一,,宇浩字根
 ,亻三,,宇浩字根
 ,,,宇浩字根
@@ -99281,6 +99282,7 @@ char,division,division_tw,region
 ,立戈,,宇浩字根
 ,リ,,宇浩字根
 ,⺶,,宇浩字根
+,,,宇浩字根
 ,䒑丨,,宇浩字根
 ,⺀,,宇浩字根
 ,八,,宇浩字根
