@@ -268,7 +268,7 @@ export default defineConfig({
     darkModeSwitchLabel: "黑暗模式",
     langMenuLabel: "选择语言",
     returnToTopLabel: "回到顶部",
-    sidebarMenuLabel: "目录",
+    sidebarMenuLabel: "全部頁面列表",
     outline: {
       level: "deep",
       label: "本页大纲"
