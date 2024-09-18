@@ -11,6 +11,7 @@ paths_of_docs = [
     "/install.md",
     "/docs/index.md",
     "/docs/updates.md",
+    "/docs/developing.md",
     "/docs/technical.md",
     "/docs/discussion.md",
     "/docs/background.md",
@@ -49,6 +50,10 @@ paths_of_docs = [
     "/chaifen/index.md",
     "/chaifen/light.md",
     "/chaifen/joy.md",
+    # 天碼
+    "/sky/index.md",
+    "/sky/search.md",
+    "/sky/practice.md",
 ]
 
 for path_of_doc in paths_of_docs:

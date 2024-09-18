@@ -56,8 +56,8 @@ export default defineConfig({
           link: '/docs/updates'
         },
         {
-          text: '技术文档',
-          link: '/docs/technical'
+          text: '未来变化',
+          link: '/docs/developing'
         },
         {
           text: '设计哲学',
@@ -68,8 +68,17 @@ export default defineConfig({
           link: '/docs/background',
         },
         {
-          text: '字浩输入法字根字体PUA',
-          link: '/docs/yuniversus',
+          text: '技术',
+          items: [
+            {
+              text: '字浩字根字体',
+              link: '/docs/yuniversus',
+            },
+            {
+              text: '技术文档',
+              link: '/docs/technical'
+            },
+          ]
         },
         {
           text: '杂谈',
@@ -105,7 +114,7 @@ export default defineConfig({
             },
             {
               text: '天码',
-              link: '/docs/tianma',
+              link: '/sky/',
             },
             {
               text: '易码',
@@ -263,6 +272,20 @@ export default defineConfig({
           link: '/chaifen/joy'
         },
       ],
+      '/sky': [
+        {
+          text: '天码',
+          link: '/sky/'
+        },
+        {
+          text: '拆分查询',
+          link: '/sky/search'
+        },
+        {
+          text: '在線練習',
+          link: '/sky/practice'
+        },
+      ],
 
     },
     footer: {
@@ -361,8 +384,8 @@ export default defineConfig({
               link: '/zht/docs/updates'
             },
             {
-              text: '技术文档',
-              link: '/zht/docs/technical'
+              text: '未來變化',
+              link: '/zht/docs/developing'
             },
             {
               text: '设计哲学',
@@ -373,8 +396,17 @@ export default defineConfig({
               link: '/zht/docs/background',
             },
             {
-              text: '字浩輸入法字根字體PUA',
-              link: '/zht/docs/yuniversus',
+              text: '技術',
+              items: [
+                {
+                  text: '字浩字根字體',
+                  link: '/zht/docs/yuniversus',
+                },
+                {
+                  text: '技術文檔',
+                  link: '/zht/docs/technical'
+                },
+              ]
             },
             {
               text: '雜談',
@@ -410,7 +442,7 @@ export default defineConfig({
                 },
                 {
                   text: '天碼',
-                  link: '/zht/docs/tianma',
+                  link: '/zht/sky/',
                 },
                 {
                   text: '易碼',
@@ -566,6 +598,20 @@ export default defineConfig({
             {
               text: '卿雲',
               link: '/zht/chaifen/joy'
+            },
+          ],
+          '/sky': [
+            {
+              text: '天碼',
+              link: '/zht/sky/'
+            },
+            {
+              text: '拆分查询',
+              link: '/zht/sky/search'
+            },
+            {
+              text: '在線練習',
+              link: '/zht/sky/practice'
             },
           ],
         },
