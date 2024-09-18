@@ -60,10 +60,6 @@ export default defineConfig({
           link: '/docs/developing'
         },
         {
-          text: '设计哲学',
-          link: '/docs/discussion',
-        },
-        {
           text: '背景故事',
           link: '/docs/background',
         },
@@ -73,6 +69,10 @@ export default defineConfig({
             {
               text: '字浩字根字体',
               link: '/docs/yuniversus',
+            },
+            {
+              text: '设计哲学',
+              link: '/docs/discussion',
             },
             {
               text: '技术文档',
@@ -388,10 +388,6 @@ export default defineConfig({
               link: '/zht/docs/developing'
             },
             {
-              text: '设计哲学',
-              link: '/zht/docs/discussion',
-            },
-            {
               text: '背景故事',
               link: '/zht/docs/background',
             },
@@ -401,6 +397,10 @@ export default defineConfig({
                 {
                   text: '字浩字根字體',
                   link: '/zht/docs/yuniversus',
+                },
+                {
+                  text: '设计哲学',
+                  link: '/zht/docs/discussion',
                 },
                 {
                   text: '技術文檔',
