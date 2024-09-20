@@ -98,6 +98,7 @@ font,ma
 丬,Dq
 丶,Le
 乀,Le
+乁,Le
 丷,Qb
 䒑,Qb
 リ,Qb
@@ -190,7 +191,6 @@ font,ma
 月,Wi
 ,Wi
 ,Wi
-⺼,Wi
 欠,Gq
 殳,Dp
 毛,Wm
@@ -199,7 +199,6 @@ font,ma
 ,Iw
 爪,Bz
 爫,Bz
-⺥,Bz
 片,Cp
 牛,Mn
 ⺧,Mn
@@ -326,11 +325,12 @@ font,ma
 亅,Vv
 乛,Vv
 ㇆,Vv
-乁,Vv
+フ,Vv
 ⺄,Vv
 乚,Eh
 𡿨,Eh
-㇉,Eh
+ㄣ,Eh
+ㄅ,Eh
 乜,Um
 也,Ud
 习,Px

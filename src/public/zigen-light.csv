@@ -97,6 +97,7 @@ font,ma
 ,Au
 丶,Od
 乀,Od
+乁,Od
 丷,Ue
 丬,Ue
 䒑,Ue
@@ -188,7 +189,6 @@ font,ma
 ,Wy
 ,Wy
 勹,Wy
-⺼,Wy
 ,Wy
 欠,Ei
 殳,Qh
@@ -198,7 +198,6 @@ font,ma
 ,Yw
 爪,Ek
 爫,Ek
-⺥,Ek
 片,Tp
 牛,Wn
 ⺧,Wn
@@ -323,12 +322,13 @@ font,ma
 亅,Vi
 乛,Vi
 ㇆,Vi
-乁,Vi
 㔾,Vi
+フ,Vi
 ⺄,Vi
 乚,Xi
 𡿨,Xi
-㇉,Xi
+ㄣ,Xi
+ㄅ,Xi
 也,Cy
 乜,Cy
 习,Xi
