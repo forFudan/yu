@@ -36,7 +36,6 @@ font,ma
 ,Dc
 ,Dc
 龷,Dc
-卝,Dc
 卄,Dc
 高,Dg
 ,Dg
@@ -113,8 +112,9 @@ font,ma
 勹,Ib
 ,Ib
 虫,Ic
-丶,Id
 乀,Id
+乁,Id
+丶,Id
 方,If
 艮,Ig
 臼,Ij
@@ -187,7 +187,6 @@ font,ma
 ,Lv
 ,Lv
 西,Lx
-覀,Lx
 襾,Lx
 子,Lz
 八,Mb
@@ -232,8 +231,7 @@ font,ma
 亅,Oi
 乛,Oi
 ㇆,Oi
-乁,Oi
-⺄,Oi
+フ,Oi
 丌,Oj
 冖,Om
 ⺈,Om
@@ -308,7 +306,8 @@ font,ma
 虍,Th
 乚,Ti
 𡿨,Ti
-㇉,Ti
+ㄣ,Ti
+ㄅ,Ti
 金,Tj
 鹵,Tl
 米,Tm
@@ -349,7 +348,6 @@ font,ma
 壴,Vz
 爪,Vz
 爫,Vz
-⺥,Vz
 彳,Wc
 ,Wd
 缶,Wf
@@ -381,6 +379,5 @@ font,ma
 月,Yv
 ,Yv
 ,Yv
-⺼,Yv
 王,Yw
 夕,Yx
