@@ -86,7 +86,7 @@
 
 其十，設<ruby>孑<rt>jíe</rt></ruby>爲<ruby>子<rt>zǐ</rt></ruby>的附屬字根。因爲`子`作偏旁時，實際字形爲`孑`。
 
-其十一，<ruby>〇<rt>líng</rt></ruby>字根的大碼和<ruby>口<rt>kǒu</rt></ruby>字根的大碼改爲一致，小碼都爲`l`。
+其十一，<ruby>〇<rt>líng</rt></ruby>字根的大碼和<ruby>口<rt>kǒu</rt></ruby>字根的大碼改爲一致。光華、星陳、卿雲中，`〇`的小碼都取聲母`l`。
 
 其十二，卿雲方案中，<ruby>尢<rt>wāng</rt></ruby>字根由<ruby>尤<rt>yóu</rt></ruby>字根獨立出來。編碼`M`，同<ruby>大<rt>dà</rt></ruby>字，補碼取聲母`w`（<ruby>尢<rt>wāng</rt></ruby>就是注音符號<ruby>ㄤ<rt>ang</rt></ruby>的來源）。至此，<ruby>犬<rt>quǎn</rt>尤<rt>yóu</rt></ruby>都在`Q`上，<ruby>大<rt>dà</rt>尢<rt>wāng</rt></ruby>都在`M`上，亦可視爲一種便於記憶的聚類。
 
