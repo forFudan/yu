@@ -56,7 +56,7 @@ export default defineConfig({
           link: '/docs/updates'
         },
         {
-          text: '未来变化',
+          text: '开发之中',
           link: '/docs/developing'
         },
         {
@@ -137,7 +137,7 @@ export default defineConfig({
           link: '/learn/advanced'
         },
         {
-          text: '必拆部件',
+          text: '特殊部件',
           link: '/learn/radicals'
         },
         {
@@ -384,7 +384,7 @@ export default defineConfig({
               link: '/zht/docs/updates'
             },
             {
-              text: '未來變化',
+              text: '開發之中',
               link: '/zht/docs/developing'
             },
             {
@@ -465,7 +465,7 @@ export default defineConfig({
               link: '/zht/learn/advanced'
             },
             {
-              text: '必拆部件',
+              text: '特殊部件',
               link: '/zht/learn/radicals'
             },
             {
