@@ -25611,7 +25611,6 @@ ctcl	麳
 ctcl	可以说
 ctco	麪
 ctco	礼让
-ctcp	𨚾
 ctcr	𪌹
 ctcs	驢騾
 ctct	麫
@@ -25747,7 +25746,6 @@ ctht	𪍮
 cti	礼
 cti	臫
 cti	礼
-cti	𡕒
 ctib	䴱
 ctib	𮭼
 ctic	𧊢
@@ -63168,6 +63166,7 @@ fjfo	更换
 fjfo	提携
 fjfo	更远
 fjfo	招远
+fjfp	𨚾
 fjfp	𮟷
 fjfq	五日画一石
 fjfr	抵抗
@@ -63337,6 +63336,7 @@ fjix	㧰
 fjix	更小
 fjj	㔿
 fjj	㧃
+fjj	𡕒
 fjja	𢹄
 fjja	𪜆
 fjja	热辣辣
@@ -74658,7 +74658,6 @@ fycn	殘月下寒沙
 fyco	死讯
 fycq	殠
 fycs	摖
-fyct	𣧒
 fyct	死麵
 fyct	死麪
 fycu	𣩋
@@ -74792,6 +74791,7 @@ fyfg	更胜一筹
 fyfi	亙
 fyfi	殏
 fyfj	𣍌
+fyfj	𣧒
 fyfj	𣧽
 fyfj	兩肋插刀
 fyfj	两肋插刀
@@ -112411,6 +112411,7 @@ jfi	㞢
 jfi	㢧
 jfi	ㄓ
 jfi	𛁵
+jfi	𘳃
 jfi	
 jfi	
 jfi	
@@ -114637,6 +114638,7 @@ jj	丩
 jj	𠂈
 jj	ㄐ
 jj	ㆢ
+jj	
 jj	
 jjaa	嵶
 jjaa	𢆙
@@ -127408,12 +127410,6 @@ kkba	㊇
 kkba	㋇
 kkba	㍴
 kkbb	單比
-kkbb	⿵
-kkbb	⿶
-kkbb	⿷
-kkbb	⿸
-kkbb	⿹
-kkbb	⿺
 kkbd	≠
 kkbe	咄咄怪事
 kkbe	Β
@@ -127423,6 +127419,7 @@ kkbe	ベ
 kkbf	%
 kkbf	％
 kkbf	😒
+kkbg	─│┌┐└┘├┤┬┴┼
 kkbh	戰情
 kkbi	び
 kkbi	ビ
@@ -127506,7 +127503,6 @@ kkco	感叹词
 kkco	串词
 kkco	呵手试梅妆
 kkco	㏇
-kkcq	𪄍
 kkcr	喃喃自語
 kkcr	唾面自乾
 kkct	翪
@@ -127890,6 +127886,7 @@ kkfq	鶚
 kkfq	㗑
 kkfq	𪂉
 kkfq	𪂵
+kkfq	𪄍
 kkfr	翆
 kkfr	𢃋
 kkfr	𢃤
@@ -127932,6 +127929,7 @@ kkfy	𭟻
 kkfy	單列
 kkfy	戰死
 kkfy	顎裂
+kkfz	⿾
 kkg	戔
 kkg	𠯫
 kkg	𰒥
@@ -129160,6 +129158,7 @@ kksb	⑱
 kksb	⒅
 kksb	⓲
 kksb	😷
+kksc	㇯
 kkse	𡄞
 kkse	⑫
 kkse	⑿
@@ -129265,6 +129264,7 @@ kkss	⒀
 kkss	⒁
 kkss	⓭
 kkss	⓮
+kkss	⿵
 kkss	〺
 kkss	㉚
 kkss	㉛
@@ -129304,6 +129304,7 @@ kksw	⓯
 kksw	😞
 kksx	𥂨
 kksx	⿱
+kksx	⿳
 kksx	￤
 kksy	“
 kksy	”
@@ -129316,7 +129317,6 @@ kksy	㋊
 kksy	㏾
 kksy	﹃
 kksy	﹄
-kksz	⿳
 kkt	Þ
 kkt	þ
 kkt	ţ
@@ -129728,6 +129728,9 @@ kkxq	䷈
 kkxr	唸唸有詞
 kkxr	吕布
 kkxs	𦒠
+kkxs	⿶
+kkxs	⿸
+kkxs	〾
 kkxu	翴
 kkxu	串連
 kkxu	嘍羅
@@ -129739,6 +129742,7 @@ kkxy	＜
 kkxz	䎌
 kkxz	𠲦
 kkxz	𬚃
+kkxz	⿿
 kkxz	䷩
 kky	¤
 kky	¥
@@ -129815,6 +129819,8 @@ kkyp	串珠
 kkyp	ˊ
 kkyq	或然
 kkyq	翼然
+kkys	⿹
+kkys	⿼
 kkyu	ゅ
 kkyu	ゆ
 kkyu	ュ
@@ -129827,6 +129833,7 @@ kkyw	戜
 kkyw	䍿
 kkyw	𠴔
 kkyw	獸王
+kkyx	⿽
 kkyy	′
 kkyy	″
 kkyy	‴
@@ -129885,17 +129892,19 @@ kkzo	ぞ
 kkzo	ゾ
 kkzo	㊪
 kkzq	䷡
+kkzs	⿷
 kkzu	ず
 kkzu	ズ
 kkzu	㊧
+kkzx	⿺
 kkzx	䷟
 kkzy	‵
 kkzy	‶
 kkzy	‷
 kkzy	⿰
+kkzy	⿲
 kkzy	゛
 kkzy	😉
-kkzz	⿲
 kkzz	䷲
 kl	員
 kl	〇
@@ -149278,7 +149287,6 @@ mcsw	長衫
 mctc	長釘
 mctd	灯展
 mcth	奇虎
-mcti	𡯍
 mctj	𨥏
 mctk	長臂
 mctl	熄屏
@@ -151112,6 +151120,7 @@ mfjf	大批量
 mfji	𡗰
 mfji	𦍝
 mfji	奏乐
+mfjj	𡯍
 mfjj	奏出
 mfjk	夸张
 mfjk	𪸳
@@ -157280,12 +157289,6 @@ msaw	春風柳上歸
 msay	春风二三月
 msay	春風二三月
 msbb	𣬖
-msbb	⿵
-msbb	⿶
-msbb	⿷
-msbb	⿸
-msbb	⿹
-msbb	⿺
 msbd	着慌
 msbn	春风疑不到天涯
 msbn	春風疑不到天涯
@@ -157345,6 +157348,7 @@ msfw	春风一曲杜韦娘
 msfw	春風一曲杜韋娘
 msfw	春风无限潇湘意
 msfy	烘雲托月
+msfz	⿾
 msgd	長命無絕衰
 msgg	着笔
 msgi	𢌫
@@ -157595,12 +157599,13 @@ msss	𡚗
 msss	𩴼
 msss	春风雨露
 msss	春風雨露
+msss	⿵
 msst	𤐝
 mssu	春风风人
 mssu	春風風人
 mssx	⿱
+mssx	⿳
 mssy	熁
-mssz	⿳
 mst	奋
 mst	畑
 mst	𥎴
@@ -157658,15 +157663,23 @@ msxh	着墨
 msxm	㿽
 msxm	煽風點火
 msxn	𪙄
+msxs	⿶
+msxs	⿸
 msxu	着力點
 msxu	火力點
 msxu	着眼點
 msxy	焉有
+msxz	⿿
 msyq	奋然
+msys	⿹
+msys	⿼
 msyv	煟
 msyw	欲与王为好
+msyx	⿽
+mszs	⿷
+mszx	⿺
 mszy	⿰
-mszz	⿲
+mszy	⿲
 mt	政
 mtad	政权
 mtad	政權
@@ -185432,7 +185445,6 @@ os	丄
 os	𪛚
 os	⺒
 os	⺰
-os	⼇
 os	㆖
 os	〦
 os	㊤
@@ -202891,7 +202903,6 @@ rcsi	褭
 rcso	夜來風雨急
 rcst	試驗田
 rcsu	夜來風葉已鳴廊
-rcti	𧥪
 rctj	訂金
 rcuc	𢅗
 rcuc	𬣆
@@ -204377,6 +204388,7 @@ rfjf	謂吾忍舍汝而死
 rfjg	十五弹箜篌
 rfjg	十五彈箜篌
 rfji	𧦚
+rfjj	𧥪
 rfjo	闲来垂钓碧溪上
 rfjo	夜来幽梦忽还乡
 rfjs	𠢻
@@ -210836,6 +210848,7 @@ rsyy	十多
 rt	甚
 rt	甚至
 rt	亠
+rt	⼇
 rt	𘠙
 rtaa	帕金森
 rtab	𗎈
@@ -228868,7 +228881,6 @@ torw	以疏间亲
 tory	遐迩闻名
 tos	釲
 tos	𫒆
-tos	𘳃
 tosa	𗊀
 tosg	断线风筝
 tosj	䤟

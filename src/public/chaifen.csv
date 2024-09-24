@@ -33042,7 +33042,7 @@ char,division,division_tw,region
 𡕏,士冖木,,CJK-B
 𡕐,士乛工口,,CJK-B
 𡕑,士乛工月,,CJK-B
-𡕒,丅乚,,CJK-B
+𡕒,一,,CJK-B
 𡕓,夊,,CJK-B
 𡕔,乃夊,,CJK-B
 𡕕,夊子,,CJK-B
@@ -34701,7 +34701,7 @@ char,division,division_tw,region
 𡯊,一尤,,CJK-B
 𡯋,尢干,,CJK-B
 𡯌,尢夕,,CJK-B
-𡯍,尢丅乚,,CJK-B
+𡯍,尢一,,CJK-B
 𡯎,尢彡,,CJK-B
 𡯏,尢⺀十,,CJK-B
 𡯐,尢木,,CJK-B
@@ -42386,7 +42386,7 @@ char,division,division_tw,region
 𣧏,一夕⺊又,,CJK-B
 𣧐,一夕止,,CJK-B
 𣧑,一夕乂凵,,CJK-B
-𣧒,一夕丅乚,,CJK-B
+𣧒,一夕一,,CJK-B
 𣧓,一夕了了,,CJK-B
 𣧔,一夕勹厶,,CJK-B
 𣧕,⺊夕夭,,CJK-B
@@ -58666,7 +58666,7 @@ char,division,division_tw,region
 𧥧,夕言,,CJK-B
 𧥨,言十乚,,CJK-B
 𧥩,言尢,,CJK-B
-𧥪,言丅乚,,CJK-B
+𧥪,言一,,CJK-B
 𧥫,言丿七,,CJK-B
 𧥬,言丿几,,CJK-B
 𧥭,言一九,,CJK-B
@@ -62078,7 +62078,7 @@ char,division,division_tw,region
 𨚻,耂匕口巴,,CJK-B
 𨚼,口巴月,,CJK-B
 𨚽,㐄口巴,,CJK-B
-𨚾,丅乚丅阝,,CJK-B
+𨚾,一一阝,,CJK-B
 𨚿,一阝,,CJK-B
 𨛀,壬厶阝,,CJK-B
 𨛁,羊阝,,CJK-B
@@ -68813,7 +68813,7 @@ char,division,division_tw,region
 𪄊,目目鳥,,CJK-B
 𪄋,宀又丷鳥,,CJK-B
 𪄌,工貝鳥,,CJK-B
-𪄍,口口丅鳥,,CJK-B
+𪄍,口口一鳥,,CJK-B
 𪄎,木夊口鳥,,CJK-B
 𪄏,西八刀鳥,,CJK-B
 𪄐,十龷木鳥,,CJK-B
@@ -97675,7 +97675,7 @@ char,division,division_tw,region
 ⼄,乙,,康熙部首
 ⼅,亅,,康熙部首
 ⼆,二,,康熙部首
-⼇,丄,,康熙部首
+⼇,亠,,康熙部首
 ⼈,人,,康熙部首
 ⼉,儿,,康熙部首
 ⼊,入,,康熙部首
@@ -106584,7 +106584,7 @@ char,division,division_tw,region
 𘳀,乚,,契丹小字
 𘳁,乚丆,,契丹小字
 𘳂,牛,,契丹小字
-𘳃,乚丄,,契丹小字
+𘳃,一,,契丹小字
 𘳄,乚八,,契丹小字
 𘳅,乚人,,契丹小字
 𘳆,乚乂丶,,契丹小字
@@ -107648,6 +107648,7 @@ char,division,division_tw,region
 ,己,,宇浩字根
 ,丱一,,宇浩字根
 ,コ〢,,宇浩字根
+,,,宇浩字根
 ,,,宇浩字根
 ,乛丿,,宇浩字根
 ,习,,宇浩字根

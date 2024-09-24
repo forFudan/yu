@@ -58,6 +58,7 @@ font,ma
 甫,Nf
 石,Bs
 示,Ds
+礻,Ds
 而,Le
 耳,Te
 臣,Yc
@@ -67,10 +68,8 @@ font,ma
 艹,Sc
 龷,Sc
 廾,Sc
-卝,Sc
 卄,Sc
 西,Rx
-覀,Rx
 襾,Rx
 豕,Bo
 ,Bo
@@ -96,9 +95,9 @@ font,ma
 ,Sz
 ,Up
 丬,Dq
-丶,Le
 乀,Le
 乁,Le
+丶,Le
 丷,Qb
 䒑,Qb
 リ,Qb
@@ -326,7 +325,6 @@ font,ma
 乛,Vv
 ㇆,Vv
 フ,Vv
-⺄,Vv
 乚,Eh
 𡿨,Eh
 ㄣ,Eh
