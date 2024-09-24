@@ -129,44 +129,65 @@ export default defineConfig({
           link: '/learn/'
         },
         {
-          text: '单字拆分',
-          link: '/learn/division'
+          text: "教程",
+          items: [{
+            text: '单字拆分',
+            link: '/learn/division'
+          },
+          {
+            text: '字根编码',
+            link: '/learn/roots'
+          },
+          {
+            text: '字根速記',
+            link: '/learn/star'
+          },
+          {
+            text: '单字编码',
+            link: '/learn/chars'
+          },
+          {
+            text: '简码设置',
+            link: '/learn/quick'
+          },
+          {
+            text: '词语编码',
+            link: '/learn/words'
+          },
+          {
+            text: '极简词库',
+            link: '/learn/lexicon'
+          },
+          ]
         },
         {
-          text: '进阶讨论',
-          link: '/learn/advanced'
-        },
-        {
-          text: '特殊部件',
-          link: '/learn/radicals'
-        },
-        {
-          text: '字根编码',
-          link: '/learn/roots'
-        },
-        {
-          text: '字根速記',
-          link: '/learn/star'
-        },
-        {
-          text: '单字编码',
-          link: '/learn/chars'
-        },
-        {
-          text: '简码设置',
-          link: '/learn/quick'
-        },
-        {
-          text: '词语编码',
-          link: '/learn/words'
-        },
-        {
-          text: '极简词库',
-          link: '/learn/lexicon'
-        },
-        {
-          text: '机器实现',
-          link: '/learn/machine'
+          text: "进阶",
+          items: [
+            {
+              text: '宇浩拆分禁手',
+              link: '/learn/prohibition'
+            },
+            {
+              text: '字根内在属性',
+              link: '/learn/intrinsic'
+            },
+            {
+              text: '字形书体笔顺',
+              link: '/learn/variation'
+            },
+            {
+              text: '字根归并聚类',
+              link: '/learn/grouping'
+            },
+            {
+              text: '特殊部件拆分',
+              link: '/learn/radicals'
+            },
+            {
+              text: '拆分机器实现',
+              link: '/learn/machine'
+            },
+          ]
         },
         {
           text: '附录',
@@ -457,44 +478,66 @@ export default defineConfig({
               link: '/zht/learn/'
             },
             {
-              text: '單字拆分',
-              link: '/zht/learn/division'
+              text: "教程",
+              items: [
+                {
+                  text: '單字拆分',
+                  link: '/zht/learn/division'
+                },
+                {
+                  text: '字根編碼',
+                  link: '/zht/learn/roots'
+                },
+                {
+                  text: '字根速記',
+                  link: '/zht/learn/star'
+                },
+                {
+                  text: '單字編碼',
+                  link: '/zht/learn/chars'
+                },
+                {
+                  text: '簡碼設置',
+                  link: '/zht/learn/quick'
+                },
+                {
+                  text: '詞語編碼',
+                  link: '/zht/learn/words'
+                },
+                {
+                  text: '極簡詞庫',
+                  link: '/zht/learn/lexicon'
+                },
+              ]
             },
             {
-              text: '進階討論',
-              link: '/zht/learn/advanced'
-            },
-            {
-              text: '特殊部件',
-              link: '/zht/learn/radicals'
-            },
-            {
-              text: '字根編碼',
-              link: '/zht/learn/roots'
-            },
-            {
-              text: '字根速記',
-              link: '/zht/learn/star'
-            },
-            {
-              text: '單字編碼',
-              link: '/zht/learn/chars'
-            },
-            {
-              text: '簡碼設置',
-              link: '/zht/learn/quick'
-            },
-            {
-              text: '詞語編碼',
-              link: '/zht/learn/words'
-            },
-            {
-              text: '極簡詞庫',
-              link: '/zht/learn/lexicon'
-            },
-            {
-              text: '機器實現',
-              link: '/zht/learn/machine'
+              text: "進階",
+              items: [
+                {
+                  text: '宇浩拆分禁手',
+                  link: '/zht/learn/prohibition'
+                },
+                {
+                  text: '字根内在屬性',
+                  link: '/zht/learn/intrinsic'
+                },
+                {
+                  text: '字形書體筆順',
+                  link: '/zht/learn/variation'
+                },
+                {
+                  text: '字根歸併聚類',
+                  link: '/zht/learn/grouping'
+                },
+                {
+                  text: '特殊部件拆分',
+                  link: '/zht/learn/radicals'
+                },
+                {
+                  text: '拆分機器實現',
+                  link: '/zht/learn/machine'
+                }
+              ]
             },
             {
               text: '附錄',

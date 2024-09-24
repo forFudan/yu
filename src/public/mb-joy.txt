@@ -138,6 +138,7 @@ aadt	枇杷花里闭门居
 aadt	枇杷花裡閉門居
 aadu	𪽠
 aae	亖
+aae	ご
 aae	ギ
 aae	ボ
 aae	ヸ
@@ -189,6 +190,7 @@ aaff	根株非勁挺
 aaff	松枝一何勁
 aafh	𬅛
 aafi	𪱻
+aafi	㌑
 aafj	㭝
 aafk	𠹝
 aafk	𬂽
@@ -505,6 +507,7 @@ aaok	杨柳丝丝拂面
 aaom	𭵦
 aaom	格林纳达
 aaon	楚
+aaon	𛁛
 aaon	云树绕堤沙
 aaoo	𣜺
 aaoo	禁绝
@@ -590,6 +593,7 @@ aaru	資本論
 aaru	禁臠
 aarw	松杉真法音
 aasa	𱣨
+aasa	㌐
 aasc	𮨴
 aasd	冰魂雪魄
 aasf	檒
@@ -631,6 +635,7 @@ aatt	梦断
 aatu	𬩊
 aatw	𣗗
 aatw	林彪
+aaua	㍀
 aaua	运动会
 aauc	䢞
 aauc	𨓸
@@ -2406,8 +2411,13 @@ ae	㊁
 ae	㋥
 ae	🈔
 ae	🉂
+ae	こ
+ae	゛
 ae	ニ
 ae	ン
+ae	𛂈
+ae	𛄲
+ae	𛅧
 ae	𘬀
 ae	𘠊
 ae	
@@ -2446,6 +2456,7 @@ aeap	機關刊物
 aear	决斗
 aear	二极
 aeat	二楼
+aeau	㌽
 aeau	機關槍
 aeau	梅開二度
 aeav	桃樹
@@ -2598,6 +2609,7 @@ aeky	𣙛
 ael	梩
 ael	𠗔
 aela	樤
+aelf	㌒
 aelg	桃酥
 aelh	𭬸
 aelj	二弟
@@ -2681,6 +2693,7 @@ aesm	𣒦
 aesm	𫡴
 aesm	欄目
 aeta	材料
+aetf	㌓
 aetf	𗄕
 aeth	二屆
 aeth	二虎
@@ -2693,6 +2706,7 @@ aetq	二類
 aett	决断
 aetu	二届
 aetw	𗄀
+aeub	㌾
 aeud	二線
 aeud	二度
 aeuk	二战
@@ -2754,6 +2768,7 @@ aeyx	二環
 aeyy	𣔢
 af	甫
 afad	梗槪
+afae	㍂
 afae	樱桃
 afae	树无用之指也
 afaf	本本
@@ -2816,6 +2831,7 @@ afdy	核擴散
 afdy	核扩散
 afea	本体
 afed	本县
+afee	㍁
 afei	椏
 afei	𣒘
 afei	𬂲
@@ -2875,6 +2891,8 @@ afi	𠥽
 afi	𣎶
 afi	𬂜
 afi	🉀
+afi	𛂿
+afi	𛃀
 afi	𘭇
 afib	杤
 afic	杨振宁
@@ -4235,11 +4253,6 @@ aicx	𬻩
 aid	术
 aid	朮
 aid	㝳
-aid	㍈
-aid	㍉
-aid	㍊
-aid	㋯
-aid	ミ
 aida	𪳶
 aida	棕黃
 aidd	用藥
@@ -4325,6 +4338,7 @@ aify	凋殘
 aify	凋残
 aig	根
 aig	𫥋
+aig	𛂕
 aiga	𭫛
 aiga	棜
 aiga	𭂔
@@ -5294,6 +5308,7 @@ ajr	東
 ajr	杳
 ajr	𣏬
 ajr	🀀
+ajr	𛁹
 ajrd	查證
 ajrd	機謀
 ajre	𣙶
@@ -5462,18 +5477,11 @@ ajz	𣑬
 ak	束
 ak	㐄
 ak	𰀁
-ak	㌐
-ak	㌑
-ak	㌒
-ak	㌓
-ak	㌔
-ak	㌕
-ak	㌖
-ak	㌗
 ak	㋖
 ak	㋼
 ak	キ
 ak	ヰ
+ak	𛅤
 ak	𘬿
 ak	𘠩
 ak	
@@ -5546,6 +5554,7 @@ akbt	平面图
 akbu	整容
 akc	枨
 akca	冲杀
+akce	㌖
 akcf	整训
 akcf	云中谁寄锦书来
 akch	樓頂
@@ -5820,6 +5829,7 @@ akkt	𠘥
 akkt	𡂤
 akkv	梠
 akkv	𠳆
+akkv	㌔
 akkw	樛
 akkw	𠗽
 akkw	𬄘
@@ -5860,6 +5870,7 @@ aklr	刺史临流褰翠帏
 akls	冲
 akls	𣐄
 akls	鸭嘴兽
+aklu	㌗
 aklv	速归
 akly	樓前
 aklz	杏子
@@ -5914,6 +5925,7 @@ akoa	梦啼妆泪红阑干
 akob	𱣝
 akoc	𨿟
 akod	剌
+akod	㌕
 akof	赖
 akof	𭫀
 akof	减负
@@ -6008,6 +6020,7 @@ akrs	𧚝
 akrt	櫢
 akrw	樓
 akrw	樓
+akrw	𛄅
 akrw	速記
 akrx	杜口裹足
 aks	杽
@@ -6881,20 +6894,16 @@ alyy	極多
 alz	李
 alz	杍
 alz	李
+alz	𛃳
 am	木
 am	朩
 am	𣎳
 am	⽊
-am	㌽
-am	㌾
-am	㌿
-am	㍀
-am	㍁
-am	㍂
 am	㈭
 am	㊍
 am	㋭
 am	ホ
+am	𛀧
 am	𘭆
 amaa	松林
 amaa	杰森
@@ -6906,6 +6915,7 @@ amad	木桶
 amad	松柏
 amad	木棉
 amad	椿树
+amae	㌿
 amae	木材
 amaf	樣本
 amaf	样本
@@ -8672,7 +8682,7 @@ aqyk	用户名
 aqys	𘧛
 aqyv	𣓖
 aqyw	𘓧
-ar	斗
+ar	进
 araa	凄楚
 arac	冷言冷语
 arad	植树
@@ -8953,6 +8963,8 @@ ariw	核審
 arix	极小
 arj	井
 arj	𣏑
+arj	𛄍
+arj	𛄎
 arj	𘣏
 arj	𘣐
 arja	檊
@@ -9370,7 +9382,7 @@ aryu	校外
 aryv	𣑛
 aryv	𬄙
 aryy	极多
-as	檢
+as	相
 asaa	𪴖
 asad	橒
 asad	机动
@@ -11465,7 +11477,7 @@ awyq	𣜐
 awyu	櫳
 awyu	𪚒
 awyv	𣓖
-ax	椤
+ax	楞
 axaa	𠘏
 axak	相輔相成
 axam	𣙳
@@ -11794,6 +11806,7 @@ bady	性本能
 bae	𡆤
 bae	ビ
 baed	困憊
+baee	㌱
 baee	快板儿
 baei	围住
 baei	困住
@@ -12000,10 +12013,6 @@ bayy	马头琴
 bb	匕
 bb	𠤎
 bb	⼔
-bb	㌮
-bb	㌯
-bb	㌰
-bb	㌱
 bb	㋪
 bb	ヒ
 bb	𘠢
@@ -12021,6 +12030,7 @@ bbb	比
 bbb	𢖬
 bbb	𫧇
 bbb	⽐
+bbb	𛂫
 bbbb	𢗽
 bbbb	𣬅
 bbbb	𥤻
@@ -13187,6 +13197,7 @@ bee	𪛘
 bee	㆕
 bee	㈣
 bee	㊃
+bee	𛁇
 bee	🀊
 beea	团体
 beea	四体
@@ -13324,6 +13335,7 @@ bejy	懷俄明
 bejy	怀俄明
 bek	囙
 bek	𫞹
+bek	⿼
 bekc	团长
 bekf	快感
 bekf	团员
@@ -13584,7 +13596,7 @@ beyv	憪
 beyv	四月
 beyw	𢡞
 beyx	四環
-bf	舔
+bf	究
 bfaa	园林
 bfag	四则运算
 bfah	惊天动地
@@ -13735,6 +13747,7 @@ bflj	𭜻
 bflm	𢞹
 bflm	𢡤
 bflm	驯养
+bfls	⿸
 bfls	驯兽
 bflt	𰩞
 bflz	园子
@@ -13827,6 +13840,7 @@ bftc	园区
 bfti	𪫝
 bftj	𫁗
 bftm	𱅕
+bfto	⿾
 bftr	回形針
 bftv	快捷鍵
 bfue	疑非人世也
@@ -13873,7 +13887,7 @@ bfyo	马拉多纳
 bfyq	恻然
 bfyu	园外
 bfyx	𢗚
-bg	惭
+bg	悔
 bgad	悸动
 bgak	𰑖
 bgam	惊堂木
@@ -14930,6 +14944,7 @@ bjjt	𢥟
 bjjt	𥨺
 bjju	𢡧
 bjk	惴
+bjk	⿶
 bjkb	慢咽
 bjkd	慢嚥
 bjke	惴
@@ -15017,6 +15032,7 @@ bjr	驲
 bjr	𡧼
 bjr	𣅍
 bjr	𰑃
+bjr	㇯
 bjre	慎重其事
 bjrf	情景交融
 bjri	𢚼
@@ -15232,6 +15248,7 @@ bkef	圖例
 bkef	國仇
 bkeh	國債
 bkei	圍住
+bkek	㌰
 bkek	憾事
 bkek	回事
 bkek	國事
@@ -15787,6 +15804,7 @@ bkux	國庫
 bkux	圖庫
 bkuy	回望
 bkv	回
+bkv	⿴
 bkva	回采
 bkva	窝铺
 bkvb	四面受敌
@@ -15967,6 +15985,7 @@ blew	骈文
 blfe	憎惡
 blff	𡈚
 blfi	𡇏
+blfi	⿽
 blfi	骗了无涯过客
 blfl	𡆵
 blfm	𡇥
@@ -17071,6 +17090,7 @@ boaf	固本
 boag	马上相逢无纸笔
 boah	刮板
 boah	窗板
+boak	〾
 boam	𢙑
 boam	𰒎
 boao	窗檐
@@ -17104,6 +17124,7 @@ boct	𢠧
 bod	刮
 bod	𰄜
 bodd	𢥵
+bode	㌮
 bode	窗花
 bode	刮花
 bodi	愯
@@ -17125,6 +17146,7 @@ boee	𥤷
 boee	𫭃
 boee	𰒗
 boee	𲌆
+boee	㌯
 boee	𢗑
 boef	恩将仇报
 boeh	窮鄉僻壤
@@ -17172,6 +17194,7 @@ boi	忆
 boi	穵
 boi	𡆠
 boi	𡆢
+boi	⿹
 boi	𡆡
 boid	𢛼
 boid	𥤯
@@ -17300,6 +17323,7 @@ bosn	马克思
 botc	国统区
 bote	𥥹
 bote	𥥺
+boti	⿿
 botm	懊
 botm	𥨩
 botn	骢
@@ -17589,6 +17613,7 @@ bqiu	國破家亡
 bqiu	国破家亡
 bqiu	慣於
 bqiw	突審
+bqj	⿵
 bqja	乱石峥嵘俗无井
 bqjb	窮島嶼之縈迴
 bqjd	突发
@@ -18222,7 +18247,7 @@ bsxm	𢠏
 bsye	穷理
 bsyv	㥜
 bsyv	𩨅
-bt	图
+bt	乱
 btaa	𪬑
 btac	图标
 btac	皆以枉法论
@@ -18336,6 +18361,7 @@ bths	图表
 bthu	图素
 bti	乱
 bti	𢖪
+bti	⿺
 btic	驱虫
 btid	𢗜
 btid	驱寒
@@ -19146,6 +19172,7 @@ bvz	𮃹
 bw	憶
 bw	囗
 bw	⼞
+bw	⿷
 bwag	𥨾
 bwah	恍如梦境
 bwas	憶想
@@ -20231,6 +20258,8 @@ cbii	可憐蟲
 cbil	𮪠
 cbip	𬪟
 cbiu	邊
+cbiu	𛂷
+cbiu	𛂸
 cbjd	馬穿山徑菊初黃
 cbjf	话题
 cbjh	邊疆
@@ -21339,6 +21368,7 @@ cflx	來吾導夫先路
 cflz	下輩子
 cflz	下辈子
 cfmc	禰
+cfmc	𛂗
 cfmd	祆
 cfmd	𩥰
 cfmd	𲋸
@@ -21417,6 +21447,7 @@ cftp	𰻢
 cftq	𡯼
 cftt	𠣣
 cfty	福將
+cfue	㍍
 cfue	臭豆腐
 cfui	训令
 cfui	馬爾庫塞
@@ -21459,7 +21490,7 @@ cfye	馴服
 cfyo	䮋
 cfyu	馬拉多納
 cfyy	馬頭琴
-cg	许
+cg	視
 cg	咼
 cg	冎
 cg	
@@ -22075,9 +22106,6 @@ ci	㐅
 ci	𠂭
 ci	⻈
 ci	×
-ci	㍋
-ci	㍌
-ci	㍍
 ci	〤
 ci	㋱
 ci	ㄨ
@@ -22475,6 +22503,7 @@ cirx	神氣十足
 cirx	神气十足
 cis	神
 cis	神
+cisa	㍋
 cisi	𰵑
 cisj	𱄗
 cisk	𫀕
@@ -23456,6 +23485,8 @@ ckv	𩡳
 ckv	𪠹
 ckv	𬣚
 ckv	🉑
+ckv	𛀙
+ckv	𛀚
 ckvc	歌厅
 ckvd	祝願
 ckvd	祝愿
@@ -23682,6 +23713,7 @@ clj	祈
 clj	䜣
 clj	馸
 clj	祈
+clj	𛀨
 cljd	谍影
 cljf	说是
 cljg	來臨
@@ -23880,6 +23912,7 @@ clyq	驟然
 clz	𰌩
 cm	馬
 cm	⾺
+cm	𛃖
 cm	🩣
 cm	🩪
 cm	
@@ -25500,6 +25533,7 @@ csti	驗鈔
 csto	设局
 csts	设备
 cstt	鼻屎
+csua	㍌
 csud	邊界線
 csue	鿅
 csuk	设点
@@ -25532,7 +25566,7 @@ csyb	鼻腔
 csyv	谓
 csyv	𥚷
 csyv	𩤸
-ct	麵
+ct	礼
 ctaa	麥杆
 ctad	騢
 ctae	𩢦
@@ -26526,6 +26560,8 @@ cvfg	话锋一转
 cvfj	自食恶果
 cvfj	自食惡果
 cvfl	禮
+cvfl	𛃾
+cvfl	𛃿
 cvfm	𩤻
 cvfn	𬓈
 cvfx	自尋死路
@@ -26683,7 +26719,7 @@ cvyy	神采奕奕
 cvz	𥚧
 cvz	𮍕
 cvz	𰠁
-cw	谚
+cw	记
 cwaa	騈
 cwai	记述
 cwai	來從楚國遊
@@ -27177,6 +27213,7 @@ cxrh	𩒽
 cxri	下調
 cxrj	希
 cxrj	下課
+cxrj	𛀴
 cxrj	下詔
 cxrk	下载
 cxrk	下載
@@ -27929,6 +27966,7 @@ daja	苹果
 daja	黃果
 dajc	荆楚岁时记
 dajd	𰲌
+dajd	㌠
 dajd	通郵
 dajd	白头发
 dajd	桑柘影斜春社散
@@ -28120,6 +28158,7 @@ damy	蔫头耷脑
 damy	通权达变
 damy	兜头盖脸
 damz	𤯅
+dana	㍇
 dana	黃浦
 dana	见木不见林
 dana	萬樹江邊杏
@@ -29028,8 +29067,6 @@ dc	⺿
 dc	⻀
 dc	艹
 dc	艹
-dc	㌟
-dc	㌠
 dc	〹
 dc	㋚
 dc	🈂
@@ -29077,6 +29114,7 @@ dcd	艼
 dcd	𭽆
 dcd	𱅴
 dcd	𱱴
+dcd	𛁮
 dcda	蒜黃
 dcda	葉下衰桐落寒井
 dcdb	萊茵
@@ -30704,6 +30742,7 @@ dee	亮
 deea	夢也何曾到謝橋
 deec	𦮊
 deec	𦱪
+deee	㍄
 deee	花儿
 deee	萬事俱備
 deef	花開
@@ -31006,6 +31045,7 @@ deod	𦵦
 deod	𰰹
 deoe	𦯵
 deoe	𦲴
+deoe	㌟
 deoe	花纹
 deof	𗜇
 deof	花冠
@@ -31013,7 +31053,9 @@ deof	花线
 deoh	𪴳
 deoi	𧂄
 deoi	节约
+deok	㍃
 deok	花里胡哨
+deom	㍆
 deon	花红
 deon	萬里故園心
 deoo	花色
@@ -31686,6 +31728,8 @@ dfkl	𣂼
 dfkl	𣃆
 dfkl	𬥮
 dfkl	𰕢
+dfkl	𛁺
+dfkl	𛁻
 dfkl	苏晋长斋绣佛前
 dfkm	燕
 dfkm	㷼
@@ -31716,6 +31760,7 @@ dfko	𭽄
 dfko	𮐞
 dfko	𱿁
 dfko	難
+dfko	𛂆
 dfkp	鄧
 dfkp	酀
 dfkp	𦷽
@@ -33479,11 +33524,6 @@ dhyx	𦰎
 di	又
 di	龴
 di	⼜
-di	㍃
-di	㍄
-di	㍅
-di	㍆
-di	㍇
 di	㋜
 di	㋮
 di	ㄡ
@@ -34025,6 +34065,7 @@ dilz	茧子
 dilz	荀子
 dima	敬奉
 dimb	𬊧
+dimb	㍅
 dimb	敬烟
 dimc	驚奇
 dimc	警長
@@ -36102,6 +36143,7 @@ dkmn	苍翠欲滴
 dkmo	𩁛
 dkmo	難
 dkmo	難
+dkmo	𛂆
 dkmo	難
 dkmq	𪆾
 dkmq	𪄿
@@ -36359,6 +36401,7 @@ dkvw	昔别君未婚
 dkvw	昔別君未婚
 dkvx	豪爵
 dkw	茂
+dkw	𛃛
 dkwa	高手如云
 dkwa	藏奸
 dkwf	𬔠
@@ -36443,6 +36486,7 @@ dlam	葉
 dlam	䔁
 dlam	𮑶
 dlam	葉
+dlam	𛂧
 dlan	蓝冰
 dlao	𫊍
 dlar	葉枝
@@ -38870,6 +38914,7 @@ dogd	桑巴舞
 dogd	莫负东篱菊蕊黄
 dogg	𦼖
 dogh	蘇
+dogh	𛁜
 dogh	苦笑
 dogi	薩克管
 dogi	萨克管
@@ -39758,6 +39803,7 @@ dpmm	𬞾
 dpn	牟
 dpn	䒜
 dpn	𤚸
+dpn	𛃒
 dpnc	皓齒
 dpnd	蔭涼
 dpnd	薩滿
@@ -40210,7 +40256,7 @@ dqyp	获胜
 dqyu	𬞅
 dqyv	菺
 dqyw	𫈃
-dr	蔷
+dr	蒂
 drac	皁隸
 drad	發言權
 drah	𮑀
@@ -40633,7 +40679,7 @@ dryu	𰏝
 dryv	𰱇
 dryv	皎月
 dryy	花朝月夕
-ds	哀
+ds	亮
 ds	卅
 ds	卌
 ds	〺
@@ -41117,7 +41163,7 @@ dsyp	白眼珠
 dsyv	𦳢
 dsyw	桑田碧海须臾改
 dsyw	桑田碧海須臾改
-dt	蓬
+dt	莊
 dtad	葭
 dtad	蘆柑
 dtae	苳
@@ -42260,6 +42306,7 @@ dvaj	萬柳
 dvak	茟
 dvam	菜
 dvam	菜
+dvam	𛂃
 dvan	𮒃
 dvat	𧂾
 dvau	𰻍
@@ -42632,6 +42679,7 @@ dvus	𦷲
 dvuy	萬全
 dvuy	萬望
 dvv	萬
+dvv	𛃇
 dvvc	菜餚
 dvvc	营业厅
 dvvg	蓏
@@ -43261,7 +43309,7 @@ dwyp	花顔月貌
 dwyp	花颜月貌
 dwyu	蘢
 dwyv	菺
-dx	夢
+dx	若
 dxag	若干
 dxag	蓒
 dxah	苟有用我者
@@ -43684,6 +43732,8 @@ dyax	襄王云雨今安在
 dybb	能
 dybb	𦱔
 dybb	𫟍
+dybb	𛂛
+dybb	𛂜
 dybd	蔡骏
 dybd	熊怪
 dybg	𥀍
@@ -44032,6 +44082,7 @@ dytp	散
 dytp	𫿃
 dytp	𭐢
 dytp	𮶦
+dytp	𛁁
 dytt	𮣂
 dytx	𥂪
 dyty	能將
@@ -44231,6 +44282,7 @@ eae	𨳎
 eae	𫿭
 eae	𬺹
 eae	ゴ
+eae	𛂉
 eaea	像模像樣
 eaea	像模像样
 eaee	使用價值
@@ -44428,6 +44480,7 @@ eam	𣎿
 eam	𱣅
 eam	㉁
 eam	㊡
+eam	𛀟
 eamb	烋
 eamb	𮯼
 eamc	传奇
@@ -44622,7 +44675,7 @@ eayl	休班
 eaym	逃脫
 eayu	体外
 eayv	閏二月
-eb	化
+eb	個
 ebaa	化凍
 ebaa	华林
 ebad	货运
@@ -44719,6 +44772,7 @@ ebfd	货摊
 ebfd	化开
 ebff	𠋧
 ebfh	開國元老
+ebfi	㍓
 ebfj	開國元勳
 ebfj	傾巢
 ebfj	倾巢
@@ -45648,6 +45702,7 @@ edma	才高八斗
 edmb	供
 edmb	鬨
 edmb	閧
+edmb	𛀮
 edmc	伯父
 edmc	悬灯
 edmd	偌大
@@ -45930,8 +45985,6 @@ edyy	𠌅
 ee	儿
 ee	𫶧
 ee	⼉
-ee	㍓
-ee	㍔
 ee	㋸
 ee	ㄦ
 ee	ル
@@ -46213,6 +46266,7 @@ eem	們
 eem	闁
 eemb	俱
 eemb	𨵙
+eemb	𛀯
 eemb	何事長向別時圓
 eemc	他爸
 eemc	侯爺
@@ -46453,6 +46507,7 @@ eexr	何似在人间
 eext	閉路
 eext	文化路
 eexy	他有
+eexz	㌝
 eeye	休閒服
 eeyk	文件名
 eeyq	悠悠然
@@ -46473,6 +46528,7 @@ efaj	侧击
 efaj	且持梦笔书奇景
 efal	開標
 efal	開平
+efam	㌞
 efar	卫校
 efar	侧枝
 efas	任爾東西南北風
@@ -46914,6 +46970,7 @@ efoc	𘝶
 efoc	𘝸
 efoc	𘟓
 efod	侧
+efoe	㍔
 efoe	伊拉克
 efof	𗕯
 efof	𘫪
@@ -47235,7 +47292,7 @@ efyw	作惡多端
 efyw	作恶多端
 efyy	离天三尺三
 efyy	離天三尺三
-eg	伤
+eg	作
 egaa	作梦
 egad	偿
 egaf	𱏈
@@ -47575,6 +47632,7 @@ egwj	伤得
 egwl	作好
 egwn	倭
 egwn	𨵋
+egwn	𛄈
 egwo	侥
 egws	閒愁如飛雪
 egwv	門當戶對
@@ -47710,6 +47768,7 @@ ehhs	傳教士
 ehhs	传教士
 ehht	佳
 ehht	閨
+ehht	𛀗
 ehhu	𨵗
 ehhw	佳境
 ehi	仸
@@ -47954,6 +48013,8 @@ ehyt	𬿣
 ehyv	倩
 ehz	𬾉
 ei	也
+ei	𛃝
+ei	𛃞
 ei	
 ei	
 ei	
@@ -48846,6 +48907,7 @@ ejg	𰁣
 ejga	𱏝
 ejgc	𫢵
 ejgf	低
+ejgf	𛁯
 ejgf	离轨
 ejgf	何日复归来
 ejgg	𭀓
@@ -48854,6 +48916,7 @@ ejgh	低等
 ejgh	佛堂
 ejgi	低
 ejgi	𱎶
+ejgi	𛁯
 ejgj	閽
 ejgj	覸
 ejgj	𠉣
@@ -49191,6 +49254,7 @@ ejqn	𢥗
 ejqo	離
 ejqo	離
 ejqo	☲
+ejqo	𛃷
 ejqp	𨝏
 ejqq	𪅆
 ejqs	𮀘
@@ -49408,14 +49472,12 @@ ejz	𣁌
 ejz	𨴝
 ejz	𰁹
 ek	問
-ek	㌝
-ek	㌞
-ek	㍐
 ek	㋙
 ek	㋴
 ek	コ
 ek	ュ
 ek	ユ
+ek	𛅕
 ek	𘠛
 ek	
 ek	
@@ -49446,6 +49508,8 @@ ekam	煲
 ekam	柋
 ekam	㷛
 ekam	𣑡
+ekam	𛂺
+ekam	𛂻
 ekam	伐木
 ekan	𤭭
 ekan	𭝱
@@ -49630,6 +49694,7 @@ ekhw	代培
 ekhx	代賣
 eki	代
 eki	㈹
+eki	𛃧
 ekia	事实
 ekic	𧊇
 ekic	修之於天下
@@ -50015,6 +50080,7 @@ ekvi	事业
 ekvi	代销
 ekvi	代爲
 ekvj	事
+ekvj	𛁆
 ekvl	保镖
 ekvm	事業
 ekvm	偉業
@@ -50073,6 +50139,7 @@ ekyw	侱
 el	里
 el	⾥
 el	里
+el	𛃶
 elaa	文質彬彬
 elaa	里脊
 elac	似曾相识
@@ -50844,6 +50911,7 @@ emb	具
 emb	仈
 emb	黒
 emb	具
+emb	𛀰
 embd	丑八怪
 embf	😒
 embo	門窗
@@ -51679,6 +51747,7 @@ eoaa	做梦
 eoaa	使负栋之柱
 eoaa	使負棟之柱
 eoac	𗈅
+eoae	㍐
 eoai	𨷌
 eoai	𪝀
 eoai	傻根
@@ -53146,7 +53215,7 @@ eryv	𠎞
 eryv	𰂎
 eryv	閏十月
 eryv	閏六月
-es	佩
+es	助
 esaa	𫣼
 esad	𠎉
 esae	𱎤
@@ -53430,6 +53499,7 @@ etae	𫔠
 etae	ぜ
 etae	𘰥
 etai	𬾨
+etaj	㌢
 etak	佭
 etak	𫖄
 etak	閣樓
@@ -53442,6 +53512,7 @@ etan	𢟂
 etan	𢢨
 etan	𬿬
 etas	假想
+etau	㌣
 etbb	伲
 etbo	假以辞色
 etbp	假性
@@ -53533,8 +53604,6 @@ etht	𠈬
 ethx	佶屈聱牙
 ethy	僻靜
 ethy	僻静
-eti	㌢
-eti	㌣
 eti	せ
 eti	𘰣
 eti	𘲓
@@ -54879,6 +54948,7 @@ evwo	𦫨
 evwp	伊
 evwp	𨜉
 evwp	𨳬
+evwp	𛀇
 evwq	𪃛
 evws	彥
 evws	鿘
@@ -54925,6 +54995,7 @@ ewac	𗈌
 ewac	文憑
 ewac	儿童相见不相识
 ewad	𢽥
+ewad	㌉
 ewae	乑
 ewaf	文本
 ewag	文檔
@@ -55101,6 +55172,7 @@ ewew	使我顏色好
 ewf	𱎬
 ewfb	係指
 ewfb	事姑贻我忧
+ewfd	㌊
 ewfe	位于
 ewfe	𨷋
 ewff	值得一提
@@ -55246,6 +55318,7 @@ ewkt	闙
 ewkv	倍
 ewkv	侞
 ewkv	䦣
+ewkv	𛂳
 ewkv	𰂌
 ewkv	門戶之爭
 ewkw	儿女成行
@@ -55339,8 +55412,6 @@ ewox	俄軍
 ewp	才
 ewp	閁
 ewp	𡰣
-ewp	㌉
-ewp	㌊
 ewp	㋔
 ewp	ㄕ
 ewp	ォ
@@ -55495,7 +55566,7 @@ ewys	何如月下傾金罍
 ewyu	儱
 ewyv	𠊘
 ewyy	才夠
-ex	促
+ex	傳
 exaa	仙蹤林
 exaa	仙踪林
 exad	促动
@@ -55562,6 +55633,7 @@ exh	𠎁
 exh	𨶯
 exh	𪐰
 exhc	傳
+exhc	𛁰
 exhd	𬿄
 exhh	𠍰
 exhh	𠏠
@@ -55650,6 +55722,8 @@ exn	𱉘
 exnd	佈滿
 exnf	傳染
 exng	佐
+exng	𛀽
+exng	𛀾
 exnh	𡐏
 exnj	𬺇
 exnl	佐酒
@@ -56896,6 +56970,8 @@ fc	⼮
 fc	ㄍ
 fc	ㆣ
 fc	ㆻ
+fc	𛁩
+fc	𛁪
 fcad	𭠢
 fcad	打动
 fcad	推诚相见
@@ -59030,6 +59106,7 @@ felz	五倍子
 fem	于
 fem	捫
 fem	𰒹
+fem	𛄢
 femb	𢮭
 femc	挑灯
 femd	挑燈
@@ -59088,6 +59165,7 @@ fenx	惡
 fenx	悪
 fenx	𪮰
 fenx	惡
+fenx	𛀅
 fenx	一條心
 fenx	于心
 fenx	惡濁
@@ -59385,6 +59463,7 @@ feyy	𫽎
 feyy	亞瑟
 ff	非
 ff	⾮
+ff	𛂭
 ff	𘮚
 ffac	非标
 ffae	𭺜
@@ -60321,7 +60400,7 @@ ffyx	𢪰
 ffyx	𣧄
 ffyy	抚琴
 ffyy	頭頭腦腦
-fg	辈
+fg	拖
 fgaa	撑杆
 fgaa	撐杆
 fgad	拖动
@@ -61615,6 +61694,7 @@ fiav	一概
 fiaw	天光云影共徘徊
 fib	万
 fib	ㄪ
+fib	𛃂
 fib	𘬲
 fibb	拕
 fibc	一窩
@@ -62772,6 +62852,7 @@ fiyy	热气腾腾
 fj	九
 fj	㈨
 fj	㊈
+fj	𛀭
 fj	𘯼
 fj	🀏
 fjaa	搦
@@ -64627,6 +64708,7 @@ fknx	贼心
 fkny	一成不变
 fknz	武
 fknz	𣥔
+fknz	𛃐
 fko	挹
 fkoa	豆角
 fkoa	拐角
@@ -66068,6 +66150,9 @@ fmd	𢪂
 fmd	𭑂
 fmd	㆝
 fmd	🈗
+fmd	𛁱
+fmd	𛁲
+fmd	𛁳
 fmd	𘬩
 fmda	𢺌
 fmdb	灭菌
@@ -66748,6 +66833,8 @@ fmr	爾
 fmrb	天稟
 fmrb	天禀
 fmrc	爾
+fmrc	𛂋
+fmrc	𛂌
 fmrd	拋棄
 fmrd	捹
 fmrd	𣀑
@@ -66938,6 +67025,8 @@ fmvx	扶正壓邪
 fmvx	扶正压邪
 fmw	无
 fmw	⽆
+fmw	𛄝
+fmw	𛄞
 fmw	🈚
 fmwa	顺奸
 fmwd	拔火罐
@@ -67301,6 +67390,7 @@ fnic	𭱉
 fnic	求學
 fnid	求
 fnid	𪪵
+fnid	𛀱
 fnid	𘬉
 fnie	𬇶
 fnif	㐜
@@ -67691,6 +67781,7 @@ fnwx	𢱮
 fnx	悲
 fnx	抋
 fnx	𫹱
+fnx	𛂩
 fnx	😞
 fnxb	死不足惜
 fnxd	持此足為樂
@@ -68655,7 +68746,6 @@ fosu	形象思維
 fosw	𗘶
 fosx	𢸔
 fosx	𢹋
-fota	ざ
 fotc	𗙫
 fotc	换区
 fotd	𗙜
@@ -68669,7 +68759,6 @@ foth	𭀪
 foth	換屆
 foth	換裝
 foth	则负匮揭箧担囊而趋
-foti	さ
 foti	推迟
 foti	推銷
 fotk	換錢
@@ -69328,6 +69417,7 @@ fqfg	𥟸
 fqfg	𧢮
 fqfh	麗
 fqfh	麗
+fqfh	𛄁
 fqfh	护持
 fqfh	万户捣衣声
 fqfi	㧇
@@ -69912,7 +70002,7 @@ fqys	两肋
 fqys	两三
 fqyv	掮
 fqyw	𫼺
-fr	技
+fr	兩
 fraa	兩棟
 frab	擠榨
 frac	撤标
@@ -71736,6 +71826,7 @@ fttf	𘔣
 fttg	𰚰
 ftth	攢金盧橘塢
 ftti	を
+ftti	𛅒
 ftti	𘮊
 ftti	𘮋
 fttl	𘧪
@@ -75463,7 +75554,7 @@ fyyv	殘月
 fyyv	残月
 fyyx	拸
 fyyy	𣨥
-g	怎
+g	和
 ga	轩
 gaaa	𰪗
 gaaa	秤杆
@@ -75785,6 +75876,9 @@ gajy	年岁
 gak	年
 gak	䄵
 gak	年
+gak	𛂒
+gak	𛂓
+gak	𛂔
 gaka	無本之木
 gakc	科长
 gakc	年长
@@ -76704,6 +76798,7 @@ gdfa	𣞣
 gdfa	𰙄
 gdfa	𰙈
 gdfa	𱼵
+gdfa	𛃓
 gdfa	䅿
 gdfa	移花接木
 gdfb	𰪣
@@ -76741,6 +76836,7 @@ gdfm	𥯫
 gdfm	𥷀
 gdfm	𭴿
 gdfm	🈚
+gdfm	𛃑
 gdfm	私吞
 gdfm	穆爾
 gdfm	剩菜殘羹
@@ -78603,6 +78699,7 @@ ghha	𮆩
 ghhc	等
 ghhc	秲
 ghhc	𧠴
+ghhc	𛁽
 ghhc	籌款
 ghhg	软骨
 ghhh	篈
@@ -78858,6 +78955,7 @@ ght	玍
 ght	𥝟
 ght	𥫦
 ght	𰉤
+ght	𛁞
 ght	𘰂
 ghta	笑料
 ghtc	东城区
@@ -78932,6 +79030,7 @@ ghww	堂妹
 ghx	頗
 ghx	䅡
 ghx	𮨏
+ghx	𛂨
 ghxc	𨎖
 ghxc	笑罵
 ghxc	等車
@@ -79650,6 +79749,7 @@ giyy	东鹏
 gj	見
 gj	⾒
 gj	見
+gj	𛃎
 gjaa	篛
 gjaa	𥣌
 gjad	𱄎
@@ -80276,6 +80376,7 @@ gjr	𧠗
 gjr	𭥍
 gjr	𱷳
 gjr	⾹
+gjr	𛀠
 gjra	𩡦
 gjrd	見諒
 gjrd	見證
@@ -80485,7 +80586,7 @@ gjyv	𥯋
 gjyv	𫀹
 gjyx	秽
 gjyy	見多
-gk	和
+gk	种
 gkad	掌權
 gkad	掌权
 gkad	种树
@@ -80901,6 +81002,8 @@ gkv	㕿
 gkv	𣬣
 gkv	𣬧
 gkv	𰹲
+gkv	𛄉
+gkv	𛄊
 gkvg	种瓜
 gkvh	积压
 gkvi	稱之爲
@@ -81345,6 +81448,9 @@ glz	𭓋
 glzj	覎
 gm	毛
 gm	⽑
+gm	𛃘
+gm	𛃙
+gm	𛃚
 gmaa	愁楚
 gmad	愁云
 gmad	秋凉
@@ -82129,6 +82235,7 @@ goak	笑向檀郎唾
 goam	梨
 goam	穕
 goam	梨
+goam	𛃴
 goao	𣞴
 goao	稳准
 goap	䉏
@@ -82202,6 +82309,8 @@ god	㓟
 god	𣬟
 god	利
 god	㓟
+god	𛃱
+god	𛃲
 goda	乍绛蕊海榴
 godd	𥸌
 gode	梨花
@@ -83230,7 +83339,7 @@ gqyv	七月
 gqyv	切磋琢磨
 gqyx	七夕
 gqyy	繁多
-gr	午
+gr	常
 graa	穆斯林
 grae	𭘾
 graf	筆記本
@@ -83660,6 +83769,7 @@ grsi	裳
 grsi	𫁼
 grsi	𬕁
 grsi	𮕦
+grsi	𛃜
 grsj	笐
 grsj	秔
 grsj	午睡
@@ -84188,6 +84298,7 @@ gst	𤰗
 gst	𤱜
 gst	𨽶
 gst	𫀪
+gst	𛁡
 gsta	當鋪
 gstc	𬕦
 gstd	算錯
@@ -85135,6 +85246,7 @@ guuu	𥲽
 guuu	连坐
 guuw	黨組織
 guv	乍
+guv	𛀼
 guvd	𥶍
 guvf	稍縱即逝
 guvf	输钱
@@ -85587,7 +85699,7 @@ gvyv	𮃒
 gvyw	稱王
 gvz	笊
 gvz	𧠘
-gw	籠
+gw	委
 gwaa	䈂
 gwaa	翘楚
 gwae	ゲ
@@ -85643,6 +85755,7 @@ gwer	年産值
 gwer	年产值
 gwev	無所作爲
 gwf	𦈹
+gwfd	㌜
 gwfd	魏晉
 gwfe	覹
 gwfe	䉠
@@ -85866,7 +85979,6 @@ gwou	𰺷
 gwow	尧
 gwp	𫡏
 gwp	𭠍
-gwp	㌜
 gwp	㋘
 gwp	ケ
 gwp	ヶ
@@ -86442,6 +86554,7 @@ gyyx	𡖹
 gyyx	𣭧
 gyyx	𤿦
 gyyx	𥭋
+gyyx	𛀉
 gz	竹
 gz	𠂉
 gz	𥫗
@@ -88046,7 +88159,7 @@ hdyw	𭏍
 hdyy	𠫾
 hdyy	𡏗
 hdyy	𧽹
-he	坟
+he	块
 heaa	垗
 heaa	趒
 heaa	𮰲
@@ -88190,6 +88303,7 @@ hehl	䞇
 hehl	𦗙
 hehm	熱
 hehm	燅
+hehm	𛂖
 hehm	𤍽
 hehm	𤎮
 hehm	地勢
@@ -88212,6 +88326,7 @@ hehr	地质
 hehr	地壇
 hehr	电化教育
 hehs	勢
+hehs	𛁕
 hehs	勎
 hehs	𧜼
 hehs	地表
@@ -88233,6 +88348,7 @@ hei	𧺏
 hei	𭍽
 hei	𰚈
 hei	㆞
+hei	𛁣
 heic	𰳎
 heic	地學
 heic	走傍寒梅访消息
@@ -90546,6 +90662,7 @@ hjpa	坦陳
 hjpb	𰈷
 hjpf	都
 hjpf	都
+hjpf	𛁬
 hjpg	坦陈
 hjpi	𡳣
 hjpi	电影院
@@ -90576,6 +90693,8 @@ hjr	𧺝
 hjr	者
 hjr	者
 hjr	者
+hjr	𛂥
+hjr	𛂦
 hjr	昋
 hjra	封山育林
 hjrd	超支
@@ -91162,6 +91281,8 @@ hksp	𭷮
 hkss	𭮪
 hksu	遠
 hksu	𮟧
+hksu	𛄛
+hksu	𛄜
 hksu	越界
 hksw	聲嘶力竭
 hksw	声嘶力竭
@@ -91174,6 +91295,7 @@ hkth	城中居民风裂骭
 hkth	城中居民風裂骭
 hkti	越
 hkti	㐖
+hkti	𛄚
 hkti	遠銷
 hktj	𡒤
 hktk	城區
@@ -91790,6 +91912,7 @@ hmdy	達能
 hmeb	熱化
 hmed	報
 hmed	報
+hmed	𛂼
 hmed	熱備
 hmef	報仇
 hmeg	報償
@@ -91938,6 +92061,7 @@ hmhm	燅
 hmhm	𤍽
 hmhm	𤎮
 hmhm	𱬁
+hmhm	𛂖
 hmhm	達達
 hmhn	𢟯
 hmhn	𤭝
@@ -91952,6 +92076,7 @@ hmhs	勢
 hmhs	報考
 hmhs	勎
 hmhs	𧜼
+hmhs	𛁕
 hmhs	報表
 hmhs	達士
 hmht	坴
@@ -92537,6 +92662,7 @@ hnx	𢗣
 hnx	𢝊
 hnx	𧺨
 hnx	𬅟
+hnx	𛁈
 hnxl	志在
 hnxm	赴湯蹈火
 hnxm	赴汤蹈火
@@ -92950,6 +93076,7 @@ honh	𡔺
 honh	𣤫
 honh	𩕯
 honh	🉢
+honh	𛁋
 honi	𠠐
 honi	𡐆
 honk	翿
@@ -93029,6 +93156,7 @@ hos	𡗶
 hos	𢀴
 hos	𪊍
 hos	起
+hos	𛀪
 hos	起
 hosa	慶雲
 hosc	麦克风
@@ -94312,6 +94440,7 @@ ht	土
 ht	⼟
 ht	㈯
 ht	㊏
+ht	𛁷
 ht	𘭔
 htaa	麦杆
 htab	赤壁楼船扫地空
@@ -94779,6 +94908,7 @@ htsl	𣫤
 htsl	𨢤
 htsl	𰶟
 htsl	𰷎
+htsl	𛁖
 htsl	🈤
 htsm	堳
 htsm	㷫
@@ -95768,6 +95898,7 @@ hwiw	𫎼
 hwj	起
 hwj	圮
 hwj	起
+hwj	𛀪
 hwje	境
 hwje	起重
 hwjh	𡐙
@@ -98282,6 +98413,7 @@ iedj	𡩤
 iedo	宿营
 iedy	𠓔
 iee	兒
+iee	𛂊
 iee	宂
 ieeb	兒化
 ieef	宿仇
@@ -98650,6 +98782,8 @@ ifel	定價
 ifel	𨤣
 ifem	宇
 ifem	虶
+ifem	𛀊
+ifem	𛀋
 ifem	寒天催日短
 ifen	𧑕
 ifen	永无休止
@@ -99336,6 +99470,8 @@ igaa	旗杆
 igab	旕
 igad	遊魂
 igae	於
+igae	𛀔
+igae	𛀕
 igag	少年击剑更吹箫
 igah	𣄒
 igah	𩩘
@@ -99570,6 +99706,7 @@ iglr	𬣃
 iglu	遊
 iglu	旞
 iglu	🈫
+iglu	𛃦
 iglv	施予
 iglw	㫏
 iglz	斿
@@ -100569,6 +100706,9 @@ iifx	學富五車
 iig	良
 iig	蛝
 iig	良
+iig	𛃮
+iig	𛃯
+iig	𛃰
 iiga	良策
 iiga	小兒科
 iiga	蛇年
@@ -102027,6 +102167,7 @@ iks	䖶
 iks	𠓢
 iks	𡭷
 iks	𮙜
+iks	𛀢
 iksc	家风
 ikse	家裡
 ikse	宮裡
@@ -102702,7 +102843,7 @@ ilz	虸
 ilz	𮱡
 ilz	🈑
 ilzc	虸
-im	尖
+im	兴
 im	宀
 im	⼧
 imad	举动
@@ -104019,6 +104160,7 @@ ioi	ぅ
 ioi	う
 ioi	ぇ
 ioi	え
+ioi	𛀀
 ioi	𘮨
 ioi	𘢧
 ioi	尐
@@ -105531,6 +105673,7 @@ irst	丹霞
 irsu	輿論界
 irt	丹
 irt	丹
+irt	𛂇
 irta	入冬
 irta	舉直錯諸枉
 irtc	省市区
@@ -105869,6 +106012,7 @@ isog	主力军
 isoh	歟
 isoh	𡒊
 isoh	𮨠
+isoh	𛀝
 isoi	𡦹
 isoi	𢣟
 isoi	𤪐
@@ -105878,6 +106022,9 @@ isok	擧
 isol	𧸧
 isom	與
 isom	𦏜
+isom	𛃩
+isom	𛃪
+isom	𛃫
 ison	㦛
 ison	𪴿
 ison	宿雲解駁晨光漏
@@ -106430,6 +106577,7 @@ itm	籴
 itm	匊
 itm	宩
 itm	䊆
+itm	𛀵
 itma	放鬆
 itmc	官長
 itmd	放大
@@ -106800,6 +106948,8 @@ iuab	旕
 iuad	𫊹
 iuad	退运
 iuae	於
+iuae	𛀔
+iuae	𛀕
 iuae	守望相助
 iuah	𣄒
 iuah	𩩘
@@ -108153,6 +108303,7 @@ iwn	𣱘
 iwn	𰋷
 iwn	𮱅
 iwn	🉃
+iwn	𛀂
 iwnb	少些
 iwnd	𢽨
 iwne	安瀾
@@ -109457,6 +109608,7 @@ iywk	宛如
 iywk	客服部
 iywl	寶
 iywl	𫴫
+iywl	𛂾
 iywn	𡜽
 iywn	𪧋
 iywq	䴐
@@ -109802,6 +109954,7 @@ janm	弱项
 janm	旱澇
 jann	时运不济
 janr	果汁
+jans	㌥
 jant	果洛
 janw	㼫
 janx	𢙶
@@ -112257,6 +112410,7 @@ jfi	弖
 jfi	㞢
 jfi	㢧
 jfi	ㄓ
+jfi	𛁵
 jfi	
 jfi	
 jfi	
@@ -115338,6 +115492,8 @@ jjks	幾號
 jjkt	𰏂
 jjku	幾
 jjku	𨗂
+jjku	𛀤
+jjku	𛀥
 jjkv	昭
 jjkv	弨
 jjkv	出口
@@ -118695,9 +118851,9 @@ jpyo	映阶碧草自春色
 jpyo	映階碧草自春色
 jpyv	星月
 jq	千
-jq	㌥
 jq	㋠
 jq	チ
+jq	𛁢
 jq	
 jqaa	嶽麓
 jqad	𡻩
@@ -118921,6 +119077,7 @@ jqqh	千户
 jqqj	𬁓
 jqqk	𡹫
 jqql	豐
+jqql	𛃁
 jqqm	豐碑
 jqqn	㬩
 jqqo	艷
@@ -119006,8 +119163,11 @@ jr	日
 jr	𫩏
 jr	⽇
 jr	⽈
+jr	⿰
+jr	⿱
 jr	㈰
 jr	㊐
+jr	𛂪
 jr	
 jrad	𬽀
 jrad	发言权
@@ -120010,6 +120170,9 @@ jssv	暴风雨
 jst	留
 jst	𡶚
 jst	留
+jst	𛃹
+jst	𛃺
+jst	𛃻
 jst	峀
 jst	峀
 jstc	山区
@@ -121524,7 +121687,7 @@ jvyv	𭦦
 jvyv	弧月
 jvyw	𡹑
 jvyy	弹钢琴
-jw	凯
+jw	暗
 jwac	暗标
 jwad	早已森严壁垒
 jwad	发我枝上花
@@ -129361,6 +129524,9 @@ kkv	吕
 kkv	吅
 kkv	戓
 kkv	𭇁
+kkv	⿻
+kkv	𛄂
+kkv	𛄃
 kkv	Ɣ
 kkv	ʌ
 kkv	Ⓥ
@@ -130356,6 +130522,7 @@ klz	吇
 klz	𠯂
 km	面
 km	⾯
+km	𛃕
 kmac	只憑
 kmag	𱒙
 kmah	面板
@@ -131585,6 +131752,7 @@ kokv	吧唧
 kokv	咕唧
 kokw	哪吒
 kolb	貴
+kolb	𛀩
 kolb	唯将旧物表深情
 kole	𠳋
 kolf	𰷓
@@ -131616,6 +131784,8 @@ kolt	噉
 kolt	成敗
 kolt	成癖
 kolu	遺
+kolu	𛀷
+kolu	𛄑
 kolu	遣
 kolu	𫑍
 kolu	𬩠
@@ -131867,6 +132037,8 @@ kouy	成全
 kov	呂
 kov	𠽐
 kov	呂
+kov	𛄂
+kov	𛄃
 kovd	𠭤
 kovd	遺願
 kovd	遗愿
@@ -131962,7 +132134,7 @@ koyr	鄂尔多斯
 koyu	遗迹
 koyv	㗅
 koz	𪠾
-kp	嗣
+kp	啊
 kpae	𠻨
 kpaj	𠼂
 kpam	𠵟
@@ -132043,6 +132215,7 @@ kpnf	长生不死
 kpng	咸阳游侠多少年
 kpnh	长生不老
 kpnw	𪼺
+kpo	嗣
 kpoc	𱕦
 kpod	𭃬
 kpoi	𠽏
@@ -132652,6 +132825,8 @@ krks	𰚆
 krkt	數
 krkt	𢿙
 krkt	數
+krkt	𛁌
+krkt	𛁍
 krku	遱
 krku	𡢺
 krku	𦇆
@@ -132660,6 +132835,7 @@ krkv	𤬏
 krkw	婁
 krkw	𡝤
 krkw	𭒰
+krkw	𛄄
 krkx	𬧻
 krkx	嘶鸣
 krkx	吱呀
@@ -133982,7 +134158,7 @@ ktyp	𡂰
 ktyr	𠦣
 ktyv	𦙃
 ktyw	哐
-ku	吟
+ku	逐
 kuad	哙
 kuae	𠗀
 kuah	嚩
@@ -135527,6 +135703,8 @@ kyyw	𠿗
 kyyx	哆
 kyyy	𭊶
 kz	之
+kz	𛁄
+kz	𛁅
 kzaa	之梦
 kzad	之魂
 kzae	之二
@@ -135834,6 +136012,7 @@ lajs	半山
 lajy	判明
 lajy	半岁
 lak	半
+lak	𛂟
 lakf	癞
 lakf	总动员
 lakg	賎
@@ -136075,8 +136254,6 @@ lb	丷
 lb	𬼀
 lb	⽧
 lb	⾙
-lb	㍑
-lb	㍒
 lb	㋞
 lb	㋷
 lb	ソ
@@ -136118,6 +136295,7 @@ lbfe	子固非鱼也
 lbfe	子固非魚也
 lbff	近悦远来
 lbfm	貝爾
+lbfo	㍒
 lbfo	辱國殃民
 lbfo	辱国殃民
 lbgh	𧶞
@@ -137673,6 +137851,8 @@ ldyw	㾮
 ldyy	竖琴
 le	耳
 le	⽿
+le	𛂍
+le	𛂎
 leaa	聎
 leaa	𤶃
 leac	𗁞
@@ -138717,7 +138897,7 @@ lfys	子非三闾大夫与
 lfyx	𪽨
 lfyx	拳打腳踢
 lfyx	拳打脚踢
-lg	疲
+lg	临
 lgaa	监禁
 lgaa	孔繁森
 lgad	鉴权
@@ -139766,6 +139946,7 @@ litw	予客居闔戶
 liua	瘀
 liuc	逊
 liuc	㾼
+liue	㍑
 liul	𤼊
 liul	𦘋
 liul	𧸋
@@ -140249,6 +140430,8 @@ ljjr	曾
 ljjr	𧶧
 ljjr	𬁪
 ljjr	𮠰
+ljjr	𛁙
+ljjr	𛁚
 ljjr	旧日
 ljjr	单日
 ljjr	单弦
@@ -143421,7 +143604,6 @@ loi	𠁢
 loi	𤴥
 loi	𬼸
 loi	𰀽
-loi	㍗
 loi	㋻
 loi	ぬ
 loi	め
@@ -143463,6 +143645,7 @@ loip	㿍
 loiq	𗁢
 loir	𗒙
 loit	要将宇宙看稊米
+loiu	㍗
 loiu	耽於
 loiw	𘍰
 loiw	送纵宇一郎东行
@@ -144031,7 +144214,7 @@ loyi	癌细胞
 loyv	醐
 loyv	㾰
 loyw	卷上珠帘总不如
-lp	酷
+lp	耶
 lpae	瘽
 lpaf	醉生梦死
 lpaj	岳阳楼上对君山
@@ -144057,6 +144240,8 @@ lpf	邤
 lpf	䣅
 lpf	𨚹
 lpf	𨟰
+lpf	𛃠
+lpf	𛃡
 lpfd	酷刑
 lpff	酷热
 lpfk	癮頭
@@ -144576,6 +144761,8 @@ lrmc	𨠦
 lrmc	𩦉
 lrmd	弊
 lrmd	𬢓
+lrmd	𛂴
+lrmd	𛂵
 lrme	𠒳
 lrme	𣁢
 lrme	𱎏
@@ -144796,6 +144983,9 @@ ls	〴
 ls	〵
 ls	ㄧ
 ls	ㆳ
+ls	𛁒
+ls	𛁓
+ls	𛁔
 ls	𘮔
 ls	𘠁
 ls	𘠸
@@ -146916,6 +147106,7 @@ lwn	要
 lwn	𡝌
 lwn	𡥃
 lwn	𧴱
+lwn	𛀓
 lwnb	要不
 lwnb	𰦐
 lwnb	並行不悖
@@ -147965,6 +148156,7 @@ lyyx	西三環
 lz	子
 lz	孑
 lz	⼦
+lz	𛂘
 lz	𘲰
 lzad	子棉
 lzaj	子機
@@ -148182,6 +148374,7 @@ majy	𰖫
 mak	奉
 mak	𡗢
 mak	𫯠
+mak	𛂽
 mak	𘰵
 makf	𬋍
 makf	公冶长第五
@@ -148364,15 +148557,12 @@ mb	髟
 mb	⺣
 mb	⼋
 mb	⾽
-mb	㌪
-mb	㌫
-mb	㌬
-mb	㌭
 mb	㈧
 mb	㊇
 mb	㋩
 mb	ㆿ
 mb	ハ
+mb	𛂞
 mb	𘰨
 mb	
 mb	🀎
@@ -149070,6 +149260,9 @@ mcs	𤇋
 mcs	𥘿
 mcs	𲌧
 mcs	奈
+mcs	𛂀
+mcs	𛂁
+mcs	𛂂
 mcsd	奇異
 mcsf	長風
 mcsi	長袍
@@ -150613,6 +150806,7 @@ meii	尦
 meio	𡯚
 meio	公文包
 meiu	羞於
+meix	㌪
 mej	𩱺
 mej	𱪣
 mejb	𡯧
@@ -150899,6 +151093,7 @@ mfit	大頭小尾
 mfit	短氣
 mfiw	𩲬
 mfiw	短少
+mfix	㌬
 mfix	短小
 mfj	㶢
 mfj	𩫴
@@ -151044,6 +151239,7 @@ mfoo	欲擒故纵
 mfoo	奉天承運
 mfor	大一统
 mfos	𘭼
+mfou	㌫
 mfou	欲擒故縱
 mfou	炎亚纶
 mfow	髨
@@ -151136,6 +151332,7 @@ mfsw	𱘼
 mfsw	𘁆
 mfsw	短袜
 mfsx	𫛦
+mfte	㌭
 mfte	短粗
 mftf	鬼把戲
 mfth	短裝
@@ -153594,6 +153791,8 @@ mjr	𡯙
 mjr	𥎭
 mjr	𭴌
 mjr	🀦
+mjr	𛁎
+mjr	𛁏
 mjrb	蠢話
 mjrd	𢺹
 mjrd	分支
@@ -154012,6 +154211,7 @@ mkjk	𭨔
 mkjk	大器晚成
 mkjr	智
 mkjr	𤈵
+mkjr	𛁤
 mkjs	大别山
 mkjs	大別山
 mkjt	𭧝
@@ -154246,6 +154446,8 @@ mkv	𠰫
 mkv	𠲘
 mkv	𬉸
 mkv	𲌚
+mkv	𛁥
+mkv	𛁦
 mkv	𘭾
 mkv	𘱳
 mkvd	知错
@@ -154888,6 +155090,9 @@ mmd	夶
 mmd	㚐
 mmd	𡗩
 mmd	𮹒
+mmd	𛃋
+mmd	𛃌
+mmd	𛃍
 mmd	𘰲
 mmda	𤊼
 mmda	𫅠
@@ -155820,6 +156025,7 @@ mng	差
 mng	灴
 mng	𪩣
 mng	𰝷
+mng	𛁀
 mnga	欲濟無舟楫
 mngh	大江东去
 mngh	大江东流去
@@ -159022,7 +159228,7 @@ mxyv	𦟆
 mxyv	𩭀
 mxyx	𬊜
 mxz	𱫉
-my	尪
+my	燃
 myaa	𤌴
 myad	大腸桿菌
 myad	大肠杆菌
@@ -159731,6 +159937,7 @@ nayw	㳹
 nayw	𣒳
 nb	不
 nb	不
+nb	𛂰
 nb	🙄
 nb	🙅
 nbaa	不禁
@@ -161345,6 +161552,8 @@ ndfh	𤅎
 ndfi	滿
 ndfi	𣲟
 ndfi	𣳘
+ndfi	𛃅
+ndfi	𛃆
 ndfi	🈵
 ndfi	滿擰
 ndfi	满拧
@@ -162269,7 +162478,7 @@ ndyw	𣹛
 ndyw	漢王
 ndyw	汉王
 ndyy	𱨥
-ne	池
+ne	決
 neaa	洮
 neaa	𣴝
 neaa	𪘈
@@ -162802,6 +163011,7 @@ nfee	不求聞達於諸侯
 nfeh	不求聞達
 nfei	𣵾
 nfem	汙
+nfem	𛄟
 nfen	𣽏
 nfer	染剂
 nfew	𡜡
@@ -163495,6 +163705,7 @@ ngic	海宁
 ngic	工學
 ngie	流
 ngie	㳘
+ngie	𛃸
 ngie	𪗯
 ngie	流
 ngie	流
@@ -163777,6 +163988,7 @@ ngox	海運
 ngox	工運
 ngp	波
 ngp	𣥣
+ngp	𛂡
 ngpa	海陆
 ngpa	工勤
 ngpd	清香隨風發
@@ -163953,6 +164165,7 @@ ngwm	𤅃
 ngwm	𪶵
 ngwn	婆
 ngwn	涹
+ngwn	𛂠
 ngwn	海歸
 ngwo	浇
 ngwo	工行
@@ -165101,6 +165314,7 @@ nigi	涼州七里十萬家
 nigj	沒種
 nigk	淤积
 nigl	游
+nigl	𛃣
 nigl	沟堑
 nigm	㵀
 nigm	㶛
@@ -165829,6 +166043,7 @@ niwp	歩
 niwp	㸺
 niwp	𠀰
 niwp	𣲦
+niwp	𛁃
 niwq	硰
 niwq	𬷙
 niwr	不为已甚
@@ -167364,6 +167579,7 @@ nlam	渫
 nlam	𱨫
 nlan	酒杯
 nlao	𬇯
+nlao	㌡
 nlat	酒楼
 nlat	酒櫃
 nlat	酒柜
@@ -168840,6 +169056,7 @@ nnfy	潋潋摇空碧
 nnfy	瀲瀲搖空碧
 nng	江
 nng	𬇔
+nng	𛀁
 nngb	流水無情
 nnge	湮没無聞
 nnge	湮沒無聞
@@ -170957,6 +171174,7 @@ nrde	𪗯
 nrde	流
 nrde	流
 nrde	流
+nrde	𛃸
 nrdf	𣸣
 nrdh	𡏬
 nrdh	流著
@@ -171640,7 +171858,6 @@ ns	氺
 ns	⺡
 ns	⺢
 ns	⽔
-ns	㌡
 ns	㈬
 ns	㊌
 ns	㋛
@@ -173059,7 +173276,7 @@ ntyi	泥腿
 ntyq	不尽然
 ntyv	𭰧
 ntyw	洭
-nu	油
+nu	还
 nuad	浍
 nuad	𠀾
 nuad	油桶
@@ -173824,6 +174041,7 @@ nvaj	淫棍
 nvaj	液壓機
 nvaj	水曲柳
 nvak	津
+nvak	𛁫
 nval	浮標
 nvam	𣶶
 nvam	源头
@@ -174027,6 +174245,7 @@ nvkx	此曲只應天上有
 nvl	㵐
 nvla	江夏贈韋南陵冰
 nvlc	濃
+nvlc	𛂚
 nvld	𭳖
 nvle	浮財
 nvlf	工農兵
@@ -175681,6 +175900,7 @@ oaay	𩺀
 oaba	解围
 oaba	解困
 oabb	𧢶
+oabb	㌸
 oabb	纵横驰骋
 oabe	集团
 oabe	𧣛
@@ -175757,6 +175977,7 @@ oadh	那对
 oadh	绿杨巷陌秋风起
 oadi	𧢷
 oadi	𧤀
+oadi	㌺
 oadi	那就
 oadi	那又
 oadi	绿槐高柳咽新蝉
@@ -176367,6 +176588,8 @@ oapb	𭉔
 oape	䚚
 oapf	那
 oapf	𨛥
+oapf	𛂄
+oapf	𛂅
 oapg	𧤒
 oapg	绿柳朱轮走钿车
 oaph	𫭹
@@ -178213,6 +178436,7 @@ oefk	克扣
 oefo	𫶸
 oefo	𱺼
 oefs	组画
+oefu	㌳
 oefv	胡作非爲
 oefw	克拉
 oegd	组稿
@@ -178254,6 +178478,7 @@ oeil	异体字
 oeil	古文字
 oeil	组字
 oeim	纸里包不住火
+oeix	㌹
 oej	𦨌
 oeja	𠒘
 oejd	缡
@@ -178368,6 +178593,7 @@ oeoi	敢做敢为
 oeoi	敢做敢為
 oeoj	克魯
 oeok	组织
+oeok	㌚
 oeon	集体经济
 oeoo	㌁
 oeoq	维也纳
@@ -178485,12 +178711,15 @@ oeyv	𩻘
 oeyv	上個月
 of	飛
 of	⾶
+of	𛂮
+of	𛂯
 ofaa	𗴃
 ofac	飞来横祸
 ofac	飛災橫禍
 ofad	刁橫
 ofad	刁横
 ofad	缙云
+ofae	㌵
 ofae	ヺ
 ofae	线材
 ofah	上一次
@@ -178652,6 +178881,7 @@ ofi	㋾
 ofi	ょ
 ofi	よ
 ofi	ヲ
+ofi	𛅦
 ofi	𘲠
 ofi	𘲮
 ofi	𘲷
@@ -178774,6 +179004,7 @@ ofmr	飛奔
 ofms	胡天八月即飞雪
 ofms	胡天八月即飛雪
 ofmt	司爐
+ofna	㌻
 ofna	久拖不决
 ofnf	飛灑
 ofnh	司法
@@ -178799,6 +179030,7 @@ ofnx	𩙻
 ofnx	𩻺
 ofnx	𫇟
 ofnx	负心
+ofoa	㌙
 ofoa	𗴂
 ofoa	航天飛機
 ofoa	航天飞机
@@ -178807,6 +179039,7 @@ ofoc	𨾆
 ofod	冦
 ofod	𠖝
 ofod	𰄚
+ofod	㌘
 ofoe	巴拉克
 ofoe	克拉克
 ofoe	故天将降大任于是人也
@@ -178929,6 +179162,7 @@ oftj	负屈
 oftl	飛鏢
 oftm	𱺜
 oftn	上无片瓦
+oftp	㌼
 oftp	刁鑽
 ofts	司务
 oftu	上一届
@@ -179019,6 +179253,7 @@ ofyo	胡搅蛮缠
 ofyv	𣍟
 ofyv	绚丽多彩
 og	古
+og	𛀸
 ogaa	𬵭
 ogad	民權
 ogad	民权
@@ -180044,17 +180279,6 @@ oi	㇡
 oi	㇢
 oi	㇤
 oi	乁
-oi	㌲
-oi	㌳
-oi	㌴
-oi	㌵
-oi	㌶
-oi	㌷
-oi	㌸
-oi	㌹
-oi	㌺
-oi	㌻
-oi	㌼
 oi	㆚
 oi	〻
 oi	𖿠
@@ -180076,6 +180300,8 @@ oi	ゐ
 oi	ゑ
 oi	フ
 oi	ヘ
+oi	𛅐
+oi	𛅑
 oi	𘲶
 oi	𘠃
 oi	𘠄
@@ -180151,6 +180377,8 @@ oid	𰍨
 oid	々
 oid	㋦
 oid	ヌ
+oid	𛀫
+oid	𛀬
 oid	𘯞
 oid	𘲪
 oid	𘲫
@@ -180750,6 +180978,7 @@ oimt	𱹇
 oimw	疏忽大意
 oind	综治
 oind	久治
+oine	㌴
 oinf	隻字不提
 oing	督工
 oing	叔婆
@@ -181569,6 +181798,7 @@ okee	免
 okee	𡤳
 okee	𭀰
 okee	免
+okee	𛃔
 okeg	𤿯
 okeg	𨽺
 okei	兔
@@ -181621,6 +181851,7 @@ okfa	缉捕
 okfa	上感九庙焚
 okfa	上感九廟焚
 okfb	𰬚
+okfc	㌛
 okfd	象形
 okfd	免刑
 okfd	鶴鳴九皋
@@ -181780,6 +182011,7 @@ okl	ぺ
 okl	プ
 okl	ペ
 oklb	𮚍
+oklb	㌷
 oklb	民听了民怕
 oklc	售票
 oklc	免票
@@ -182120,11 +182352,13 @@ oler	上兵伐謀
 oleu	绊倒
 oleu	绝世佳人
 olew	𗈬
+olfa	㍎
 olfa	𘙩
 olfb	𗈵
 olfc	𘙪
 olfc	敢打
 olfd	将帅接燕蓟
+olfe	㍏
 olfe	敢于
 olff	𗈮
 olff	𗈯
@@ -182343,8 +182577,6 @@ olro	缆索
 ols	绁
 ols	𦓐
 ols	𮎉
-ols	㍎
-ols	㍏
 ols	𖿰
 ols	㋳
 ols	ャ
@@ -182462,10 +182694,6 @@ om	冖
 om	𠂊
 om	⺈
 om	⼍
-om	㌘
-om	㌙
-om	㌚
-om	㌛
 om	㋗
 om	ク
 omaa	𮰅
@@ -183580,6 +183808,7 @@ oofr	雙抗
 oofs	䒄
 oofs	书画
 oofu	𬩬
+oofu	㌲
 oofu	雙搶
 oofw	色拉
 oofw	维拉
@@ -184100,6 +184329,7 @@ oos	𮎛
 oos	𱼶
 oos	㋽
 oos	ヱ
+oos	𛅥
 oos	𘮟
 oos	丝
 oos	Ⓢ
@@ -184205,6 +184435,7 @@ ootb	维尼
 ootd	书展
 ootd	選錯
 oote	䱖
+oote	㌶
 oote	㊕
 oote	㋢
 ootf	艟艨巨舰直东指
@@ -184799,7 +185030,7 @@ oqyu	编外
 oqyv	䑷
 oqyw	𩷗
 oqyw	𘒷
-or	续
+or	级
 orac	航标
 orad	航运
 orad	航模
@@ -185205,6 +185436,7 @@ os	⼇
 os	㆖
 os	〦
 os	㊤
+os	𛄠
 os	𘮜
 os	
 os	
@@ -185985,6 +186217,8 @@ osxj	𥃛
 osxl	盤存
 osxl	写在
 osxm	盤
+osxm	𛂢
+osxm	𛂣
 osxr	𱜷
 osxr	细布
 osxt	上路
@@ -186028,7 +186262,6 @@ otad	鰕
 otad	𫇝
 otae	终
 otae	鮗
-otae	ご
 otae	ゼ
 otae	🈡
 otai	缕述
@@ -186147,7 +186380,6 @@ oti	𢎘
 oti	𫄙
 oti	㋝
 oti	ㄢ
-oti	こ
 oti	セ
 oti	𘯮
 oti	𘠠
@@ -186295,6 +186527,7 @@ otp	𨾏
 otp	𫡣
 otp	𭣣
 otp	𰕌
+otp	𛀹
 otpg	缕陈
 otpi	缝隙
 otpq	缝制
@@ -188931,6 +189164,7 @@ pcku	造谣惑众
 pckv	阿
 pckv	牱
 pckv	𩊆
+pckv	𛀄
 pckw	娿
 pckx	阿呀
 pcl	䧒
@@ -191696,7 +191930,7 @@ plye	隊服
 plyj	𩌵
 plyo	𩋳
 plz	䦻
-pm	犧
+pm	朱
 pmak	䩬
 pmak	𪽃
 pman	物慾橫流
@@ -193700,6 +193934,7 @@ pvnh	𨼔
 pvni	隱沒
 pvnj	生灵涂炭
 pvnn	隱
+pvnn	𛀖
 pvnr	𧮐
 pvnr	𨺄
 pvns	䩮
@@ -194714,7 +194949,7 @@ qbyk	内忧外患
 qbyl	狼圖騰
 qbyl	狼图腾
 qbyn	同性恋
-qc	网
+qc	刚
 qcaa	犹自梦渔樵
 qcaf	𬍂
 qcaf	碼本
@@ -195009,7 +195244,7 @@ qcyu	龚自珍
 qcyv	𬚰
 qcz	𤝼
 qcz	𥒕
-qd	猫
+qd	典
 qdaa	䃯
 qdaa	𭸘
 qdae	𥑠
@@ -195234,7 +195469,6 @@ qdlt	鷻
 qdlt	獤
 qdlt	猫癣
 qdlz	𪂎
-qdm	典
 qdm	禸
 qdm	𠫢
 qdm	⽱
@@ -195416,7 +195650,7 @@ qdyv	𦛯
 qdyw	𤟡
 qdyw	𱴜
 qdyy	内圣外王
-qe	狃
+qe	猴
 qeaa	狣
 qeaa	䂪
 qeaa	𮵐
@@ -196164,7 +196398,7 @@ qfyo	𥒂
 qfyv	𠕔
 qfyv	𦚑
 qfyv	同月
-qg	矻
+qg	破
 qgag	𱮌
 qgaj	破击
 qgaj	破甲
@@ -196298,6 +196532,7 @@ qgoo	破书
 qgox	破軍
 qgp	破
 qgp	狓
+qgp	𛂤
 qgpf	破陋
 qgpg	破阵
 qgph	破鞋
@@ -197441,6 +197676,7 @@ qjfx	同出一轍
 qjg	𩾫
 qjg	𮀑
 qjgf	砥
+qjgf	𛁼
 qjgf	𤝬
 qjgf	𪀍
 qjgg	𥗽
@@ -197448,6 +197684,7 @@ qjgg	𤣟
 qjgi	砥
 qjgi	𤝬
 qjgi	𪀍
+qjgi	𛁼
 qjgi	猕
 qjgj	碈
 qjgj	𰡙
@@ -198359,6 +198596,7 @@ qlz	𡥘
 qlz	𤜭
 qm	母
 qm	⺟
+qm	𛃗
 qmaa	碑林
 qmad	耘
 qmad	母树
@@ -199503,6 +199741,7 @@ qpte	破除迷信
 qptp	𱴶
 qpua	帮会
 qpuc	遍
+qpuc	𛂶
 qpuk	帮战
 qpun	硃紅
 qpus	遍身
@@ -199768,7 +200007,7 @@ qqxl	犹存
 qqyb	石扉三叩声清圆
 qqyb	石扉三叩聲清圓
 qqyv	猏
-qr	獄
+qr	碎
 qraa	碎梦
 qrac	贯标
 qrai	𬷪
@@ -199919,6 +200158,7 @@ qron	𥗯
 qroo	𤢐
 qrou	𱴥
 qrpg	龙门阵
+qrq	獄
 qrq	鶀
 qrq	猉
 qrq	䃆
@@ -199967,7 +200207,6 @@ qrtk	𥖘
 qrtp	𰡣
 qrtp	碎片
 qrts	磡
-qru	碎
 qrub	𣩸
 qruc	𤡖
 qruc	𰧟
@@ -201596,7 +201835,7 @@ qwyu	𪚓
 qwyv	猏
 qwyw	䶭
 qwyw	龙王
-qx	毋
+qx	獨
 qxaa	獨棟
 qxah	獨資
 qxam	狼牙棒
@@ -202944,6 +203183,7 @@ rdi	支
 rdi	夃
 rdi	𠬥
 rdi	⽀
+rdi	𛀦
 rdia	充实
 rdib	讓它
 rdic	講學
@@ -203373,6 +203613,7 @@ rdxk	諾
 rdxk	諾
 rdxm	盈
 rdxm	𥁈
+rdxm	𛀏
 rdxm	朝發軔於天津兮
 rdxn	𫛛
 rdxo	𤔷
@@ -204002,6 +204243,7 @@ reyh	𭎲
 reyi	夜
 reyi	𭑁
 reyi	㊰
+reyi	𛃢
 reyj	直腸
 reyk	㖱
 reyk	𡖵
@@ -204024,6 +204266,7 @@ reyx	𲍿
 reyy	𧩀
 reyy	𬂃
 rf	語
+rfae	ざ
 rfae	言无二价
 rfai	直把杭州作汴州
 rfaj	交換機
@@ -204104,6 +204347,7 @@ rfht	𧫔
 rfhu	語素
 rfhw	語境
 rfi	闩
+rfi	さ
 rfi	𘯈
 rfia	𧭄
 rfia	真抓实干
@@ -204520,6 +204764,7 @@ rgrn	颠连直接东溟
 rgrr	直辖市
 rgrs	許
 rgrs	𭘔
+rgrs	𛀺
 rgru	誘變
 rgs	𧩡
 rgsh	譗
@@ -207460,6 +207705,7 @@ rloq	𘛆
 rloq	𘟴
 rlor	帝
 rlor	𣂆
+rlor	𛁴
 rlor	𗄶
 rlor	𘛊
 rlos	𠆘
@@ -208432,6 +208678,7 @@ rmyy	𧩫
 rmz	証
 rmz	𢁿
 rn	乃
+rn	𛂙
 rn	𘯴
 rn	
 rnaa	講清楚
@@ -209589,6 +209836,7 @@ rqmq	献
 rqmq	𪃢
 rqmr	南
 rqmr	🀁
+rqmr	𛁾
 rqms	𧚞
 rqms	𬆩
 rqms	𬽏
@@ -210066,6 +210314,7 @@ rrrx	𫔹
 rrs	計
 rrs	𠥼
 rrs	𰅮
+rrs	𛀶
 rrse	市裡
 rrsh	𢂷
 rrsh	闭门思过
@@ -210290,6 +210539,8 @@ rshx	頏
 rsi	衣
 rsi	⾐
 rsi	衣
+rsi	𛀑
+rsi	𛀒
 rsid	帆
 rsid	訉
 rsid	𪜠
@@ -211753,7 +212004,7 @@ rvyt	䜡
 rvyu	計劃外
 rvz	𢁬
 rvz	𧦐
-rw	識
+rw	記
 rwaa	帲
 rwaa	𗍫
 rwac	𗍪
@@ -211922,6 +212173,7 @@ rwjv	諺曰
 rwjz	幛
 rwjz	𧫱
 rwjz	𫤴
+rwk	識
 rwkd	直须看尽洛城花
 rwkd	直须看尽洛阳花
 rwkd	直須看盡洛城花
@@ -212540,6 +212792,7 @@ ryv	期
 ryv	朞
 ryv	䚴
 ryv	𫔮
+ryv	𛀻
 ryva	ヷ
 ryve	ヹ
 ryvi	ヸ
@@ -212685,6 +212938,7 @@ sadh	𩅝
 sadh	𲊑
 sadi	𩃶
 sadi	𰥕
+sadi	㌏
 sadi	𩃠
 sadj	霕
 sadj	𩆦
@@ -212697,6 +212951,7 @@ sadm	眃
 sadm	凨
 sadm	𡄬
 sadm	𤱂
+sadm	𛀎
 sadn	𲊓
 sado	霒
 sado	𠟙
@@ -213411,7 +213666,7 @@ scyv	风月
 scyw	𫗋
 scyy	风琴
 scz	𮕼
-sd	凤
+sd	異
 sdad	異構
 sdae	雸
 sdae	𩖺
@@ -213877,7 +214132,7 @@ sdyu	雲散月明誰點綴
 sdyv	睊
 sdyw	凰
 sdyw	䬖
-se	雯
+se	命
 seaa	眺
 seaa	雿
 seaa	𤱩
@@ -213993,6 +214248,7 @@ sela	𥉉
 sela	𲊅
 sela	𥉉
 sela	雪佛兰
+selb	㌋
 sele	𰦇
 sele	𥅑
 selj	雪里送炭
@@ -214239,6 +214495,7 @@ sfio	風光
 sfiq	風害
 sfit	風氣
 sfiu	𭟸
+sfiu	㌌
 sfj	𠘪
 sfj	𪽇
 sfja	𥊌
@@ -214502,7 +214759,7 @@ sfyx	夙
 sfyy	𩃴
 sfyy	㓘
 sfyy	風琴
-sg	霉
+sg	複
 sgad	被动
 sgad	霉运
 sgaf	𬡩
@@ -216348,6 +216605,7 @@ skad	加權
 skad	加权
 skad	翕动
 skad	风吹云散
+skae	㌎
 skag	风吹柳花满店香
 skag	風吹柳花滿店香
 skah	架次
@@ -216396,6 +216654,7 @@ skck	駕駛
 skck	加试
 skcl	拿來
 skcm	駕
+skcm	𛀡
 skcn	加息
 skco	贺词
 skcs	靈驗
@@ -216718,8 +216977,10 @@ sklb	䁚
 sklb	𠢋
 sklb	𧜘
 sklb	霣
+sklb	𛀞
 skld	加紧
 skle	䁒
+sklf	㌍
 sklg	驾临
 sklg	风吹西复东
 sklj	雪中送炭
@@ -216964,6 +217225,7 @@ skuu	合成纖維
 skuy	加餐
 skv	加
 skv	𰥏
+skv	𛀘
 skva	眼中钉肉中刺
 skvc	眼中钉
 skvc	雲之君兮紛紛而來下
@@ -217023,11 +217285,6 @@ skz	𭾣
 sl	力
 sl	⼒
 sl	力
-sl	㌋
-sl	㌌
-sl	㌍
-sl	㌎
-sl	㌏
 sl	㋕
 sl	カ
 sl	ヵ
@@ -217183,6 +217440,7 @@ slie	𦦳
 slie	𨷶
 slie	男孩兒
 slih	歟
+slih	𛀝
 slih	𡒊
 slih	𮨠
 slii	𢣟
@@ -217192,6 +217450,9 @@ slik	擧
 slil	𧸧
 slil	𫝯
 slim	與
+slim	𛃩
+slim	𛃪
+slim	𛃫
 slim	𦏜
 slim	震灾
 slin	㦛
@@ -217426,6 +217687,7 @@ sm	目
 sm	《
 sm	》
 sm	⽬
+sm	⿳
 sm	𘯂
 smac	目标
 smae	𭾳
@@ -220198,6 +220460,7 @@ sus	𨈿
 sus	𫋼
 sus	𱃁
 sus	累
+sus	𛃼
 susd	褲衩
 susd	裤衩
 susg	褲襠
@@ -220720,6 +220983,7 @@ swie	𦦳
 swie	𨷶
 swig	𭿉
 swih	歟
+swih	𛀝
 swih	𡒊
 swih	𮨠
 swii	𬏒
@@ -220732,6 +220996,9 @@ swil	𧸧
 swil	𫝯
 swil	襯字
 swim	與
+swim	𛃩
+swim	𛃪
+swim	𛃫
 swim	𦏜
 swim	𦦲
 swin	㦛
@@ -221064,6 +221331,7 @@ sxth	盒裝
 sxtk	露
 sxtk	𱳍
 sxtk	露
+sxtk	𛄇
 sxuc	褳
 sxuc	𥊩
 sxuh	盒饭
@@ -221325,6 +221593,7 @@ tae	〲
 tae	🀩
 tae	ぐ
 tae	じ
+tae	に
 tae	ダ
 tae	𘥲
 tae	
@@ -221647,6 +221916,7 @@ tatw	层数
 tatw	条数
 taty	虎头虎脑
 taua	𭕡
+taua	㍖
 taua	鋪床
 tauc	逄
 tauc	𨒈
@@ -222113,7 +222383,7 @@ tcyw	𨪽
 tcz	㞒
 tcz	𦤋
 tcz	𫊡
-td	錦
+td	展
 tdaa	𨪀
 tdaa	𪉴
 tdaa	𮣏
@@ -222730,7 +223000,7 @@ tdyv	𡱑
 tdyw	鳇
 tdyw	鍠
 tdyw	䊗
-te	粗
+te	巨
 tea	銚
 teaa	銚
 teaa	𬶐
@@ -223278,6 +223548,7 @@ tfcw	以天下之美為盡在己
 tfde	獻花
 tfdh	鋪天蓋地
 tfdh	獻藝
+tfdi	㌤
 tfdj	𨫌
 tfdj	牆頭草
 tfdn	鈃
@@ -223647,7 +223918,7 @@ tfyo	𨦙
 tfyo	𱸻
 tfyp	戲珠
 tfys	𰽊
-tg	鐺
+tg	尾
 tgad	鲿
 tgae	殿堂樓閣
 tgag	𡱭
@@ -223823,6 +224094,7 @@ tgm	粍
 tgm	㲏
 tgm	𪉚
 tgm	𲇇
+tgm	𛄘
 tgmb	𤉂
 tgmc	尾灯
 tgmd	𰍺
@@ -224630,8 +224902,6 @@ ti	㇜
 ti	㇞
 ti	㇟
 ti	㇥
-ti	㍕
-ti	㍖
 ti	㆑
 ti	〥
 ti	〱
@@ -224750,6 +225020,7 @@ tidl	尽享
 tidl	粽葉
 tidm	鈎
 tidm	𤖮
+tidm	㍕
 tidm	以小见大
 tidn	鎖芯
 tidn	金光菊和女贞子的洪流
@@ -225186,6 +225457,7 @@ tiuo	銷到
 tiur	以
 tiur	㔱
 tiur	𤗝
+tiur	𛀆
 tiur	精雕細刻
 tiur	鑑定人
 tiut	以致
@@ -226298,6 +226570,7 @@ tkju	避
 tkju	繴
 tkju	𦡜
 tkju	𬩮
+tkju	𛂬
 tkjv	鼊
 tkjv	各显
 tkjw	嬖
@@ -227977,6 +228250,7 @@ tnpn	犀
 tnpn	犀牛
 tnpo	㓾
 tnpu	遲
+tnpu	𛁨
 tnqa	匠心独运
 tnqe	匠心獨具
 tnqe	匠心独具
@@ -228271,6 +228545,7 @@ tog	𤖲
 tog	𧆻
 tog	𮭫
 tog	𲍌
+tog	𛄏
 togc	𩽼
 togf	虚负东阳酒担来
 togj	鍲
@@ -228615,7 +228890,6 @@ tota	各色各樣
 totc	𗌇
 totc	居民区
 tote	𨦰
-toti	に
 toti	𗋄
 toti	𗋵
 toti	𗌫
@@ -228764,7 +229038,6 @@ tp	⺙
 tp	⼡
 tp	⼢
 tp	⽚
-tp	㌤
 tp	㋟
 tp	ㄆ
 tp	タ
@@ -229032,6 +229305,7 @@ tqho	銅壺
 tqht	䤡
 tqhx	類
 tqhx	類
+tqhx	𛃽
 tqi	鱿
 tqi	䤞
 tqi	𡰽
@@ -230431,6 +230705,7 @@ tts	𡰲
 ttsd	𧇤
 ttsj	處
 ttsj	𣊑
+ttsj	𛁝
 ttsj	屡遭
 ttsl	𠢅
 ttsm	鎇
@@ -231219,6 +231494,7 @@ tuyy	𰎃
 tuz	屋
 tuz	銍
 tuz	𭅙
+tuz	𛃟
 tuzj	銍
 tv	鱼
 tv	⻥
@@ -232127,7 +232403,7 @@ twyv	数月
 twyw	𮣚
 twyw	金童玉女
 twyy	𰋖
-tx	鐸
+tx	鑼
 txae	げ
 txaf	𥻸
 txag	𨪚
@@ -232174,6 +232450,7 @@ txfw	裝點一新
 txfx	以友天下之善士为未足
 txfx	以友天下之善士為未足
 txfy	𨩡
+txh	鐸
 txh	𨭆
 txh	𥼯
 txh	𬟱
@@ -232677,6 +232954,7 @@ uae	仒
 uae	ド
 uae	𘱃
 uaeb	人格化
+uaee	㌦
 uaee	会儿
 uaef	結根依青天
 uaek	卢森堡
@@ -232931,11 +233209,10 @@ uayy	練琴
 ub	卜
 ub	⺊
 ub	⼘
-ub	㌦
-ub	㌧
 ub	㋣
 ub	ト
 ub	
+ubae	㌧
 ubaf	舖
 ubaj	人情冷暖
 ubam	綑
@@ -233468,6 +233745,7 @@ udfb	線控
 udfd	度
 udfd	𢾖
 udfd	度
+udfd	𛁸
 udfd	線形
 udfe	遮攔
 udfe	細高挑
@@ -234459,6 +234737,7 @@ ufal	𱎻
 ufal	會標
 ufam	余
 ufam	𭴯
+ufam	𛃨
 ufam	余杰
 ufan	悆
 ufan	𣥳
@@ -234474,6 +234753,7 @@ ufaq	䳜
 ufaq	𪇝
 ufaq	人非木石
 ufar	斜
+ufar	𛁂
 ufas	畬
 ufas	𬡛
 ufat	敘
@@ -235780,6 +236060,7 @@ uhjl	饮弹
 uhjl	含垢忍辱
 uhjr	緒
 uhjr	𢉜
+uhjr	𛄙
 uhjr	續費
 uhjs	坐地日行八萬裡
 uhjv	饥者易为食
@@ -236033,6 +236314,8 @@ uhyy	令赵王鼓瑟
 uhyy	令趙王鼓瑟
 uhz	𢈩
 ui	由
+ui	𛃤
+ui	𛃥
 ui	𘯌
 uiaa	𦁮
 uiaa	貪婪
@@ -239221,7 +239504,7 @@ unz	䊼
 unz	𣥊
 unz	㈽
 unz	㊭
-uo	維
+uo	總
 uoab	𗹮
 uoab	𗹳
 uoab	𗹸
@@ -240657,6 +240940,8 @@ uriv	身闲当贵真天爵
 uriy	廟主
 urj	介
 urj	㠵
+urj	𛀲
+urj	𛀳
 urjc	人臣
 urjd	人影
 urjd	絞刀
@@ -240971,6 +241256,7 @@ us	⺯
 us	⻠
 us	⽷
 us	⾝
+us	𛃏
 usad	繧
 usad	領異標新二月花
 usae	身材
@@ -241545,6 +241831,7 @@ utp	𦤶
 utp	𨈡
 utp	𮈄
 utp	𮲓
+utp	𛁧
 utpi	縫隙
 utpi	總醫院
 utpq	縫製
@@ -242610,6 +242897,7 @@ uvkq	鶶
 uvks	縁
 uvks	𦄘
 uvks	𦇑
+uvks	𛀐
 uvks	縛雞之力
 uvks	緩手
 uvkt	点铁成金
@@ -244132,7 +244420,7 @@ vayf	曲棍球
 vayi	彩玉
 vayo	钾肥
 vayu	建外
-vb	锴
+vb	锢
 vbaf	铁马冰河入梦来
 vbam	𲎔
 vbb	𠨬
@@ -244376,7 +244664,7 @@ vcxt	建设路
 vcxy	餚
 vcyu	厅外
 vcyu	厂外
-vd	即
+vd	原
 vdaa	𩝇
 vdaa	锚杆
 vdaa	郡亭枕上看潮头
@@ -245100,7 +245388,7 @@ vdyt	𠪣
 vdyt	𫔌
 vdyw	锽
 vdyw	餭
-ve	钮
+ve	顾
 veaa	铫
 veaa	餆
 veaa	𠩓
@@ -245332,7 +245620,7 @@ veyl	即事多所欣
 veyn	顾恋
 veys	锻
 veys	𠩻
-vf	盡
+vf	钱
 vfad	钱权
 vfad	艶冶
 vfam	𢌑
@@ -246930,6 +247218,7 @@ vivu	银铃
 vivw	银镜
 vivy	锁钥
 viw	爲
+viw	𛄐
 viwd	灵丹妙药
 viwf	𠪟
 viwf	𩛀
@@ -247941,6 +248230,8 @@ vkv	喜
 vkv	𢊠
 vkv	𬬪
 vkv	🉣
+vkv	𛀛
+vkv	𛀣
 vkv	😗
 vkv	😘
 vkv	😙
@@ -248019,6 +248310,7 @@ vlbp	原則性
 vlbu	農忙
 vlc	農
 vlc	𫓵
+vlc	𛂝
 vlca	飲酣視八極
 vlcd	對症下藥
 vlce	君子可逝也
@@ -248527,6 +248819,7 @@ vlz	𫓦
 vm	麻
 vm	⿇
 vm	麻
+vm	𛃈
 vmaa	叢林
 vmad	灵魂
 vmad	灵动
@@ -249384,7 +249677,7 @@ vnyh	愛汝玉山草堂靜
 vnyl	剥脱
 vnz	𰽠
 vnz	𱤽
-vo	愛
+vo	受
 voaa	受凍
 voab	𗄠
 voad	𬋪
@@ -249484,6 +249777,7 @@ vodi	𤓴
 vodi	𤓶
 vodi	𤓿
 vodi	𪠬
+vodi	𛁊
 vodi	受驚
 vodj	辤
 vodj	𮷄
@@ -249730,6 +250024,7 @@ vonr	乳状液
 vons	𢑙
 vont	愛
 vont	𭐫
+vont	𛀃
 vonw	饞涎
 vonx	愛心
 vonx	爱心
@@ -251245,6 +251540,7 @@ vuey	餘閒
 vufa	餘
 vufa	𤬀
 vufa	𮸋
+vufa	𛃬
 vufd	铃
 vufd	𩚹
 vufh	𣤔
@@ -252497,6 +252793,7 @@ vyos	𠢘
 vyos	𠢨
 vyot	憂
 vyot	𱘤
+vyot	𛀌
 vyou	𮟚
 vyqn	𫛆
 vyqr	雞豚狗彘之畜
@@ -252851,6 +253148,7 @@ walg	亲临
 walh	𭏻
 walj	新
 walj	🈟
+walj	𛁉
 walj	新旧
 walk	𨐻
 walk	奸賊
@@ -254301,7 +254599,7 @@ wcyw	我歌月徘徊
 wcyw	從來多古意
 wcyy	𘚼
 wcz	𡜍
-wd	努
+wd	么
 wd	𠂤
 wd	㠯
 wd	
@@ -254487,6 +254785,7 @@ wdi	奴
 wdi	𫨴
 wdi	𰭃
 wdi	𱑴
+wdi	𛂐
 wdia	𡢼
 wdia	𱙨
 wdic	𧉭
@@ -254683,6 +254982,7 @@ wdnv	新能源
 wdnx	怒
 wdnx	𭜍
 wdnx	怒
+wdnx	𛂑
 wdnx	😠
 wdnx	😡
 wdnx	新能源車
@@ -254750,6 +255050,7 @@ wdsi	翻白眼
 wdsi	妾發初覆額
 wdsl	努
 wdsl	努力
+wdsl	𛂏
 wdsl	如夢初醒
 wdsl	升力
 wdsm	𥅄
@@ -255305,6 +255606,7 @@ wfed	我县
 wfed	徽县
 wfee	我們
 wfee	微
+wfee	𛃊
 wfef	我俩
 wfef	我倆
 wfeg	𧢒
@@ -255455,6 +255757,7 @@ wfkc	𢔸
 wfkd	懲戒
 wfke	師兄
 wfkg	我
+wfkg	𛀜
 wfkh	𩒰
 wfkh	努爾哈赤
 wfkh	往来而不绝者
@@ -255645,6 +255948,7 @@ wfsg	𧢓
 wfsg	径无凡草唯生竹
 wfsj	微
 wfsj	婳
+wfsj	𛃊
 wfsk	𡚯
 wfsk	𦈣
 wfsm	𭶓
@@ -255760,7 +256064,7 @@ wfys	𪿂
 wfyv	𦚑
 wfyw	徵
 wfyx	𡛃
-wg	御
+wg	復
 wgad	已見松柏摧為薪
 wgae	師稱機械化
 wgah	顔筋柳骨
@@ -256491,6 +256795,8 @@ whx	𥪙
 whx	𩑵
 whx	𩑷
 whx	𩒡
+whx	𛁐
+whx	𛁑
 whxc	𫏽
 whxc	街車
 whxd	我報路長嗟日暮
@@ -256515,6 +256821,7 @@ whyv	靖
 whyv	靖
 whyx	循環
 whz	徒
+whz	𛁭
 wi	已
 wiaa	怒气冲冲
 wiae	㚬
@@ -257023,6 +257330,7 @@ witw	𮕅
 witw	嫁妝
 wity	已將
 wiua	很会
+wiub	㌩
 wiud	很廣
 wiud	親密度
 wiud	亲密度
@@ -257748,6 +258056,7 @@ wjnw	𩐛
 wjnw	𰍬
 wjnx	意
 wjnx	𱊰
+wjnx	𛀈
 wjoa	𬔧
 wjoa	意解
 wjob	後背
@@ -258469,6 +258778,9 @@ wkko	𧗮
 wkko	𧗸
 wkko	𫟘
 wkko	𬡁
+wkko	𛄓
+wkko	𛄔
+wkko	𛄕
 wkko	𠞛
 wkkp	𢖁
 wkkp	𤜂
@@ -258636,6 +258948,7 @@ wkox	𡡛
 wkpe	竞选
 wkpf	部
 wkpf	𨚴
+wkpf	𛂹
 wkpi	𲀇
 wkpl	部隊
 wkpl	衛隊
@@ -258958,6 +259271,8 @@ wlel	好聞
 wlel	立候
 wlem	乎
 wlem	𤇠
+wlem	𛄖
+wlem	𛄗
 wlen	好悶
 wlen	得道伊洛滨
 wlen	得道伊洛濱
@@ -259087,6 +259402,8 @@ wlix	好小
 wlj	所
 wlj	妡
 wlj	𬔘
+wlj	𛁗
+wlj	𛁘
 wljd	好強
 wljd	好景
 wlje	好動
@@ -259512,6 +259829,8 @@ wlz	好
 wlz	𡥒
 wlz	🙆
 wm	末
+wm	𛃃
+wm	𛃄
 wmaa	𡢥
 wmaa	失禁
 wmac	如欲平治天下
@@ -260900,6 +261219,7 @@ wos	䇃
 wos	𡚱
 wos	𢀹
 wos	𱝫
+wos	𛄡
 wos	戺
 wos	𢨪
 wosc	行风
@@ -261013,7 +261333,6 @@ wp	丿
 wp	⼃
 wp	㇒
 wp	㇓
-wp	㌩
 wp	㋨
 wp	ノ
 wp	𘠂
@@ -261120,6 +261439,7 @@ wpta	𫁫
 wpto	衛生局
 wptp	𫹘
 wpuc	遍
+wpuc	𛂶
 wpud	後防線
 wpuj	衛生紙
 wpul	衛生廳
@@ -263343,6 +263663,7 @@ wvoo	衔冤
 wvoq	我爲魚肉
 wvor	婦
 wvor	婦
+wvor	𛂱
 wvot	嬡
 wvot	𡣜
 wvoy	御厨络绎送八珍
@@ -264103,7 +264424,7 @@ wwyu	娃娃脸
 wwyw	𭒧
 wwyx	微循環
 wwyy	好得多
-wx	卹
+wx	血
 wxad	所有權
 wxad	所有权
 wxae	𡜼
@@ -264725,6 +265046,7 @@ xaaa	黑森森
 xaac	𨆃
 xaae	軣
 xaae	𮛎
+xaae	だ
 xaae	輔材
 xaag	𢆐
 xaaj	𢆦
@@ -264752,6 +265074,7 @@ xadm	転
 xadn	跳进黄河洗不清
 xado	乌头白马生角
 xae	囬
+xae	た
 xaea	有机体
 xaec	還本付息
 xaei	有機化學
@@ -265599,7 +265922,7 @@ xdyu	𤳷
 xdyv	𨀮
 xdyw	𨍧
 xdyy	友朋
-xe	跳
+xe	眾
 xeaa	跳
 xeaa	𨋫
 xeaa	𫅄
@@ -268581,6 +268904,7 @@ xng	左
 xng	𨊧
 xng	㊧
 xng	🈬
+xng	𛀿
 xnga	左转
 xngi	𨁗
 xngi	輸油管
@@ -268800,6 +269124,7 @@ xnwt	左翻
 xnx	惠
 xnx	𢗬
 xnx	𨊳
+xnx	𛄒
 xnxk	左右
 xnxl	惠存
 xnxl	在不在
@@ -269037,11 +269362,9 @@ xoss	𨃟
 xoss	𪒋
 xost	有色眼鏡
 xosv	有色眼镜
-xota	だ
 xote	𦊿
 xote	𨌡
 xoth	雅虎
-xoti	た
 xotn	䡯
 xots	𮊚
 xots	𰹤
@@ -269340,7 +269663,7 @@ xqyf	乌龙球
 xqyq	默然
 xqyw	𨁨
 xqyw	𨌃
-xr	置
+xr	布
 xraa	布林
 xrac	布标
 xraf	𱜮
@@ -269468,6 +269791,7 @@ xriw	較少
 xrix	較小
 xrj	布
 xrj	𮛆
+xrj	𛂲
 xrja	較弱
 xrjd	布景
 xrjd	較強
@@ -269836,7 +270160,7 @@ xsxz	𮜋
 xsyh	跺脚
 xsym	跺腳
 xsyp	黑眼珠
-xt	距
+xt	路
 xtac	路标
 xtad	䠍
 xtae	𨀐
@@ -269941,7 +270265,6 @@ xtjr	𬧔
 xtjr	路費
 xtjr	路费
 xtjy	𮝝
-xtk	路
 xtkc	𪛅
 xtkc	𫘘
 xtki	𧒍
@@ -269966,6 +270289,7 @@ xtkv	輅
 xtkv	𦊲
 xtkv	𧿽
 xtkv	路
+xtkv	𛄆
 xtkv	路口
 xtkv	鴉片戰爭
 xtkx	鹭
@@ -270160,6 +270484,7 @@ xuc	連
 xuc	迓
 xuc	𰺿
 xuc	連
+xuc	𛄀
 xuca	羅刹
 xuca	羅剎
 xuci	迓
@@ -270447,6 +270772,7 @@ xuoa	點解
 xuoc	羅
 xuoc	鿡
 xuoc	羅
+xuoc	𛃭
 xuod	𨍀
 xuod	𬦶
 xuod	𰄻
@@ -270798,6 +271124,7 @@ xw	乌
 xw	罒
 xw	⺫
 xw	⺲
+xw	⿲
 xwaa	輧
 xwaa	𫏹
 xwad	乌云
@@ -271112,6 +271439,7 @@ xxgw	輕車簡從
 xxgy	轉移
 xxhc	轉
 xxhc	𨄔
+xxhc	𛁶
 xxhc	轉款
 xxhd	𪒎
 xxhe	輾轉反側
@@ -271635,6 +271963,7 @@ xyv	𨊸
 xyv	㈲
 xyv	㊒
 xyv	🈶
+xyv	𛀍
 xyva	黯然销魂
 xyvd	有错
 xyvf	有钱
@@ -271700,7 +272029,6 @@ xz	𠂇
 xz	𧾷
 xz	⻊
 xz	⾜
-xz	㌨
 xz	㋤
 xz	ナ
 xzck	足可
@@ -271728,6 +272056,7 @@ xztj	足金
 xzuj	足底
 xzva	足彩
 xzwk	足部
+xzwp	㌨
 xzxy	足跡
 xzxy	足有
 xzxz	足足
@@ -272762,7 +273091,7 @@ ydyw	瑝
 ydyw	𪱦
 ydyw	朦朧
 ydyw	多劳多得
-ye	服
+ye	理
 yea	珧
 yeaa	珧
 yeaa	朓
@@ -272950,6 +273279,7 @@ yeky	腰佩翠琅玕
 yel	理
 yel	䤚
 yel	理
+yel	𛃵
 yelb	𧵍
 yeld	𤤏
 yeld	𦚀
@@ -275402,6 +275732,7 @@ ykv	名
 ykv	𱒢
 ykv	㈴
 ykv	㊔
+ykv	𛁿
 ykvf	名厨
 ykvh	名畫
 ykvi	名爲
@@ -275694,6 +276025,7 @@ ylmd	朕
 ylmd	班规
 ylme	腃
 ylme	𤦔
+ylme	㍊
 ylmf	𬂉
 ylmg	班規
 ylmh	塍
@@ -276692,6 +277024,7 @@ yojt	𱯿
 yojw	三軍易得
 yojw	三军易得
 yojx	䐻
+yoka	㍈
 yokb	𬍹
 yokb	𰮼
 yokb	脱缰之马
@@ -277485,8 +277818,11 @@ ys	三
 ys	㆔
 ys	㈢
 ys	㊂
+ys	㋯
 ys	🈪
 ys	🉁
+ys	ミ
+ys	𛃉
 ys	🀉
 ysaa	䏮
 ysaa	𪼬
@@ -277698,6 +278034,7 @@ ysl	肋
 ysl	玏
 ysl	肋
 ysla	𦟭
+yslb	㍉
 yslc	股票
 yslc	𭩒
 yslc	股道
@@ -278976,6 +279313,8 @@ yw	王
 yw	𤣩
 yw	⺩
 yw	王
+yw	𛄋
+yw	𛄌
 yw	𘬄
 ywaa	腁
 ywad	王權
@@ -279938,6 +280277,8 @@ yyx	多
 yyx	𡖇
 yyx	多
 yyx	🈕
+yyx	𛁟
+yyx	𛁠
 yyxd	朋友
 yyxh	𡖪
 yyxj	𡗎
