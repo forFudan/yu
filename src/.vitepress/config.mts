@@ -158,6 +158,10 @@ export default defineConfig({
             text: '极简词库',
             link: '/learn/lexicon'
           },
+          {
+            text: '字集覆盖',
+            link: '/learn/coverage'
+          },
           ]
         },
         {
@@ -507,6 +511,10 @@ export default defineConfig({
                 {
                   text: '極簡詞庫',
                   link: '/zht/learn/lexicon'
+                },
+                {
+                  text: '字集覆蓋',
+                  link: '/zht/learn/coverage'
                 },
               ]
             },

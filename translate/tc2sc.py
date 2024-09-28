@@ -31,6 +31,7 @@ paths_of_docs = [
     "/learn/quick.md",
     "/learn/words.md",
     "/learn/lexicon.md",
+    "/learn/coverage.md",
     "/learn/star.md",
     "/learn/light.md",
     # 進階
