@@ -53133,9 +53133,9 @@ fira	一惊
 fira	一命
 firb	𱠃
 fird	掘井九仞而不及泉
+fire	一人
 fire	一家人
 fire	投资人
-fire	一人
 fire	挖人
 fire	𢫐
 firf	一剑
@@ -152780,6 +152780,7 @@ onkc	泰纳
 onkg	大漠孤烟直
 onkg	态浓意远淑且真
 onkh	春江欲入户
+onkk	太平公主
 onkm	大比分
 onkn	春江绕双流
 onkq	𫯶
