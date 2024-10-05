@@ -56,7 +56,7 @@ export default defineConfig({
           link: '/docs/updates'
         },
         {
-          text: '开发之中',
+          text: '展望未来',
           link: '/docs/developing'
         },
         {
@@ -409,7 +409,7 @@ export default defineConfig({
               link: '/zht/docs/updates'
             },
             {
-              text: '開發之中',
+              text: '展望未來',
               link: '/zht/docs/developing'
             },
             {

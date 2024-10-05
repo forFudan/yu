@@ -71796,7 +71796,6 @@ fiog	万民
 fiog	万古
 fiog	万军
 fioh	非蛇鱔之穴無可寄託者
-fioi	𢪍
 fioi	一艘
 fioj	一纸
 fiok	𢷿
@@ -72117,11 +72116,11 @@ fiuq	擦網
 fiur	一級
 fiur	𢫐
 fiur	𪭠
+fiur	一人
 fiur	万人
 fiur	一家人
 fiur	一統
 fiur	一介
-fiur	一人
 fiur	一字至七字詩
 fius	一身
 fius	搜身
@@ -86425,7 +86424,6 @@ fyin	列寧
 fyin	天理良心
 fyio	𪵀
 fyio	𭮋
-fyio	𣧖
 fyio	掏腰包
 fyio	死光
 fyio	死寂
@@ -116290,7 +116288,6 @@ iiog	良民
 iiog	為民
 iioh	蝴蝶结
 iioh	审结
-iioi	𧉍
 iioi	良久
 iiok	朗朗上口
 iioo	𬛻
@@ -119864,7 +119861,6 @@ ioi	え
 ioi	𛀀
 ioi	𘮨
 ioi	𘢧
-ioi	尐
 ioic	蛍
 ioic	光學
 ioic	螟虫
@@ -145114,7 +145110,6 @@ kioh	𡋾
 kioi	𠰤
 kioi	𮕊
 kioi	𰈎
-kioi	𠯙
 kiok	㘍
 kiom	𡄺
 kiom	𱕘
@@ -169722,6 +169717,7 @@ mamf	公冶長第五
 mamg	大头鬼
 mamh	知冷知熱
 mami	公平正义
+mami	太平公主
 mamm	大本營
 mamm	公平正義
 mamr	公平正直
@@ -189814,7 +189810,6 @@ niog	演练
 niog	游民
 niog	汉密尔顿
 nioh	泳装
-nioi	𣲡
 niok	𤁢
 niok	𪙻
 niol	𤅛
