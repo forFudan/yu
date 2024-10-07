@@ -61443,8 +61443,8 @@ char,division,division_tw,region
 𨑀,古辛古辛,,CJK-B
 𨑁,⺽冂一斤,冂一口斤,CJK-B
 𨑂,辛口辛口,,CJK-B
-𨑃,厂二乚乀,,CJK-B
-𨑄,厂二乚,,CJK-B
+𨑃,厂二丨乀,,CJK-B
+𨑄,厂二丨,,CJK-B
 𨑅,辰缶,,CJK-B
 𨑆,屮屮辰,,CJK-B
 𨑇,西辰,,CJK-B
@@ -107549,6 +107549,7 @@ char,division,division_tw,region
 ,口乚,,宇浩字根
 ,,,宇浩字根
 ,卌一,,宇浩字根
+,丰,,宇浩字根
 ,千,,宇浩字根
 ,,,宇浩字根
 ,丿七,,宇浩字根

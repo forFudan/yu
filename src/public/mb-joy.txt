@@ -223961,6 +223961,7 @@ qeyw	猴王
 qf	丰
 qf	𘡡
 qf	
+qf	
 qfac	硬指标
 qfad	同構
 qfaf	同惡相求
@@ -278493,12 +278494,14 @@ vakv	𥐘
 vakv	𨱈
 vakv	磨杵成针
 vakv	铁杵成针
+vala	𨑄
 vala	建兰
 valb	彩貝
 valc	彩票
 vald	采取
 vale	𦖗
 valf	魔术师
+vali	𨑃
 valj	彩塑
 valk	锋棱瘦骨成
 valm	憂鬱症
@@ -278616,14 +278619,12 @@ vass	𭫫
 vast	彩霞
 vasv	彩裙
 vasx	彩盒
-vata	𨑄
 vata	原材料
 vata	彩条
 vatc	采区
 vatc	建瓯
 vatc	鼓楼区
 vatd	铺展
-vati	𨑃
 vati	𰭼
 vati	𲇲
 vatj	彩金

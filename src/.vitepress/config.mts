@@ -49,19 +49,23 @@ export default defineConfig({
       '/docs': [
         {
           text: '介绍',
-          link: '/docs/'
-        },
-        {
-          text: '更新日志',
-          link: '/docs/updates'
-        },
-        {
-          text: '展望未来',
-          link: '/docs/developing'
-        },
-        {
-          text: '背景故事',
-          link: '/docs/background',
+          items: [
+            {
+              text: '基本信息',
+              link: '/docs/'
+            },
+            {
+              text: '更新日志',
+              link: '/docs/updates'
+            },
+            {
+              text: '展望未来',
+              link: '/docs/developing'
+            },
+            {
+              text: '背景故事',
+              link: '/docs/background',
+            },]
         },
         {
           text: '技术',
@@ -111,6 +115,10 @@ export default defineConfig({
             {
               text: '卿云输入法',
               link: '/docs/joy',
+            },
+            {
+              text: '宇浩诗韵拼音',
+              link: '/docs/sypy',
             },
             {
               text: '天码',
@@ -402,19 +410,23 @@ export default defineConfig({
           '/zht/docs': [
             {
               text: '介紹',
-              link: '/zht/docs/'
-            },
-            {
-              text: '更新日誌',
-              link: '/zht/docs/updates'
-            },
-            {
-              text: '展望未來',
-              link: '/zht/docs/developing'
-            },
-            {
-              text: '背景故事',
-              link: '/zht/docs/background',
+              items: [
+                {
+                  text: '基本信息',
+                  link: '/zht/docs/'
+                },
+                {
+                  text: '更新日誌',
+                  link: '/zht/docs/updates'
+                },
+                {
+                  text: '展望未來',
+                  link: '/zht/docs/developing'
+                },
+                {
+                  text: '背景故事',
+                  link: '/zht/docs/background',
+                },]
             },
             {
               text: '技術',
@@ -464,6 +476,10 @@ export default defineConfig({
                 {
                   text: '卿雲輸入法',
                   link: '/zht/docs/joy',
+                },
+                {
+                  text: '宇浩詩韻拼音',
+                  link: '/zht/docs/sypy',
                 },
                 {
                   text: '天碼',
