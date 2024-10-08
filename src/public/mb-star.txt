@@ -30190,6 +30190,7 @@ dfen	丰华
 dff	丰
 dff	𘡡
 dff	
+dff	
 dffa	后撤
 dffd	𱆞
 dffh	后无来者
@@ -37989,7 +37990,6 @@ ebek	仅以
 ebek	凤仪
 ebek	伊凡
 ebek	假以
-ebek	𱥨
 ebel	㘜
 ebem	信任
 ebem	仅凭
@@ -149828,6 +149828,7 @@ oeck	也好
 oeck	春风得意
 oeck	𦆈
 oeck	𰾹
+oeck	𱥨
 oecl	𮉖
 oecm	春风得意马蹄疾
 oecs	也需
@@ -207829,10 +207830,8 @@ vief	𗄦
 vieh	𮀿
 vieh	𮁎
 viei	砂仁
-viei	𨑄
 viej	𥕯
 viek	砖
-viek	𨑃
 vien	硝化
 vien	硡
 vier	不二价
@@ -208048,8 +208047,10 @@ viue	破冰船
 viue	田家占气候
 viug	破头山北北山南
 viuh	硝基
+viui	𨑄
 viuj	𫙲
 viuk	不容置辩
+viuk	𨑃
 viul	不容置喙
 viun	不容置疑
 viuv	砂岩

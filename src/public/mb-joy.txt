@@ -213510,6 +213510,7 @@ otwc	𗈼
 otwc	尔虞我诈
 otwd	𗟘
 otwf	故我
+otwi	𱥨
 otwi	奥妙
 otwi	军备竞赛
 otwi	继往
@@ -255185,7 +255186,6 @@ teth	鱼传尺素
 teti	蠶
 teti	𧌩
 teti	𧕽
-teti	𱥨
 teti	粗粮
 tetj	朁
 tetj	𢑋
