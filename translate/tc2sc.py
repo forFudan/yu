@@ -25,6 +25,7 @@ paths_of_docs = [
     "/docs/yima.md",
     "/docs/characteristics.md",
     "/docs/sypy.md",
+    "/docs/coverage.md",
     "/learn/index.md",
     "/learn/division.md",
     "/learn/roots.md",
@@ -32,7 +33,6 @@ paths_of_docs = [
     "/learn/quick.md",
     "/learn/words.md",
     "/learn/lexicon.md",
-    "/learn/coverage.md",
     "/learn/star.md",
     "/learn/light.md",
     # 進階

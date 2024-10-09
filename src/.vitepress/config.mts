@@ -82,6 +82,10 @@ export default defineConfig({
               text: '技术文档',
               link: '/docs/technical'
             },
+            {
+              text: '字集覆盖',
+              link: '/docs/coverage'
+            },
           ]
         },
         {
@@ -165,10 +169,6 @@ export default defineConfig({
           {
             text: '极简词库',
             link: '/learn/lexicon'
-          },
-          {
-            text: '字集覆盖',
-            link: '/learn/coverage'
           },
           ]
         },
@@ -443,6 +443,10 @@ export default defineConfig({
                   text: '技術文檔',
                   link: '/zht/docs/technical'
                 },
+                {
+                  text: '字集覆蓋',
+                  link: '/zht/docs/coverage'
+                },
               ]
             },
             {
@@ -527,10 +531,6 @@ export default defineConfig({
                 {
                   text: '極簡詞庫',
                   link: '/zht/learn/lexicon'
-                },
-                {
-                  text: '字集覆蓋',
-                  link: '/zht/learn/coverage'
                 },
               ]
             },
