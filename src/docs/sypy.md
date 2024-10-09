@@ -62,19 +62,23 @@
 
 ![sypy chart](/sypy/sypy_pinyin_chart.png)
 
-## 转写
-
-以下为一式转写（完整式）：
+::: details 一式转写（完整式）
 
 ![sypy chart](/sypy/sypy_trans1_chart.png)
 
-以下为二式转写（直译式）：
+:::
+
+::: details 二式转写（直译式）
 
 ![sypy chart](/sypy/sypy_trans2_chart.png)
 
-以下为三式转写（省略式）：
+:::
+
+::: details 三式转写（省略式）
 
 ![sypy chart](/sypy/sypy_trans3_chart.png)
+
+:::
 
 ## 拟音
 
