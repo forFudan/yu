@@ -8,7 +8,9 @@ aside: false
 <script setup>
 import Train from "@/train/ZigenTrain.vue"
 </script>
+<div class="zigen-font">
 <Train name="star" zigenUrl="/zigen-star.csv" :range="[0,]" mode='both' />
+</div>
 
 ::: details 字根表
 <!-- do not translate -->

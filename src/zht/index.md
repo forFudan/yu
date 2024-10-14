@@ -33,7 +33,9 @@ import MultiChaifen from '@/chaifen/MultiChaifen.vue'
 import IME from '@/ime/FetchInput.vue'
 </script>
 
+<div class="zigen-font">
 <Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-star.csv" supplement />
+</div>
 
 ::: info 在線輸入體驗
 

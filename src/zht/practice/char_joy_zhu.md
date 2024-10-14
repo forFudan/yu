@@ -8,7 +8,9 @@ aside: false
 <script setup>
 import Train from "@/train/CharTrain.vue"
 </script>
+<div class="zigen-font">
 <Train name="joy" chaifenUrl="/chaifen_zhu.csv" zigenUrl="/zigen-joy.csv" :range="[0,1000]" :supplement="false" />
+</div>
 
 ::: details 字根表
 
