@@ -72,6 +72,7 @@ print(x_1_best)
 评价一个输入法的好坏，需要从不同的维度进行判断。同时，每一个人对于不同维度的偏好也是不同的。这就说明不存在一个完美的输入法，使得它对于不同维度的权重排序满足所有人的偏好排序（经济学上，有个著名的「阿罗不可能定理」 Arrow's impossibility theorem). 但是，通过显示不同维度的量化数据，可以帮助用户进行权衡。
 量化的数据可以反映实际的体验，但不一定能完美代表真实体验。因为量化指标无法覆盖全部的维度，且在实际当中，影响输入体验的要素（杂音）很多。例如，键盘字母的排序，是传统的还是德沃夏克的，都会影响所谓的「手感」. 再比如，所谓的动态选重率，一般是基于一个大样本的文字频率，这个频率虽具有代表性，但也只是代表一种社会文化的均值。对于每一个用户来说，未必会使用相同的样本空间，例如个人姓名用字的使用频率往往会较高。如果姓名出现重码，需要选重，会使得用户的体验不佳。
 在宇浩输入法的首页和 [这篇文章](/docs/statistics) 中，我对宇浩输入法所采用算法和指标进行了介绍。在这篇文章中，我将展示它们是如何在 Python 中被计算和实现的。Python 的特点是部署效率很高但运行效率不高，所以我对某些需要大量循环的函数进行了一些优化，主要是利用了 numpy, pandas, polars 等包的一些特性。这些包一般使用 C/C++/Fortran/Rust 编写，对于向量计算有着高度的优化。这篇文章中，我也会讨论某些代码为什么要这样写。
+
 ### 字集静态重码数
 
 单字的静态重码，指的是在一个字符集中，编码完全相同的汉字的个数。
@@ -146,4 +147,95 @@ def get_dynamic_dup_rate(
     # 重复的编码，就是需要选重的字
     # 将这些重复的编码所对应的字频进行求和
     return freq[duplicated_mask].sum()
+```
+
+### 速度当量
+
+```python
+def get_equiv_table(file_path: str) -> dict:
+    """Read the speed-equivalent table (速度当量表).
+
+    Args:
+        file_path (str): 文件位置
+
+    Returns:
+        dict (dict[str, float]): 任意两键的速度当量.
+    """
+    equiv_table = pd.read_csv(file_path)
+    equiv_table = equiv_table.loc[equiv_table.loc[:, "equiv"].notna()]
+    equiv_table_dict = dict(
+        zip(equiv_table.loc[:, "keys"], equiv_table.loc[:, "equiv"])
+    )
+    return equiv_table_dict
+
+
+def get_equiv_score(
+    data: pd.DataFrame | pl.DataFrame,
+    equiv_table: dict,
+    freq_col: str,
+    code_col: str,
+    full_len: int = 4,
+) -> float:
+    """计算字频加权速度当量.
+
+    Args:
+        data (pd.DataFrame | pl.DataFrame): 数据.
+        equiv_table (dict): 当量表(字典格式)
+        freq_col (str): 字频列名
+        code_col (str): 编码列名
+        full_len (int, optional): 编码最大长度. Defaults to 4.
+
+    Returns:
+        float: 字频加权速度当量
+    """
+
+    def aux(text: str) -> float:
+        twograms: list[str] = []
+        left = list("qwertasdfgzxcvb")
+        right = list("yuiophjklnm")
+        for i in range(len(text) - 1):
+            twograms.append(text[i : i + 2])
+
+        score: float = 0
+        count: int = 0
+        for s in twograms:
+            if s in equiv_table.keys():
+                count += 1
+                score += equiv_table[s]
+            elif (s[0] == " ") or (s[1] == " "):
+                pass
+            else:
+                count += 1
+                if (s[0] in left) and (s[1] in right):
+                    score += 1.1
+                elif s[0] == s[1]:
+                    score += 1.3
+                else:
+                    score += 1.5
+        return score / count
+
+    if isinstance(data, pd.DataFrame):
+        data = data[[freq_col, code_col]].copy()
+        data[code_col] = np.where(
+            (data[code_col].map(len) < full_len) & (~data[code_col].str.endswith("_")),
+            data[code_col] + "_",
+            data[code_col],
+        )
+        data[code_col] = data[code_col].str.lower()
+
+        data["equiv"] = data[code_col].map(aux)
+        return (data["equiv"] * data[freq_col]).sum()
+
+    else:
+        data = data.with_columns(
+            pl.when(
+                (pl.col(code_col).str.len_chars() < full_len)
+                & (~pl.col(code_col).str.ends_with("_"))
+            )
+            .then(pl.col(code_col).str.to_lowercase() + "_")
+            .otherwise(pl.col(code_col).str.to_lowercase())
+            .map_elements(aux, return_dtype=pl.Float64)
+            .alias("equiv")
+        )
+        return float(data.get_column("equiv").dot(data.get_column(freq_col)))
 ```
