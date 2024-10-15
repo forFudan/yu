@@ -7,7 +7,9 @@ import Search from '@/search/FetchSearch.vue'
 
 # 星陈拆分查询
 
+<div class="zigen-font">
 <Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-star.csv" :supplement="true" />
+</div>
 
 ::: tip 提示
 鼠标悬停，可显示字符集和外部搜索（字统、字海、汉典、中国哲学书电子化计划）

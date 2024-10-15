@@ -68,7 +68,7 @@ function checkNextItem(answer: string) {
             <progress class="progress w-full" :value="progress" :max="cards.length" />
         </div>
         <div class="flex justify-around mb-8">
-            <div :class="['text-6xl ', 'zigen-font', { 'text-red-400': !isCorrect }]">{{ card.name }}</div>
+            <div :class="['text-6xl ', { 'text-red-400': !isCorrect }]">{{ card.name }}</div>
 
             <div class="flex tracking-widest flex-col opacity-70" v-if="mode === 'g' && chaifenMap">
 
@@ -76,7 +76,7 @@ function checkNextItem(answer: string) {
                     相关的字：
                 </div>
 
-                <div class="zigen-font font-bold text-xl">
+                <div class="font-bold text-xl">
                     {{ find8relativeChars(card.name, chaifenMap) }}
                 </div>
             </div>
@@ -89,7 +89,7 @@ function checkNextItem(answer: string) {
         </div>
 
         <div :class="['text-center', { 'opacity-0': !isFirstLearn }]">答案是 <b class="font-mono">{{ card.key }}</b>
-            <span class="zigen-font" v-if="mode === 'z'">（{{ chaifenMap?.get(card.name)?.division }}）</span>
+            <span v-if="mode === 'z'">（{{ chaifenMap?.get(card.name)?.division }}）</span>
         </div>
 
     </div>

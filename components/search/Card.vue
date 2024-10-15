@@ -23,7 +23,7 @@ const codes_tw = computed(() => p.chaifen.division_tw == '' ? '' : makeCodesFrom
 </script>
 
 <template>
-    <div class="group border p-3 m-2 rounded-3xl shadow-md zigen-font text-center bg-gray-50 dark:bg-slate-900">
+    <div class="group border p-3 m-2 rounded-3xl shadow-md text-center bg-gray-50 dark:bg-slate-900">
         <div class="text-4xl text-indigo-800 dark:text-indigo-300">{{ chaifen.char }}</div>
         <!-- <div class="opacity-0 justify-center group-hover:opacity-70 transition text-sm">{{ chaifen.region }}</div> -->
         <div class="opacity-70 justify-center transition text-sm">{{ unicode }}・{{ chaifen.region }}</div>
@@ -39,7 +39,7 @@ const codes_tw = computed(() => p.chaifen.division_tw == '' ? '' : makeCodesFrom
                 <div class="font-mono tracking-widest">{{ codes }}</div>
             </div>
             <div class="flex flex-col ml-3 tooltip font-sans" data-tip="臺灣標準字形拆分">
-                <div class="text-indigo-800 dark:text-indigo-300 zigen-font">{{ chaifen.division_tw }}</div>
+                <div class="text-indigo-800 dark:text-indigo-300">{{ chaifen.division_tw }}</div>
                 <div class="font-mono tracking-widest">{{ codes_tw }}</div>
             </div>
         </div>

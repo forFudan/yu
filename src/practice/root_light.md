@@ -8,7 +8,9 @@ aside: false
 <script setup>
 import Train from "@/train/ZigenTrain.vue"
 </script>
+<div class="zigen-font">
 <Train name="light" zigenUrl="/zigen-light.csv" :range="[0,]" mode='both' />
+</div>
 
 ::: details 键位图
 ![宇浩·光华字根图](/yulight.png)

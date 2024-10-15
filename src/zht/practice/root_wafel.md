@@ -8,4 +8,6 @@ aside: false
 <script setup>
 import Train from "@/train/ZigenTrain.vue"
 </script>
+<div class="zigen-font">
 <Train name="wafel" zigenUrl="/zigen-wafel.csv" :range="[0,]" mode='both' />
+</div>
