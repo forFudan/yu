@@ -240,6 +240,10 @@ export default defineConfig({
               text: '星陈单字',
               link: '/practice/char'
             },
+            {
+              text: '星陈单字·台湾拆分',
+              link: '/practice/char_tw'
+            },
           ]
         },
         {
@@ -601,6 +605,10 @@ export default defineConfig({
                 {
                   text: '星陳單字',
                   link: '/zht/practice/char'
+                },
+                {
+                  text: '星陳單字·臺灣拆分',
+                  link: '/zht/practice/char_tw'
                 },
               ]
             },

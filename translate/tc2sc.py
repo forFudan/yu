@@ -48,6 +48,7 @@ paths_of_docs = [
     "/learn/frequent_tc.md",
     "/practice/root.md",
     "/practice/char.md",
+    "/practice/char_tw.md",
     "/practice/root_light.md",
     "/practice/char_light.md",
     "/practice/root_joy.md",

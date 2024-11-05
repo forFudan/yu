@@ -30121,7 +30121,6 @@ dfbp	䑖
 dfbp	𤲣
 dfbp	𬐌
 dfbp	𲄷
-dfbw	𦚌
 dfby	语言
 dfby	电报局
 dfcb	后妈
@@ -30633,6 +30632,7 @@ dfwt	丘脑
 dfww	丰胸
 dfww	𨵑
 dfwy	閏五月
+dfwy	𦚌
 dfwy	𦥩
 dfxj	兵车
 dfxj	后车
@@ -54361,7 +54361,6 @@ fjwq	𢹯
 fjwr	打脸
 fjwr	𢭪
 fjwr	𭠳
-fjwr	𱍐
 fjws	抂
 fjwt	看图
 fjwu	擝
@@ -58277,6 +58276,7 @@ fqbk	尲
 fqbp	来劲
 fqbp	拼劲
 fqbq	招蜂引蝶
+fqca	𭁣
 fqcb	赉
 fqcd	万类霜天竞自由
 fqcj	来得
@@ -58291,7 +58291,6 @@ fqcs	拦网
 fqcs	𢫼
 fqct	擞
 fqcu	拼贴
-fqcu	𭁣
 fqdd	来电
 fqdd	拼版
 fqdf	来后
@@ -63622,6 +63621,7 @@ fxxs	𪭜
 fxxu	𭡁
 fxxv	死鱼
 fxxx	挥军
+fxxx	拼多多
 fxxx	拸
 fxy	拣
 fxye	天外飞仙
@@ -65263,7 +65263,6 @@ gein	𗎑
 geir	繁密
 geit	每家
 geit	我们家
-geiu	每常
 geiw	我们党
 geix	每次
 geix	第几次
@@ -67009,7 +67008,6 @@ ginb	管家婆
 ginb	管涌
 ginb	𥬌
 ginc	十字津头一字行
-ginh	管法
 ginh	𥯿
 ginn	管治
 ginn	我家江水初发源
@@ -103904,6 +103902,7 @@ jsrw	弄瓦
 jsrw	𭹄
 jss	示
 jss	礻
+jss	𱍐
 jss	⺬
 jss	⺭
 jss	⽰
@@ -124633,6 +124632,7 @@ lofq	鸣锣开道
 lofs	取之于蓝而青于蓝
 lofv	呋
 logb	𢻌
+logj	𭌺
 logk	𠺻
 logo	𭊠
 logs	喯
@@ -124708,7 +124708,6 @@ loms	适度
 lomv	𱑿
 long	𱒙
 loni	巡演
-lonj	𭌺
 lonk	嚩
 lonl	吧台
 lonq	三春湿黄精
@@ -147615,7 +147614,6 @@ nxck	比较好
 nxcl	浑如
 nxcn	𱦢
 nxco	涣
-nxco	学衔
 nxcp	渐露
 nxcs	渔网
 nxcs	学霸
@@ -174928,6 +174926,7 @@ ricr	心内
 ricr	心头肉
 rics	𠉙
 rict	惜字如金
+ricv	心雨
 ridb	从头到尾
 ridb	从头至尾
 ridd	会所
@@ -181683,6 +181682,7 @@ seog	花针
 seoi	花销
 seoj	希奇
 seok	花镜
+seoo	英伟达
 seos	恭候大驾
 seoz	𦮩
 sepc	若要
@@ -183037,6 +183037,7 @@ shuj	𦭧
 shuj	𦹫
 shuq	𧁿
 shuu	获罪
+shuu	杀猪盘
 shuu	𮎼
 shuu	茝
 shuy	惹起旧愁无限
@@ -214935,6 +214936,7 @@ wftm	出远门
 wftw	脑死亡
 wfu	肺
 wfud	𦠀
+wfue	股指期货
 wfue	𬁺
 wfug	胸无点墨
 wfuj	肺

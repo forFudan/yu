@@ -26484,6 +26484,7 @@ ckoq	𣬀
 ckor	试航
 ckos	可给
 ckos	可写
+ckos	殺豬盤
 ckou	谴
 ckou	𬤦
 ckou	駛進
@@ -28341,6 +28342,7 @@ cqoo	騙色
 cqos	自耕农
 cqov	𩻜
 cqov	祖母绿
+cqox	杀猪盘
 cqp	騙
 cqpc	騙
 cqpc	谝
@@ -28694,6 +28696,7 @@ cryq	駭然
 crys	该股
 cs	示
 cs	礻
+cs	𱍐
 cs	⺬
 cs	⺭
 cs	⽰
@@ -35103,6 +35106,7 @@ dehk	花城
 dehk	花臺
 dehk	華僑城
 dehl	𮑫
+dehm	英偉達
 dehm	茲事體大
 dehm	熊儿幸无恙
 dehn	能伴老夫否
@@ -35295,6 +35299,7 @@ demn	萬里長江水
 dems	恭候大駕
 dems	恭候大驾
 demu	节欲
+demu	英伟达
 demu	若似剡中容易到
 demw	萬里長征
 demw	藍顏知己
@@ -65460,7 +65465,6 @@ fcdy	打散
 fceb	打個
 fcec	𗌳
 fced	打鬥
-fcee	𱍐
 fcee	非诸侯而何
 fcef	打開
 fceg	打傷
@@ -75705,6 +75709,7 @@ flpt	打預防針
 flpu	拆除
 flpv	打预防针
 flpy	擒賊先擒王
+flqa	𭁣
 flqa	𘈢
 flqb	𗀈
 flqc	𘈟
@@ -75718,7 +75723,6 @@ flqh	折寿
 flqh	拆遷户
 flqi	𘬠
 flqk	折扇
-flql	𭁣
 flql	𘈡
 flqm	折耗
 flqn	䳲
@@ -87118,6 +87122,7 @@ fyyv	殘月
 fyyv	残月
 fyyx	拸
 fyyy	𣨥
+fyyy	拼多多
 g	和
 g	和平
 ga	轩
@@ -91625,7 +91630,6 @@ ging	管家婆
 ging	管工
 ging	科學決策
 ginh	输入法
-ginh	管法
 gini	管沟
 ginj	䈼
 ginj	𰨷
@@ -95614,7 +95618,6 @@ gqgq	每篇
 gqgq	篇篇
 gqgq	七七
 gqgr	繁简
-gqgr	每常
 gqgs	每當
 gqgs	筹算
 gqgv	每筆
@@ -112450,7 +112453,6 @@ icwl	學好
 icwm	放馬後炮
 icwn	义女
 icwr	宁德
-icwt	學銜
 icwu	學系
 icww	學妹
 icx	虾
@@ -120447,7 +120449,6 @@ iowu	氣象站
 iowu	气象站
 iowu	学系
 iowv	守纪律
-iowv	学衔
 ioww	学妹
 ioww	𘂅
 ioww	包産
@@ -154030,6 +154031,7 @@ kuri	吟詠
 kurj	吤
 kurj	𢄘
 kurj	𩈋
+kurj	𭌺
 kurk	而今識盡愁滋味
 kurw	别忘記
 kurw	別忘記
@@ -201079,6 +201081,7 @@ nxss	不有雨兼风
 nxss	不有雨兼風
 nxst	心田
 nxst	心有靈犀
+nxsv	心雨
 nxsx	漸露
 nxtd	没有錯
 nxtd	沒有錯
@@ -291771,6 +291774,7 @@ wfyn	懲
 wfyo	𫰞
 wfyp	𨟃
 wfys	𪿂
+wfyv	𦚌
 wfyv	𦚑
 wfyw	徵
 wfyx	𡛃
@@ -312074,6 +312078,8 @@ yfqu	腦内
 yfrc	多于市人之言语
 yfre	胜败乃兵家常事
 yfre	三推六問
+yfre	股指期貨
+yfre	股指期货
 yfrg	三元及第
 yfrh	三万六千场
 yfri	脼

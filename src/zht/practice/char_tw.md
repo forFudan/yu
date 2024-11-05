@@ -1,7 +1,7 @@
 ---
 aside: false
 ---
-# 星陳·单字練習
+# 星陳·单字練習·臺灣字型拆分
 
 你可以隨時暫停練習。你的練習進度會在同一設備上儲存。
 
@@ -9,7 +9,7 @@ aside: false
 import Train from "@/train/CharTrain.vue"
 </script>
 <div class="zigen-font">
-<Train name="star" chaifenUrl="/chaifen_zhu.csv" zigenUrl="/zigen-star.csv" :range="[0,1000]" :supplement="true" />
+<Train name="star" chaifenUrl="/chaifen_tw.csv" zigenUrl="/zigen-star.csv" :range="[0,1000]" :supplement="true" />
 </div>
 
 ::: details 字根表
