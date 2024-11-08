@@ -129,6 +129,10 @@ export default defineConfig({
               link: '/sky/',
             },
             {
+              text: '徐码',
+              link: '/xuma/',
+            },
+            {
               text: '易码',
               link: '/docs/yima',
             },
@@ -323,6 +327,16 @@ export default defineConfig({
           link: '/sky/practice'
         },
       ],
+      '/xuma': [
+        {
+          text: '徐码',
+          link: '/xuma/'
+        },
+        {
+          text: '教程',
+          link: '/xuma/learn'
+        },
+      ],
 
     },
     footer: {
@@ -492,6 +506,10 @@ export default defineConfig({
                 {
                   text: '天碼',
                   link: '/zht/sky/',
+                },
+                {
+                  text: '徐碼',
+                  link: '/zht/xuma/',
                 },
                 {
                   text: '易碼',
@@ -675,7 +693,7 @@ export default defineConfig({
               link: '/zht/chaifen/joy'
             },
           ],
-          '/sky': [
+          '/zht/sky': [
             {
               text: '天碼',
               link: '/zht/sky/'
@@ -687,6 +705,16 @@ export default defineConfig({
             {
               text: '在線練習',
               link: '/zht/sky/practice'
+            },
+          ],
+          '/zht/xuma': [
+            {
+              text: '徐碼',
+              link: '/zht/xuma/'
+            },
+            {
+              text: '教程',
+              link: '/zht/xuma/learn'
             },
           ],
         },

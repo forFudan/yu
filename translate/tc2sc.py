@@ -62,6 +62,9 @@ paths_of_docs = [
     "/sky/index.md",
     "/sky/search.md",
     "/sky/practice.md",
+    # 徐碼
+    "/xuma/index.md",
+    "/xuma/learn.md",
 ]
 
 for path_of_doc in paths_of_docs:
