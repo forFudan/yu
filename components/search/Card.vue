@@ -24,9 +24,15 @@ const codes_tw = computed(() => p.chaifen.division_tw == '' ? '' : makeCodesFrom
 
 <template>
     <div class="group border p-3 m-2 rounded-3xl shadow-md text-center bg-gray-50 dark:bg-slate-900">
-        <div class="text-4xl text-indigo-800 dark:text-indigo-300">{{ chaifen.char }}</div>
-        <!-- <div class="opacity-0 justify-center group-hover:opacity-70 transition text-sm">{{ chaifen.region }}</div> -->
-        <div class="opacity-70 justify-center transition text-sm">{{ unicode }}・{{ chaifen.region }}</div>
+        <div class="text-4xl text-indigo-800 dark:text-indigo-300" v-if="codes_tw == ''">
+            <span class="zigen-font">{{ chaifen.char }}</span>
+        </div>
+
+        <div class="text-4xl text-indigo-800 dark:text-indigo-300" v-else>
+            <span class="zigen-font tooltip" data-tip="首選字形標準">{{ chaifen.char }}</span>
+            <span class="zigen-font-tc tooltip" data-tip="臺灣字形標準">·{{ chaifen.char }}</span>
+        </div>
+        <div class="font-mono opacity-70 justify-center transition text-sm">{{ unicode }}・{{ chaifen.region }}</div>
 
         <div class="flex flex-col" v-if="codes_tw == ''">
             <div class="text-indigo-800 dark:text-indigo-300 text-xl">{{ chaifen.division }}</div>
@@ -34,11 +40,11 @@ const codes_tw = computed(() => p.chaifen.division_tw == '' ? '' : makeCodesFrom
         </div>
 
         <div class="flex" v-else>
-            <div class="flex flex-col">
+            <div class="flex flex-col ml-3 tooltip" data-tip="首選字形標準拆分">
                 <div class="text-indigo-800 dark:text-indigo-300">{{ chaifen.division }}</div>
                 <div class="font-mono tracking-widest">{{ codes }}</div>
             </div>
-            <div class="flex flex-col ml-3 tooltip font-sans" data-tip="臺灣標準字形拆分">
+            <div class="flex flex-col ml-3 tooltip" data-tip="臺灣字形標準拆分">
                 <div class="text-indigo-800 dark:text-indigo-300">{{ chaifen.division_tw }}</div>
                 <div class="font-mono tracking-widest">{{ codes_tw }}</div>
             </div>
