@@ -1,3 +1,21 @@
+---
+aside: false
+---
+
+<style>
+/* override https://github.com/vuejs/vitepress/blob/v1.5.0/src/client/theme-default/components/VPLocalNav.vue#L113 */
+.VPLocalNav {
+    display: block !important;
+}
+
+/* override https://github.com/vuejs/vitepress/blob/v1.5.0/src/client/theme-default/components/VPLocalNavOutlineDropdown.vue#L164 */
+@media (min-width: 961px) {
+  .items {
+    left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) + 32px) !important;
+  }
+}
+</style>
+
 # 常见输入法测评数据
 
 梦泽闲客 更新于二零二四年五月七日

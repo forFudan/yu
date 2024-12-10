@@ -129,6 +129,10 @@ export default defineConfig({
               link: '/sky/',
             },
             {
+              text: '徐码',
+              link: '/xuma/',
+            },
+            {
               text: '易码',
               link: '/docs/yima',
             },
@@ -240,6 +244,10 @@ export default defineConfig({
               text: '星陈单字',
               link: '/practice/char'
             },
+            {
+              text: '星陈单字·台湾拆分',
+              link: '/practice/char_tw'
+            },
           ]
         },
         {
@@ -317,6 +325,16 @@ export default defineConfig({
         {
           text: '在線練習',
           link: '/sky/practice'
+        },
+      ],
+      '/xuma': [
+        {
+          text: '徐码',
+          link: '/xuma/'
+        },
+        {
+          text: '教程',
+          link: '/xuma/learn'
         },
       ],
 
@@ -490,6 +508,10 @@ export default defineConfig({
                   link: '/zht/sky/',
                 },
                 {
+                  text: '徐碼',
+                  link: '/zht/xuma/',
+                },
+                {
                   text: '易碼',
                   link: '/zht/docs/yima',
                 },
@@ -602,6 +624,10 @@ export default defineConfig({
                   text: '星陳單字',
                   link: '/zht/practice/char'
                 },
+                {
+                  text: '星陳單字·臺灣拆分',
+                  link: '/zht/practice/char_tw'
+                },
               ]
             },
             {
@@ -667,7 +693,7 @@ export default defineConfig({
               link: '/zht/chaifen/joy'
             },
           ],
-          '/sky': [
+          '/zht/sky': [
             {
               text: '天碼',
               link: '/zht/sky/'
@@ -679,6 +705,16 @@ export default defineConfig({
             {
               text: '在線練習',
               link: '/zht/sky/practice'
+            },
+          ],
+          '/zht/xuma': [
+            {
+              text: '徐碼',
+              link: '/zht/xuma/'
+            },
+            {
+              text: '教程',
+              link: '/zht/xuma/learn'
             },
           ],
         },

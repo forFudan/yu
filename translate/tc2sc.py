@@ -48,6 +48,7 @@ paths_of_docs = [
     "/learn/frequent_tc.md",
     "/practice/root.md",
     "/practice/char.md",
+    "/practice/char_tw.md",
     "/practice/root_light.md",
     "/practice/char_light.md",
     "/practice/root_joy.md",
@@ -61,6 +62,9 @@ paths_of_docs = [
     "/sky/index.md",
     "/sky/search.md",
     "/sky/practice.md",
+    # 徐碼
+    "/xuma/index.md",
+    "/xuma/learn.md",
 ]
 
 for path_of_doc in paths_of_docs:

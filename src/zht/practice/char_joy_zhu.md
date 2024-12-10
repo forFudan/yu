@@ -3,7 +3,7 @@ aside: false
 ---
 # 卿雲·夢澤閑客作品高頻字
 
-你可以随时暂停练习。你的练习进度会在同一设备上储存。
+你可以隨時暫停練習。你的練習進度會在同一設備上儲存。
 
 <script setup>
 import Train from "@/train/CharTrain.vue"
