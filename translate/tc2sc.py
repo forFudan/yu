@@ -10,7 +10,7 @@ paths_of_docs = [
     "/index.md",
     "/install.md",
     "/docs/index.md",
-    "/docs/updates.md",
+    "/docs/changelog.md",
     "/docs/developing.md",
     "/docs/technical.md",
     "/docs/discussion.md",
