@@ -56,7 +56,7 @@ export default defineConfig({
             },
             {
               text: '更新日志',
-              link: '/docs/updates'
+              link: '/docs/changelog'
             },
             {
               text: '展望未来',
@@ -435,7 +435,7 @@ export default defineConfig({
                 },
                 {
                   text: '更新日誌',
-                  link: '/zht/docs/updates'
+                  link: '/zht/docs/changelog'
                 },
                 {
                   text: '展望未來',
