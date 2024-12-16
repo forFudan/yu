@@ -1,6 +1,7 @@
 ---
 aside: false
 ---
+
 <script setup>
 import Search from '@/search/FetchSearch.vue'
 </script>
@@ -8,7 +9,7 @@ import Search from '@/search/FetchSearch.vue'
 # 卿云拆分查询
 
 <div class="zigen-font">
-<Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-joy.csv" />
+<Search chaifenUrl="/chaifen.csv" zigenUrl="/zigen-joy.csv" searchParam />
 </div>
 
 ::: tip 提示
