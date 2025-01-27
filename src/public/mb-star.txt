@@ -39858,6 +39858,7 @@ eekd	𠆩
 eekd	𩖛
 eeke	风华绝代
 eeke	仁以为己任
+eekf	存在感
 eekg	信以为真
 eekg	有作成一囊
 eeki	但使主人能醉客
@@ -40706,7 +40707,6 @@ egkd	儎
 egkd	𠆱
 egkd	𩖪
 egkd	𘭫
-egkd	
 egke	作了
 egke	伤了
 egke	值了
@@ -87173,6 +87173,7 @@ ihh	⽕
 ihh	㈫
 ihh	㊋
 ihh	𘱪
+ihh	🔥
 ihha	火坑
 ihha	灶坑
 ihhb	𱬮
@@ -110758,6 +110759,7 @@ kgfs	𥎖
 kgfx	迎笑天香满袖
 kgg	戈
 kgg	⼽
+kgg	
 kgga	良策
 kggb	丝竹管弦
 kggd	良
@@ -133881,6 +133883,7 @@ mlvy	呑
 mlwa	和服
 mlwb	𤴰
 mlwg	𢇟
+mlwk	兔
 mlwl	召回
 mlwl	癌肿
 mlwl	㲱
@@ -133889,6 +133892,7 @@ mlwo	积肥
 mlwr	𥞏
 mlwr	𱱎
 mlwr	免
+mlwr	免
 mlwy	㾓
 mlwy	䅌
 mlxa	积怨
@@ -158265,7 +158269,6 @@ pefx	𩗏
 pegc	𬦻
 pegi	𠦕
 pegj	躀
-pegj	𱟞
 pegn	些什么
 pegu	𨁔
 pegx	项伯乃夜驰之沛公军
@@ -160312,6 +160315,7 @@ pkvh	造纸厂
 pkvi	朱砂
 pkvi	生产厂家
 pkvi	𤊣
+pkvj	𱟞
 pkvl	犝
 pkvl	蹱
 pkvl	𣦟
@@ -185514,6 +185518,7 @@ sii	𛁓
 sii	𛁔
 sii	𘱌
 sii	𘠘
+sii	
 siia	𦾵
 siib	甘当
 siib	䩳
@@ -223837,7 +223842,6 @@ xbph	轻巧
 xbpi	急步
 xbpi	𤍹
 xbpj	轻飘
-xbpj	被踢
 xbpk	襑
 xbpl	被告
 xbpl	急躁
@@ -226875,7 +226879,6 @@ xlwj	𪞂
 xlwk	兔
 xlwk	𠓗
 xlwk	𡤺
-xlwk	兔
 xlwl	𫚭
 xlwl	名句
 xlwl	𧞪
@@ -226896,7 +226899,6 @@ xlwr	名儿
 xlwr	𡙖
 xlwr	𫺜
 xlwr	𰑷
-xlwr	免
 xlwr	𛃔
 xlws	勉
 xlws	𩆟
