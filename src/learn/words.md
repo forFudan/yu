@@ -16,7 +16,7 @@ import Chaifen from '@/chaifen/Chaifen.vue'
 
 `人生`：`人`的编码为 `Ree`，`生`的编码为 `Pss`。因此，`人生`的编码为 `RePs`。  
 
-`事情`：`事`的编码为 `KLBj`，`情`的编码为 `RHWy`。因此，「事情」的编码为 `KLRH`。
+`事情`：`事`的编码为 `KLBj`，`情`的编码为 `RHWy`。因此，「事情」的编码为 `KLWy`。
 <div class="flex justify-left flex-wrap">
 <Chaifen char='事' :parts='[1,3,3,1]' :colors='[1,2,0,1]' />
 <Chaifen char='情' :parts='[3,4,4]' :colors='[3,4,0]' />
