@@ -71,7 +71,7 @@ export default defineConfig({
           text: '技术',
           items: [
             {
-              text: '字浩字根字体',
+              text: '宇浩字根字体',
               link: '/docs/yuniversus',
             },
             {
@@ -450,7 +450,7 @@ export default defineConfig({
               text: '技術',
               items: [
                 {
-                  text: '字浩字根字體',
+                  text: '宇浩字根字體',
                   link: '/zht/docs/yuniversus',
                 },
                 {
