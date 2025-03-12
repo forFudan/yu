@@ -5,6 +5,68 @@
 
 ## Version 3
 
+### 2025 年 3 月 12 日 乙巳年二月十三日
+
+功能變化：
+
+- 增加 `/` 引導的特殊符號範圍。包括不限於：
+  - 旗識。
+  - 漢語拼音音節。
+  - 繪文字。
+- 爲 `/` 引導的特殊符號提供注解。
+- 現在可輸入 `/gh`, `/xc`, `qy` + 字母來查詢字根編碼。此前卿雲中的 `zaa` 等命令停止使用，這使得 `Z` 鍵上屏歷史字詞不再受到影響。
+- 方案默認優先極常用字以及包含極常用字的詞語。
+- 優化詞庫，不再單設文學詞庫，其中的常用成語和詩詞併入核心詞庫中。
+
+---
+
+拆分更新：
+
+- 增加諺文字母和音節拆分，如<ruby>안<rt>an</rt></ruby>拆爲`口卜乚`。
+- <ruby>命<rt>mìng</rt></ruby>字兼容拆分`人一口卩`改爲正式拆分。
+- 其他拆分修正如下。
+
+```log
+CJK 改變 5 个: 兂命掵椧齑   
+CJK-A 改變 1 个: 㥐   
+CJK-B 改變 28 个: 𠆏𠊈𠑶𠕑𠕢𠮸𠵴𡆪𡇳𡔥𡯔𢛭𣓟𣠐𤅻𤕪𥜭𥮡𦁸𦅫𨉟𩇑𩨧𩫖𩫮𩸍𪂤𪓴   
+CJK-C 改變 1 个: 𪵍   
+CJK-D 改變 0 个:    
+CJK-E 改變 6 个: 𫡃𫲯𫾽𬍱𬔣𬫦   
+CJK-F 改變 2 个: 𭝕𭰷   
+CJK-G 改變 1 个: 𱀲   
+CJK-H 改變 6 个: 𱞜𱟞𱥐𱨾𱹌𱻀   
+CJK-I 改變 1 个: 𮱮   
+```
+
+---
+
+修改卿雲方案的字根編碼如下：
+
+- <span class="yuniversus"></span>字根編碼由`Dg`改爲`Sv`。受此影響，`就`代替`被`成爲`S`上的一級簡碼。
+- <span class="yuniversus">了</span>字根編碼由`Ll`改爲`Vl`。受此影響，`了`代替`原`成爲`V`上的一級簡碼，`道`代替`了`成爲`L`上的一級簡碼。
+- <span class="yuniversus">水氺</span>字根編碼由`Ns`改爲`Es`。受此影響，`没`代替`水`成爲`Ns`上的二級簡碼。
+- <span class="yuniversus"><ruby>巳<rt>sì</rt></ruby></span>字根編碼由`Os`改爲`Ns`。
+- <span class="yuniversus"><ruby>曲<rt>sì</rt></ruby></span>字根編碼由`Vq`改爲`Nq`。
+- <span class="yuniversus"><ruby><rt>luò</rt></ruby></span>字根編碼由`Dl`改爲`Sl`。
+- <span class="yuniversus"></span>（第二筆是點或捺）字根編碼由`Ae`改爲`Je`。<span class="yuniversus">二冫</span>（第二筆是撗或提）字根編碼不變。
+- <ruby>爿<rt>pán</rt></ruby>字根編碼由`Tq`改爲`Tp`，和「<ruby>片<rt>piàn</rt></ruby>」字根歸併。
+- <ruby>ㄩ<rt>yū</rt></ruby>（這是個注音符號）字根編碼由`Jk`改爲`Jv`。
+- <ruby>咼<rt>guō wāi hé wǒ wō guǎ kuāi</rt></ruby>字根編碼由`Cg`改爲`Ck`。
+- <ruby>罒<rt>wǎng sì mù</rt></ruby>字根編碼由`Xw`改爲`Xm`。
+
+卿雲重碼變化如下。
+
+```log
+GB0 重码: 510  国字常用重码: 184  GBK 重码: 6119  全字集重码: 78038
+GB0 new 凵缎樗爿榱曰承遇
+GB0 old 水寒祀龅孓茧寨近泓让沓蠃龋衾汨荬斥纣导荣匏灏齿刳
+Guoyu new 炮燬
+Guoyu old 寒巳斥孓上寨
+GB0 + Guoyu new 涼凵缎燬樗爿榱間跫曰炮承遇
+GB0 + Guoyu old 水寒祀龅孓茧寨鈞泓让蠃龋尽衾汨荬斥纣导荣匏灏齿刳
+```
+
 ### 2024 年 12 月 15 日 甲辰年臘月十五日
 
 今日是臘月十五， v3.7.0 正式版發佈（原 v3.6.1 測試版）。更新内容如下。
